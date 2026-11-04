@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { getAllSummaries } from "@/lib/dishes";
+import { getAllDishes, getAllSummaries } from "@/lib/dishes";
+import type { Locale } from "@/i18n/routing";
 import { WeekPlanner } from "@/components/WeekPlanner";
 import { Reveal } from "@/components/Reveal";
 import { CalendarDays } from "lucide-react";
@@ -25,7 +26,14 @@ export default async function PlannerPage({ params }: { params: Promise<{ locale
         </h1>
         <p className="mt-2 text-muted">{t("subtitle")}</p>
       </Reveal>
-      <WeekPlanner dishes={getAllSummaries()} />
+      <WeekPlanner
+        dishes={getAllSummaries()}
+        ingredients={Object.fromEntries(
+          getAllDishes()
+            .filter((d) => d.recipe)
+            .map((d) => [d.slug, d.recipe!.ingredients[locale as Locale]]),
+        )}
+      />
     </div>
   );
 }

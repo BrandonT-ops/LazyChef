@@ -2,11 +2,13 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import {
   CalendarDays,
   ChefHat,
+  Cookie,
   Dices,
+  ListPlus,
   Lock,
   LockOpen,
   Moon,
@@ -17,10 +19,13 @@ import {
   Sunrise,
   type LucideIcon,
 } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 import { getSection } from "@/data/sections";
+import { SIDES, type SideId } from "@/data/sides";
 import type { DishSummary, SectionId } from "@/data/types";
+import type { Locale } from "@/i18n/routing";
 import { SITE } from "@/config/site";
+import { useShopping } from "@/lib/local";
 import {
   DAYS,
   MEALS,
@@ -28,9 +33,13 @@ import {
   emptyPlan,
   generate,
   isEmpty,
-  rerollBatchDish,
+  mealsFrom,
+  orderedCookDays,
+  rerollBatch,
   rerollCell,
-  spanOf,
+  rerollSide,
+  toggleSnackDay,
+  type Cell,
   type Meal,
   type Mode,
   type PlanState,
@@ -39,10 +48,13 @@ import { SectionIcon } from "./icons";
 import { ShareButton } from "./ShareButton";
 
 const MEAL_ICON: Record<Meal, LucideIcon> = { breakfast: Sunrise, lunch: Sun, supper: Moon };
-const STORAGE_KEY = "chop-plan-v2";
+const STORAGE_KEY = "chop-plan-v3";
 
-export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
+export function WeekPlanner({ dishes, ingredients }: { dishes: DishSummary[]; ingredients: Record<string, string[]> }) {
   const t = useTranslations();
+  const locale = useLocale() as Locale;
+  const router = useRouter();
+  const shopping = useShopping();
   const [plan, setPlan] = useState<PlanState>(() => emptyPlan());
   const [today, setToday] = useState<number | null>(null);
   const bySlug = useMemo(() => new Map(dishes.map((d) => [d.slug, d])), [dishes]);
@@ -53,7 +65,7 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
         const saved = JSON.parse(raw) as PlanState;
-        if (saved?.v === 2) setPlan(saved);
+        if (saved?.v === 3) setPlan(saved);
       }
     } catch {
       /* ignore broken or unavailable storage */
@@ -70,18 +82,19 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
   };
 
   const empty = isEmpty(plan);
-  const batch = plan.mode === "batch";
+  const batch = plan.mode === "batch" && plan.cookDays.length > 0;
   const grid = cells(plan);
   const dayName = (d: SectionId) => t(`sections.${d}.name`);
-  const nameOf = (slug: string | null) => (slug ? bySlug.get(slug)?.name ?? "" : "");
+  const nameOf = (slug: string | null) => (slug ? (bySlug.get(slug)?.name ?? "") : "");
+  const sideName = (s: SideId | null) => (s ? SIDES[s][locale] : "");
 
-  const setMode = (mode: Mode) => save(empty ? { ...plan, mode } : generate({ ...plan, mode }, dishes));
+  const setMode = (mode: Mode) => save({ ...plan, mode });
   const toggleCookDay = (day: SectionId) => {
     const cookDays = plan.cookDays.includes(day)
       ? plan.cookDays.filter((d) => d !== day)
       : DAYS.filter((d) => d === day || plan.cookDays.includes(d));
     const next = { ...plan, cookDays };
-    save(empty || !cookDays.length ? next : generate(next, dishes));
+    save(empty || !cookDays.length ? next : generate(next, dishes, { resetSnackDays: true }));
   };
   const toggleLock = (day: SectionId, meal: Meal) => {
     const key = `${day}:${meal}`;
@@ -89,12 +102,37 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
     save({ ...plan, locked });
   };
 
+  const describe = (c: Cell) => [nameOf(c.slug), sideName(c.side)].filter(Boolean).join(` ${t("planner.with")} `);
+
   const shareText = () => {
     const lines = DAYS.map((d) => {
       const c = grid[d];
-      return `${dayName(d)}: ${MEALS.map((m) => `${t(`planner.${m}`)} ${nameOf(c[m].slug) || "-"}`).join(" / ")}`;
+      return `${dayName(d)}: ${MEALS.map((m) => `${t(`planner.${m}`)} ${describe(c[m]) || "-"}`).join(" / ")}`;
     });
     return `${t("planner.shareTitle", { site: SITE.name })}\n\n${lines.join("\n")}`;
+  };
+
+  /** Turns the week into a shopping list (replacing the previous week's items). */
+  const toShopping = () => {
+    const seen = new Set<string>();
+    const sides = new Set<string>();
+    const items: { text: string; group: string }[] = [];
+    const noRecipe: string[] = [];
+    for (const d of DAYS) {
+      for (const m of MEALS) {
+        const c = grid[d][m];
+        if (c.side) sides.add(sideName(c.side));
+        if (!c.slug || seen.has(c.slug)) continue;
+        seen.add(c.slug);
+        const ing = ingredients[c.slug];
+        if (ing?.length) ing.forEach((text) => items.push({ text, group: nameOf(c.slug) }));
+        else noRecipe.push(nameOf(c.slug));
+      }
+    }
+    sides.forEach((text) => items.push({ text, group: t("shopping.sides") }));
+    noRecipe.forEach((text) => items.push({ text, group: t("shopping.noRecipeGroup") }));
+    shopping.replaceSource("week", items);
+    router.push("/me?tab=shopping");
   };
 
   return (
@@ -120,12 +158,12 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
         ))}
       </div>
       <p className="mx-auto mt-3 max-w-xl text-center text-sm text-muted">
-        {t(batch ? "planner.modeBatchHint" : "planner.modeDailyHint")}
+        {t(plan.mode === "batch" ? "planner.modeBatchHint" : "planner.modeDailyHint")}
       </p>
 
       {/* Free days picker */}
       <AnimatePresence initial={false}>
-        {batch && (
+        {plan.mode === "batch" && (
           <motion.div
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
@@ -161,8 +199,8 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
       <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
         <button
           type="button"
-          onClick={() => save(generate(plan, dishes))}
-          disabled={batch && !plan.cookDays.length}
+          onClick={() => save(generate(plan, dishes, { resetSnackDays: empty }))}
+          disabled={plan.mode === "batch" && !plan.cookDays.length}
           className="btn-primary"
         >
           <Sparkles className="h-4 w-4" aria-hidden />
@@ -170,12 +208,12 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
         </button>
         {!empty && (
           <>
+            <button type="button" onClick={toShopping} className="btn-ghost">
+              <ListPlus className="h-4 w-4" aria-hidden />
+              {t("planner.toShopping")}
+            </button>
             <ShareButton title={t("planner.shareTitle", { site: SITE.name })} text={shareText} label={t("planner.share")} />
-            <button
-              type="button"
-              onClick={() => save({ ...emptyPlan(plan.mode), cookDays: plan.cookDays })}
-              className="btn-ghost"
-            >
+            <button type="button" onClick={() => save({ ...emptyPlan(plan.mode), cookDays: plan.cookDays })} className="btn-ghost">
               {t("planner.clear")}
             </button>
           </>
@@ -195,51 +233,54 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
         </div>
       ) : (
         <>
-          {/* Cooking sessions (cook-ahead mode) */}
-          {batch && plan.cookDays.length > 0 && (
+          {/* Cooking sessions */}
+          {batch && (
             <section className="mt-10">
               <h2 className="heading flex items-center gap-2 text-xl">
                 <ChefHat className="h-5 w-5 text-tomato" aria-hidden />
                 {t("planner.cookPlan")}
               </h2>
-              <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-                {plan.cookDays.map((cd) => {
-                  const span = spanOf(cd, plan.cookDays);
+              <div className="mt-4 grid gap-4 md:grid-cols-2">
+                {orderedCookDays(plan.cookDays).map((cd) => {
+                  const slug = plan.batch[cd] ?? null;
+                  const side = plan.sides[`batch:${cd}`] ?? null;
+                  const meals = mealsFrom(cd, plan);
                   return (
-                    <motion.div key={cd} layout className="card border-tomato/30 p-5">
-                      <p className="heading text-lg">{t("planner.cookOn", { day: dayName(cd) })}</p>
-                      <p className="text-xs text-muted">
-                        {span.length > 1
-                          ? t("planner.covers", {
-                              from: dayName(span[0]),
-                              to: dayName(span[span.length - 1]),
-                              count: span.length,
-                            })
-                          : t("planner.coversOne", { day: dayName(cd) })}
+                    <motion.div key={cd} layout className="card relative overflow-hidden p-5">
+                      <div aria-hidden className="absolute inset-y-0 left-0 w-1.5 bg-tomato" />
+                      <p className="text-xs font-bold uppercase tracking-wider text-tomato">
+                        {t("planner.cookOn", { day: dayName(cd) })}
                       </p>
-                      <ul className="mt-3 space-y-2">
-                        {(plan.batches[cd] ?? []).map((slug, i) => (
-                          <li key={`${cd}-${i}`} className="flex items-center gap-2 rounded-xl bg-bg/60 px-3 py-2">
-                            <Refrigerator className="h-4 w-4 shrink-0 text-leaf" aria-hidden />
-                            <AnimatePresence mode="wait">
-                              <motion.span
-                                key={slug}
-                                initial={{ opacity: 0, y: 6 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                exit={{ opacity: 0, y: -6 }}
-                                className="min-w-0 flex-1 truncate font-semibold"
-                              >
-                                <Link href={`/dishes/${slug}`} className="hover:text-tomato">
-                                  {nameOf(slug)}
-                                </Link>
-                              </motion.span>
-                            </AnimatePresence>
-                            <IconButton label={t("planner.reroll")} onClick={() => save(rerollBatchDish(plan, dishes, cd, i))}>
-                              <Dices className="h-4 w-4 text-muted" />
-                            </IconButton>
-                          </li>
-                        ))}
-                      </ul>
+                      <div className="mt-1 flex items-start gap-2">
+                        <AnimatePresence mode="wait">
+                          <motion.div
+                            key={slug ?? "none"}
+                            initial={{ opacity: 0, y: 6 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -6 }}
+                            className="min-w-0 flex-1"
+                          >
+                            {slug && (
+                              <Link href={`/dishes/${slug}`} className="heading block text-2xl hover:text-tomato">
+                                {nameOf(slug)}
+                              </Link>
+                            )}
+                          </motion.div>
+                        </AnimatePresence>
+                        <IconButton label={t("planner.reroll")} onClick={() => save(rerollBatch(plan, dishes, cd))}>
+                          <Dices className="h-4 w-4 text-muted" />
+                        </IconButton>
+                      </div>
+                      {side && (
+                        <SideChip
+                          label={`${t("planner.with")} ${sideName(side)}`}
+                          rerollLabel={t("planner.otherSide")}
+                          onReroll={() => save(rerollSide(plan, dishes, `batch:${cd}`, slug))}
+                        />
+                      )}
+                      <p className="mt-3 text-sm text-muted">
+                        {t("planner.enoughFor", { count: meals.length, days: meals.map(dayName).join(", ") })}
+                      </p>
                     </motion.div>
                   );
                 })}
@@ -252,6 +293,8 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
             {DAYS.map((day, i) => {
               const s = getSection(day)!;
               const isToday = s.weekday === today;
+              const isCookDay = batch && plan.cookDays.includes(day);
+              const isSnackDay = batch && !isCookDay && plan.snackDays.includes(day);
               return (
                 <motion.section
                   key={day}
@@ -260,17 +303,29 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
                   transition={{ delay: i * 0.04 }}
                   className={`card min-w-0 p-5 ${isToday ? "ring-2 ring-tomato" : ""}`}
                 >
-                  <header className="mb-3 flex min-w-0 items-baseline justify-between gap-2">
+                  <header className="mb-3 flex min-w-0 items-center justify-between gap-2">
                     <h3 className="heading flex shrink-0 items-center gap-2 text-lg">
                       <SectionIcon id={day} className="h-5 w-5 text-tomato" />
                       {dayName(day)}
                     </h3>
                     {batch ? (
-                      grid[day].lunch.isCookDay && (
-                        <span className="inline-flex items-center gap-1 rounded-full bg-tomato/10 px-2 py-0.5 text-xs font-semibold text-tomato">
-                          <ChefHat className="h-3 w-3" aria-hidden />
+                      isCookDay ? (
+                        <span className="inline-flex items-center gap-1 rounded-full bg-tomato px-2.5 py-1 text-xs font-semibold text-white">
+                          <ChefHat className="h-3.5 w-3.5" aria-hidden />
                           {t("planner.cookToday")}
                         </span>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => save(toggleSnackDay(plan, day))}
+                          aria-pressed={isSnackDay}
+                          className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors ${
+                            isSnackDay ? "border-mango bg-mango text-ink" : "border-line text-muted hover:border-mango"
+                          }`}
+                        >
+                          <Cookie className="h-3.5 w-3.5" aria-hidden />
+                          {t("planner.snackDay")}
+                        </button>
                       )
                     ) : (
                       <span className="min-w-0 truncate text-xs text-muted">{t(`sections.${day}.theme`)}</span>
@@ -280,23 +335,39 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
                     {MEALS.map((meal) => {
                       const cell = grid[day][meal];
                       const MealIcon = MEAL_ICON[meal];
-                      const fromBatch = batch && meal !== "breakfast";
                       const locked = plan.locked.includes(`${day}:${meal}`);
+                      const leftovers = cell.kind === "batch" && !cell.isCookDay;
+                      const canLock = cell.kind !== "batch" && cell.kind !== "snack";
+                      const canReroll = cell.kind !== "batch";
                       return (
-                        <li key={meal} className="flex items-center gap-2 rounded-xl bg-bg/60 px-3 py-2">
+                        <li
+                          key={meal}
+                          className={`flex items-center gap-2 rounded-xl px-3 py-2 ${
+                            cell.kind === "batch" ? "bg-tomato/10" : cell.kind === "snack" ? "bg-mango/15" : "bg-bg/60"
+                          }`}
+                        >
                           <MealIcon className="h-4 w-4 shrink-0 text-mango" aria-hidden />
                           <div className="min-w-0 flex-1">
                             <p className="truncate text-[10px] font-bold uppercase tracking-wider text-muted">
                               {t(`planner.${meal}`)}
-                              {fromBatch && cell.cookDay && !cell.isCookDay && (
+                              {cell.kind === "light" && (
+                                <span className="ml-1.5 normal-case tracking-normal">· {t("planner.light")}</span>
+                              )}
+                              {cell.kind === "snack" && (
+                                <span className="ml-1.5 normal-case tracking-normal text-ink">· {t("planner.snackLabel")}</span>
+                              )}
+                              {leftovers && cell.cookDay && (
                                 <span className="ml-1.5 normal-case tracking-normal text-leaf">
                                   · {t("planner.leftovers", { day: dayName(cell.cookDay) })}
                                 </span>
                               )}
+                              {cell.kind === "batch" && cell.isCookDay && (
+                                <span className="ml-1.5 normal-case tracking-normal text-tomato">· {t("planner.freshToday")}</span>
+                              )}
                             </p>
                             <AnimatePresence mode="wait">
                               <motion.div
-                                key={cell.slug ?? "none"}
+                                key={`${cell.slug}-${cell.side}`}
                                 initial={{ opacity: 0, y: 6 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 exit={{ opacity: 0, y: -6 }}
@@ -309,26 +380,40 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
                                 ) : (
                                   <span className="text-muted">-</span>
                                 )}
+                                {cell.side &&
+                                  (cell.kind === "theme" ? (
+                                    <button
+                                      type="button"
+                                      onClick={() => save(rerollSide(plan, dishes, cell.sideKey, cell.slug))}
+                                      title={t("planner.otherSide")}
+                                      className="mt-0.5 inline-flex max-w-full items-center gap-1 truncate text-xs text-muted hover:text-tomato"
+                                    >
+                                      + {sideName(cell.side)}
+                                      <Dices className="h-3 w-3 shrink-0" aria-hidden />
+                                    </button>
+                                  ) : (
+                                    <span className="block truncate text-xs text-muted">+ {sideName(cell.side)}</span>
+                                  ))}
                               </motion.div>
                             </AnimatePresence>
                           </div>
-                          {!fromBatch && (
-                            <>
-                              <IconButton
-                                label={locked ? t("planner.unlock") : t("planner.lock")}
-                                pressed={locked}
-                                onClick={() => toggleLock(day, meal)}
-                              >
-                                {locked ? <Lock className="h-4 w-4 text-mango" /> : <LockOpen className="h-4 w-4 text-muted" />}
-                              </IconButton>
-                              <IconButton
-                                label={t("planner.reroll")}
-                                disabled={locked}
-                                onClick={() => save(rerollCell(plan, dishes, day, meal))}
-                              >
-                                <Dices className="h-4 w-4 text-muted" />
-                              </IconButton>
-                            </>
+                          {canLock && (
+                            <IconButton
+                              label={locked ? t("planner.unlock") : t("planner.lock")}
+                              pressed={locked}
+                              onClick={() => toggleLock(day, meal)}
+                            >
+                              {locked ? <Lock className="h-4 w-4 text-mango" /> : <LockOpen className="h-4 w-4 text-muted" />}
+                            </IconButton>
+                          )}
+                          {canReroll && (
+                            <IconButton
+                              label={t("planner.reroll")}
+                              disabled={locked}
+                              onClick={() => save(rerollCell(plan, dishes, day, meal, cell.kind))}
+                            >
+                              <Dices className="h-4 w-4 text-muted" />
+                            </IconButton>
                           )}
                         </li>
                       );
@@ -341,6 +426,20 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
         </>
       )}
     </div>
+  );
+}
+
+function SideChip({ label, rerollLabel, onReroll }: { label: string; rerollLabel: string; onReroll: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onReroll}
+      title={rerollLabel}
+      className="mt-2 inline-flex items-center gap-1.5 rounded-full bg-leaf/10 px-3 py-1 text-sm font-medium text-leaf transition-colors hover:bg-leaf/20"
+    >
+      {label}
+      <Dices className="h-3.5 w-3.5" aria-hidden />
+    </button>
   );
 }
 

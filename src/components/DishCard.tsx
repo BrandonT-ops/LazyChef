@@ -8,13 +8,14 @@ import type { DishSummary } from "@/data/types";
 import { ACCENT_BG } from "@/lib/ui";
 import { Check, PencilLine } from "lucide-react";
 import { SectionIcon, TagIcon } from "./icons";
+import { FavoriteButton } from "./FavoriteButton";
 
 export function DishCard({ dish, showSection = false }: { dish: DishSummary; showSection?: boolean }) {
   const t = useTranslations();
   const section = getSection(dish.section)!;
 
   return (
-    <motion.div whileHover={{ y: -4 }} whileTap={{ scale: 0.98 }} className="h-full">
+    <motion.div whileHover={{ y: -4 }} whileTap={{ scale: 0.98 }} className="relative h-full">
       <Link
         href={`/dishes/${dish.slug}`}
         className="card group flex h-full flex-col gap-3 p-4 transition-shadow hover:shadow-lift"
@@ -26,7 +27,7 @@ export function DishCard({ dish, showSection = false }: { dish: DishSummary; sho
           >
             <SectionIcon id={section.id} className="h-5 w-5" />
           </span>
-          <div className="min-w-0">
+          <div className="min-w-0 pr-8">
             <h3 className="heading text-base leading-snug transition-colors group-hover:text-tomato">
               {dish.name}
             </h3>
@@ -55,6 +56,9 @@ export function DishCard({ dish, showSection = false }: { dish: DishSummary; sho
           ))}
         </div>
       </Link>
+      <div className="absolute right-3 top-3">
+        <FavoriteButton slug={dish.slug} />
+      </div>
     </motion.div>
   );
 }

@@ -13,6 +13,9 @@ import { RecipeMedia } from "@/components/RecipeMedia";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
 import { ArrowLeft, Map as MapIcon, MapPinned, NotebookPen, ShoppingBasket } from "lucide-react";
 import { ShareButton } from "@/components/ShareButton";
+import { FavoriteButton } from "@/components/FavoriteButton";
+import { MadeItButton, PhotoGrid } from "@/components/MadeIt";
+import { AddToShoppingButton } from "@/components/Shopping";
 import { SITE } from "@/config/site";
 import { SectionIcon, TagIcon } from "@/components/icons";
 
@@ -73,12 +76,23 @@ export default async function DishPage({ params }: { params: Params }) {
       </Reveal>
 
       <Reveal className="no-print mt-6 flex flex-wrap gap-3" delay={0.05}>
+        <FavoriteButton slug={dish.slug} variant="button" />
         <ShareButton title={dish.name} text={t("share.dishText", { name: dish.name, site: SITE.name })} />
+        <MadeItButton dishName={dish.name} dishSlug={dish.slug} />
+        <AddToShoppingButton
+          source={`dish:${dish.slug}`}
+          group={dish.name}
+          items={recipe ? recipe.ingredients[lang] : [t("shopping.ingredientsFor", { name: dish.name })]}
+        />
         <Link href={`/markets?dish=${dish.slug}`} className="btn-ghost">
           <MapPinned className="h-4 w-4" aria-hidden />
           {t("markets.whereToBuy")}
         </Link>
       </Reveal>
+
+      <div className="no-print mt-6">
+        <PhotoGrid dishSlug={dish.slug} compact />
+      </div>
 
       {recipe ? (
         <>

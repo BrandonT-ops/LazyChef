@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import type { RecipeMedia as Media } from "@/data/types";
-import { youtubeEmbed } from "@/lib/dishes";
+import { youtubeEmbed } from "@/lib/media";
 import { ExternalLink, Link2 } from "lucide-react";
 
 /** Photos, a preview video and helpful links for a recipe. Renders nothing when empty. */

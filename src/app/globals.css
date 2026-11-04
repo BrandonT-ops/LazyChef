@@ -147,3 +147,12 @@ body {
   color: rgb(var(--ink));
   border-radius: 12px;
 }
+
+/* ---- Cookbook paper ---- */
+.paper {
+  background-color: rgb(var(--surface));
+  background-image:
+    radial-gradient(120% 90% at 50% 40%, transparent 60%, rgb(var(--mango) / 0.08) 100%),
+    linear-gradient(rgb(var(--ink) / 0.015) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 28px;
+}

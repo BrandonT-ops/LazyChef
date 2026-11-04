@@ -29,7 +29,11 @@ npm run lint
 | Sections (days, accent color) | `src/data/sections.ts` |
 | Section and tag icons | `src/components/icons.tsx` |
 | Which dishes "keep well" (cook-ahead) | `src/data/traits.ts` |
-| Week planner rules | `src/lib/planner.ts` |
+| Week planner rules (cook every day / cook ahead, snack days) | `src/lib/planner.ts` |
+| Sides and which dish gets which | `src/data/sides.ts` |
+| Favorites, shopping list (on device) | `src/lib/local.ts` |
+| My recipes, "I made it" photos (on device) | `src/lib/idb.ts` |
+| Recipe share links (`/r#…`) | `src/lib/recipe-link.ts` |
 | Shop search (OpenStreetMap) | `src/lib/places.ts` |
 | App install + offline | `src/app/manifest.ts`, `public/sw.js` |
 | English / French text | `messages/en.json`, `messages/fr.json` |

@@ -47,6 +47,21 @@ Accounts are only needed to contribute:
 - Installable PWA: manifest, icons, an offline service worker and an "Install app" button
   (with steps for iPhone)
 
+### Phase 1.6: essentials without a backend ✅
+Everything here is stored on the person's own device (localStorage and IndexedDB), and is built
+so it can be uploaded to their account when Phase 2 arrives.
+- **Cook ahead, reworked:** one dish per cooking day. It's the main meal until the next cooking
+  day, breakfasts and light suppers are suggested, and stretches of 4+ days get a snack day
+  (which you can toggle).
+- **Sides:** every main dish gets a matching side (ndolé with plantain or miondo, eru with fufu,
+  grills with plantain or fries…). Dishes that already include their starch get none. You can reroll sides.
+- **My kitchen** (`/me`): favorites, my recipes, "I made it" photos, shopping list
+- **My recipes:** an editor (photo, video, links). Each step becomes a stop on the treasure map.
+  Share by link: the whole recipe travels in the link (`/r#…`), and the person who opens it can save it.
+- **"I made it!":** take a photo of the dish, keep it in a gallery, share it to WhatsApp or Instagram
+- **Shopping list:** built from the week plan or from one recipe. Tick items off, share it, find a market.
+- **Cookbook:** a real book with a hard cover, page turns over the spine, and the book centered when closed
+
 ### Phase 2: accounts, submissions, admin
 Proposed backend: **Supabase** (Postgres, auth, file storage for photos and videos, row-level security), with a free tier.
 

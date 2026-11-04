@@ -15,11 +15,14 @@ export function ShareButton({
   text,
   label,
   className = "btn-ghost",
+  url: shareUrl,
 }: {
   title: string;
   text: string | (() => string);
   label?: string;
   className?: string;
+  /** Link to share; defaults to the current page. */
+  url?: string;
 }) {
   const t = useTranslations("share");
   const [open, setOpen] = useState(false);
@@ -36,7 +39,7 @@ export function ShareButton({
   }, [open]);
 
   const body = () => (typeof text === "function" ? text() : text);
-  const url = () => window.location.href;
+  const url = () => shareUrl ?? window.location.href;
 
   const onClick = async () => {
     if (typeof navigator.share === "function") {

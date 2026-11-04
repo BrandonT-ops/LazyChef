@@ -7,7 +7,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeToggle } from "./ThemeToggle";
 import { InstallButton } from "./Pwa";
 import { SITE } from "@/config/site";
-import { BookOpen, CalendarDays, ChefHat, Dices, MapPinned, Menu, Search, X } from "lucide-react";
+import { BookOpen, CalendarDays, ChefHat, Dices, Heart, MapPinned, Menu, Search, X } from "lucide-react";
 
 const NAV = [
   { href: "/browse", key: "browse", icon: BookOpen },
@@ -15,6 +15,7 @@ const NAV = [
   { href: "/random", key: "random", icon: Dices },
   { href: "/planner", key: "planner", icon: CalendarDays },
   { href: "/markets", key: "markets", icon: MapPinned },
+  { href: "/me", key: "kitchen", icon: Heart },
 ] as const;
 
 export function Header() {
