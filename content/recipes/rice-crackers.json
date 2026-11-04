@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "snack",
+    "vegetarian",
+    "budget"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "2 cups cooked rice (leftover)",
+      "2 tbsp flour or cornstarch",
+      "1 tbsp oil",
+      "Salt, pepper, sesame seeds, chili or garlic powder",
+      "Oil for frying (or bake)"
+    ],
+    "fr": [
+      "2 tasses de riz cuit (un reste)",
+      "2 c. à soupe de farine ou de maïzena",
+      "1 c. à soupe d'huile",
+      "Sel, poivre, graines de sésame, piment ou ail en poudre",
+      "Huile de friture (ou cuisson au four)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend or mash the rice with the flour, oil and seasonings into a sticky dough.",
+      "Spread it very thin between two sheets of baking paper with a rolling pin; cut into squares or rounds.",
+      "Bake at 180 °C for 15 to 20 minutes until crisp, or let them dry an hour and fry 1 to 2 minutes until puffed.",
+      "Season while warm."
+    ],
+    "fr": [
+      "Mixez ou écrasez le riz avec la farine, l'huile et les assaisonnements pour une pâte collante.",
+      "Étalez-la très finement entre deux feuilles de papier cuisson au rouleau ; coupez en carrés ou en ronds.",
+      "Faites cuire au four à 180 °C 15 à 20 minutes jusqu'à ce qu'ils soient croustillants, ou laissez-les sécher une heure et faites-les frire 1 à 2 minutes jusqu'à ce qu'ils gonflent.",
+      "Assaisonnez encore chauds."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Keep in a closed jar; eat with dips or plain."
+    ],
+    "fr": [
+      "Conservez dans un bocal fermé ; à manger avec des sauces ou nature."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

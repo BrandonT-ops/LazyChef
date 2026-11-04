@@ -1,0 +1,46 @@
+{
+  "tags": [
+    "quick",
+    "budget",
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 2,
+  "cookMinutes": 0,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "½ baguette or 2 slices of bread",
+      "Butter",
+      "Sugar, jam or honey (optional)"
+    ],
+    "fr": [
+      "½ baguette ou 2 tranches de pain",
+      "Beurre",
+      "Sucre, confiture ou miel (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Open the bread (fresh or toasted).",
+      "Spread with soft butter.",
+      "Add a little sugar, jam or honey if you like it sweet."
+    ],
+    "fr": [
+      "Ouvrez le pain (frais ou grillé).",
+      "Tartinez de beurre mou.",
+      "Ajoutez un peu de sucre, de confiture ou de miel si vous l'aimez sucré."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Dip it in hot tea, coffee or chocolate."
+    ],
+    "fr": [
+      "Trempez-le dans du thé, du café ou du chocolat chaud."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

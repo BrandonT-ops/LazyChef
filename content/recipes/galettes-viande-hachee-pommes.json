@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g potatoes, boiled and mashed",
+      "300 g minced beef, cooked with onion and spices",
+      "1 egg, 2 tbsp flour",
+      "Salt, pepper, parsley",
+      "Oil for frying"
+    ],
+    "fr": [
+      "500 g de pommes de terre bouillies et écrasées",
+      "300 g de bœuf haché cuit avec oignon et épices",
+      "1 œuf, 2 c. à soupe de farine",
+      "Sel, poivre, persil",
+      "Huile pour la cuisson"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the mash with the cooked mince, egg, flour, parsley, salt and pepper.",
+      "Shape into flat patties about 1.5 cm thick.",
+      "Fry in a little oil 4 minutes per side until golden."
+    ],
+    "fr": [
+      "Mélangez la purée avec la viande cuite, l'œuf, la farine, le persil, le sel et le poivre.",
+      "Façonnez des galettes plates d'environ 1,5 cm.",
+      "Faites dorer dans un peu d'huile 4 minutes de chaque côté."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with salad or a tomato sauce."
+    ],
+    "fr": [
+      "Servez avec une salade ou une sauce tomate."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "quick",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "2 beef steaks (about 2 cm thick)",
+      "2 cloves garlic, crushed",
+      "1 tbsp oil + 1 tbsp butter",
+      "Salt, black pepper",
+      "Thyme or rosemary (optional)"
+    ],
+    "fr": [
+      "2 steaks de bœuf (environ 2 cm d'épaisseur)",
+      "2 gousses d'ail écrasées",
+      "1 c. à soupe d'huile + 1 c. à soupe de beurre",
+      "Sel, poivre noir",
+      "Thym ou romarin (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Take the steaks out of the fridge 20 minutes before; pat them dry and season.",
+      "Heat the oil in a heavy pan until very hot.",
+      "Cook the steaks 2 to 3 minutes per side for medium (longer for well done) without moving them.",
+      "Add the butter, garlic and herbs and spoon the foaming butter over the meat for 1 minute.",
+      "Rest 5 minutes before cutting."
+    ],
+    "fr": [
+      "Sortez les steaks du frigo 20 minutes avant ; séchez-les et assaisonnez.",
+      "Chauffez l'huile dans une poêle épaisse jusqu'à ce qu'elle soit très chaude.",
+      "Faites cuire les steaks 2 à 3 minutes de chaque côté pour à point (plus longtemps pour bien cuit) sans les bouger.",
+      "Ajoutez le beurre, l'ail et les herbes et arrosez la viande du beurre moussant pendant 1 minute.",
+      "Laissez reposer 5 minutes avant de couper."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fries, pommes sautées, plantain or salad."
+    ],
+    "fr": [
+      "Servez avec des frites, des pommes sautées, du plantain ou une salade."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

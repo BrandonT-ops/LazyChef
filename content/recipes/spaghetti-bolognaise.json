@@ -1,0 +1,56 @@
+{
+  "name": "Spaghetti bolognaise",
+  "section": "friday",
+  "tags": [
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "400 g spaghetti",
+      "400 g minced beef",
+      "1 onion, 1 carrot, 2 cloves garlic",
+      "400 g crushed tomatoes + 1 tbsp tomato paste",
+      "1 tsp dried oregano or basil, 1 bay leaf",
+      "2 tbsp oil, salt, pepper",
+      "Grated parmesan"
+    ],
+    "fr": [
+      "400 g de spaghetti",
+      "400 g de bœuf haché",
+      "1 oignon, 1 carotte, 2 gousses d'ail",
+      "400 g de tomates concassées + 1 c. à soupe de concentré",
+      "1 c. à café d'origan ou de basilic séché, 1 feuille de laurier",
+      "2 c. à soupe d'huile, sel, poivre",
+      "Parmesan râpé"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Soften the finely chopped onion, carrot and garlic in the oil for 5 minutes.",
+      "Add the mince and brown it, breaking it up.",
+      "Add the tomatoes, paste, herbs, bay leaf, salt and pepper; simmer gently 25 to 30 minutes.",
+      "Cook the spaghetti in plenty of salted boiling water as the packet says; drain."
+    ],
+    "fr": [
+      "Faites fondre l'oignon, la carotte et l'ail hachés finement dans l'huile 5 minutes.",
+      "Ajoutez la viande et faites-la dorer en l'émiettant.",
+      "Ajoutez les tomates, le concentré, les herbes, le laurier, le sel et le poivre ; laissez mijoter doucement 25 à 30 minutes.",
+      "Faites cuire les spaghetti dans beaucoup d'eau bouillante salée selon le paquet ; égouttez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve the sauce over the pasta with grated parmesan."
+    ],
+    "fr": [
+      "Servez la sauce sur les pâtes avec du parmesan râpé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

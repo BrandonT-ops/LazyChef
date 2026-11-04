@@ -1,0 +1,43 @@
+{
+  "tags": [
+    "quick"
+  ],
+  "prepMinutes": 2,
+  "cookMinutes": 5,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "2 tsp ground coffee or 1 tsp instant coffee",
+      "200 ml water",
+      "Sugar, milk or condensed milk to taste"
+    ],
+    "fr": [
+      "2 c. à café de café moulu ou 1 c. à café de café soluble",
+      "200 ml d'eau",
+      "Sucre, lait ou lait concentré selon le goût"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the water until just off the boil.",
+      "Instant: stir the coffee into the water. Ground: let it steep 4 minutes in a press or filter.",
+      "Add sugar and milk to taste."
+    ],
+    "fr": [
+      "Chauffez l'eau juste avant ébullition.",
+      "Soluble : mélangez le café dans l'eau. Moulu : laissez infuser 4 minutes dans une cafetière à piston ou un filtre.",
+      "Ajoutez sucre et lait selon votre goût."
+    ]
+  },
+  "serving": {
+    "en": [
+      "With bread, beignets or pain perdu."
+    ],
+    "fr": [
+      "Avec du pain, des beignets ou du pain perdu."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

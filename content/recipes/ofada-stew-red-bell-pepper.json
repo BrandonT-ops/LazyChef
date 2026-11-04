@@ -1,0 +1,58 @@
+{
+  "tags": [],
+  "prepMinutes": 25,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "6 red bell peppers, 2 scotch bonnets, 1 onion – blended coarse",
+      "250 ml palm oil",
+      "500 g assorted meat (beef, tripe, cow skin), cooked, plus its stock",
+      "2 tbsp locust beans (iru), 2 tbsp ground crayfish",
+      "2 cubes, salt",
+      "Boiled eggs (optional)"
+    ],
+    "fr": [
+      "6 poivrons rouges, 2 piments forts, 1 oignon – mixés grossièrement",
+      "250 ml d'huile de palme",
+      "500 g de viandes assorties (bœuf, tripes, peau) cuites, avec leur bouillon",
+      "2 c. à soupe de soumbala (iru), 2 c. à soupe d'écrevisses moulues",
+      "2 cubes, sel",
+      "Œufs durs (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the pepper blend in a dry pot until most of the water evaporates (15 to 20 minutes).",
+      "In another pot, heat the palm oil on low heat with the lid on until it turns clear (about 10 minutes – open a window), then let it cool a little.",
+      "Fry the sliced onion and locust beans in the oil 2 minutes, then add the reduced peppers and fry 20 minutes, stirring, until the oil separates.",
+      "Add the meats, a little stock, crayfish and cubes; simmer 10 minutes. Add the boiled eggs at the end."
+    ],
+    "fr": [
+      "Faites bouillir les poivrons mixés dans une marmite sèche jusqu'à ce que presque toute l'eau s'évapore (15 à 20 minutes).",
+      "Dans une autre marmite, chauffez l'huile de palme à feu doux, couvert, jusqu'à ce qu'elle devienne claire (environ 10 minutes – ouvrez la fenêtre), puis laissez-la tiédir un peu.",
+      "Faites revenir l'oignon émincé et le soumbala dans l'huile 2 minutes, puis ajoutez les poivrons réduits et faites frire 20 minutes en remuant, jusqu'à ce que l'huile se sépare.",
+      "Ajoutez les viandes, un peu de bouillon, les écrevisses et les cubes ; laissez mijoter 10 minutes. Ajoutez les œufs durs à la fin."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with ofada or white rice, or with boiled plantain or yam."
+    ],
+    "fr": [
+      "Servez avec du riz ofada ou du riz blanc, ou avec du plantain ou de l'igname bouillis."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "My Active Kitchen – Ofada stew",
+      "url": "https://www.myactivekitchen.com/ofada-stew-recipe/"
+    },
+    {
+      "label": "Afrifood Network – Ofada stew",
+      "url": "https://afrifoodnetwork.com/recipes/soup-recipes/ofada-stew-recipe/"
+    }
+  ]
+}

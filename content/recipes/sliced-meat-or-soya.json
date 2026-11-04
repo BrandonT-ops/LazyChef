@@ -1,0 +1,58 @@
+{
+  "tags": [],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "800 g beef (sirloin or rump), sliced very thin",
+      "Soya spice (kankan): 4 tbsp ground roasted peanuts, 1 tsp ginger, 1 tsp garlic, 1 tsp chili, ½ tsp rondelle, 1 cube, salt",
+      "4 tbsp oil",
+      "1 onion, 1 tomato (to serve)"
+    ],
+    "fr": [
+      "800 g de bœuf (faux-filet ou rumsteck) en tranches très fines",
+      "Épices soya (kankan) : 4 c. à soupe d'arachides grillées moulues, 1 c. à café de gingembre, 1 d'ail, 1 de piment, ½ de rondelle, 1 cube, sel",
+      "4 c. à soupe d'huile",
+      "1 oignon, 1 tomate (pour servir)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the meat with the oil and two-thirds of the spice. Leave 30 minutes (or longer in the fridge).",
+      "Thread the slices onto skewers, or lay them flat on a grill tray.",
+      "Grill over hot charcoal or under the oven grill 3 to 4 minutes per side.",
+      "Roll the hot meat in the rest of the spice."
+    ],
+    "fr": [
+      "Mélangez la viande avec l'huile et les deux tiers des épices. Laissez 30 minutes (ou plus au frais).",
+      "Enfilez les tranches sur des piques, ou étalez-les à plat sur une grille.",
+      "Grillez sur la braise ou sous le gril du four 3 à 4 minutes de chaque côté.",
+      "Roulez la viande chaude dans le reste des épices."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve wrapped in paper with sliced onion, tomato and chili."
+    ],
+    "fr": [
+      "Servez dans du papier avec de l'oignon émincé, de la tomate et du piment."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Precious Core – Cameroonian soya",
+      "url": "https://www.preciouscore.com/cameroonian-soya/"
+    },
+    {
+      "label": "Afrik – Soya de bœuf grillé",
+      "url": "https://www.afrik.com/soya-de-boeuf-grille-a-la-camerounaise"
+    },
+    {
+      "label": "International Cuisine – Cameroon suya",
+      "url": "https://www.internationalcuisine.com/cameroon-suya/"
+    }
+  ]
+}

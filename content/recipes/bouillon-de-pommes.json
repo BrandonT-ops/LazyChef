@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "budget",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "800 g potatoes, in chunks",
+      "300 g meat or chicken (optional)",
+      "1 carrot, 1 leek or onion, 1 tomato",
+      "2 cloves garlic, 1 small piece ginger",
+      "1 cube, salt, pepper, parsley"
+    ],
+    "fr": [
+      "800 g de pommes de terre en morceaux",
+      "300 g de viande ou de poulet (facultatif)",
+      "1 carotte, 1 poireau ou oignon, 1 tomate",
+      "2 gousses d'ail, 1 petit morceau de gingembre",
+      "1 cube, sel, poivre, persil"
+    ]
+  },
+  "steps": {
+    "en": [
+      "If using meat, simmer it 20 minutes with the garlic, ginger, onion, cube and 1.5 litres of water.",
+      "Add the potatoes, carrot and chopped tomato. Simmer 20 minutes until the potatoes are soft and start to thicken the broth.",
+      "Season and add parsley."
+    ],
+    "fr": [
+      "Si vous mettez de la viande, faites-la mijoter 20 minutes avec l'ail, le gingembre, l'oignon, le cube et 1,5 litre d'eau.",
+      "Ajoutez les pommes de terre, la carotte et la tomate hachée. Laissez mijoter 20 minutes jusqu'à ce que les pommes de terre soient tendres et épaississent un peu le bouillon.",
+      "Assaisonnez et ajoutez le persil."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A warming supper on its own, with bread."
+    ],
+    "fr": [
+      "Un souper réconfortant à lui seul, avec du pain."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

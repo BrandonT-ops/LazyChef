@@ -1,0 +1,55 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 40,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1.5 kg firm fish (sea bass, carp or tilapia), in thick slices",
+      "6 ripe plantains",
+      "3 carrots, 1 handful green beans, 2 green peppers",
+      "3 tomatoes, 2 onions, 3 cloves garlic, 1 piece ginger",
+      "Parsley, celery or leek",
+      "Juice of 1 lime, 2 stock cubes, salt, pepper",
+      "Oil for frying"
+    ],
+    "fr": [
+      "1,5 kg de poisson à chair ferme (bar, carpe ou tilapia) en tranches épaisses",
+      "6 plantains mûrs",
+      "3 carottes, 1 poignée de haricots verts, 2 poivrons",
+      "3 tomates, 2 oignons, 3 gousses d'ail, 1 morceau de gingembre",
+      "Persil, céleri ou poireau",
+      "Jus d'un citron vert, 2 cubes, sel, piment",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Clean the fish with lime and salt, then season with blended garlic, ginger, a cube and salt. Rest 15 minutes.",
+      "Fry the fish slices until golden on both sides; set aside. Fry the plantain rounds the same way.",
+      "In a large pot, fry the onions, add the blended tomatoes and cook 10 minutes.",
+      "Add the vegetables with half a glass of water and the second cube; cook 10 minutes.",
+      "Lay the fish and plantain in the sauce, add the herbs, cover and simmer 5 minutes. Shake the pot gently rather than stirring, so the fish stays whole."
+    ],
+    "fr": [
+      "Nettoyez le poisson au citron et au sel, puis assaisonnez-le avec l'ail et le gingembre mixés, un cube et du sel. Laissez reposer 15 minutes.",
+      "Faites frire les tranches de poisson jusqu'à ce qu'elles soient dorées des deux côtés ; réservez. Faites frire les rondelles de plantain de la même façon.",
+      "Dans une grande marmite, faites revenir les oignons, ajoutez les tomates mixées et laissez cuire 10 minutes.",
+      "Ajoutez les légumes avec un demi-verre d'eau et le second cube ; laissez cuire 10 minutes.",
+      "Déposez le poisson et le plantain dans la sauce, ajoutez les herbes, couvrez et laissez mijoter 5 minutes. Secouez doucement la marmite plutôt que de remuer, pour que le poisson reste entier."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot as a complete dish."
+    ],
+    "fr": [
+      "Servez chaud, c'est un plat complet."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

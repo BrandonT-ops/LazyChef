@@ -1,0 +1,55 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1.5 kg macabo (white or red cocoyam)",
+      "100 ml palm oil",
+      "1 onion",
+      "Salt and pepper",
+      "250 g cooked beans (optional)"
+    ],
+    "fr": [
+      "1,5 kg de macabo (blanc ou rouge)",
+      "100 ml d'huile de palme",
+      "1 oignon",
+      "Sel et piment",
+      "250 g de haricots cuits (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the macabo (wear gloves – it can itch), cut it in pieces and wash well.",
+      "Boil in salted water 25 to 30 minutes, until a knife goes in easily. Drain.",
+      "Warm the palm oil with the sliced onion.",
+      "Pound the hot macabo with the oil (and beans) until smooth and slightly elastic. Season."
+    ],
+    "fr": [
+      "Épluchez le macabo (avec des gants – ça peut gratter), coupez-le en morceaux et lavez-le bien.",
+      "Faites-le bouillir à l'eau salée 25 à 30 minutes, jusqu'à ce qu'un couteau y entre facilement. Égouttez.",
+      "Faites tiédir l'huile de palme avec l'oignon émincé.",
+      "Pilez le macabo chaud avec l'huile (et les haricots) jusqu'à ce qu'il soit lisse et légèrement élastique. Assaisonnez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with a green sauce (ndolé, kpwem) or a meat stew."
+    ],
+    "fr": [
+      "Servez avec une sauce verte (ndolé, kpwem) ou un ragoût de viande."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Chop (Smart Services) – Pilé de macabo",
+      "url": "https://chop.smartserviceshub.ai/fr/recipes/pile-de-macabo"
+    }
+  ]
+}

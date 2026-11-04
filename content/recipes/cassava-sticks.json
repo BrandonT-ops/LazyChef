@@ -1,0 +1,47 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian",
+    "snack"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg fresh cassava",
+      "Salt",
+      "Oil for frying"
+    ],
+    "fr": [
+      "1 kg de manioc frais",
+      "Sel",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the cassava, cut into finger-size sticks and remove the hard central fibre.",
+      "Boil in salted water 15 minutes, until just tender. Drain and let dry.",
+      "Fry in hot oil 5 to 7 minutes until golden and crisp outside.",
+      "Salt right away."
+    ],
+    "fr": [
+      "Épluchez le manioc, coupez-le en bâtonnets de la taille d'un doigt et retirez la fibre centrale.",
+      "Faites bouillir à l'eau salée 15 minutes, juste tendre. Égouttez et laissez sécher.",
+      "Faites frire dans l'huile chaude 5 à 7 minutes jusqu'à ce qu'ils soient dorés et croustillants.",
+      "Salez tout de suite."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve like fries, with chili sauce, ketchup or grilled fish."
+    ],
+    "fr": [
+      "Servez comme des frites, avec une sauce pimentée, du ketchup ou du poisson braisé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

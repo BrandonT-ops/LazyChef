@@ -1,0 +1,54 @@
+{
+  "tags": [
+    "quick",
+    "kids",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "4 eggs",
+      "2 tbsp milk",
+      "1 tomato, ½ onion, ½ green pepper",
+      "50 g grated cheese",
+      "Ham or sausage (optional)",
+      "1 tbsp oil, salt, pepper, oregano"
+    ],
+    "fr": [
+      "4 œufs",
+      "2 c. à soupe de lait",
+      "1 tomate, ½ oignon, ½ poivron",
+      "50 g de fromage râpé",
+      "Jambon ou saucisse (facultatif)",
+      "1 c. à soupe d'huile, sel, poivre, origan"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Beat the eggs with the milk, salt and pepper.",
+      "Heat the oil in a pan, pour in the eggs and cook on low heat 3 minutes until the bottom sets.",
+      "Top like a pizza: tomato slices, onion, pepper, ham, cheese and oregano.",
+      "Cover and cook 5 more minutes (or put under the oven grill 3 minutes) until the top is set and the cheese melts."
+    ],
+    "fr": [
+      "Battez les œufs avec le lait, le sel et le poivre.",
+      "Chauffez l'huile dans une poêle, versez les œufs et laissez cuire à feu doux 3 minutes jusqu'à ce que le dessous prenne.",
+      "Garnissez comme une pizza : rondelles de tomate, oignon, poivron, jambon, fromage et origan.",
+      "Couvrez et laissez cuire encore 5 minutes (ou passez sous le gril 3 minutes) jusqu'à ce que le dessus soit pris et le fromage fondu."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Cut in wedges; great for breakfast or a light supper."
+    ],
+    "fr": [
+      "Coupez en parts ; parfait au petit-déjeuner ou pour un souper léger."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

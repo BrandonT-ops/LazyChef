@@ -1,0 +1,49 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 90,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 whole chicken (1.5 kg), opened flat",
+      "4 cloves garlic, 1 piece ginger, 1 onion, a little celery and parsley, blended",
+      "1 tsp smoked paprika, 1 tsp white pepper, 2 cubes, salt",
+      "3 tbsp oil",
+      "Hardwood chips or green leaves for the smoke"
+    ],
+    "fr": [
+      "1 poulet entier (1,5 kg) ouvert à plat",
+      "4 gousses d'ail, 1 morceau de gingembre, 1 oignon, un peu de céleri et de persil, mixés",
+      "1 c. à café de paprika fumé, 1 de poivre blanc, 2 cubes, sel",
+      "3 c. à soupe d'huile",
+      "Copeaux de bois dur ou feuilles vertes pour la fumée"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Rub the chicken all over with the blended herbs, spices, cubes, salt and oil. Leave overnight if possible.",
+      "Set the grill up for low, indirect heat: charcoal on one side, chicken on the other, lid on (or use a 150 °C oven).",
+      "Add wood chips to the coals and smoke the chicken skin-side up for about 1½ hours, until the juices run clear (75 °C in the thickest part).",
+      "Finish 5 minutes over direct heat to crisp the skin."
+    ],
+    "fr": [
+      "Frottez le poulet partout avec les herbes mixées, les épices, les cubes, le sel et l'huile. Laissez une nuit si possible.",
+      "Préparez le barbecue pour une cuisson douce indirecte : braise d'un côté, poulet de l'autre, couvercle fermé (ou four à 150 °C).",
+      "Mettez les copeaux sur la braise et fumez le poulet peau vers le haut environ 1 h 30, jusqu'à ce que le jus soit clair (75 °C au plus épais).",
+      "Terminez 5 minutes au-dessus de la braise pour rendre la peau croustillante."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with plantain, fries, attiéké or salad."
+    ],
+    "fr": [
+      "Servez avec du plantain, des frites, de l'attiéké ou une salade."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

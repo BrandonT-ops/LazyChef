@@ -1,0 +1,54 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g corn flour + water (couscous)",
+      "½ green cabbage, finely sliced",
+      "200 g peanut paste",
+      "2 tomatoes, 2 onions",
+      "3 tbsp oil",
+      "1 cube, salt, pepper",
+      "Smoked fish (optional)"
+    ],
+    "fr": [
+      "500 g de farine de maïs + eau (couscous)",
+      "½ chou vert finement émincé",
+      "200 g de pâte d'arachide",
+      "2 tomates, 2 oignons",
+      "3 c. à soupe d'huile",
+      "1 cube, sel, piment",
+      "Poisson fumé (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Fry the onions in the oil, add the blended tomatoes and cook 8 minutes.",
+      "Loosen the peanut paste in 300 ml warm water, pour it in and simmer 15 minutes, stirring, until the oil rises.",
+      "Add the cabbage, cube, salt, pepper (and fish) and cook 10 more minutes; the cabbage should stay a little crunchy.",
+      "Make the corn couscous as usual."
+    ],
+    "fr": [
+      "Faites revenir les oignons dans l'huile, ajoutez les tomates mixées et laissez cuire 8 minutes.",
+      "Délayez la pâte d'arachide dans 300 ml d'eau tiède, versez et laissez mijoter 15 minutes en remuant, jusqu'à ce que l'huile remonte.",
+      "Ajoutez le chou, le cube, le sel, le piment (et le poisson) et laissez cuire encore 10 minutes ; le chou doit rester un peu croquant.",
+      "Préparez le couscous de maïs comme d'habitude."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with couscous balls."
+    ],
+    "fr": [
+      "Servez chaud avec des boules de couscous."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

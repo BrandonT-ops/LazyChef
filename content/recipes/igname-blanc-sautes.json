@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg white yam",
+      "2 onions, 2 tomatoes, 1 green pepper",
+      "4 tbsp oil",
+      "1 cube, salt, pepper",
+      "Parsley"
+    ],
+    "fr": [
+      "1 kg d'igname blanche",
+      "2 oignons, 2 tomates, 1 poivron",
+      "4 c. à soupe d'huile",
+      "1 cube, sel, piment",
+      "Persil"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the yam, cut it in cubes and boil 15 to 20 minutes in salted water until tender but firm. Drain.",
+      "Fry the onions and pepper in the oil, then add the tomatoes and cube; cook 5 minutes.",
+      "Add the yam and sauté 8 minutes until lightly golden in places. Finish with parsley."
+    ],
+    "fr": [
+      "Épluchez l'igname, coupez-la en cubes et faites-la bouillir 15 à 20 minutes à l'eau salée, tendre mais ferme. Égouttez.",
+      "Faites revenir les oignons et le poivron dans l'huile, puis ajoutez les tomates et le cube ; laissez cuire 5 minutes.",
+      "Ajoutez l'igname et faites sauter 8 minutes jusqu'à ce qu'elle dore par endroits. Terminez avec le persil."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with eggs, fish or meat."
+    ],
+    "fr": [
+      "Servez avec des œufs, du poisson ou de la viande."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

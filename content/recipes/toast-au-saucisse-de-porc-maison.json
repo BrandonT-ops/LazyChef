@@ -1,0 +1,49 @@
+{
+  "tags": [
+    "western"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "Homemade sausage: 400 g minced pork, 1 clove garlic, ½ tsp each salt, pepper, paprika, thyme, fennel (optional)",
+      "8 slices of bread",
+      "1 tomato, 1 onion",
+      "50 g cheese (optional)",
+      "1 tbsp oil"
+    ],
+    "fr": [
+      "Saucisse maison : 400 g de porc haché, 1 gousse d'ail, ½ c. à café chacun de sel, poivre, paprika, thym, fenouil (facultatif)",
+      "8 tranches de pain",
+      "1 tomate, 1 oignon",
+      "50 g de fromage (facultatif)",
+      "1 c. à soupe d'huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the pork with the garlic and spices; shape into 4 flat patties.",
+      "Cook in the oil 5 to 6 minutes per side until fully cooked.",
+      "Toast the bread. Slice the onion and tomato.",
+      "Build the toasts: sausage, onion, tomato (and cheese), close and press in the hot pan 1 minute."
+    ],
+    "fr": [
+      "Mélangez le porc avec l'ail et les épices ; façonnez 4 galettes plates.",
+      "Faites cuire dans l'huile 5 à 6 minutes de chaque côté jusqu'à cuisson complète.",
+      "Grillez le pain. Émincez l'oignon et la tomate.",
+      "Montez les toasts : saucisse, oignon, tomate (et fromage), fermez et pressez dans la poêle chaude 1 minute."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with juice or tea."
+    ],
+    "fr": [
+      "Servez avec du jus ou du thé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

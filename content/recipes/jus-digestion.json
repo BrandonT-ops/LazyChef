@@ -1,0 +1,60 @@
+{
+  "tags": [
+    "vegetarian"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "200 g fresh ginger",
+      "½ ripe pineapple",
+      "2 limes",
+      "A handful of mint leaves",
+      "1.5 litres water",
+      "Sugar or honey to taste"
+    ],
+    "fr": [
+      "200 g de gingembre frais",
+      "½ ananas mûr",
+      "2 citrons verts",
+      "Une poignée de feuilles de menthe",
+      "1,5 litre d'eau",
+      "Sucre ou miel selon le goût"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash and roughly chop the ginger (no need to peel). Peel and cut the pineapple.",
+      "Blend the ginger and pineapple with half the water.",
+      "Strain through a fine sieve or cloth, pressing well.",
+      "Add the rest of the water, the lime juice, mint and sugar. Taste: if it's too strong, add water or pineapple. Chill."
+    ],
+    "fr": [
+      "Lavez et coupez grossièrement le gingembre (pas besoin de l'éplucher). Épluchez et coupez l'ananas.",
+      "Mixez le gingembre et l'ananas avec la moitié de l'eau.",
+      "Filtrez dans une passoire fine ou un linge en pressant bien.",
+      "Ajoutez le reste de l'eau, le jus des citrons, la menthe et le sucre. Goûtez : si c'est trop fort, ajoutez de l'eau ou de l'ananas. Mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Drink a small glass after a heavy meal. Keeps 3 days in the fridge."
+    ],
+    "fr": [
+      "Buvez un petit verre après un repas copieux. Se garde 3 jours au frais."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Île aux épices – Jus de gingembre",
+      "url": "https://ileauxepices.com/blog/2018/03/09/recette-jus-de-gingembre-ou-gnamakoudji-senegal/wpid16250/"
+    },
+    {
+      "label": "Allodocteurs – Recettes de jus",
+      "url": "https://www.allodocteurs.fr/bissap-gingembre-pasteque-5-recettes-pour-des-jus-qui-nous-veulent-du-bien-44344.html"
+    }
+  ]
+}

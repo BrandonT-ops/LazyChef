@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "snack",
+    "occasion"
+  ],
+  "prepMinutes": 40,
+  "cookMinutes": 25,
+  "servings": 12,
+  "ingredients": {
+    "en": [
+      "Dough: 500 g flour, 120 g butter or margarine, 1 tsp baking powder, 1 tbsp sugar, ½ tsp salt, 1 egg, about 150 ml cold water",
+      "Filling: 2 tins sardines or mackerel (or 400 g cooked fish), 1 onion, 1 small pepper, ½ tsp thyme, 1 cube",
+      "1 egg for brushing (or oil for frying)"
+    ],
+    "fr": [
+      "Pâte : 500 g de farine, 120 g de beurre ou margarine, 1 c. à café de levure chimique, 1 c. à soupe de sucre, ½ c. à café de sel, 1 œuf, environ 150 ml d'eau froide",
+      "Farce : 2 boîtes de sardines ou de maquereau (ou 400 g de poisson cuit), 1 oignon, 1 petit piment, ½ c. à café de thym, 1 cube",
+      "1 œuf pour dorer (ou de l'huile de friture)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Rub the butter into the flour, baking powder, sugar and salt until it looks like breadcrumbs. Add the egg and enough water for a firm dough. Rest 15 minutes.",
+      "Drain and mash the fish, then sauté it 5 minutes with the chopped onion, pepper, thyme and cube. Let it cool.",
+      "Roll the dough thin and cut into rectangles about 10 × 12 cm.",
+      "Put a line of filling along one side, roll up and seal the ends with a fork.",
+      "Brush with beaten egg and bake at 190 °C for 20 to 25 minutes, or deep-fry in medium-hot oil until golden."
+    ],
+    "fr": [
+      "Sablez le beurre avec la farine, la levure, le sucre et le sel. Ajoutez l'œuf et assez d'eau pour une pâte ferme. Laissez reposer 15 minutes.",
+      "Égouttez et écrasez le poisson, puis faites-le revenir 5 minutes avec l'oignon haché, le piment, le thym et le cube. Laissez refroidir.",
+      "Étalez la pâte finement et coupez des rectangles d'environ 10 × 12 cm.",
+      "Déposez un boudin de farce sur un côté, roulez et soudez les bords à la fourchette.",
+      "Dorez à l'œuf battu et faites cuire au four à 190 °C 20 à 25 minutes, ou faites frire dans une huile moyennement chaude jusqu'à ce qu'ils soient dorés."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Great for parties, school snacks and with a cold drink."
+    ],
+    "fr": [
+      "Parfait pour les fêtes, le goûter et avec une boisson fraîche."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Precious Core – Fish rolls",
+      "url": "https://www.preciouscore.com/flavourful-fish-rolls"
+    },
+    {
+      "label": "Yummy Medley – Fish roll",
+      "url": "https://www.yummymedley.com/?p=687"
+    }
+  ]
+}

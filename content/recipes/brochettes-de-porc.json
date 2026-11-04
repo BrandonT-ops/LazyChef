@@ -1,0 +1,45 @@
+{
+  "tags": [],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "800 g pork (neck or shoulder), in cubes",
+      "3 cloves garlic, 1 piece ginger, 1 onion, blended",
+      "1 tsp paprika, 1 tsp chili, 1 cube, salt",
+      "3 tbsp oil",
+      "1 green pepper, 1 onion (for the skewers)"
+    ],
+    "fr": [
+      "800 g de porc (échine ou épaule) en cubes",
+      "3 gousses d'ail, 1 morceau de gingembre, 1 oignon, mixés",
+      "1 c. à café de paprika, 1 de piment, 1 cube, sel",
+      "3 c. à soupe d'huile",
+      "1 poivron, 1 oignon (pour les brochettes)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Marinate the pork with the blended aromatics, spices, cube, salt and oil for at least 1 hour.",
+      "Thread onto skewers with pieces of pepper and onion.",
+      "Grill over medium charcoal 12 to 15 minutes, turning, until cooked through and caramelised. Pork must be well done."
+    ],
+    "fr": [
+      "Faites mariner le porc avec les aromates mixés, les épices, le cube, le sel et l'huile au moins 1 heure.",
+      "Enfilez sur les piques avec des morceaux de poivron et d'oignon.",
+      "Grillez sur une braise moyenne 12 à 15 minutes en retournant, jusqu'à ce que ce soit cuit à cœur et caramélisé. Le porc doit être bien cuit."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fried plantain, miondo or fries and chili."
+    ],
+    "fr": [
+      "Servez avec du plantain frit, des miondo ou des frites et du piment."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

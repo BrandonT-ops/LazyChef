@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "4 ripe guavas",
+      "5 passion fruits",
+      "1 litre cold water",
+      "5 tbsp sugar, juice of ½ lime",
+      "Ice"
+    ],
+    "fr": [
+      "4 goyaves mûres",
+      "5 fruits de la passion",
+      "1 litre d'eau froide",
+      "5 c. à soupe de sucre, jus d'½ citron vert",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash and cut the guavas; blend them with half the water and strain well (guava seeds are hard).",
+      "Pulse the passion fruit pulp briefly with the rest of the water and strain.",
+      "Mix both juices with the sugar and lime. Chill."
+    ],
+    "fr": [
+      "Lavez et coupez les goyaves ; mixez-les avec la moitié de l'eau et filtrez bien (les graines de goyave sont dures).",
+      "Mixez brièvement la pulpe des fruits de la passion avec le reste de l'eau et filtrez.",
+      "Mélangez les deux jus avec le sucre et le citron. Mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

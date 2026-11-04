@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "quick",
+    "kids"
+  ],
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "1 baguette",
+      "4 sausages",
+      "½ onion, 1 tomato",
+      "Ketchup, mustard or mayonnaise",
+      "1 tsp oil"
+    ],
+    "fr": [
+      "1 baguette",
+      "4 saucisses",
+      "½ oignon, 1 tomate",
+      "Ketchup, moutarde ou mayonnaise",
+      "1 c. à café d'huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Brown the sausages in the oil 8 to 10 minutes, turning (slit them lengthways to cook faster).",
+      "Soften the sliced onion in the same pan for 2 minutes.",
+      "Cut the baguette in two, open, spread with sauce and fill with sausages, onion and tomato."
+    ],
+    "fr": [
+      "Faites dorer les saucisses dans l'huile 8 à 10 minutes en les retournant (fendez-les en long pour qu'elles cuisent plus vite).",
+      "Faites fondre l'oignon émincé dans la même poêle 2 minutes.",
+      "Coupez la baguette en deux, ouvrez, tartinez de sauce et garnissez de saucisses, d'oignon et de tomate."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with tea or juice."
+    ],
+    "fr": [
+      "Servez avec du thé ou du jus."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

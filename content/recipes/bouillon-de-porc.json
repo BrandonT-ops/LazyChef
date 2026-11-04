@@ -1,0 +1,58 @@
+{
+  "tags": [],
+  "prepMinutes": 15,
+  "cookMinutes": 75,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg pork (ribs, trotters, belly) in pieces",
+      "2 tbsp ground njansang",
+      "1 tbsp pepper-soup spice",
+      "3 cloves garlic, 1 piece ginger, 2 onions, 1 leek",
+      "2 cubes, salt, hot pepper",
+      "Basil or celery leaves"
+    ],
+    "fr": [
+      "1 kg de porc (côtes, pieds, poitrine) en morceaux",
+      "2 c. à soupe de djansang moulu",
+      "1 c. à soupe d'épices pour pèpè soup",
+      "3 gousses d'ail, 1 morceau de gingembre, 2 oignons, 1 poireau",
+      "2 cubes, sel, piment",
+      "Feuilles de basilic ou de céleri"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blanch the pork 5 minutes in boiling water, drain and rinse (this keeps the broth clear).",
+      "Put it back with the blended garlic, ginger, onion, leek and pepper, the cubes, salt and 2 litres of water. Simmer 1 hour until tender.",
+      "Add the njansang and spice and simmer 15 minutes more.",
+      "Finish with the herbs."
+    ],
+    "fr": [
+      "Blanchissez le porc 5 minutes à l'eau bouillante, égouttez et rincez (le bouillon reste clair).",
+      "Remettez-le avec l'ail, le gingembre, l'oignon, le poireau et le piment mixés, les cubes, le sel et 2 litres d'eau. Laissez mijoter 1 heure jusqu'à ce qu'il soit tendre.",
+      "Ajoutez le djansang et les épices et laissez mijoter encore 15 minutes.",
+      "Terminez avec les herbes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with plantain, potatoes or bread."
+    ],
+    "fr": [
+      "Servez chaud avec du plantain, des pommes de terre ou du pain."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Precious Core – Cameroonian pepper soup",
+      "url": "https://www.preciouscore.com/cameroonian-pepper-soup/"
+    },
+    {
+      "label": "Afrik – Pèpè soup du Cameroun",
+      "url": "https://www.afrik.com/pepe-soup-du-cameroun"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "tags": [
+    "quick",
+    "budget"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "1 Kumba bread (or any round loaf)",
+      "1 tin sardines in oil",
+      "2 eggs",
+      "½ onion, 1 tomato, 1 small pepper",
+      "Salt"
+    ],
+    "fr": [
+      "1 pain Kumba (ou tout pain rond)",
+      "1 boîte de sardines à l'huile",
+      "2 œufs",
+      "½ oignon, 1 tomate, 1 petit piment",
+      "Sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat a little of the sardine oil and soften the chopped onion, tomato and pepper 3 minutes.",
+      "Add the sardines and break them up; push to the side.",
+      "Scramble the eggs in the same pan and mix with the sardines. Salt lightly.",
+      "Cut the bread open and fill it with the hot mix."
+    ],
+    "fr": [
+      "Chauffez un peu de l'huile des sardines et faites revenir l'oignon, la tomate et le piment hachés 3 minutes.",
+      "Ajoutez les sardines et émiettez-les ; poussez-les sur le côté.",
+      "Brouillez les œufs dans la même poêle et mélangez aux sardines. Salez légèrement.",
+      "Ouvrez le pain et garnissez-le du mélange chaud."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with tea or coffee."
+    ],
+    "fr": [
+      "Servez avec du thé ou du café."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

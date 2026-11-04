@@ -1,0 +1,50 @@
+{
+  "tags": [
+    "vegetarian",
+    "occasion"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 ml pineapple juice",
+      "500 ml orange juice",
+      "250 ml mango or passion juice",
+      "Juice of 2 limes",
+      "4 tbsp grenadine syrup",
+      "Sparkling water, ice, fruit slices"
+    ],
+    "fr": [
+      "500 ml de jus d'ananas",
+      "500 ml de jus d'orange",
+      "250 ml de jus de mangue ou de passion",
+      "Jus de 2 citrons verts",
+      "4 c. à soupe de sirop de grenadine",
+      "Eau gazeuse, glaçons, rondelles de fruits"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the fruit juices and lime in a large jug and chill.",
+      "Fill glasses with ice, pour in the juice three-quarters full and top with sparkling water.",
+      "Add a spoon of grenadine to each glass for the sunrise effect, and decorate with fruit."
+    ],
+    "fr": [
+      "Mélangez les jus de fruits et le citron dans une grande carafe et mettez au frais.",
+      "Remplissez les verres de glaçons, versez le jus aux trois quarts et complétez d'eau gazeuse.",
+      "Ajoutez une cuillère de grenadine dans chaque verre pour l'effet dégradé, et décorez de fruits."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A party punch without alcohol; adults can add rum if they like."
+    ],
+    "fr": [
+      "Un punch de fête sans alcool ; les adultes peuvent ajouter du rhum s'ils veulent."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

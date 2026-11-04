@@ -1,0 +1,45 @@
+{
+  "tags": [
+    "western"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "2 fish fillets (or 2 small whole fish)",
+      "Risotto: 200 g risotto rice, 1 onion, 750 ml hot stock, 30 g butter, 40 g grated cheese",
+      "1 lime, 2 cloves garlic, 2 tbsp oil, salt, pepper, parsley"
+    ],
+    "fr": [
+      "2 filets de poisson (ou 2 petits poissons entiers)",
+      "Risotto : 200 g de riz à risotto, 1 oignon, 750 ml de bouillon chaud, 30 g de beurre, 40 g de fromage râpé",
+      "1 citron vert, 2 gousses d'ail, 2 c. à soupe d'huile, sel, poivre, persil"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Soften the onion in half the butter, add the rice and stir 1 minute.",
+      "Add the hot stock a ladle at a time, stirring, waiting until each is absorbed – about 18 minutes.",
+      "Off the heat, stir in the rest of the butter and the cheese. Cover and rest.",
+      "Meanwhile season the fish with garlic, lime, salt and pepper. Fry in hot oil 3 to 4 minutes per side until golden and flaky."
+    ],
+    "fr": [
+      "Faites fondre l'oignon dans la moitié du beurre, ajoutez le riz et remuez 1 minute.",
+      "Ajoutez le bouillon chaud louche par louche en remuant, en attendant qu'il soit absorbé à chaque fois – environ 18 minutes.",
+      "Hors du feu, incorporez le reste du beurre et le fromage. Couvrez et laissez reposer.",
+      "Pendant ce temps, assaisonnez le poisson avec l'ail, le citron, le sel et le poivre. Faites-le dorer dans l'huile chaude 3 à 4 minutes de chaque côté."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve the fish on the risotto with lime and parsley."
+    ],
+    "fr": [
+      "Servez le poisson sur le risotto avec du citron et du persil."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

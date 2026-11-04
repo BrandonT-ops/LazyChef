@@ -1,0 +1,44 @@
+{
+  "tags": [],
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "Pistache (see Fufu pistache): 500 g ground pistache, 500 g beef, 2 smoked fish, 2 tbsp crayfish, 1 pepper, salt",
+      "300 g tapioca (cassava gari)",
+      "400 ml boiling water"
+    ],
+    "fr": [
+      "Pistache (voir Fufu pistache) : 500 g de pistache moulue, 500 g de bœuf, 2 poissons fumés, 2 c. à soupe d'écrevisses, 1 piment, sel",
+      "300 g de tapioca (gari de manioc)",
+      "400 ml d'eau bouillante"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Prepare and steam the pistache parcels as for fufu pistache (about 1 hour).",
+      "When they're nearly ready, pour the boiling water over the tapioca, cover 5 minutes, then stir hard until smooth and soft."
+    ],
+    "fr": [
+      "Préparez et faites cuire les paquets de pistache à la vapeur comme pour le fufu pistache (environ 1 heure).",
+      "Quand ils sont presque prêts, versez l'eau bouillante sur le tapioca, couvrez 5 minutes, puis remuez fort jusqu'à ce qu'il soit lisse et souple."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve the tapioca in balls next to the opened pistache parcels."
+    ],
+    "fr": [
+      "Servez le tapioca en boules à côté des paquets de pistache ouverts."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Afrik – Pudding egusi",
+      "url": "https://www.afrik.com/pudding-egusi"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Lasagnes",
+  "section": "saturday",
+  "tags": [
+    "occasion",
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 45,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "12 lasagne sheets",
+      "Bolognese sauce: 500 g minced beef, 1 onion, 2 cloves garlic, 600 g crushed tomatoes, herbs, salt, pepper",
+      "Béchamel: 50 g butter, 50 g flour, 700 ml milk, nutmeg, salt",
+      "150 g grated cheese"
+    ],
+    "fr": [
+      "12 feuilles de lasagne",
+      "Sauce bolognaise : 500 g de bœuf haché, 1 oignon, 2 gousses d'ail, 600 g de tomates concassées, herbes, sel, poivre",
+      "Béchamel : 50 g de beurre, 50 g de farine, 700 ml de lait, muscade, sel",
+      "150 g de fromage râpé"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Make the bolognese: fry the onion and garlic, brown the mince, add the tomatoes and herbs and simmer 20 minutes.",
+      "Make the béchamel: melt the butter, stir in the flour 1 minute, whisk in the milk and cook until thick; season with salt and nutmeg.",
+      "In a baking dish, layer: a little sauce, lasagne sheets, bolognese, béchamel, cheese. Repeat 3 times, ending with béchamel and cheese.",
+      "Bake at 180 °C for 40 to 45 minutes until bubbling and golden. Rest 10 minutes before cutting."
+    ],
+    "fr": [
+      "Préparez la bolognaise : faites revenir l'oignon et l'ail, faites dorer la viande, ajoutez les tomates et les herbes et laissez mijoter 20 minutes.",
+      "Préparez la béchamel : faites fondre le beurre, ajoutez la farine 1 minute, versez le lait en fouettant et laissez épaissir ; salez et ajoutez la muscade.",
+      "Dans un plat, alternez : un peu de sauce, des feuilles de lasagne, de la bolognaise, de la béchamel, du fromage. Recommencez 3 fois, en finissant par béchamel et fromage.",
+      "Faites cuire au four à 180 °C 40 à 45 minutes jusqu'à ce que ce soit doré et bouillonnant. Laissez reposer 10 minutes avant de couper."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with a green salad."
+    ],
+    "fr": [
+      "Servez avec une salade verte."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

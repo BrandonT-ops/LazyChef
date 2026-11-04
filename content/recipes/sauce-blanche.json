@@ -1,0 +1,56 @@
+{
+  "tags": [],
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "300 g raw peanuts",
+      "4 smoked fish, cleaned and flaked",
+      "50 g dried shrimp",
+      "2 onions, 2 tomatoes, 2 cloves garlic, 1 piece ginger",
+      "100 ml vegetable oil (no palm oil)",
+      "1 pepper, salt"
+    ],
+    "fr": [
+      "300 g d'arachides crues",
+      "4 poissons fumés nettoyés et émiettés",
+      "50 g de crevettes séchées",
+      "2 oignons, 2 tomates, 2 gousses d'ail, 1 morceau de gingembre",
+      "100 ml d'huile végétale (sans huile de palme)",
+      "1 piment, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the peanuts 3 to 5 minutes, drain, and rub off the skins so the sauce stays pale.",
+      "Blend the peanuts with a little water into a smooth paste.",
+      "Fry the onions in the oil, add the blended tomatoes, garlic, ginger and shrimp; cook 10 minutes.",
+      "Add the peanut paste and about 500 ml water, and simmer on very low heat about 30 minutes, stirring often, until creamy and the oil shows on top.",
+      "Add the smoked fish and pepper for the last 10 minutes; salt to taste."
+    ],
+    "fr": [
+      "Faites bouillir les arachides 3 à 5 minutes, égouttez et frottez-les pour enlever les peaux, pour que la sauce reste claire.",
+      "Mixez les arachides avec un peu d'eau en une pâte lisse.",
+      "Faites revenir les oignons dans l'huile, ajoutez les tomates mixées, l'ail, le gingembre et les crevettes ; laissez cuire 10 minutes.",
+      "Ajoutez la pâte d'arachide et environ 500 ml d'eau, et laissez mijoter à feu très doux environ 30 minutes en remuant souvent, jusqu'à ce que ce soit crémeux et que l'huile apparaisse.",
+      "Ajoutez le poisson fumé et le piment pour les 10 dernières minutes ; salez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with râpé (kouakoukou), boiled macabo, plantain or rice."
+    ],
+    "fr": [
+      "Servez avec du râpé (kouakoukou), du macabo bouilli, du plantain ou du riz."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Afrik – Kouakoukou à la sauce blanche",
+      "url": "https://www.afrik.com/kouakoukou-a-la-sauce-blanche"
+    }
+  ]
+}

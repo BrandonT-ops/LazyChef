@@ -1,0 +1,55 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 70,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg tender beef, in cubes",
+      "6 ripe (yellow) plantains",
+      "3 carrots, 1 handful green beans, 2 green peppers",
+      "3 tomatoes, 2 onions, 3 cloves garlic, 1 piece ginger",
+      "1 small bunch parsley, and celery or leek",
+      "2 stock cubes, salt, pepper",
+      "Oil for frying"
+    ],
+    "fr": [
+      "1 kg de bœuf tendre en cubes",
+      "6 plantains mûrs (jaunes)",
+      "3 carottes, 1 poignée de haricots verts, 2 poivrons",
+      "3 tomates, 2 oignons, 3 gousses d'ail, 1 morceau de gingembre",
+      "1 petit bouquet de persil, et du céleri ou du poireau",
+      "2 cubes, sel, piment",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the beef with blended garlic, ginger, half an onion, a cube and salt. Cook it covered in its own juice, then with a little water, until tender (about 40 minutes).",
+      "Drain the beef (keep the juice) and fry it until golden.",
+      "Peel the plantains, cut them in thick rounds and fry until golden. Drain.",
+      "In a large pot, fry the rest of the onion, add the blended tomatoes and cook 10 minutes. Add the carrots, beans and peppers, the meat juice and the second cube; cook 10 minutes.",
+      "Add the beef and the plantain, sprinkle with parsley and celery, and toss gently for 5 minutes so everything is coated without breaking."
+    ],
+    "fr": [
+      "Assaisonnez le bœuf avec l'ail, le gingembre et un demi-oignon mixés, un cube et du sel. Faites cuire à couvert dans son jus, puis avec un peu d'eau, jusqu'à ce que ce soit tendre (environ 40 minutes).",
+      "Égouttez la viande (gardez le jus) et faites-la dorer à la poêle.",
+      "Épluchez les plantains, coupez-les en grosses rondelles et faites-les frire jusqu'à ce qu'ils soient dorés. Égouttez.",
+      "Dans une grande marmite, faites revenir le reste de l'oignon, ajoutez les tomates mixées et laissez cuire 10 minutes. Ajoutez les carottes, haricots et poivrons, le jus de cuisson et le second cube ; laissez cuire 10 minutes.",
+      "Ajoutez la viande et le plantain, parsemez de persil et de céleri, et mélangez délicatement 5 minutes pour tout enrober sans casser."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A complete party dish: serve as is, hot."
+    ],
+    "fr": [
+      "Un plat de fête complet : servez tel quel, bien chaud."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

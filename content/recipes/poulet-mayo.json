@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "kids"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "4 chicken pieces (thighs or breasts)",
+      "4 tbsp mayonnaise",
+      "1 tsp mustard",
+      "2 cloves garlic, 1 tsp paprika",
+      "Juice of ½ lime",
+      "Salt, pepper, parsley"
+    ],
+    "fr": [
+      "4 morceaux de poulet (cuisses ou blancs)",
+      "4 c. à soupe de mayonnaise",
+      "1 c. à café de moutarde",
+      "2 gousses d'ail, 1 c. à café de paprika",
+      "Jus d'½ citron vert",
+      "Sel, poivre, persil"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the mayonnaise, mustard, crushed garlic, paprika, lime juice, salt and pepper.",
+      "Coat the chicken and leave 15 minutes (or overnight in the fridge).",
+      "Bake at 200 °C for 30 to 35 minutes (or cook covered in a pan on medium heat 25 minutes), until golden and cooked through.",
+      "Sprinkle with parsley."
+    ],
+    "fr": [
+      "Mélangez la mayonnaise, la moutarde, l'ail écrasé, le paprika, le jus de citron, le sel et le poivre.",
+      "Enrobez le poulet et laissez 15 minutes (ou une nuit au frais).",
+      "Faites cuire au four à 200 °C 30 à 35 minutes (ou à la poêle, couvert, à feu moyen 25 minutes), jusqu'à ce qu'il soit doré et cuit à cœur.",
+      "Parsemez de persil."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fries, rice or salad."
+    ],
+    "fr": [
+      "Servez avec des frites, du riz ou une salade."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

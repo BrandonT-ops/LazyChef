@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "quick",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g minced beef",
+      "1 onion, 2 cloves garlic",
+      "2 tomatoes (or 2 tbsp tomato paste)",
+      "1 carrot, grated (optional)",
+      "2 tbsp oil, 1 cube, thyme, salt, pepper"
+    ],
+    "fr": [
+      "500 g de viande hachée de bœuf",
+      "1 oignon, 2 gousses d'ail",
+      "2 tomates (ou 2 c. à soupe de concentré)",
+      "1 carotte râpée (facultatif)",
+      "2 c. à soupe d'huile, 1 cube, thym, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Fry the onion and garlic in the oil for 2 minutes.",
+      "Add the mince and break it up with a spoon; cook until it is no longer pink.",
+      "Add the tomatoes, carrot, thyme and cube with a little water, and simmer 15 minutes until thick."
+    ],
+    "fr": [
+      "Faites revenir l'oignon et l'ail dans l'huile 2 minutes.",
+      "Ajoutez la viande hachée et émiettez-la à la cuillère ; laissez cuire jusqu'à ce qu'elle ne soit plus rose.",
+      "Ajoutez les tomates, la carotte, le thym et le cube avec un peu d'eau, et laissez mijoter 15 minutes jusqu'à ce que ce soit épais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with rice, pasta, mashed potatoes or in bread."
+    ],
+    "fr": [
+      "Servez avec du riz, des pâtes, de la purée ou dans du pain."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "200 g strawberries",
+      "2 ripe bananas",
+      "500 ml cold milk",
+      "1 to 2 tbsp sugar or honey",
+      "Ice"
+    ],
+    "fr": [
+      "200 g de fraises",
+      "2 bananes mûres",
+      "500 ml de lait froid",
+      "1 à 2 c. à soupe de sucre ou de miel",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash and hull the strawberries; peel the bananas.",
+      "Blend everything until smooth and frothy.",
+      "Serve right away."
+    ],
+    "fr": [
+      "Lavez et équeutez les fraises ; épluchez les bananes.",
+      "Mixez le tout jusqu'à ce que ce soit lisse et mousseux.",
+      "Servez tout de suite."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

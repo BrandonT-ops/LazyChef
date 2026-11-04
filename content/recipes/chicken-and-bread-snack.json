@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "kids",
+    "snack"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "2 chicken breasts",
+      "1 baguette or 4 rolls",
+      "3 tbsp mayonnaise, 1 tsp mustard",
+      "Lettuce, tomato, onion",
+      "1 tbsp oil, garlic, salt, pepper, paprika"
+    ],
+    "fr": [
+      "2 blancs de poulet",
+      "1 baguette ou 4 petits pains",
+      "3 c. à soupe de mayonnaise, 1 c. à café de moutarde",
+      "Salade, tomate, oignon",
+      "1 c. à soupe d'huile, ail, sel, poivre, paprika"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the chicken with garlic, paprika, salt and pepper and cook in the oil 6 minutes per side. Rest, then slice.",
+      "Mix the mayonnaise and mustard.",
+      "Open the bread, spread the sauce, and fill with lettuce, chicken, tomato and onion."
+    ],
+    "fr": [
+      "Assaisonnez le poulet avec l'ail, le paprika, le sel et le poivre et faites-le cuire dans l'huile 6 minutes de chaque côté. Laissez reposer, puis tranchez.",
+      "Mélangez la mayonnaise et la moutarde.",
+      "Ouvrez le pain, tartinez de sauce, et garnissez de salade, de poulet, de tomate et d'oignon."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Wrap and take for school or a picnic."
+    ],
+    "fr": [
+      "Emballez et emportez pour l'école ou un pique-nique."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

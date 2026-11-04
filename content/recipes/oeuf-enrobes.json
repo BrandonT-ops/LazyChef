@@ -1,0 +1,50 @@
+{
+  "tags": [
+    "snack",
+    "occasion"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "6 eggs, hard-boiled and peeled",
+      "400 g minced beef or sausage meat",
+      "1 small onion, garlic, parsley, salt, pepper",
+      "2 eggs, beaten + flour + breadcrumbs",
+      "Oil for frying"
+    ],
+    "fr": [
+      "6 œufs durs écalés",
+      "400 g de bœuf haché ou de chair à saucisse",
+      "1 petit oignon, ail, persil, sel, poivre",
+      "2 œufs battus + farine + chapelure",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the meat with the grated onion, garlic, parsley, salt and pepper.",
+      "Flour each boiled egg, then wrap it in a thin, even layer of meat with wet hands.",
+      "Roll in flour, then beaten egg, then breadcrumbs.",
+      "Fry in medium oil 6 to 8 minutes, turning, until golden and the meat is cooked through. Cut in half."
+    ],
+    "fr": [
+      "Assaisonnez la viande avec l'oignon râpé, l'ail, le persil, le sel et le poivre.",
+      "Farinez chaque œuf dur, puis enrobez-le d'une couche fine et régulière de viande, avec les mains mouillées.",
+      "Roulez dans la farine, puis l'œuf battu, puis la chapelure.",
+      "Faites frire dans une huile moyenne 6 à 8 minutes en tournant, jusqu'à ce qu'ils soient dorés et la viande cuite. Coupez en deux."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve as a snack or with salad."
+    ],
+    "fr": [
+      "Servez en snack ou avec une salade."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

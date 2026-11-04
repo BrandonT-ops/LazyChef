@@ -1,0 +1,58 @@
+{
+  "tags": [],
+  "prepMinutes": 15,
+  "cookMinutes": 90,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg beef with bones (shin, ribs) and some cow foot or tripe",
+      "2 tbsp ground njansang",
+      "1 tbsp pepper-soup spice (country onion, white pepper, calabash nutmeg) or bush pepper",
+      "3 cloves garlic, 1 piece ginger, 2 onions",
+      "2 cubes, salt, 1 to 2 hot peppers",
+      "A few basil (massep) leaves"
+    ],
+    "fr": [
+      "1 kg de bœuf avec os (jarret, côtes) et un peu de pied ou de tripes",
+      "2 c. à soupe de djansang moulu",
+      "1 c. à soupe d'épices pour pèpè soup (rondelle, poivre blanc, pèbè) ou poivre de brousse",
+      "3 gousses d'ail, 1 morceau de gingembre, 2 oignons",
+      "2 cubes, sel, 1 à 2 piments",
+      "Quelques feuilles de basilic (massep)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash the meat and put it in a pot with a sliced onion, salt and a cube. Let it sweat covered 10 minutes in its own juice.",
+      "Blend the garlic, ginger, other onion and peppers and add them with 2 litres of water. Simmer 1 hour or more until the meat is tender.",
+      "Stir in the njansang and the spice and simmer 20 more minutes so the broth thickens a little.",
+      "Taste for salt and add the basil at the very end."
+    ],
+    "fr": [
+      "Lavez la viande et mettez-la dans une marmite avec un oignon émincé, du sel et un cube. Laissez-la suer à couvert 10 minutes dans son jus.",
+      "Mixez l'ail, le gingembre, l'autre oignon et les piments et ajoutez-les avec 2 litres d'eau. Laissez mijoter 1 heure ou plus jusqu'à ce que la viande soit tendre.",
+      "Incorporez le djansang et les épices et laissez mijoter encore 20 minutes pour que le bouillon épaississe un peu.",
+      "Rectifiez le sel et ajoutez le basilic tout à la fin."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot on its own, or with boiled plantain, macabo or bread."
+    ],
+    "fr": [
+      "Servez bien chaud tel quel, ou avec du plantain, du macabo bouilli ou du pain."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Precious Core – Cameroonian pepper soup",
+      "url": "https://www.preciouscore.com/cameroonian-pepper-soup/"
+    },
+    {
+      "label": "Afrik – Pèpè soup du Cameroun",
+      "url": "https://www.afrik.com/pepe-soup-du-cameroun"
+    }
+  ]
+}

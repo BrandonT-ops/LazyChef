@@ -1,0 +1,44 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "3 ripe mangoes",
+      "2 limes",
+      "600 ml cold water",
+      "Sugar to taste"
+    ],
+    "fr": [
+      "3 mangues mûres",
+      "2 citrons verts",
+      "600 ml d'eau froide",
+      "Sucre selon le goût"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend the mango flesh with the water and the juice of the limes.",
+      "Sweeten to taste, strain if needed and chill."
+    ],
+    "fr": [
+      "Mixez la chair des mangues avec l'eau et le jus des citrons.",
+      "Sucrez selon le goût, filtrez si besoin et mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

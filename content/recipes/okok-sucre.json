@@ -1,0 +1,61 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g okok (gnetum) leaves, finely sliced",
+      "1 kg palm nuts (or 400 g palm-nut cream)",
+      "250 g peanut paste",
+      "3 to 5 tbsp sugar, to taste",
+      "Salt (a pinch)"
+    ],
+    "fr": [
+      "500 g de feuilles d'okok (gnetum) finement coupées",
+      "1 kg de noix de palme (ou 400 g de crème de noix de palme)",
+      "250 g de pâte d'arachide",
+      "3 à 5 c. à soupe de sucre, selon le goût",
+      "Sel (une pincée)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash the sliced okok in several waters and drain.",
+      "Boil the palm nuts, pound them and squeeze them in warm water to get about 1 litre of juice; strain.",
+      "Bring the palm-nut juice to a simmer and add the okok. Cook 30 minutes on low heat, stirring.",
+      "Loosen the peanut paste with a little warm water and stir it in. Cook another 20 minutes, stirring often so it doesn't stick.",
+      "Add the sugar and a pinch of salt, taste, and cook until thick and glossy."
+    ],
+    "fr": [
+      "Lavez l'okok coupé dans plusieurs eaux et égouttez.",
+      "Faites bouillir les noix de palme, pilez-les et pressez-les dans de l'eau tiède pour obtenir environ 1 litre de jus ; filtrez.",
+      "Portez le jus à frémissement et ajoutez l'okok. Laissez cuire 30 minutes à feu doux en remuant.",
+      "Délayez la pâte d'arachide avec un peu d'eau tiède et incorporez-la. Laissez cuire encore 20 minutes en remuant souvent pour que ça n'attache pas.",
+      "Ajoutez le sucre et une pincée de sel, goûtez, et laissez épaissir jusqu'à ce que ce soit brillant."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with boiled cassava or bobolo / miondo."
+    ],
+    "fr": [
+      "Servez avec du manioc bouilli ou du bâton de manioc / miondo."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Cameroun24 – Okok",
+      "url": "https://cameroun24.net/article/24545-la-recette-de-l-okok-ou-fumbwa.html"
+    },
+    {
+      "label": "Vikidia – Kpweum okok",
+      "url": "https://fr.vikidia.org/wiki/Kpweum_Okok"
+    }
+  ]
+}

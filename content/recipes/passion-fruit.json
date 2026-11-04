@@ -1,0 +1,46 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "10 passion fruits",
+      "1 litre cold water",
+      "5 tbsp sugar",
+      "Ice"
+    ],
+    "fr": [
+      "10 fruits de la passion",
+      "1 litre d'eau froide",
+      "5 c. à soupe de sucre",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cut the passion fruits in half and scoop the pulp into a blender.",
+      "Pulse briefly with half the water – just enough to free the juice from the seeds without crushing them.",
+      "Strain, pressing the pulp, then add the rest of the water and the sugar. Chill."
+    ],
+    "fr": [
+      "Coupez les fruits de la passion en deux et videz la pulpe dans le mixeur.",
+      "Mixez brièvement avec la moitié de l'eau – juste assez pour détacher le jus des graines sans les écraser.",
+      "Filtrez en pressant la pulpe, puis ajoutez le reste de l'eau et le sucre. Mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

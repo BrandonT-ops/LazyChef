@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "vegetarian"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "300 g dried soy chunks (textured soy protein)",
+      "1 onion, 1 green pepper (for the skewers)",
+      "Soya spice (kankan): 3 tbsp ground roasted peanuts, 1 tsp each ginger, garlic and chili powder, 1 cube",
+      "3 tbsp oil",
+      "Wooden skewers, soaked"
+    ],
+    "fr": [
+      "300 g de morceaux de soja séché (protéines de soja texturées)",
+      "1 oignon, 1 poivron (pour les brochettes)",
+      "Épices soya (kankan) : 3 c. à soupe d'arachides grillées moulues, 1 c. à café chacun de gingembre, d'ail et de piment en poudre, 1 cube",
+      "3 c. à soupe d'huile",
+      "Piques en bois trempées"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Soak the soy chunks 10 minutes in hot salted water with a cube, then squeeze out the water.",
+      "Mix them with the oil and half the spice.",
+      "Thread onto skewers, alternating with onion and pepper pieces.",
+      "Grill or pan-fry 10 to 12 minutes, turning, then roll in the rest of the spice."
+    ],
+    "fr": [
+      "Faites tremper le soja 10 minutes dans de l'eau chaude salée avec un cube, puis pressez pour enlever l'eau.",
+      "Mélangez-le avec l'huile et la moitié des épices.",
+      "Enfilez sur les piques en alternant avec des morceaux d'oignon et de poivron.",
+      "Grillez ou faites cuire à la poêle 10 à 12 minutes en retournant, puis roulez dans le reste des épices."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with raw onion, chili and plantain or bread."
+    ],
+    "fr": [
+      "Servez avec de l'oignon cru, du piment et du plantain ou du pain."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Precious Core – Cameroonian soya",
+      "url": "https://www.preciouscore.com/cameroonian-soya/"
+    },
+    {
+      "label": "Afrik – Soya de bœuf grillé",
+      "url": "https://www.afrik.com/soya-de-boeuf-grille-a-la-camerounaise"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "quick",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "400 g mushrooms, sliced",
+      "1 onion or 2 shallots, 2 cloves garlic",
+      "20 g butter + 1 tbsp oil",
+      "200 ml cream",
+      "Salt, pepper, parsley or thyme"
+    ],
+    "fr": [
+      "400 g de champignons émincés",
+      "1 oignon ou 2 échalotes, 2 gousses d'ail",
+      "20 g de beurre + 1 c. à soupe d'huile",
+      "200 ml de crème",
+      "Sel, poivre, persil ou thym"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Brown the mushrooms in the hot butter and oil over high heat, 5 minutes.",
+      "Add the onion and garlic and cook 3 minutes.",
+      "Pour in the cream, season, and simmer 5 minutes until it coats a spoon.",
+      "Finish with herbs."
+    ],
+    "fr": [
+      "Faites dorer les champignons dans le beurre et l'huile chauds à feu vif, 5 minutes.",
+      "Ajoutez l'oignon et l'ail et laissez cuire 3 minutes.",
+      "Versez la crème, assaisonnez et laissez mijoter 5 minutes jusqu'à ce qu'elle nappe la cuillère.",
+      "Terminez avec les herbes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve over chicken, steak, pasta, rice or potatoes."
+    ],
+    "fr": [
+      "Servez sur du poulet, un steak, des pâtes, du riz ou des pommes de terre."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

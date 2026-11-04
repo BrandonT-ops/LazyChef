@@ -1,8 +1,10 @@
 import "server-only";
 import { unstable_cache } from "next/cache";
+import { getLocale } from "next-intl/server";
+import { localName } from "@/data/names";
 import { SECTIONS } from "@/data/sections";
 import { inferredTags } from "@/data/traits";
-import type { Dish, DishSummary, RecipeFile, SectionId } from "@/data/types";
+import type { Dish, DishSummary, RecipeFile, SectionId, Tag } from "@/data/types";
 import { loadRecipeFiles, toRecipe } from "./recipe-files";
 import { menuDish, menuSlugs } from "./menu";
 import { supabaseConfigured } from "./supabase/env";
@@ -37,7 +39,7 @@ function buildDishes(files: Record<string, RecipeFile>): Dish[] {
       slug,
       name,
       section,
-      tags: [...new Set([...(file?.tags ?? []), ...inferredTags(slug)])],
+      tags: sortTags([...new Set([...(file?.tags ?? []), ...inferredTags(slug)])]),
       recipe: file ? toRecipe(file) : undefined,
     });
   }
@@ -49,7 +51,7 @@ function buildDishes(files: Record<string, RecipeFile>): Dish[] {
       slug,
       name: file.name,
       section: file.section,
-      tags: [...new Set([...(file.tags ?? []), ...inferredTags(slug)])],
+      tags: sortTags([...new Set([...(file.tags ?? []), ...inferredTags(slug)])]),
       recipe: toRecipe(file),
     });
   }
@@ -64,16 +66,41 @@ const loadDishes = unstable_cache(async () => buildDishes(await loadOfficialReci
   revalidate: 300,
 });
 
+/** Show each dish under its name in the page's language (the original stays in `original`). */
+async function currentLocale(): Promise<string | undefined> {
+  try {
+    return await getLocale();
+  } catch {
+    return undefined; // outside a request (e.g. generateStaticParams)
+  }
+}
+
+/** Western dishes show that label first, so it's visible on the cards. */
+function sortTags(tags: Tag[]): Tag[] {
+  return tags.includes("western") ? ["western", ...tags.filter((t) => t !== "western")] : tags;
+}
+
+function localize(d: Dish, locale: string | undefined): Dish {
+  if (!locale) return d;
+  const name = localName(d.slug, d.name, locale);
+  return name === d.name ? d : { ...d, name, original: d.name };
+}
+
+async function localized(): Promise<Dish[]> {
+  const [dishes, locale] = await Promise.all([loadDishes(), currentLocale()]);
+  return dishes.map((d) => localize(d, locale));
+}
+
 export async function getAllDishes(): Promise<Dish[]> {
-  return loadDishes();
+  return localized();
 }
 
 export async function getDish(slug: string): Promise<Dish | undefined> {
-  return (await loadDishes()).find((d) => d.slug === slug);
+  return (await localized()).find((d) => d.slug === slug);
 }
 
 export async function getDishesBySection(section: SectionId): Promise<Dish[]> {
-  return (await loadDishes()).filter((d) => d.section === section);
+  return (await localized()).filter((d) => d.section === section);
 }
 
 export async function countBySection(): Promise<Record<SectionId, number>> {
@@ -86,6 +113,7 @@ export function toSummary(d: Dish): DishSummary {
   return {
     slug: d.slug,
     name: d.name,
+    ...(d.original ? { original: d.original } : {}),
     section: d.section,
     tags: d.tags,
     hasRecipe: Boolean(d.recipe),
@@ -94,7 +122,7 @@ export function toSummary(d: Dish): DishSummary {
 }
 
 export async function getAllSummaries(): Promise<DishSummary[]> {
-  return (await loadDishes()).map(toSummary);
+  return (await localized()).map(toSummary);
 }
 
 export { youtubeEmbed } from "./media";

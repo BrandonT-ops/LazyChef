@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "quick",
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "2 burger buns",
+      "3 eggs",
+      "2 slices cheese",
+      "Lettuce, tomato, onion",
+      "Mayonnaise or ketchup",
+      "1 tbsp butter or oil, salt, pepper"
+    ],
+    "fr": [
+      "2 pains à burger",
+      "3 œufs",
+      "2 tranches de fromage",
+      "Salade, tomate, oignon",
+      "Mayonnaise ou ketchup",
+      "1 c. à soupe de beurre ou d'huile, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Beat the eggs with salt and pepper and cook a thick omelette in the butter; fold it to the size of the buns and cut in two.",
+      "Lay the cheese on the hot omelette so it melts.",
+      "Toast the buns, spread with sauce, and fill with lettuce, omelette, tomato and onion."
+    ],
+    "fr": [
+      "Battez les œufs avec le sel et le poivre et faites cuire une omelette épaisse dans le beurre ; pliez-la à la taille des pains et coupez en deux.",
+      "Posez le fromage sur l'omelette chaude pour qu'il fonde.",
+      "Grillez les pains, tartinez de sauce, et garnissez de salade, d'omelette, de tomate et d'oignon."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fries or fruit."
+    ],
+    "fr": [
+      "Servez avec des frites ou des fruits."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

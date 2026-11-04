@@ -1,0 +1,56 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 120,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg beef tripe, well cleaned",
+      "1 onion, 1 cube, salt",
+      "Soya spice (kankan): 3 tbsp ground roasted peanuts, 1 tsp ginger powder, 1 tsp garlic powder, 1 tsp chili, ½ tsp rondelle (country onion), 1 cube",
+      "3 tbsp oil"
+    ],
+    "fr": [
+      "1 kg de tripes de bœuf bien nettoyées",
+      "1 oignon, 1 cube, sel",
+      "Épices soya (kankan) : 3 c. à soupe d'arachides grillées moulues, 1 c. à café de gingembre en poudre, 1 d'ail en poudre, 1 de piment, ½ de rondelle, 1 cube",
+      "3 c. à soupe d'huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash the tripe several times (lime helps with the smell) and boil it with the onion, cube and salt for 1½ to 2 hours, until tender.",
+      "Drain, cool and cut into strips; thread onto skewers if you like.",
+      "Brush with oil and roll in the soya spice.",
+      "Grill over hot charcoal or under the oven grill 8 to 10 minutes, turning, until crisp at the edges."
+    ],
+    "fr": [
+      "Lavez les tripes plusieurs fois (le citron aide contre l'odeur) et faites-les bouillir avec l'oignon, le cube et le sel 1 h 30 à 2 heures, jusqu'à ce qu'elles soient tendres.",
+      "Égouttez, laissez refroidir et coupez en lanières ; enfilez-les sur des piques si vous voulez.",
+      "Badigeonnez d'huile et roulez dans les épices soya.",
+      "Grillez sur la braise ou sous le gril du four 8 à 10 minutes en retournant, jusqu'à ce que les bords soient croustillants."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with sliced onion, chili and fried plantain or bobolo."
+    ],
+    "fr": [
+      "Servez avec de l'oignon émincé, du piment et du plantain frit ou du bâton de manioc."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Precious Core – Cameroonian soya",
+      "url": "https://www.preciouscore.com/cameroonian-soya/"
+    },
+    {
+      "label": "Afrik – Soya de bœuf grillé",
+      "url": "https://www.afrik.com/soya-de-boeuf-grille-a-la-camerounaise"
+    }
+  ]
+}

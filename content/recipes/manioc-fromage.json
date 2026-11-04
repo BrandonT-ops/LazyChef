@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "800 g cassava, boiled and mashed",
+      "100 g grated cheese",
+      "1 egg",
+      "Salt, pepper, parsley",
+      "Oil for frying (or bake)"
+    ],
+    "fr": [
+      "800 g de manioc bouilli et écrasé",
+      "100 g de fromage râpé",
+      "1 œuf",
+      "Sel, poivre, persil",
+      "Huile de friture (ou cuisson au four)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mash the warm cassava (remove any fibres) with the egg, half the cheese, salt, pepper and parsley.",
+      "Shape into small balls and push a piece of the remaining cheese into the centre of each.",
+      "Fry 4 minutes until golden, or bake at 200 °C for 20 minutes."
+    ],
+    "fr": [
+      "Écrasez le manioc tiède (en retirant les fibres) avec l'œuf, la moitié du fromage, le sel, le poivre et le persil.",
+      "Formez de petites boules et enfoncez un morceau du fromage restant au centre de chacune.",
+      "Faites frire 4 minutes jusqu'à ce qu'elles soient dorées, ou faites cuire au four à 200 °C 20 minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve warm, with a tomato or chili dip."
+    ],
+    "fr": [
+      "Servez tiède, avec une sauce tomate ou pimentée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

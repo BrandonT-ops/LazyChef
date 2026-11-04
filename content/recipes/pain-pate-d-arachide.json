@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "quick",
+    "budget",
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 2,
+  "cookMinutes": 0,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "2 slices of bread or ½ baguette",
+      "2 tbsp peanut paste (homemade or bought)",
+      "1 tsp sugar or honey (optional)",
+      "½ banana (optional)"
+    ],
+    "fr": [
+      "2 tranches de pain ou ½ baguette",
+      "2 c. à soupe de pâte d'arachide (maison ou achetée)",
+      "1 c. à café de sucre ou de miel (facultatif)",
+      "½ banane (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Open the bread (toast it if you like).",
+      "Spread the peanut paste generously.",
+      "Add a little sugar or honey, and banana slices if you have them."
+    ],
+    "fr": [
+      "Ouvrez le pain (grillez-le si vous voulez).",
+      "Tartinez généreusement de pâte d'arachide.",
+      "Ajoutez un peu de sucre ou de miel, et des rondelles de banane si vous en avez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "With tea, coffee or a glass of milk."
+    ],
+    "fr": [
+      "Avec du thé, du café ou un verre de lait."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

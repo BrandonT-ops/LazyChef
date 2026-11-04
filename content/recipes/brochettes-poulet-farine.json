@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "kids",
+    "snack"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g chicken breast, in cubes",
+      "2 cloves garlic, 1 cube, salt, pepper, paprika",
+      "100 g flour, 2 eggs, 100 g breadcrumbs",
+      "Wooden skewers, oil for frying"
+    ],
+    "fr": [
+      "500 g de blanc de poulet en cubes",
+      "2 gousses d'ail, 1 cube, sel, poivre, paprika",
+      "100 g de farine, 2 œufs, 100 g de chapelure",
+      "Piques en bois, huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the chicken with garlic, cube, salt, pepper and paprika. Leave 15 minutes.",
+      "Thread 4 or 5 cubes on each skewer.",
+      "Roll each skewer in flour, then beaten egg, then breadcrumbs.",
+      "Fry in medium-hot oil 6 to 8 minutes, turning, until golden and cooked through."
+    ],
+    "fr": [
+      "Assaisonnez le poulet avec l'ail, le cube, le sel, le poivre et le paprika. Laissez 15 minutes.",
+      "Enfilez 4 ou 5 cubes par pique.",
+      "Roulez chaque brochette dans la farine, puis l'œuf battu, puis la chapelure.",
+      "Faites frire dans une huile moyennement chaude 6 à 8 minutes en tournant, jusqu'à ce qu'elles soient dorées et cuites à cœur."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fries and a dipping sauce."
+    ],
+    "fr": [
+      "Servez avec des frites et une sauce."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

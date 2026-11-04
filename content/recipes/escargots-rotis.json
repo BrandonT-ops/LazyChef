@@ -1,0 +1,52 @@
+{
+  "tags": [],
+  "prepMinutes": 40,
+  "cookMinutes": 60,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg large snails (in shell)",
+      "2 limes, 2 tbsp salt or alum (for cleaning)",
+      "3 cloves garlic, 1 piece ginger, 1 onion, blended",
+      "1 cube, pepper, 2 tbsp oil",
+      "Soya spice (optional)"
+    ],
+    "fr": [
+      "1 kg de gros escargots (dans la coquille)",
+      "2 citrons verts, 2 c. à soupe de sel ou d'alun (pour nettoyer)",
+      "3 gousses d'ail, 1 morceau de gingembre, 1 oignon, mixés",
+      "1 cube, piment, 2 c. à soupe d'huile",
+      "Épices soya (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Break the shells and pull out the snails. Rub them hard with lime and salt (or alum) and rinse; repeat until the slime is gone.",
+      "Boil them 30 to 40 minutes with half the aromatics, the cube and salt, until tender.",
+      "Drain, toss with the rest of the aromatics, oil and pepper, and thread on skewers.",
+      "Grill 10 minutes over charcoal, turning, and dust with soya spice if you like."
+    ],
+    "fr": [
+      "Cassez les coquilles et sortez les escargots. Frottez-les fort au citron et au sel (ou à l'alun) et rincez ; recommencez jusqu'à ce que la bave soit partie.",
+      "Faites-les bouillir 30 à 40 minutes avec la moitié des aromates, le cube et le sel, jusqu'à ce qu'ils soient tendres.",
+      "Égouttez, mélangez avec le reste des aromates, l'huile et le piment, et enfilez sur des piques.",
+      "Grillez 10 minutes sur la braise en retournant, et saupoudrez d'épices soya si vous voulez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with plantain, bobolo and chili."
+    ],
+    "fr": [
+      "Servez chaud avec du plantain, du bâton de manioc et du piment."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Afrik – Les escargots à la camerounaise",
+      "url": "https://www.afrik.com/les-escargots-a-la-camerounaise"
+    }
+  ]
+}

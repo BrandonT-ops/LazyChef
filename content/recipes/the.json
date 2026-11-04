@@ -1,0 +1,45 @@
+{
+  "tags": [
+    "quick",
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 2,
+  "cookMinutes": 5,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "1 tea bag (or 1 tsp loose tea, or a few lemongrass leaves)",
+      "250 ml water",
+      "Sugar, lemon, ginger or milk to taste"
+    ],
+    "fr": [
+      "1 sachet de thé (ou 1 c. à café de thé en vrac, ou quelques feuilles de citronnelle)",
+      "250 ml d'eau",
+      "Sucre, citron, gingembre ou lait selon le goût"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Bring the water to the boil.",
+      "Pour it over the tea and steep 3 to 5 minutes (lemongrass: simmer 5 minutes).",
+      "Remove the tea and add sugar, lemon, a slice of ginger or milk."
+    ],
+    "fr": [
+      "Portez l'eau à ébullition.",
+      "Versez-la sur le thé et laissez infuser 3 à 5 minutes (citronnelle : laissez frémir 5 minutes).",
+      "Retirez le thé et ajoutez du sucre, du citron, une rondelle de gingembre ou du lait."
+    ]
+  },
+  "serving": {
+    "en": [
+      "With bread and butter or beignets."
+    ],
+    "fr": [
+      "Avec du pain beurre ou des beignets."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

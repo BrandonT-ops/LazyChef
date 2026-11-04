@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "kids",
+    "snack",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g potatoes, boiled and mashed (cooled)",
+      "100 g flour",
+      "1 egg",
+      "Salt, pepper, garlic powder, paprika",
+      "Oil for frying"
+    ],
+    "fr": [
+      "500 g de pommes de terre cuites et écrasées (refroidies)",
+      "100 g de farine",
+      "1 œuf",
+      "Sel, poivre, ail en poudre, paprika",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the mash with the flour, egg and seasonings into a soft dough you can pipe.",
+      "Put it in a piping bag with a star nozzle (or a plastic bag with a corner cut).",
+      "Pipe 10 cm lengths straight into hot oil, cutting with scissors.",
+      "Fry 3 to 4 minutes until golden and crisp. Drain and salt."
+    ],
+    "fr": [
+      "Mélangez la purée avec la farine, l'œuf et les assaisonnements pour une pâte souple qu'on peut pocher.",
+      "Mettez-la dans une poche à douille cannelée (ou un sachet dont on coupe un coin).",
+      "Poussez des boudins de 10 cm directement dans l'huile chaude en coupant aux ciseaux.",
+      "Faites frire 3 à 4 minutes jusqu'à ce qu'ils soient dorés et croustillants. Égouttez et salez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with ketchup, mayonnaise or a cheese dip."
+    ],
+    "fr": [
+      "Servez avec du ketchup, de la mayonnaise ou une sauce fromage."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

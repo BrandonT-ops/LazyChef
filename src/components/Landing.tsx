@@ -1,10 +1,11 @@
 import { useLocale, useTranslations } from "next-intl";
 import { ChefHat, Cookie, Refrigerator, ShoppingBasket, PartyPopper } from "lucide-react";
 import { menuDish } from "@/lib/menu";
+import { localName } from "@/data/names";
 import { CURRENCY } from "@/data/prices";
 
 const fcfa = (n: number, locale: string) => `${new Intl.NumberFormat(locale).format(n)} ${CURRENCY}`;
-const dishName = (slug: string, fallback: string) => menuDish(slug)?.name ?? fallback;
+const dishName = (slug: string, fallback: string, locale: string) => localName(slug, menuDish(slug)?.name ?? fallback, locale);
 
 type Row = { day: string; dish: string; side?: string; kind: "cook" | "left" | "snack" };
 
@@ -12,9 +13,9 @@ type Row = { day: string; dish: string; side?: string; kind: "cook" | "left" | "
 export function HeroPreview() {
   const t = useTranslations();
   const locale = useLocale();
-  const ekwang = dishName("ekwang", "Ekwang");
-  const ndomba = dishName("ndomba", "Ndomba");
-  const snack = dishName("plantain-tape-snack", "Plantain tapé snack");
+  const ekwang = dishName("ekwang", "Ekwang", locale);
+  const ndomba = dishName("ndomba", "Ndomba", locale);
+  const snack = dishName("plantain-tape-snack", "Plantain tapé snack", locale);
   const plantain = locale === "fr" ? "Plantain bouilli" : "Boiled plantain";
   const day = (id: string) => t(`sections.${id}.name`).slice(0, 3);
   const rows: Row[] = [
@@ -89,7 +90,7 @@ export function HeroPreview() {
 export function CookAheadPreview() {
   const t = useTranslations();
   const locale = useLocale();
-  const ndomba = dishName("ndomba", "Ndomba");
+  const ndomba = dishName("ndomba", "Ndomba", locale);
   const plantain = locale === "fr" ? "Plantain bouilli" : "Boiled plantain";
   const days = [
     { id: "wednesday", kind: "cook" },

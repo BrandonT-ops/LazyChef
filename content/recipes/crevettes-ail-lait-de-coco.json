@@ -1,0 +1,49 @@
+{
+  "tags": [
+    "quick"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "600 g shrimp, peeled",
+      "400 ml coconut milk",
+      "4 cloves garlic, 1 piece ginger",
+      "1 onion, 1 tomato",
+      "2 tbsp oil, 1 cube, salt, pepper, juice of ½ lime, coriander or parsley"
+    ],
+    "fr": [
+      "600 g de crevettes décortiquées",
+      "400 ml de lait de coco",
+      "4 gousses d'ail, 1 morceau de gingembre",
+      "1 oignon, 1 tomate",
+      "2 c. à soupe d'huile, 1 cube, sel, piment, jus d'½ citron vert, coriandre ou persil"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Fry the onion, garlic and ginger in the oil for 3 minutes.",
+      "Add the chopped tomato and cube and cook 5 minutes.",
+      "Pour in the coconut milk and simmer 5 minutes.",
+      "Add the shrimp and cook 3 minutes, just until pink. Finish with lime and herbs."
+    ],
+    "fr": [
+      "Faites revenir l'oignon, l'ail et le gingembre dans l'huile 3 minutes.",
+      "Ajoutez la tomate hachée et le cube et laissez cuire 5 minutes.",
+      "Versez le lait de coco et laissez mijoter 5 minutes.",
+      "Ajoutez les crevettes et faites cuire 3 minutes, juste jusqu'à ce qu'elles soient roses. Terminez avec le citron et les herbes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with white rice or plantain."
+    ],
+    "fr": [
+      "Servez avec du riz blanc ou du plantain."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

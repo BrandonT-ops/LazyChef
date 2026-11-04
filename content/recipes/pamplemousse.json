@@ -1,0 +1,46 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "3 grapefruits",
+      "2 to 4 tbsp sugar or honey",
+      "250 ml cold water (optional)",
+      "Ice"
+    ],
+    "fr": [
+      "3 pamplemousses",
+      "2 à 4 c. à soupe de sucre ou de miel",
+      "250 ml d'eau froide (facultatif)",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cut the grapefruits in half and squeeze.",
+      "Strain, sweeten to taste and dilute with water if it's too bitter.",
+      "Chill."
+    ],
+    "fr": [
+      "Coupez les pamplemousses en deux et pressez-les.",
+      "Filtrez, sucrez selon le goût et allongez d'eau si c'est trop amer.",
+      "Mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

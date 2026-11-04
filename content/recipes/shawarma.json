@@ -1,0 +1,47 @@
+{
+  "tags": [],
+  "prepMinutes": 30,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g chicken breast or thigh, in thin strips",
+      "1 tsp each cumin, paprika, garlic powder; ½ tsp cinnamon; juice of 1 lime; 2 tbsp oil; salt",
+      "4 large flatbreads (pita or tortilla)",
+      "Garlic sauce: 4 tbsp mayonnaise, 2 tbsp yogurt, 1 clove garlic",
+      "Cabbage, tomato, onion, cucumber, fries (optional)"
+    ],
+    "fr": [
+      "500 g de blanc ou de cuisse de poulet en fines lanières",
+      "1 c. à café chacun de cumin, paprika, ail en poudre ; ½ de cannelle ; jus d'1 citron vert ; 2 c. à soupe d'huile ; sel",
+      "4 grandes galettes (pita ou tortilla)",
+      "Sauce à l'ail : 4 c. à soupe de mayonnaise, 2 de yaourt, 1 gousse d'ail",
+      "Chou, tomate, oignon, concombre, frites (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Marinate the chicken with the spices, lime, oil and salt for at least 30 minutes.",
+      "Cook in a very hot pan 8 to 10 minutes until browned and a little charred.",
+      "Mix the garlic sauce. Slice the vegetables thinly.",
+      "Warm the bread, spread with sauce, add chicken, vegetables (and fries), roll tightly and toast 1 minute in the dry pan."
+    ],
+    "fr": [
+      "Faites mariner le poulet avec les épices, le citron, l'huile et le sel au moins 30 minutes.",
+      "Faites cuire dans une poêle très chaude 8 à 10 minutes jusqu'à ce qu'il soit doré et un peu grillé.",
+      "Préparez la sauce à l'ail. Émincez finement les légumes.",
+      "Chauffez le pain, tartinez de sauce, ajoutez le poulet, les légumes (et les frites), roulez serré et faites dorer 1 minute à la poêle sèche."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Cut in half and wrap in foil to eat by hand."
+    ],
+    "fr": [
+      "Coupez en deux et emballez dans de l'aluminium pour manger à la main."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

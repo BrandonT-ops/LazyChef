@@ -1,0 +1,63 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "6 half-ripe plantains",
+      "500 g red beans, soaked overnight",
+      "150 ml palm oil",
+      "1 onion",
+      "1 hot pepper (optional)",
+      "Salt"
+    ],
+    "fr": [
+      "6 plantains mi-mûrs",
+      "500 g de haricots rouges trempés la veille",
+      "150 ml d'huile de palme",
+      "1 oignon",
+      "1 piment (facultatif)",
+      "Sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cook the soaked beans in fresh water for about 1 hour, until very soft. Salt them at the end.",
+      "Peel the plantains, cut them in pieces and boil 20 minutes until tender.",
+      "Warm the palm oil with the sliced onion for a few minutes (don't let it smoke).",
+      "Pound the hot plantain in a mortar (or mash it well), adding the beans little by little.",
+      "Pour in the palm oil while pounding until it's a soft orange mash. Season with salt and pepper."
+    ],
+    "fr": [
+      "Faites cuire les haricots trempés dans de l'eau neuve environ 1 heure, jusqu'à ce qu'ils soient très tendres. Salez en fin de cuisson.",
+      "Épluchez les plantains, coupez-les en morceaux et faites-les bouillir 20 minutes jusqu'à ce qu'ils soient tendres.",
+      "Faites tiédir l'huile de palme avec l'oignon émincé quelques minutes (sans la faire fumer).",
+      "Pilez le plantain chaud au mortier (ou écrasez-le bien) en ajoutant les haricots petit à petit.",
+      "Versez l'huile de palme en continuant de piler jusqu'à obtenir une purée orange. Salez et pimentez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve warm on its own, or with fried fish or avocado."
+    ],
+    "fr": [
+      "Servez tiède tel quel, ou avec du poisson frit ou de l'avocat."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Kelianfood – Plantain pilé aux haricots rouges",
+      "url": "https://kelianfood.com/la-meilleure-recette-du-plantain-pile-avec-haricot-rouge/"
+    },
+    {
+      "label": "Camerdish – Ntouba",
+      "url": "https://www.camerdish.com/recipes/ntouba-plantain-pile-a-la-camerounaise/"
+    }
+  ]
+}

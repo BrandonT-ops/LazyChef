@@ -1,0 +1,49 @@
+{
+  "tags": [
+    "quick"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 3,
+  "ingredients": {
+    "en": [
+      "500 g shrimp, peeled and deveined",
+      "3 cloves garlic, 1 small piece ginger",
+      "1 onion, 1 green pepper",
+      "2 tbsp oil or butter",
+      "Juice of ½ lime, parsley, salt, pepper"
+    ],
+    "fr": [
+      "500 g de crevettes décortiquées et déveinées",
+      "3 gousses d'ail, 1 petit morceau de gingembre",
+      "1 oignon, 1 poivron",
+      "2 c. à soupe d'huile ou de beurre",
+      "Jus d'½ citron vert, persil, sel, piment"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the shrimp with crushed garlic, ginger, salt and pepper.",
+      "Sauté the sliced onion and pepper in hot oil for 3 minutes.",
+      "Add the shrimp and cook 2 to 3 minutes, just until pink and curled.",
+      "Finish with lime juice and parsley."
+    ],
+    "fr": [
+      "Assaisonnez les crevettes avec l'ail et le gingembre écrasés, le sel et le piment.",
+      "Faites sauter l'oignon et le poivron émincés dans l'huile chaude 3 minutes.",
+      "Ajoutez les crevettes et faites cuire 2 à 3 minutes, juste jusqu'à ce qu'elles soient roses et recourbées.",
+      "Terminez avec le jus de citron et le persil."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with rice, fried plantain or fries."
+    ],
+    "fr": [
+      "Servez avec du riz, du plantain frit ou des frites."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,59 @@
+{
+  "tags": [
+    "kids",
+    "snack",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg Irish potatoes",
+      "2 tbsp butter, salt, pepper",
+      "1 small onion, finely chopped, parsley",
+      "2 eggs, beaten",
+      "100 g breadcrumbs",
+      "Oil for frying"
+    ],
+    "fr": [
+      "1 kg de pommes de terre",
+      "2 c. à soupe de beurre, sel, poivre",
+      "1 petit oignon finement haché, persil",
+      "2 œufs battus",
+      "100 g de chapelure",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the potatoes until soft, drain well and mash with the butter, salt, pepper, onion and parsley.",
+      "Let the mash cool, then roll into balls the size of a small egg.",
+      "Dip each ball in beaten egg, then roll in breadcrumbs.",
+      "Fry in hot oil 3 to 4 minutes until golden all over. Drain."
+    ],
+    "fr": [
+      "Faites bouillir les pommes de terre jusqu'à ce qu'elles soient tendres, égouttez bien et écrasez-les avec le beurre, le sel, le poivre, l'oignon et le persil.",
+      "Laissez refroidir la purée, puis formez des boules de la taille d'un petit œuf.",
+      "Trempez chaque boule dans l'œuf battu, puis roulez-la dans la chapelure.",
+      "Faites frire dans l'huile chaude 3 à 4 minutes jusqu'à ce qu'elles soient dorées. Égouttez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve as a snack with ketchup or a chili dip."
+    ],
+    "fr": [
+      "Servez en snack avec du ketchup ou une sauce pimentée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Cookpad – Irish potato balls",
+      "url": "https://cookpad.wasmer.app/ng/recipes/5048151-irish-potatoes-balls"
+    }
+  ]
+}

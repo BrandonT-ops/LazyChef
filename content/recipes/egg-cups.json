@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "kids",
+    "quick",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "6 eggs",
+      "50 ml milk",
+      "½ green pepper, ½ onion, 1 tomato – finely chopped",
+      "50 g ham or sausage, chopped (optional)",
+      "50 g grated cheese",
+      "Salt, pepper, oil for the tin"
+    ],
+    "fr": [
+      "6 œufs",
+      "50 ml de lait",
+      "½ poivron, ½ oignon, 1 tomate – finement hachés",
+      "50 g de jambon ou de saucisse hachés (facultatif)",
+      "50 g de fromage râpé",
+      "Sel, poivre, huile pour le moule"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oven to 180 °C and oil a muffin tin.",
+      "Beat the eggs with the milk, salt and pepper.",
+      "Divide the vegetables and ham between the cups and pour the egg over, ¾ full. Top with cheese.",
+      "Bake 18 to 20 minutes until puffed and set."
+    ],
+    "fr": [
+      "Préchauffez le four à 180 °C et huilez un moule à muffins.",
+      "Battez les œufs avec le lait, le sel et le poivre.",
+      "Répartissez les légumes et le jambon dans les alvéoles et versez l'œuf aux ¾. Couvrez de fromage.",
+      "Faites cuire 18 à 20 minutes jusqu'à ce qu'ils soient gonflés et pris."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Good warm or cold, for breakfast or a lunch box."
+    ],
+    "fr": [
+      "Bons tièdes ou froids, au petit-déjeuner ou dans la boîte à goûter."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

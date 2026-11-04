@@ -1,0 +1,60 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian",
+    "snack"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 20,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g black-eyed beans",
+      "1 onion",
+      "1 hot pepper",
+      "1 tsp salt",
+      "Oil for frying"
+    ],
+    "fr": [
+      "500 g de haricots cornille (niébé)",
+      "1 oignon",
+      "1 piment",
+      "1 c. à café de sel",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Soak the beans 2 hours (or overnight), then rub them between your hands and float off the skins. Rinse until white.",
+      "Blend the beans with the onion, pepper and very little water into a thick, smooth paste.",
+      "Whisk the paste hard for 3 to 5 minutes to add air (it should get lighter), then add the salt.",
+      "Drop spoonfuls into hot oil and fry 3 to 4 minutes, turning, until golden. Drain on paper."
+    ],
+    "fr": [
+      "Faites tremper les haricots 2 heures (ou une nuit), puis frottez-les entre vos mains et éliminez les peaux qui flottent. Rincez jusqu'à ce qu'ils soient blancs.",
+      "Mixez les haricots avec l'oignon, le piment et très peu d'eau en une pâte épaisse et lisse.",
+      "Battez fort la pâte 3 à 5 minutes pour l'aérer (elle doit s'alléger), puis salez.",
+      "Déposez des cuillerées dans l'huile chaude et faites frire 3 à 4 minutes en retournant, jusqu'à ce qu'elles soient dorées. Égouttez sur du papier."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with bouillie or bread, and a chili sauce."
+    ],
+    "fr": [
+      "Servez chaud avec de la bouillie ou du pain, et une sauce pimentée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Bénin Web TV – Beignets de haricot (ata)",
+      "url": "https://beninwebtv.bj/cuisine-recette-de-beignet-de-haricot-blanc-ata-photo/"
+    },
+    {
+      "label": "Afrik – Beignets-haricots",
+      "url": "https://www.afrik.com/beignets-haricots-le-plat-mythique-des-camerounais"
+    }
+  ]
+}

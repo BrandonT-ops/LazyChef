@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "kids",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 ml milk",
+      "3 egg yolks",
+      "70 g sugar",
+      "30 g cornstarch",
+      "1 tsp vanilla (or 2 tbsp cocoa for chocolate)"
+    ],
+    "fr": [
+      "500 ml de lait",
+      "3 jaunes d'œufs",
+      "70 g de sucre",
+      "30 g de maïzena",
+      "1 c. à café de vanille (ou 2 c. à soupe de cacao pour du chocolat)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the milk with the vanilla (or cocoa).",
+      "Whisk the yolks, sugar and cornstarch in a bowl.",
+      "Pour the hot milk over the yolks while whisking, then return everything to the pan.",
+      "Cook on low heat, whisking constantly, until it thickens (2 to 3 minutes after the first bubble).",
+      "Pour into cups and chill at least 2 hours."
+    ],
+    "fr": [
+      "Chauffez le lait avec la vanille (ou le cacao).",
+      "Fouettez les jaunes, le sucre et la maïzena dans un bol.",
+      "Versez le lait chaud sur les jaunes en fouettant, puis remettez le tout dans la casserole.",
+      "Faites cuire à feu doux en fouettant sans arrêt jusqu'à ce que ça épaississe (2 à 3 minutes après le premier bouillon).",
+      "Versez dans des pots et mettez au frais au moins 2 heures."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve cold, plain or with biscuits."
+    ],
+    "fr": [
+      "Servez froid, nature ou avec des biscuits."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

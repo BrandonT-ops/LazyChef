@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian",
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg potatoes",
+      "4 tbsp oil",
+      "1 onion",
+      "2 cloves garlic, parsley",
+      "Salt, pepper"
+    ],
+    "fr": [
+      "1 kg de pommes de terre",
+      "4 c. à soupe d'huile",
+      "1 oignon",
+      "2 gousses d'ail, persil",
+      "Sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the potatoes and cut them in cubes. Boil 6 minutes in salted water, then drain and let them steam dry.",
+      "Heat the oil in a large pan and add the potatoes in one layer.",
+      "Fry on medium-high heat 12 to 15 minutes, turning only now and then, until golden and crisp.",
+      "Add the onion for the last 5 minutes, and the garlic and parsley for the last minute. Season."
+    ],
+    "fr": [
+      "Épluchez les pommes de terre et coupez-les en cubes. Faites-les bouillir 6 minutes à l'eau salée, puis égouttez et laissez-les sécher.",
+      "Chauffez l'huile dans une grande poêle et ajoutez les pommes de terre en une couche.",
+      "Faites-les dorer à feu moyen-vif 12 à 15 minutes en les retournant de temps en temps seulement, jusqu'à ce qu'elles soient croustillantes.",
+      "Ajoutez l'oignon pour les 5 dernières minutes, et l'ail et le persil pour la dernière minute. Assaisonnez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with eggs, grilled meat, chicken or fish."
+    ],
+    "fr": [
+      "Servez avec des œufs, de la viande grillée, du poulet ou du poisson."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

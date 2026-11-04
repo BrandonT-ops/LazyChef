@@ -1,0 +1,46 @@
+{
+  "tags": [
+    "quick",
+    "budget"
+  ],
+  "prepMinutes": 2,
+  "cookMinutes": 0,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "½ baguette",
+      "1 to 2 tbsp mayonnaise",
+      "½ onion and ½ tomato, sliced thin (optional)",
+      "1 boiled egg or a little sardine (optional)"
+    ],
+    "fr": [
+      "½ baguette",
+      "1 à 2 c. à soupe de mayonnaise",
+      "½ oignon et ½ tomate en fines rondelles (facultatif)",
+      "1 œuf dur ou un peu de sardine (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Open the bread and spread with mayonnaise.",
+      "Add onion and tomato, and egg or sardine for a heartier sandwich.",
+      "Close and eat."
+    ],
+    "fr": [
+      "Ouvrez le pain et tartinez de mayonnaise.",
+      "Ajoutez l'oignon et la tomate, et un œuf ou de la sardine pour un sandwich plus nourrissant.",
+      "Refermez et mangez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "With tea or coffee."
+    ],
+    "fr": [
+      "Avec du thé ou du café."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 ripe soursop (corossol)",
+      "400 ml coconut milk",
+      "500 ml cold water",
+      "Sugar, a drop of vanilla",
+      "Ice"
+    ],
+    "fr": [
+      "1 corossol mûr",
+      "400 ml de lait de coco",
+      "500 ml d'eau froide",
+      "Sucre, une goutte de vanille",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the soursop and remove all the black seeds and the core.",
+      "Blend the flesh with the water, then strain.",
+      "Stir in the coconut milk, sugar and vanilla. Chill well."
+    ],
+    "fr": [
+      "Épluchez le corossol et retirez toutes les graines noires et le cœur.",
+      "Mixez la chair avec l'eau, puis filtrez.",
+      "Ajoutez le lait de coco, le sucre et la vanille. Mettez bien au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Cameroun24 – Jus de corossol",
+      "url": "https://cameroun24.net/article/25571-la-recette-du-jus-de-corossol.html"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "3 ripe mangoes",
+      "400 ml coconut milk",
+      "300 ml cold water",
+      "Sugar to taste",
+      "Ice"
+    ],
+    "fr": [
+      "3 mangues mûres",
+      "400 ml de lait de coco",
+      "300 ml d'eau froide",
+      "Sucre selon le goût",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend the mango flesh with the coconut milk and water until smooth and creamy.",
+      "Sweeten to taste and chill."
+    ],
+    "fr": [
+      "Mixez la chair des mangues avec le lait de coco et l'eau jusqu'à ce que ce soit lisse et crémeux.",
+      "Sucrez selon le goût et mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

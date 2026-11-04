@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "quick",
+    "vegetarian",
+    "budget"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 12,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "2 carrots, 1 zucchini, 1 green pepper",
+      "1 handful green beans, ¼ cabbage",
+      "1 onion, 2 cloves garlic",
+      "3 tbsp oil",
+      "1 cube or soy sauce, salt, pepper"
+    ],
+    "fr": [
+      "2 carottes, 1 courgette, 1 poivron",
+      "1 poignée de haricots verts, ¼ de chou",
+      "1 oignon, 2 gousses d'ail",
+      "3 c. à soupe d'huile",
+      "1 cube ou de la sauce soja, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cut all the vegetables in thin strips of the same size.",
+      "Heat the oil over high heat and fry the onion and garlic 1 minute.",
+      "Add the hardest vegetables first (carrots, beans) for 4 minutes, then the rest for 4 more.",
+      "Season with the cube or soy sauce; they should stay bright and crunchy."
+    ],
+    "fr": [
+      "Coupez tous les légumes en fines lanières de même taille.",
+      "Chauffez l'huile à feu vif et faites revenir l'oignon et l'ail 1 minute.",
+      "Ajoutez d'abord les légumes les plus durs (carottes, haricots) 4 minutes, puis le reste 4 minutes.",
+      "Assaisonnez avec le cube ou la sauce soja ; ils doivent rester colorés et croquants."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A side for grilled meat or fish, or a meal with rice."
+    ],
+    "fr": [
+      "En accompagnement d'une viande ou d'un poisson grillé, ou en plat avec du riz."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

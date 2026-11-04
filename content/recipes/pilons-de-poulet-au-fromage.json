@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "8 chicken drumsticks",
+      "2 cloves garlic, 1 tsp paprika, salt, pepper",
+      "2 tbsp oil",
+      "150 g grated cheese",
+      "2 tbsp breadcrumbs",
+      "Parsley"
+    ],
+    "fr": [
+      "8 pilons de poulet",
+      "2 gousses d'ail, 1 c. à café de paprika, sel, poivre",
+      "2 c. à soupe d'huile",
+      "150 g de fromage râpé",
+      "2 c. à soupe de chapelure",
+      "Persil"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the drumsticks with crushed garlic, paprika, salt, pepper and oil.",
+      "Bake at 200 °C for 30 minutes, turning once.",
+      "Mix the cheese, breadcrumbs and parsley and press it on top of the drumsticks.",
+      "Bake 8 to 10 more minutes until the cheese is melted and golden."
+    ],
+    "fr": [
+      "Assaisonnez les pilons avec l'ail écrasé, le paprika, le sel, le poivre et l'huile.",
+      "Faites cuire au four à 200 °C 30 minutes en les retournant une fois.",
+      "Mélangez le fromage, la chapelure et le persil et pressez-le sur les pilons.",
+      "Remettez au four 8 à 10 minutes jusqu'à ce que le fromage soit fondu et doré."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fries, potato wedges or salad."
+    ],
+    "fr": [
+      "Servez avec des frites, des potatoes ou une salade."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

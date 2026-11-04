@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "quick",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 3,
+  "ingredients": {
+    "en": [
+      "400 g mushrooms, sliced",
+      "1 onion, 2 cloves garlic",
+      "2 tbsp oil or butter",
+      "Parsley, salt, pepper",
+      "2 tbsp cream (optional)"
+    ],
+    "fr": [
+      "400 g de champignons émincés",
+      "1 oignon, 2 gousses d'ail",
+      "2 c. à soupe d'huile ou de beurre",
+      "Persil, sel, poivre",
+      "2 c. à soupe de crème (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oil in a wide pan over high heat.",
+      "Add the mushrooms in one layer and leave them 3 minutes without stirring so they brown.",
+      "Add the onion and garlic and sauté 5 more minutes.",
+      "Season, add the parsley (and cream) and cook 1 minute."
+    ],
+    "fr": [
+      "Chauffez l'huile dans une grande poêle à feu vif.",
+      "Ajoutez les champignons en une seule couche et laissez-les 3 minutes sans remuer pour qu'ils dorent.",
+      "Ajoutez l'oignon et l'ail et faites sauter encore 5 minutes.",
+      "Assaisonnez, ajoutez le persil (et la crème) et laissez cuire 1 minute."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with rice, pasta, potatoes or on toast."
+    ],
+    "fr": [
+      "Servez avec du riz, des pâtes, des pommes de terre ou sur des toasts."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

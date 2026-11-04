@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 ripe soursop (corossol)",
+      "2 ripe mangoes",
+      "1 litre cold water",
+      "Sugar, juice of 1 lime",
+      "Ice"
+    ],
+    "fr": [
+      "1 corossol mûr",
+      "2 mangues mûres",
+      "1 litre d'eau froide",
+      "Sucre, jus d'1 citron vert",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the soursop and remove all the black seeds (never blend them) and the hard core.",
+      "Blend the soursop and mango flesh with half the water.",
+      "Strain through a fine sieve or cloth, then add the rest of the water, lime and sugar. Chill."
+    ],
+    "fr": [
+      "Épluchez le corossol et retirez toutes les graines noires (ne jamais les mixer) et le cœur dur.",
+      "Mixez la chair du corossol et des mangues avec la moitié de l'eau.",
+      "Filtrez dans une passoire fine ou un linge, puis ajoutez le reste de l'eau, le citron et le sucre. Mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Cameroun24 – Jus de corossol",
+      "url": "https://cameroun24.net/article/25571-la-recette-du-jus-de-corossol.html"
+    }
+  ]
+}

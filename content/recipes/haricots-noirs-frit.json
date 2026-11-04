@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 75,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g black beans, soaked overnight",
+      "2 onions, 2 tomatoes",
+      "4 tbsp oil (or palm oil)",
+      "1 cube, salt, pepper"
+    ],
+    "fr": [
+      "500 g de haricots noirs trempés la veille",
+      "2 oignons, 2 tomates",
+      "4 c. à soupe d'huile (ou d'huile de palme)",
+      "1 cube, sel, piment"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Drain the soaked beans and cook them in fresh water 1 hour or more, until very soft. Salt at the end and drain.",
+      "Heat the oil and fry the sliced onions until golden.",
+      "Add the chopped tomatoes, cube and pepper and cook 5 minutes.",
+      "Add the beans and fry 10 minutes, stirring now and then, until they soak up the sauce."
+    ],
+    "fr": [
+      "Égouttez les haricots trempés et faites-les cuire dans de l'eau neuve 1 heure ou plus, jusqu'à ce qu'ils soient très tendres. Salez à la fin et égouttez.",
+      "Chauffez l'huile et faites dorer les oignons émincés.",
+      "Ajoutez les tomates hachées, le cube et le piment et laissez cuire 5 minutes.",
+      "Ajoutez les haricots et faites-les frire 10 minutes en remuant de temps en temps, pour qu'ils prennent la sauce."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with beignets (BH), rice, bread or fried plantain."
+    ],
+    "fr": [
+      "Servez avec des beignets (BH), du riz, du pain ou du plantain frit."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Afrik – Beignets-haricots",
+      "url": "https://www.afrik.com/beignets-haricots-le-plat-mythique-des-camerounais"
+    }
+  ]
+}

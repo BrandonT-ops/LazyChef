@@ -1,0 +1,44 @@
+{
+  "tags": [
+    "quick",
+    "kids",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 2,
+  "cookMinutes": 0,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "½ baguette or 2 slices of bread",
+      "2 tbsp chocolate spread",
+      "½ banana (optional)"
+    ],
+    "fr": [
+      "½ baguette ou 2 tranches de pain",
+      "2 c. à soupe de pâte à tartiner au chocolat",
+      "½ banane (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Open the bread and spread the chocolate.",
+      "Add banana slices for a treat, close and press."
+    ],
+    "fr": [
+      "Ouvrez le pain et tartinez de chocolat.",
+      "Ajoutez des rondelles de banane pour se faire plaisir, refermez et pressez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "With a glass of milk."
+    ],
+    "fr": [
+      "Avec un verre de lait."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

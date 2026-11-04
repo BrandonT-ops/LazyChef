@@ -1,0 +1,54 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian",
+    "snack"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg fresh cassava (or 600 g fermented cassava dough)",
+      "3 tbsp sugar (optional)",
+      "½ tsp salt",
+      "Oil for frying"
+    ],
+    "fr": [
+      "1 kg de manioc frais (ou 600 g de pâte de manioc fermentée)",
+      "3 c. à soupe de sucre (facultatif)",
+      "½ c. à café de sel",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the cassava, remove the central fibre, and grate it finely (or use ready dough).",
+      "Squeeze the grated cassava in a cloth to remove as much liquid as you can.",
+      "Mix with the salt (and sugar), then shape small balls or flat cakes with wet hands.",
+      "Fry in medium-hot oil 6 to 8 minutes, turning, until crisp and golden all over."
+    ],
+    "fr": [
+      "Épluchez le manioc, retirez la fibre centrale et râpez-le finement (ou utilisez de la pâte toute prête).",
+      "Pressez le manioc râpé dans un linge pour enlever le plus de liquide possible.",
+      "Mélangez avec le sel (et le sucre), puis façonnez de petites boules ou des galettes avec les mains mouillées.",
+      "Faites frire dans une huile moyennement chaude 6 à 8 minutes en retournant, jusqu'à ce qu'elles soient croustillantes et dorées."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with a chili sauce, or with bouillie for breakfast."
+    ],
+    "fr": [
+      "Servez chaud avec une sauce pimentée, ou avec de la bouillie au petit-déjeuner."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Le Fooding – Beignets de manioc",
+      "url": "https://lefooding.com/recettes/beignets-de-manioc-au-comte"
+    }
+  ]
+}

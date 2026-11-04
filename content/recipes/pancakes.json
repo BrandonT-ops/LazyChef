@@ -1,0 +1,57 @@
+{
+  "name": "Pancakes",
+  "section": "breakfast",
+  "tags": [
+    "kids",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "200 g flour",
+      "2 tsp baking powder",
+      "2 tbsp sugar",
+      "1 pinch salt",
+      "1 egg",
+      "250 ml milk",
+      "2 tbsp melted butter or oil"
+    ],
+    "fr": [
+      "200 g de farine",
+      "2 c. à café de levure chimique",
+      "2 c. à soupe de sucre",
+      "1 pincée de sel",
+      "1 œuf",
+      "250 ml de lait",
+      "2 c. à soupe de beurre fondu ou d'huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the flour, baking powder, sugar and salt in a bowl.",
+      "Whisk the egg, milk and melted butter in another bowl, then pour into the dry mix and stir just until combined (a few lumps are fine).",
+      "Heat a lightly oiled pan on medium heat and pour in small ladles of batter.",
+      "Cook until bubbles appear on top (about 2 minutes), flip and cook 1 more minute until golden."
+    ],
+    "fr": [
+      "Mélangez la farine, la levure, le sucre et le sel dans un bol.",
+      "Fouettez l'œuf, le lait et le beurre fondu dans un autre bol, puis versez sur le mélange sec et mélangez juste assez (quelques grumeaux, ce n'est pas grave).",
+      "Chauffez une poêle légèrement huilée à feu moyen et versez de petites louches de pâte.",
+      "Laissez cuire jusqu'à ce que des bulles apparaissent (environ 2 minutes), retournez et faites cuire encore 1 minute jusqu'à ce qu'ils soient dorés."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Stack and serve with honey, syrup, banana or fruit."
+    ],
+    "fr": [
+      "Empilez et servez avec du miel, du sirop, de la banane ou des fruits."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

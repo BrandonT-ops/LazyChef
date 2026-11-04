@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 ripe papaya (about 1 kg)",
+      "Juice of 1 lime",
+      "500 ml cold water",
+      "2 to 3 tbsp sugar",
+      "Ice"
+    ],
+    "fr": [
+      "1 papaye mûre (environ 1 kg)",
+      "Jus d'un citron vert",
+      "500 ml d'eau froide",
+      "2 à 3 c. à soupe de sucre",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the papaya, remove the black seeds and cut the flesh in pieces.",
+      "Blend with the water, lime juice and sugar until smooth.",
+      "Strain if you like it thin, and taste: lime brings papaya to life."
+    ],
+    "fr": [
+      "Épluchez la papaye, retirez les graines noires et coupez la chair en morceaux.",
+      "Mixez avec l'eau, le jus de citron et le sucre jusqu'à ce que ce soit lisse.",
+      "Filtrez si vous l'aimez fluide, et goûtez : le citron réveille la papaye."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -48,11 +48,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <div aria-hidden className="hero-grid pointer-events-none absolute inset-0 -z-10" />
         <div className="container-page grid items-center gap-14 pb-16 pt-14 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pb-24 lg:pt-20">
           <Reveal>
-            <p className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-muted">
-              <span className="h-1.5 w-1.5 rounded-full bg-leaf" aria-hidden />
-              {t("landing.hero.badge")}
-            </p>
-            <h1 className="heading mt-6 text-[2.5rem] leading-[1.05] sm:text-5xl lg:text-[3.6rem]">{t("landing.hero.title")}</h1>
+            <h1 className="heading text-[2.5rem] leading-[1.05] sm:text-5xl lg:text-[3.6rem]">{t("landing.hero.title")}</h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
               {t("landing.hero.subtitle", { count: dishes.length })}
             </p>

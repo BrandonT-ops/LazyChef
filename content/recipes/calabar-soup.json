@@ -1,0 +1,60 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg beef (and/or cow skin)",
+      "1 stockfish head or 200 g dried fish",
+      "500 g fluted pumpkin leaves (ugu), sliced",
+      "500 g waterleaf, sliced",
+      "200 ml palm oil",
+      "3 tbsp ground crayfish",
+      "2 onions, 2 stock cubes, 2 peppers",
+      "Periwinkles (optional), salt"
+    ],
+    "fr": [
+      "1 kg de bœuf (et/ou de peau de bœuf)",
+      "1 tête de stockfish ou 200 g de poisson séché",
+      "500 g de feuilles d'ugu (citrouille cannelée) coupées",
+      "500 g de « waterleaf » (pourpier de Cuba) coupé",
+      "200 ml d'huile de palme",
+      "3 c. à soupe d'écrevisses moulues",
+      "2 oignons, 2 cubes, 2 piments",
+      "Bigorneaux (facultatif), sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the meat and stockfish with the onions, cubes and salt in very little water until tender (the soup should not be watery).",
+      "Add the palm oil, crayfish and pepper and cook 5 minutes.",
+      "Add the waterleaf first and cook 5 minutes: it releases its own water.",
+      "Add the ugu (and periwinkles), stir, and cook just 3 to 5 more minutes so the leaves stay green. Taste for salt."
+    ],
+    "fr": [
+      "Faites bouillir la viande et le stockfish avec les oignons, les cubes et le sel dans très peu d'eau jusqu'à ce qu'ils soient tendres (la soupe ne doit pas être aqueuse).",
+      "Ajoutez l'huile de palme, les écrevisses et le piment et laissez cuire 5 minutes.",
+      "Ajoutez d'abord le waterleaf et laissez cuire 5 minutes : il rend sa propre eau.",
+      "Ajoutez l'ugu (et les bigorneaux), remuez et laissez cuire seulement 3 à 5 minutes de plus pour que les feuilles restent vertes. Rectifiez le sel."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fufu, garri or pounded yam."
+    ],
+    "fr": [
+      "Servez avec du fufu, du garri ou de l'igname pilée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Pulse – Edikang ikong",
+      "url": "https://www.pulse.ng/lifestyle/calabar-delicacy-how-to-make-the-perfect-pot-of-edikang-ikong-soup/g6z1vr2"
+    }
+  ]
+}

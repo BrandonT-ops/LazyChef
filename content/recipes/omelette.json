@@ -1,0 +1,52 @@
+{
+  "name": "Omelette",
+  "section": "breakfast",
+  "tags": [
+    "quick",
+    "budget",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 5,
+  "cookMinutes": 5,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "3 eggs",
+      "1 tbsp butter or oil",
+      "Salt, pepper",
+      "Filling (optional): grated cheese, ham, onion, tomato, mushrooms, herbs"
+    ],
+    "fr": [
+      "3 œufs",
+      "1 c. à soupe de beurre ou d'huile",
+      "Sel, poivre",
+      "Garniture (facultatif) : fromage râpé, jambon, oignon, tomate, champignons, herbes"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Beat the eggs with salt and pepper until just mixed.",
+      "Melt the butter in a pan on medium heat and pour in the eggs.",
+      "Stir gently with a spatula for 30 seconds, then let it set, tilting the pan so the runny egg goes underneath.",
+      "Add the filling on one half, fold the omelette over and slide it onto a plate."
+    ],
+    "fr": [
+      "Battez les œufs avec le sel et le poivre, juste assez pour les mélanger.",
+      "Faites fondre le beurre dans une poêle à feu moyen et versez les œufs.",
+      "Remuez doucement à la spatule 30 secondes, puis laissez prendre en inclinant la poêle pour que l'œuf liquide passe dessous.",
+      "Mettez la garniture sur une moitié, repliez l'omelette et faites-la glisser dans l'assiette."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with bread or a green salad."
+    ],
+    "fr": [
+      "Servez avec du pain ou une salade verte."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

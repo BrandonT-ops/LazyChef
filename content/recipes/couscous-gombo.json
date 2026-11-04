@@ -1,0 +1,68 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g corn flour + about 1 litre water (for the couscous)",
+      "400 g fresh okra (gombo), sliced thin",
+      "150 ml palm oil",
+      "1 small piece of kanwa, dissolved in ½ glass of water",
+      "500 g beef or smoked fish",
+      "1 tsp yellow-sauce spices (or pèbè and rondelle)",
+      "1 onion, 1 hot pepper",
+      "Salt"
+    ],
+    "fr": [
+      "500 g de farine de maïs + environ 1 litre d'eau (pour le couscous)",
+      "400 g de gombo frais coupé finement",
+      "150 ml d'huile de palme",
+      "1 petit morceau de kanwa dissous dans ½ verre d'eau",
+      "500 g de bœuf ou de poisson fumé",
+      "1 c. à café d'épices pour sauce jaune (ou pèbè et rondelle)",
+      "1 oignon, 1 piment",
+      "Sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the meat with the onion and salt until tender; keep about 500 ml of broth.",
+      "Boil the sliced okra separately in a little water for 8 to 10 minutes until soft and slimy.",
+      "In a pot, whisk the palm oil with the strained kanwa water until it turns into a thick yellow cream.",
+      "Whisk in the warm broth little by little, then add the ground spices and pepper.",
+      "Add the meat (or fish) and the okra, stir gently and simmer 10 minutes. Taste for salt.",
+      "Make the corn couscous: rain the flour into boiling water while stirring hard, and work it 10 minutes on low heat until smooth and firm."
+    ],
+    "fr": [
+      "Faites bouillir la viande avec l'oignon et le sel jusqu'à ce qu'elle soit tendre ; gardez environ 500 ml de bouillon.",
+      "Faites bouillir le gombo à part dans un peu d'eau 8 à 10 minutes jusqu'à ce qu'il soit tendre et gluant.",
+      "Dans une marmite, fouettez l'huile de palme avec l'eau de kanwa filtrée jusqu'à obtenir une crème jaune épaisse.",
+      "Ajoutez le bouillon tiède petit à petit en fouettant, puis les épices moulues et le piment.",
+      "Ajoutez la viande (ou le poisson) et le gombo, remuez doucement et laissez mijoter 10 minutes. Rectifiez le sel.",
+      "Préparez le couscous de maïs : versez la farine en pluie dans l'eau bouillante en remuant fort, et travaillez-la 10 minutes à feu doux jusqu'à ce qu'elle soit lisse et ferme."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve the sauce hot with balls of corn couscous."
+    ],
+    "fr": [
+      "Servez la sauce bien chaude avec des boules de couscous de maïs."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Carnet de recettes Étoile du Nord (PDF)",
+      "url": "https://ecole-deletoile-du-nord.cssc.gouv.qc.ca/wp-content/uploads/2026/06/carnet-de-recettes-etoile-du-nord.pdf"
+    },
+    {
+      "label": "Île aux épices – Sauce gombo",
+      "url": "https://ileauxepices.com/blog/2026/03/24/sauce-gombo-traditionnelle/wpid48952/"
+    }
+  ]
+}

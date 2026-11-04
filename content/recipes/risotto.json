@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "servings": 3,
+  "ingredients": {
+    "en": [
+      "250 g risotto rice (arborio)",
+      "1 onion, 1 clove garlic",
+      "1 litre hot vegetable or chicken stock",
+      "40 g butter, 1 tbsp oil",
+      "50 g grated parmesan or other hard cheese",
+      "Salt, pepper"
+    ],
+    "fr": [
+      "250 g de riz à risotto (arborio)",
+      "1 oignon, 1 gousse d'ail",
+      "1 litre de bouillon chaud (légumes ou volaille)",
+      "40 g de beurre, 1 c. à soupe d'huile",
+      "50 g de parmesan râpé ou autre fromage dur",
+      "Sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Soften the chopped onion and garlic in the oil and half the butter for 4 minutes.",
+      "Add the rice and stir 1 minute until it looks shiny.",
+      "Add a ladle of hot stock and stir until absorbed; repeat for 18 to 20 minutes until the rice is creamy but still a little firm.",
+      "Off the heat, stir in the rest of the butter and the cheese. Season and rest 2 minutes."
+    ],
+    "fr": [
+      "Faites fondre l'oignon et l'ail hachés dans l'huile et la moitié du beurre 4 minutes.",
+      "Ajoutez le riz et remuez 1 minute jusqu'à ce qu'il soit nacré.",
+      "Ajoutez une louche de bouillon chaud et remuez jusqu'à absorption ; recommencez pendant 18 à 20 minutes jusqu'à ce que le riz soit crémeux mais encore un peu ferme.",
+      "Hors du feu, incorporez le reste du beurre et le fromage. Assaisonnez et laissez reposer 2 minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Add mushrooms, shrimp or chicken to make it a full meal."
+    ],
+    "fr": [
+      "Ajoutez des champignons, des crevettes ou du poulet pour en faire un plat complet."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,50 @@
+{
+  "tags": [
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 90,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "Dough: 500 g flour, 7 g dry yeast, 1 tsp sugar, 1 tsp salt, 3 tbsp oil, 300 ml warm water",
+      "Sauce: 200 g tomato purée, 1 clove garlic, oregano, salt",
+      "200 g mozzarella or grated cheese",
+      "Toppings: ham, sausage, peppers, onions, mushrooms, olives…"
+    ],
+    "fr": [
+      "Pâte : 500 g de farine, 7 g de levure sèche, 1 c. à café de sucre, 1 de sel, 3 c. à soupe d'huile, 300 ml d'eau tiède",
+      "Sauce : 200 g de coulis de tomate, 1 gousse d'ail, origan, sel",
+      "200 g de mozzarella ou de fromage râpé",
+      "Garnitures : jambon, saucisse, poivrons, oignons, champignons, olives…"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Stir the yeast and sugar into the warm water and leave 5 minutes until foamy.",
+      "Add the flour, salt and oil, and knead 8 to 10 minutes into a smooth dough. Cover and let it rise 1 hour, until doubled.",
+      "Mix the tomato purée with crushed garlic, oregano and salt.",
+      "Heat the oven as hot as it goes (240–250 °C). Divide the dough in two and stretch each piece thin on an oiled tray.",
+      "Spread the sauce, add the cheese and toppings, and bake 10 to 12 minutes until the crust is golden and the cheese bubbles."
+    ],
+    "fr": [
+      "Mélangez la levure et le sucre dans l'eau tiède et laissez mousser 5 minutes.",
+      "Ajoutez la farine, le sel et l'huile et pétrissez 8 à 10 minutes pour obtenir une pâte lisse. Couvrez et laissez lever 1 heure, jusqu'à ce qu'elle double.",
+      "Mélangez le coulis avec l'ail écrasé, l'origan et le sel.",
+      "Préchauffez le four au maximum (240–250 °C). Divisez la pâte en deux et étalez chaque morceau finement sur une plaque huilée.",
+      "Étalez la sauce, ajoutez le fromage et les garnitures, et faites cuire 10 à 12 minutes jusqu'à ce que la pâte soit dorée et le fromage bouillonnant."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Cut in slices and serve hot."
+    ],
+    "fr": [
+      "Coupez en parts et servez chaud."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

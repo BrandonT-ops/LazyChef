@@ -1,0 +1,44 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "8 oranges",
+      "1 to 2 tbsp sugar (optional)",
+      "Ice"
+    ],
+    "fr": [
+      "8 oranges",
+      "1 à 2 c. à soupe de sucre (facultatif)",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Roll the oranges on the table to soften them, then cut in half.",
+      "Squeeze them with a juicer or by hand.",
+      "Strain out the seeds, sweeten if needed and chill."
+    ],
+    "fr": [
+      "Roulez les oranges sur la table pour les attendrir, puis coupez-les en deux.",
+      "Pressez-les au presse-agrumes ou à la main.",
+      "Filtrez les pépins, sucrez si besoin et mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

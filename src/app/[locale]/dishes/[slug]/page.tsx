@@ -67,6 +67,7 @@ export default async function DishPage({ params }: { params: Params }) {
         </span>
         <div>
           <h1 className="heading text-3xl sm:text-5xl">{dish.name}</h1>
+          {dish.original && <p className="mt-1 text-sm text-muted">{dish.original}</p>}
           <div className="mt-3 flex flex-wrap gap-2">
             <span className="chip">{sectionName}</span>
             {dish.tags.map((tag) => (

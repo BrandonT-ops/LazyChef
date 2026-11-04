@@ -1,0 +1,49 @@
+{
+  "tags": [
+    "kids"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 25,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g minced beef",
+      "1 egg, 2 tbsp breadcrumbs",
+      "2 onions, 2 cloves garlic, parsley",
+      "2 tomatoes, 1 green pepper",
+      "4 tbsp oil, 1 cube, salt, pepper"
+    ],
+    "fr": [
+      "500 g de viande hachée",
+      "1 œuf, 2 c. à soupe de chapelure",
+      "2 oignons, 2 gousses d'ail, persil",
+      "2 tomates, 1 poivron",
+      "4 c. à soupe d'huile, 1 cube, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the mince with the egg, breadcrumbs, half a grated onion, garlic, parsley, salt and pepper. Roll into small balls.",
+      "Brown the balls in the oil on all sides, about 8 minutes. Set aside.",
+      "In the same pan, fry the rest of the onion and the pepper, add the chopped tomatoes and cube and cook 5 minutes.",
+      "Return the meatballs and toss for 5 minutes until cooked through and coated."
+    ],
+    "fr": [
+      "Mélangez la viande avec l'œuf, la chapelure, un demi-oignon râpé, l'ail, le persil, le sel et le poivre. Formez de petites boulettes.",
+      "Faites dorer les boulettes dans l'huile de tous les côtés, environ 8 minutes. Réservez.",
+      "Dans la même poêle, faites revenir le reste de l'oignon et le poivron, ajoutez les tomates hachées et le cube et laissez cuire 5 minutes.",
+      "Remettez les boulettes et faites sauter 5 minutes jusqu'à ce qu'elles soient cuites à cœur et bien enrobées."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with rice, fries, plantain or pasta."
+    ],
+    "fr": [
+      "Servez avec du riz, des frites, du plantain ou des pâtes."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

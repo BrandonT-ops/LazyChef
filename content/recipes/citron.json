@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "4 limes or lemons",
+      "1 litre cold water",
+      "4 to 6 tbsp sugar",
+      "A few mint leaves (optional)",
+      "Ice"
+    ],
+    "fr": [
+      "4 citrons verts ou jaunes",
+      "1 litre d'eau froide",
+      "4 à 6 c. à soupe de sucre",
+      "Quelques feuilles de menthe (facultatif)",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Squeeze the limes.",
+      "Dissolve the sugar in a little warm water, then add the cold water and lime juice.",
+      "Add mint and ice and taste – adjust sugar or lime."
+    ],
+    "fr": [
+      "Pressez les citrons.",
+      "Faites dissoudre le sucre dans un peu d'eau tiède, puis ajoutez l'eau froide et le jus de citron.",
+      "Ajoutez la menthe et les glaçons et goûtez – ajustez sucre ou citron."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

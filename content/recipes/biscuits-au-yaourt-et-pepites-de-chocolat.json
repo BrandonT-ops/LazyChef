@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "kids",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 24,
+  "ingredients": {
+    "en": [
+      "1 plain yogurt (125 g)",
+      "1 yogurt-pot of sugar, 2 pots of flour (using the empty pot)",
+      "50 g melted butter or oil",
+      "1 egg",
+      "1 tsp baking powder",
+      "100 g chocolate chips"
+    ],
+    "fr": [
+      "1 yaourt nature (125 g)",
+      "1 pot de sucre, 2 pots de farine (avec le pot vide)",
+      "50 g de beurre fondu ou d'huile",
+      "1 œuf",
+      "1 c. à café de levure chimique",
+      "100 g de pépites de chocolat"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the yogurt, sugar, egg and butter.",
+      "Add the flour and baking powder and stir to a soft dough, then fold in the chocolate chips.",
+      "Drop spoonfuls on a lined tray, spaced apart.",
+      "Bake at 180 °C for 12 to 15 minutes until golden at the edges."
+    ],
+    "fr": [
+      "Mélangez le yaourt, le sucre, l'œuf et le beurre.",
+      "Ajoutez la farine et la levure et mélangez en pâte souple, puis incorporez les pépites.",
+      "Déposez des cuillerées sur une plaque garnie de papier, bien espacées.",
+      "Faites cuire à 180 °C 12 à 15 minutes jusqu'à ce que les bords soient dorés."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Let them cool on the tray; they firm up as they cool."
+    ],
+    "fr": [
+      "Laissez-les refroidir sur la plaque ; ils durcissent en refroidissant."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

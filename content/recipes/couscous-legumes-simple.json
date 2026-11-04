@@ -1,0 +1,44 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g corn flour + about 1 litre water (couscous)",
+      "Vegetable sauce: 2 bunches of greens (spinach, amaranth or njama-njama), 2 tomatoes, 2 onions, 4 tbsp oil, 1 cube, salt, pepper"
+    ],
+    "fr": [
+      "500 g de farine de maïs + environ 1 litre d'eau (couscous)",
+      "Sauce légumes : 2 bottes de légumes verts (épinards, amarante ou njama-njama), 2 tomates, 2 oignons, 4 c. à soupe d'huile, 1 cube, sel, piment"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash and finely slice the greens; blanch them 3 minutes in boiling water and squeeze dry.",
+      "Fry the sliced onions in the oil, add the chopped tomatoes and cook 5 minutes.",
+      "Add the greens, cube, salt and pepper and sauté 10 minutes.",
+      "Make the corn couscous: rain the flour into boiling water while stirring hard, then work 10 minutes on low heat until smooth."
+    ],
+    "fr": [
+      "Lavez et émincez finement les légumes ; blanchissez-les 3 minutes à l'eau bouillante et pressez-les.",
+      "Faites revenir les oignons émincés dans l'huile, ajoutez les tomates hachées et laissez cuire 5 minutes.",
+      "Ajoutez les légumes, le cube, le sel et le piment et faites sauter 10 minutes.",
+      "Préparez le couscous de maïs : versez la farine en pluie dans l'eau bouillante en remuant fort, puis travaillez 10 minutes à feu doux jusqu'à ce qu'il soit lisse."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve the sautéed greens with couscous balls."
+    ],
+    "fr": [
+      "Servez les légumes sautés avec des boules de couscous."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

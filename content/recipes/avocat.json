@@ -1,0 +1,45 @@
+{
+  "tags": [
+    "quick",
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 3,
+  "cookMinutes": 0,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "1 ripe avocado",
+      "Salt and a pinch of chili",
+      "A squeeze of lime (optional)"
+    ],
+    "fr": [
+      "1 avocat mûr",
+      "Sel et une pincée de piment",
+      "Un filet de citron vert (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cut the avocado in two around the stone and twist to open.",
+      "Remove the stone with a spoon.",
+      "Sprinkle with salt, chili and lime and eat with a spoon, or slice it."
+    ],
+    "fr": [
+      "Coupez l'avocat en deux autour du noyau et tournez pour l'ouvrir.",
+      "Retirez le noyau avec une cuillère.",
+      "Saupoudrez de sel, de piment et de citron et mangez à la cuillère, ou tranchez-le."
+    ]
+  },
+  "serving": {
+    "en": [
+      "With bread, boiled plantain, cassava or beans."
+    ],
+    "fr": [
+      "Avec du pain, du plantain bouilli, du manioc ou des haricots."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

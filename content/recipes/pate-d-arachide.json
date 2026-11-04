@@ -1,0 +1,46 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g raw peanuts",
+      "1 pinch of salt",
+      "1 to 2 tbsp neutral oil (only if needed)"
+    ],
+    "fr": [
+      "500 g d'arachides crues",
+      "1 pincée de sel",
+      "1 à 2 c. à soupe d'huile neutre (seulement si besoin)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Roast the peanuts in a dry pan on medium heat for 10 to 15 minutes, stirring constantly, until golden.",
+      "Let them cool, then rub them between your hands and blow away the skins.",
+      "Grind in a blender or mill: first to crumbs, then keep going (scraping the sides) until it turns into a smooth, runny paste.",
+      "Add the salt, and a little oil only if your blender struggles. Store in a clean jar."
+    ],
+    "fr": [
+      "Grillez les arachides à sec dans une poêle à feu moyen 10 à 15 minutes en remuant sans arrêt, jusqu'à ce qu'elles soient dorées.",
+      "Laissez refroidir, puis frottez-les entre vos mains et soufflez les peaux.",
+      "Mixez au blender ou au moulin : d'abord en miettes, puis continuez (en raclant les bords) jusqu'à obtenir une pâte lisse et coulante.",
+      "Ajoutez le sel, et un peu d'huile seulement si votre mixeur peine. Conservez dans un bocal propre."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Spread on bread, or use it for sauce d'arachide, okok and met d'arachide. Keeps about a month in a closed jar."
+    ],
+    "fr": [
+      "À tartiner sur du pain, ou pour la sauce d'arachide, l'okok et le met d'arachide. Se garde environ un mois dans un bocal fermé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

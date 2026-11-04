@@ -1,0 +1,53 @@
+{
+  "name": "Salade César",
+  "section": "monday",
+  "tags": [
+    "western"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "1 romaine lettuce",
+      "1 chicken breast",
+      "2 slices of bread, cut in cubes",
+      "30 g parmesan",
+      "Dressing: 3 tbsp mayonnaise, 1 tsp mustard, juice of ½ lemon, 1 small clove garlic, 1 tbsp grated parmesan, pepper",
+      "1 tbsp oil, salt"
+    ],
+    "fr": [
+      "1 laitue romaine",
+      "1 blanc de poulet",
+      "2 tranches de pain en cubes",
+      "30 g de parmesan",
+      "Sauce : 3 c. à soupe de mayonnaise, 1 c. à café de moutarde, jus d'½ citron, 1 petite gousse d'ail, 1 c. à soupe de parmesan râpé, poivre",
+      "1 c. à soupe d'huile, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the chicken and cook it in the oil 6 minutes per side. Rest, then slice.",
+      "Toast the bread cubes in the same pan until crisp (croutons).",
+      "Whisk the dressing ingredients together.",
+      "Tear the lettuce, toss with the dressing, and top with chicken, croutons and shaved parmesan."
+    ],
+    "fr": [
+      "Assaisonnez le poulet et faites-le cuire dans l'huile 6 minutes de chaque côté. Laissez reposer, puis tranchez.",
+      "Faites dorer les cubes de pain dans la même poêle (croûtons).",
+      "Fouettez les ingrédients de la sauce.",
+      "Déchirez la salade, mélangez avec la sauce, et garnissez de poulet, de croûtons et de copeaux de parmesan."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve right away so the croutons stay crunchy."
+    ],
+    "fr": [
+      "Servez tout de suite pour que les croûtons restent croquants."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

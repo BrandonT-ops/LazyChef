@@ -1,0 +1,64 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "For the couscous: 500 g fine white corn flour, about 1 litre water",
+      "30 g nkui bark (dried, from the market)",
+      "1 tbsp nkui spices (country onion, pèbè, white pepper – sold as a mix)",
+      "1 small piece of limestone (kanwa), dissolved in a little water",
+      "300 g smoked or fresh beef (optional)",
+      "1 hot pepper",
+      "Salt"
+    ],
+    "fr": [
+      "Pour le couscous : 500 g de farine de maïs blanc fine, environ 1 litre d'eau",
+      "30 g d'écorce de nkui (séchée, au marché)",
+      "1 c. à soupe d'épices nkui (rondelle, pèbè, poivre blanc – vendues en mélange)",
+      "1 petit morceau de sel gemme (kanwa) dissous dans un peu d'eau",
+      "300 g de bœuf frais ou fumé (facultatif)",
+      "1 piment",
+      "Sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "If using meat, boil it with salt until tender and keep the broth.",
+      "Soak the nkui bark in 1.5 litres of warm water (or the broth) for 15 minutes, rubbing it with your hands until the water turns slimy, then remove the bark.",
+      "Grind the spices with the pepper and add them, with the kanwa water, to the slimy liquid.",
+      "Simmer gently 15 minutes, whisking: the sauce should become sticky and stringy. Add the meat and salt.",
+      "For the couscous: bring the water to the boil, rain in the corn flour while stirring hard with a wooden spatula, and keep working it on low heat for 10 minutes until it is a smooth, firm ball."
+    ],
+    "fr": [
+      "Si vous mettez de la viande, faites-la bouillir avec du sel jusqu'à ce qu'elle soit tendre et gardez le bouillon.",
+      "Faites tremper l'écorce de nkui dans 1,5 litre d'eau tiède (ou le bouillon) 15 minutes en la frottant avec les mains jusqu'à ce que l'eau devienne gluante, puis retirez l'écorce.",
+      "Écrasez les épices avec le piment et ajoutez-les, avec l'eau de kanwa, au liquide gluant.",
+      "Laissez frémir 15 minutes en fouettant : la sauce doit devenir collante et filante. Ajoutez la viande et le sel.",
+      "Pour le couscous : portez l'eau à ébullition, versez la farine en pluie en remuant fort avec une spatule en bois, et continuez à travailler à feu doux 10 minutes jusqu'à obtenir une boule lisse et ferme."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Shape the couscous into balls and serve the nkui hot alongside. Pinch some couscous and dip."
+    ],
+    "fr": [
+      "Façonnez le couscous en boules et servez le nkui bien chaud à côté. On pince un peu de couscous et on trempe."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Afrik – Nkui au couscous de maïs",
+      "url": "https://www.afrik.com/nkui-au-couscous-de-mais"
+    },
+    {
+      "label": "Discover Cameroon – Food",
+      "url": "https://discover-cameroon.com/en/food-and-drinks/"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "6 apples",
+      "500 ml water",
+      "Juice of ½ lemon",
+      "1 to 2 tbsp sugar (optional)",
+      "1 pinch cinnamon (optional)"
+    ],
+    "fr": [
+      "6 pommes",
+      "500 ml d'eau",
+      "Jus d'½ citron",
+      "1 à 2 c. à soupe de sucre (facultatif)",
+      "1 pincée de cannelle (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash, core and cut the apples (no need to peel).",
+      "Blend with the water and lemon juice.",
+      "Strain through a fine sieve or cloth, pressing well. Sweeten, add cinnamon and chill."
+    ],
+    "fr": [
+      "Lavez, épépinez et coupez les pommes (pas besoin de les éplucher).",
+      "Mixez avec l'eau et le jus de citron.",
+      "Filtrez dans une passoire fine ou un linge en pressant bien. Sucrez, ajoutez la cannelle et mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

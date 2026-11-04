@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "budget",
+    "quick"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "300 g tapioca (coarse cassava gari)",
+      "400 ml boiling water",
+      "Okra sauce: 300 g okra, 100 ml palm oil, 300 g fish or meat, 1 onion, 1 tomato, 1 pepper, 1 tbsp crayfish, salt"
+    ],
+    "fr": [
+      "300 g de tapioca (gari de manioc, gros grains)",
+      "400 ml d'eau bouillante",
+      "Sauce gombo : 300 g de gombo, 100 ml d'huile de palme, 300 g de poisson ou de viande, 1 oignon, 1 tomate, 1 piment, 1 c. à soupe d'écrevisses séchées, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cook the meat or fish with a little salt and water. Keep the broth.",
+      "Heat the palm oil, soften the chopped onion and tomato for 5 minutes, then add the crayfish and pepper.",
+      "Add the broth and the meat, then the finely chopped okra. Simmer uncovered 10 minutes until the sauce is stringy.",
+      "Pour the boiling water over the tapioca, stir, cover for 5 minutes, then stir hard with a spoon until it forms a soft, smooth dough."
+    ],
+    "fr": [
+      "Faites cuire la viande ou le poisson avec un peu de sel et d'eau. Gardez le bouillon.",
+      "Chauffez l'huile de palme, faites revenir l'oignon et la tomate hachés 5 minutes, puis ajoutez les écrevisses et le piment.",
+      "Versez le bouillon et la viande, puis le gombo finement haché. Laissez mijoter à découvert 10 minutes, jusqu'à ce que la sauce file.",
+      "Versez l'eau bouillante sur le tapioca, mélangez, couvrez 5 minutes, puis remuez fort à la cuillère pour obtenir une pâte souple et lisse."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Shape the tapioca into balls and serve with the hot okra sauce."
+    ],
+    "fr": [
+      "Façonnez le tapioca en boules et servez avec la sauce gombo bien chaude."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Île aux épices – Sauce gombo",
+      "url": "https://ileauxepices.com/blog/2026/03/24/sauce-gombo-traditionnelle/wpid48952/"
+    }
+  ]
+}

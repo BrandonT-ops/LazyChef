@@ -1,0 +1,49 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 90,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g cow skin (kanda), cleaned",
+      "300 g tripe or cow foot (optional)",
+      "2 onions, 2 tomatoes, 1 green pepper",
+      "3 cloves garlic, 1 piece ginger",
+      "4 tbsp oil, 2 cubes, salt, pepper"
+    ],
+    "fr": [
+      "500 g de peau de bœuf (kanda) nettoyée",
+      "300 g de tripes ou de pied de bœuf (facultatif)",
+      "2 oignons, 2 tomates, 1 poivron",
+      "3 gousses d'ail, 1 morceau de gingembre",
+      "4 c. à soupe d'huile, 2 cubes, sel, piment"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Scrape and wash the skin and tripe well; cut into bite-size pieces.",
+      "Boil with an onion, a cube and salt for 1 hour or more, until soft but chewy. Drain.",
+      "Fry the second onion, garlic, ginger and pepper in the oil, then add the tomatoes and cube; cook 5 minutes.",
+      "Add the meats and sauté 10 minutes until the sauce clings."
+    ],
+    "fr": [
+      "Grattez et lavez bien la peau et les tripes ; coupez en petits morceaux.",
+      "Faites bouillir avec un oignon, un cube et du sel 1 heure ou plus, jusqu'à ce que ce soit tendre mais encore ferme. Égouttez.",
+      "Faites revenir le second oignon, l'ail, le gingembre et le poivron dans l'huile, puis ajoutez les tomates et le cube ; laissez cuire 5 minutes.",
+      "Ajoutez les viandes et faites sauter 10 minutes jusqu'à ce que la sauce les enrobe."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with plantain, bobolo, or as a snack with a cold drink."
+    ],
+    "fr": [
+      "Servez avec du plantain, du bâton de manioc, ou en amuse-bouche avec une boisson fraîche."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

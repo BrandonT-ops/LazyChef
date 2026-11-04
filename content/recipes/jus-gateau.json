@@ -1,0 +1,42 @@
+{
+  "tags": [
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 35,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "Juice: 4 oranges or 1 small pineapple, sugar to taste",
+      "Cake: 3 eggs, 150 g sugar, 100 ml oil, 125 ml milk, 250 g flour, 1 sachet baking powder, vanilla"
+    ],
+    "fr": [
+      "Jus : 4 oranges ou 1 petit ananas, sucre selon le goût",
+      "Gâteau : 3 œufs, 150 g de sucre, 100 ml d'huile, 125 ml de lait, 250 g de farine, 1 sachet de levure, vanille"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cake: beat the eggs and sugar, add the oil, milk and vanilla, then the flour and baking powder.",
+      "Bake in a greased tin at 180 °C for 30 to 35 minutes. Let it cool.",
+      "Juice: squeeze the oranges (or blend the peeled pineapple with a glass of water and strain). Sweeten and chill."
+    ],
+    "fr": [
+      "Gâteau : battez les œufs et le sucre, ajoutez l'huile, le lait et la vanille, puis la farine et la levure.",
+      "Faites cuire dans un moule beurré à 180 °C 30 à 35 minutes. Laissez refroidir.",
+      "Jus : pressez les oranges (ou mixez l'ananas épluché avec un verre d'eau et filtrez). Sucrez et mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve a slice of cake with a cold glass of juice."
+    ],
+    "fr": [
+      "Servez une part de gâteau avec un verre de jus bien frais."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

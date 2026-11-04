@@ -1,0 +1,53 @@
+{
+  "name": "Croque-monsieur",
+  "section": "monday",
+  "tags": [
+    "quick",
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "4 slices of sandwich bread",
+      "2 slices of ham",
+      "100 g grated cheese (emmental or gouda)",
+      "Butter",
+      "Béchamel (optional): 1 tbsp butter, 1 tbsp flour, 150 ml milk, nutmeg"
+    ],
+    "fr": [
+      "4 tranches de pain de mie",
+      "2 tranches de jambon",
+      "100 g de fromage râpé (emmental ou gouda)",
+      "Beurre",
+      "Béchamel (facultatif) : 1 c. à soupe de beurre, 1 de farine, 150 ml de lait, muscade"
+    ]
+  },
+  "steps": {
+    "en": [
+      "If making béchamel: melt the butter, stir in the flour 1 minute, whisk in the milk and cook until thick; season with salt and nutmeg.",
+      "Butter the bread on the outside. On two slices, put béchamel (or nothing), ham and half the cheese; close with the other slices.",
+      "Top with the rest of the cheese (and béchamel).",
+      "Bake at 200 °C for 10 minutes, or cook in a pan 3 minutes per side, until golden and melted."
+    ],
+    "fr": [
+      "Si vous faites la béchamel : faites fondre le beurre, ajoutez la farine 1 minute, versez le lait en fouettant et laissez épaissir ; salez et ajoutez la muscade.",
+      "Beurrez le pain à l'extérieur. Sur deux tranches, mettez la béchamel (ou rien), le jambon et la moitié du fromage ; refermez avec les autres tranches.",
+      "Couvrez du reste du fromage (et de béchamel).",
+      "Faites cuire au four à 200 °C 10 minutes, ou à la poêle 3 minutes de chaque côté, jusqu'à ce que ce soit doré et fondu."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with a green salad."
+    ],
+    "fr": [
+      "Servez chaud avec une salade verte."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

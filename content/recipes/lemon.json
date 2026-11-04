@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "3 lemons + 1 extra for slices",
+      "1 litre cold water (or sparkling water)",
+      "100 g sugar",
+      "1 small piece of ginger (optional)",
+      "Ice"
+    ],
+    "fr": [
+      "3 citrons + 1 pour les rondelles",
+      "1 litre d'eau froide (ou gazeuse)",
+      "100 g de sucre",
+      "1 petit morceau de gingembre (facultatif)",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Make a syrup: warm 200 ml of the water with the sugar (and grated ginger) until dissolved. Let it cool.",
+      "Squeeze the lemons and mix the juice with the syrup.",
+      "Top up with the cold (or sparkling) water and add lemon slices and ice."
+    ],
+    "fr": [
+      "Préparez un sirop : chauffez 200 ml d'eau avec le sucre (et le gingembre râpé) jusqu'à dissolution. Laissez refroidir.",
+      "Pressez les citrons et mélangez le jus au sirop.",
+      "Complétez avec l'eau froide (ou gazeuse) et ajoutez des rondelles de citron et des glaçons."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -30,7 +30,7 @@ export function AdminApp({ dishes }: { dishes: DishSummary[] }) {
 
   const results = useMemo(() => {
     const words = searchKey(q).split(" ").filter(Boolean);
-    return all.filter((d) => words.every((w) => searchKey(d.name).includes(w)));
+    return all.filter((d) => words.every((w) => searchKey(`${d.name} ${d.original ?? ""}`).includes(w)));
   }, [all, q]);
 
   const choose = useCallback(

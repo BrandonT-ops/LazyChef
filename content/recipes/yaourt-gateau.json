@@ -1,0 +1,55 @@
+{
+  "tags": [
+    "kids",
+    "vegetarian",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 35,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "1 plain yogurt (125 g) – keep the pot to measure",
+      "2 pots of sugar",
+      "3 pots of flour",
+      "½ pot of oil",
+      "3 eggs",
+      "1 sachet (11 g) baking powder",
+      "Vanilla or lemon zest"
+    ],
+    "fr": [
+      "1 yaourt nature (125 g) – gardez le pot pour mesurer",
+      "2 pots de sucre",
+      "3 pots de farine",
+      "½ pot d'huile",
+      "3 œufs",
+      "1 sachet (11 g) de levure chimique",
+      "Vanille ou zeste de citron"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oven to 180 °C and grease a tin.",
+      "Empty the yogurt into a bowl and use the pot to measure everything else.",
+      "Mix the yogurt, sugar and eggs, then the oil, then the flour, baking powder and flavouring.",
+      "Pour into the tin and bake 30 to 35 minutes, until a knife comes out clean."
+    ],
+    "fr": [
+      "Préchauffez le four à 180 °C et beurrez un moule.",
+      "Videz le yaourt dans un saladier et utilisez le pot pour mesurer le reste.",
+      "Mélangez le yaourt, le sucre et les œufs, puis l'huile, puis la farine, la levure et l'arôme.",
+      "Versez dans le moule et faites cuire 30 à 35 minutes, jusqu'à ce qu'un couteau ressorte sec."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Perfect with tea, juice or in a lunch box."
+    ],
+    "fr": [
+      "Parfait avec du thé, du jus ou dans la boîte à goûter."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

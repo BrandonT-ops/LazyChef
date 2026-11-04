@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "2 ripe mangoes",
+      "3 limes",
+      "1 litre cold water (or sparkling)",
+      "80 g sugar",
+      "Mint, ice"
+    ],
+    "fr": [
+      "2 mangues mûres",
+      "3 citrons verts",
+      "1 litre d'eau froide (ou gazeuse)",
+      "80 g de sucre",
+      "Menthe, glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend the mango flesh with the lime juice, sugar and half the water.",
+      "Strain, then top up with the rest of the water (sparkling for fizz).",
+      "Add mint and ice."
+    ],
+    "fr": [
+      "Mixez la chair des mangues avec le jus de citron, le sucre et la moitié de l'eau.",
+      "Filtrez, puis complétez avec le reste de l'eau (gazeuse pour des bulles).",
+      "Ajoutez la menthe et les glaçons."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

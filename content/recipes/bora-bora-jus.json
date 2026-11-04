@@ -1,0 +1,56 @@
+{
+  "tags": [
+    "quick",
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 5,
+  "cookMinutes": 0,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "100 ml pineapple juice",
+      "60 ml passion fruit juice",
+      "10 ml lemon juice",
+      "10 ml grenadine syrup",
+      "Ice, a pineapple slice"
+    ],
+    "fr": [
+      "10 cl de jus d'ananas",
+      "6 cl de jus de fruit de la passion",
+      "1 cl de jus de citron",
+      "1 cl de sirop de grenadine",
+      "Glaçons, une tranche d'ananas"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Fill a shaker (or a jar with a lid) with ice.",
+      "Add the pineapple, passion and lemon juices and shake hard for 10 seconds.",
+      "Strain into a tall glass over fresh ice.",
+      "Pour the grenadine slowly down the side so it sinks to the bottom, and garnish with pineapple."
+    ],
+    "fr": [
+      "Remplissez un shaker (ou un bocal avec couvercle) de glaçons.",
+      "Ajoutez les jus d'ananas, de passion et de citron et secouez fort 10 secondes.",
+      "Versez dans un grand verre sur des glaçons neufs.",
+      "Versez la grenadine doucement le long du verre pour qu'elle tombe au fond, et décorez d'ananas."
+    ]
+  },
+  "serving": {
+    "en": [
+      "An alcohol-free cocktail for parties and kids."
+    ],
+    "fr": [
+      "Un cocktail sans alcool pour les fêtes et les enfants."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Circulaire en ligne – Cocktail Bora Bora",
+      "url": "https://www.circulaire-en-ligne.ca/recette/cocktail-bora-bora-alcool"
+    }
+  ]
+}

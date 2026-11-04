@@ -11,9 +11,9 @@ export type SectionId =
   | "sunday"
   | "drinks";
 
-export type Tag = "budget" | "quick" | "kids" | "snack" | "vegetarian" | "occasion" | "batch";
+export type Tag = "budget" | "quick" | "kids" | "snack" | "vegetarian" | "occasion" | "batch" | "western";
 
-export const TAGS: Tag[] = ["budget", "quick", "kids", "snack", "vegetarian", "occasion", "batch"];
+export const TAGS: Tag[] = ["budget", "quick", "kids", "snack", "vegetarian", "occasion", "batch", "western"];
 
 export type Localized<T> = Record<Locale, T>;
 
@@ -71,6 +71,8 @@ export interface Dish {
   name: string;
   /** Optional translated names when the original isn't understood by everyone. */
   altNames?: Partial<Localized<string>>;
+  /** The name as written in the family list, when `name` is a translation of it. */
+  original?: string;
   section: SectionId;
   tags: Tag[];
   /** Absent = "recipe coming soon". */
@@ -89,6 +91,8 @@ export interface Section {
 export interface DishSummary {
   slug: string;
   name: string;
+  /** The name as written in the family list, when `name` is a translation of it. */
+  original?: string;
   section: SectionId;
   tags: Tag[];
   hasRecipe: boolean;

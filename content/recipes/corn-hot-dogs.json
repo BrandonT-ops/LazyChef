@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "kids",
+    "snack",
+    "western"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "8 sausages (hot dogs)",
+      "150 g fine cornmeal + 100 g flour",
+      "2 tbsp sugar, 1 tsp baking powder, ½ tsp salt",
+      "1 egg + 200 ml milk",
+      "Wooden skewers, oil for frying"
+    ],
+    "fr": [
+      "8 saucisses (type hot dog)",
+      "150 g de semoule de maïs fine + 100 g de farine",
+      "2 c. à soupe de sucre, 1 c. à café de levure chimique, ½ de sel",
+      "1 œuf + 200 ml de lait",
+      "Piques en bois, huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the cornmeal, flour, sugar, baking powder and salt, then whisk in the egg and milk to a thick batter. Pour it into a tall glass.",
+      "Pat the sausages dry and push a skewer into each.",
+      "Dip each sausage in the batter so it's well coated.",
+      "Fry in hot oil (175 °C) 3 to 4 minutes, turning, until golden."
+    ],
+    "fr": [
+      "Mélangez la semoule, la farine, le sucre, la levure et le sel, puis ajoutez l'œuf et le lait en fouettant pour une pâte épaisse. Versez-la dans un grand verre.",
+      "Séchez les saucisses et piquez une brochette dans chacune.",
+      "Trempez chaque saucisse dans la pâte pour bien l'enrober.",
+      "Faites frire dans l'huile chaude (175 °C) 3 à 4 minutes en tournant, jusqu'à ce qu'elles soient dorées."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with ketchup and mustard."
+    ],
+    "fr": [
+      "Servez avec du ketchup et de la moutarde."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

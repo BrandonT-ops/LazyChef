@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "kids",
+    "snack"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 25,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "4 eggs, hard-boiled and peeled",
+      "2 ripe plantains, boiled and mashed",
+      "2 potatoes, boiled and mashed",
+      "1 egg + breadcrumbs",
+      "Salt, pepper, pinch of nutmeg",
+      "Oil for frying"
+    ],
+    "fr": [
+      "4 œufs durs écalés",
+      "2 plantains mûrs bouillis et écrasés",
+      "2 pommes de terre bouillies et écrasées",
+      "1 œuf + chapelure",
+      "Sel, poivre, pincée de muscade",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the plantain and potato mash with salt, pepper and nutmeg; let it cool.",
+      "Wrap each boiled egg in a layer of the mash with wet hands.",
+      "Roll in beaten egg, then breadcrumbs.",
+      "Fry 4 to 5 minutes until golden. Cut in half to show the egg."
+    ],
+    "fr": [
+      "Mélangez les purées de plantain et de pommes de terre avec le sel, le poivre et la muscade ; laissez refroidir.",
+      "Enrobez chaque œuf dur d'une couche de purée avec les mains mouillées.",
+      "Roulez dans l'œuf battu, puis la chapelure.",
+      "Faites frire 4 à 5 minutes jusqu'à ce qu'elles soient dorées. Coupez en deux pour montrer l'œuf."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve as a snack with a tomato or chili dip."
+    ],
+    "fr": [
+      "Servez en snack avec une sauce tomate ou pimentée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

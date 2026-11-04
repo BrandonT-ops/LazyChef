@@ -1,0 +1,43 @@
+{
+  "tags": [
+    "quick",
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 3,
+  "cookMinutes": 3,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "2 slices of bread or ½ baguette",
+      "2 slices of cheese (or grated cheese)",
+      "A little butter"
+    ],
+    "fr": [
+      "2 tranches de pain ou ½ baguette",
+      "2 tranches de fromage (ou du fromage râpé)",
+      "Un peu de beurre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Butter the bread and add the cheese.",
+      "Eat as is, or toast it in a hot pan (or under the grill) 2 to 3 minutes until the cheese melts."
+    ],
+    "fr": [
+      "Beurrez le pain et ajoutez le fromage.",
+      "Mangez tel quel, ou faites-le dorer dans une poêle chaude (ou sous le gril) 2 à 3 minutes jusqu'à ce que le fromage fonde."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Add tomato or ham if you like."
+    ],
+    "fr": [
+      "Ajoutez de la tomate ou du jambon si vous voulez."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

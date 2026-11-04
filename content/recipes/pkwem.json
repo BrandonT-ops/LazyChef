@@ -1,0 +1,74 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg cassava leaves (fresh, or frozen pounded)",
+      "1 kg palm nuts (or 400 g canned palm-nut cream)",
+      "2 ripe plantains or 4 very ripe bananas (optional)",
+      "3 tbsp peanut paste (optional)",
+      "1 onion",
+      "2 cloves garlic",
+      "1 hot pepper",
+      "Salt"
+    ],
+    "fr": [
+      "1 kg de feuilles de manioc (fraîches, ou pilées surgelées)",
+      "1 kg de noix de palme (ou 400 g de crème de noix de palme en boîte)",
+      "2 plantains mûrs ou 4 bananes très mûres (facultatif)",
+      "3 c. à soupe de pâte d'arachide (facultatif)",
+      "1 oignon",
+      "2 gousses d'ail",
+      "1 piment",
+      "Sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Strip the cassava leaves from their stems, wash them and pound (or blend) them finely.",
+      "Boil the pounded leaves in plenty of water for 20 minutes, then drain: this takes away the bitterness.",
+      "Boil the palm nuts for 30 minutes, pound them and squeeze them in warm water to collect a thick red juice; strain out the fibres.",
+      "Put the leaves in a pot with the palm-nut juice, onion, garlic and pepper. Simmer on low heat for 30 to 40 minutes, stirring often, until the oil rises to the top.",
+      "For a sweet-savoury pot, add the sliced ripe plantain or banana for the last 15 minutes; for a richer one, stir in the peanut paste.",
+      "Season with salt and cook until thick."
+    ],
+    "fr": [
+      "Équeutez les feuilles de manioc, lavez-les et pilez-les (ou mixez-les) finement.",
+      "Faites bouillir les feuilles pilées dans beaucoup d'eau 20 minutes, puis égouttez : cela enlève l'amertume.",
+      "Faites bouillir les noix de palme 30 minutes, pilez-les et pressez-les dans de l'eau tiède pour recueillir un jus rouge épais ; filtrez les fibres.",
+      "Mettez les feuilles dans une marmite avec le jus de noix de palme, l'oignon, l'ail et le piment. Laissez mijoter à feu doux 30 à 40 minutes en remuant souvent, jusqu'à ce que l'huile remonte à la surface.",
+      "Pour une version sucrée-salée, ajoutez le plantain ou la banane mûre en rondelles pour les 15 dernières minutes ; pour plus de richesse, incorporez la pâte d'arachide.",
+      "Salez et laissez épaissir."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with boiled cassava, macabo or plantain.",
+      "It keeps 3 days in the fridge and tastes even better reheated."
+    ],
+    "fr": [
+      "Servez avec du manioc, du macabo ou du plantain bouilli.",
+      "Il se garde 3 jours au frais et il est encore meilleur réchauffé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Cocotier Market – Kpwem",
+      "url": "https://www.cocotier-market.fr/blogs/recettes-du-cameroun/recette-kpwem-feuilles-de-manioc-camerounaise"
+    },
+    {
+      "label": "Éditions 2015 – Kwem",
+      "url": "https://www.editions2015.com/cameroun/recette-kwem.php"
+    },
+    {
+      "label": "Cameroun24 – Kwem ou kpwem",
+      "url": "https://cameroun24.net/article/24496-la-recette-du-kwem-ou-kpwem.html"
+    }
+  ]
+}

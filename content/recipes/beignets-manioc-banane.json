@@ -1,0 +1,59 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian",
+    "snack",
+    "kids"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 15,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "600 g fresh cassava, grated and squeezed (or cassava dough)",
+      "4 very ripe bananas",
+      "2 tbsp sugar",
+      "1 pinch salt",
+      "2 tbsp flour (if needed)",
+      "Oil for frying"
+    ],
+    "fr": [
+      "600 g de manioc frais râpé et pressé (ou de pâte de manioc)",
+      "4 bananes très mûres",
+      "2 c. à soupe de sucre",
+      "1 pincée de sel",
+      "2 c. à soupe de farine (si besoin)",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mash the bananas into a smooth purée.",
+      "Mix with the squeezed cassava, sugar and salt. Add a little flour if it's too soft to hold.",
+      "Shape small balls with wet hands (or drop spoonfuls).",
+      "Fry in medium-hot oil 5 to 7 minutes, turning, until deep golden. Drain."
+    ],
+    "fr": [
+      "Écrasez les bananes en purée lisse.",
+      "Mélangez avec le manioc pressé, le sucre et le sel. Ajoutez un peu de farine si c'est trop mou pour tenir.",
+      "Formez de petites boules avec les mains mouillées (ou déposez des cuillerées).",
+      "Faites frire dans une huile moyennement chaude 5 à 7 minutes en retournant, jusqu'à ce qu'elles soient bien dorées. Égouttez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A sweet snack: serve warm with tea, bouillie or juice."
+    ],
+    "fr": [
+      "Un snack sucré : servez tiède avec du thé, de la bouillie ou du jus."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "International Cuisine – Banana fritters (CAR)",
+      "url": "https://www.internationalcuisine.com/?p=3758"
+    }
+  ]
+}

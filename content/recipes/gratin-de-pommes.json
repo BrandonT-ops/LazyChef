@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1.2 kg potatoes",
+      "400 ml milk + 200 ml cream (or all milk)",
+      "2 cloves garlic",
+      "100 g grated cheese",
+      "Butter, salt, pepper, nutmeg"
+    ],
+    "fr": [
+      "1,2 kg de pommes de terre",
+      "400 ml de lait + 200 ml de crème (ou tout en lait)",
+      "2 gousses d'ail",
+      "100 g de fromage râpé",
+      "Beurre, sel, poivre, muscade"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the potatoes and slice them thin (3 mm).",
+      "Simmer the slices 10 minutes in the milk and cream with the crushed garlic, salt, pepper and nutmeg, stirring gently.",
+      "Butter a baking dish, pour in the potatoes and their milk, and top with the cheese.",
+      "Bake at 180 °C for 35 to 45 minutes, until golden and a knife goes through easily."
+    ],
+    "fr": [
+      "Épluchez les pommes de terre et coupez-les en fines rondelles (3 mm).",
+      "Faites frémir les rondelles 10 minutes dans le lait et la crème avec l'ail écrasé, le sel, le poivre et la muscade, en remuant doucement.",
+      "Beurrez un plat, versez les pommes de terre et leur lait, et couvrez de fromage.",
+      "Faites cuire au four à 180 °C 35 à 45 minutes, jusqu'à ce que ce soit doré et qu'un couteau passe facilement."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with grilled meat, chicken or a green salad."
+    ],
+    "fr": [
+      "Servez avec une viande grillée, du poulet ou une salade verte."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

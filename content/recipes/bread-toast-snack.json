@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "quick",
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "4 slices of bread",
+      "2 eggs",
+      "50 g grated cheese",
+      "1 tomato, ½ onion, chopped",
+      "Ham or sausage, chopped (optional)",
+      "Butter, salt, pepper"
+    ],
+    "fr": [
+      "4 tranches de pain",
+      "2 œufs",
+      "50 g de fromage râpé",
+      "1 tomate, ½ oignon hachés",
+      "Jambon ou saucisse hachés (facultatif)",
+      "Beurre, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Beat the eggs with the cheese, tomato, onion, ham, salt and pepper.",
+      "Butter the bread on the outside.",
+      "Spread the egg mixture on two slices and close with the others.",
+      "Cook in a pan on medium heat 3 to 4 minutes per side, pressing, until golden and the egg is set."
+    ],
+    "fr": [
+      "Battez les œufs avec le fromage, la tomate, l'oignon, le jambon, le sel et le poivre.",
+      "Beurrez le pain à l'extérieur.",
+      "Étalez le mélange aux œufs sur deux tranches et refermez avec les autres.",
+      "Faites cuire à la poêle à feu moyen 3 à 4 minutes de chaque côté en pressant, jusqu'à ce que ce soit doré et l'œuf pris."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Cut in triangles; serve with juice or tea."
+    ],
+    "fr": [
+      "Coupez en triangles ; servez avec du jus ou du thé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

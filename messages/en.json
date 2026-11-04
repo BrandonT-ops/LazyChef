@@ -83,7 +83,8 @@
     "snack": "Snack",
     "vegetarian": "Vegetarian",
     "occasion": "Occasion",
-    "batch": "Keeps well"
+    "batch": "Keeps well",
+    "western": "Western"
   },
   "dish": {
     "comingSoon": "Recipe coming soon",
@@ -434,7 +435,6 @@
   },
   "landing": {
     "hero": {
-      "badge": "Free · Works offline · English & Français",
       "title": "Plan a week of home cooking in seconds.",
       "subtitle": "Chop turns {count} Cameroonian and family favourites into a weekly plan, a costed shopping list and step-by-step recipes. Breakfast to supper, right on your phone.",
       "primary": "Plan my week",

@@ -26,7 +26,7 @@ export function SearchView({
   const [onlyRecipes, setOnlyRecipes] = useState(false);
   const [limit, setLimit] = useState(PAGE);
 
-  const keyed = useMemo(() => dishes.map((d) => ({ d, key: searchKey(d.name) })), [dishes]);
+  const keyed = useMemo(() => dishes.map((d) => ({ d, key: searchKey(`${d.name} ${d.original ?? ""}`) })), [dishes]);
 
   const results = useMemo(() => {
     const words = searchKey(q).split(" ").filter(Boolean);

@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg fresh cassava",
+      "Okra soup: 300 g okra, 100 ml palm oil, 300 g fish or beef, 1 onion, 2 tbsp crayfish, 1 pepper, salt"
+    ],
+    "fr": [
+      "1 kg de manioc frais",
+      "Soupe gombo : 300 g de gombo, 100 ml d'huile de palme, 300 g de poisson ou de bœuf, 1 oignon, 2 c. à soupe d'écrevisses, 1 piment, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the cassava, remove the hard fibre in the middle, cut in pieces and boil 30 minutes until very soft.",
+      "Pound the hot cassava in a mortar, wetting the pestle with water, until smooth and stretchy.",
+      "Meanwhile cook the meat or fish with onion and salt; add the palm oil, crayfish and pepper.",
+      "Add the chopped okra and simmer uncovered 8 to 10 minutes until the soup draws."
+    ],
+    "fr": [
+      "Épluchez le manioc, retirez la fibre dure du milieu, coupez-le en morceaux et faites-le bouillir 30 minutes jusqu'à ce qu'il soit très tendre.",
+      "Pilez le manioc chaud au mortier en mouillant le pilon, jusqu'à ce qu'il soit lisse et élastique.",
+      "Pendant ce temps, faites cuire la viande ou le poisson avec l'oignon et le sel ; ajoutez l'huile de palme, les écrevisses et le piment.",
+      "Ajoutez le gombo haché et laissez mijoter à découvert 8 à 10 minutes, jusqu'à ce que la soupe file."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Shape the pounded cassava into balls and serve with the okro soup."
+    ],
+    "fr": [
+      "Façonnez le manioc pilé en boules et servez avec la soupe gombo."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Île aux épices – Sauce gombo",
+      "url": "https://ileauxepices.com/blog/2026/03/24/sauce-gombo-traditionnelle/wpid48952/"
+    }
+  ]
+}

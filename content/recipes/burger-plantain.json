@@ -1,0 +1,49 @@
+{
+  "tags": [
+    "kids"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "2 large ripe (but firm) plantains",
+      "250 g minced beef, seasoned and shaped into 2 patties",
+      "2 slices cheese",
+      "Lettuce, tomato, onion, sauce",
+      "Oil for frying"
+    ],
+    "fr": [
+      "2 gros plantains mûrs (mais fermes)",
+      "250 g de bœuf haché assaisonné, en 2 steaks",
+      "2 tranches de fromage",
+      "Salade, tomate, oignon, sauce",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cut each plantain in half lengthways, then each half in 2 pieces – these are the 'buns'.",
+      "Fry the plantain pieces until golden, then press them a little flatter.",
+      "Cook the patties 3 to 4 minutes per side and put the cheese on to melt.",
+      "Build: plantain, sauce, lettuce, patty, tomato, onion, plantain."
+    ],
+    "fr": [
+      "Coupez chaque plantain en deux dans la longueur, puis chaque moitié en 2 morceaux – ce sont les « pains ».",
+      "Faites frire les morceaux de plantain jusqu'à ce qu'ils soient dorés, puis aplatissez-les un peu.",
+      "Faites cuire les steaks 3 à 4 minutes de chaque côté et posez le fromage dessus pour qu'il fonde.",
+      "Montez : plantain, sauce, salade, steak, tomate, oignon, plantain."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Eat right away while the plantain is hot."
+    ],
+    "fr": [
+      "Mangez tout de suite, tant que le plantain est chaud."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "kids",
+    "vegetarian",
+    "snack",
+    "western"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "6 eggs",
+      "3 tbsp mayonnaise",
+      "1 tsp mustard",
+      "Salt, pepper, paprika",
+      "Parsley or chives"
+    ],
+    "fr": [
+      "6 œufs",
+      "3 c. à soupe de mayonnaise",
+      "1 c. à café de moutarde",
+      "Sel, poivre, paprika",
+      "Persil ou ciboulette"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the eggs 10 minutes, cool them in cold water and peel.",
+      "Cut them in half lengthways and scoop the yolks into a bowl.",
+      "Mash the yolks with the mayonnaise, mustard, salt and pepper until smooth.",
+      "Fill the whites with the mixture and dust with paprika and herbs."
+    ],
+    "fr": [
+      "Faites cuire les œufs 10 minutes, refroidissez-les à l'eau froide et écalez-les.",
+      "Coupez-les en deux dans la longueur et mettez les jaunes dans un bol.",
+      "Écrasez les jaunes avec la mayonnaise, la moutarde, le sel et le poivre jusqu'à ce que ce soit lisse.",
+      "Garnissez les blancs avec ce mélange et saupoudrez de paprika et d'herbes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve cold as a starter or party snack."
+    ],
+    "fr": [
+      "Servez frais en entrée ou en amuse-bouche."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

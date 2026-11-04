@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "800 g potatoes",
+      "¼ green cabbage, shredded",
+      "1 onion, 1 carrot",
+      "4 tbsp oil",
+      "1 cube, salt, pepper"
+    ],
+    "fr": [
+      "800 g de pommes de terre",
+      "¼ de chou vert émincé",
+      "1 oignon, 1 carotte",
+      "4 c. à soupe d'huile",
+      "1 cube, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Parboil the potato cubes 6 minutes, drain and fry until golden as for pommes sautées.",
+      "Push them aside and add the onion, grated carrot and cabbage with the cube.",
+      "Sauté 5 to 6 minutes until the cabbage softens but still crunches, then toss everything together. Season."
+    ],
+    "fr": [
+      "Faites précuire les cubes de pommes de terre 6 minutes, égouttez et faites-les dorer comme pour les pommes sautées.",
+      "Poussez-les sur le côté et ajoutez l'oignon, la carotte râpée et le chou avec le cube.",
+      "Faites sauter 5 à 6 minutes jusqu'à ce que le chou soit tendre mais encore croquant, puis mélangez le tout. Assaisonnez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Good on its own or with sausages or eggs."
+    ],
+    "fr": [
+      "Bon tel quel ou avec des saucisses ou des œufs."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Quiche lorraine",
+  "section": "wednesday",
+  "tags": [
+    "western"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 shortcrust pastry (or 200 g flour + 100 g butter + 1 pinch salt + 4 tbsp cold water)",
+      "200 g bacon or smoked ham, diced",
+      "3 eggs",
+      "200 ml cream + 200 ml milk",
+      "80 g grated cheese (optional)",
+      "Salt, pepper, nutmeg"
+    ],
+    "fr": [
+      "1 pâte brisée (ou 200 g de farine + 100 g de beurre + 1 pincée de sel + 4 c. à soupe d'eau froide)",
+      "200 g de lardons ou de jambon fumé en dés",
+      "3 œufs",
+      "200 ml de crème + 200 ml de lait",
+      "80 g de fromage râpé (facultatif)",
+      "Sel, poivre, muscade"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oven to 200 °C. Line a tart tin with the pastry and prick the base with a fork.",
+      "Brown the bacon in a dry pan for 5 minutes and drain.",
+      "Whisk the eggs, cream, milk, pepper, nutmeg and a little salt (bacon is salty).",
+      "Scatter the bacon (and cheese) over the pastry and pour in the egg mix.",
+      "Bake 35 to 40 minutes until puffed, set and golden."
+    ],
+    "fr": [
+      "Préchauffez le four à 200 °C. Foncez un moule avec la pâte et piquez le fond à la fourchette.",
+      "Faites dorer les lardons à sec 5 minutes et égouttez.",
+      "Fouettez les œufs, la crème, le lait, le poivre, la muscade et un peu de sel (les lardons sont salés).",
+      "Répartissez les lardons (et le fromage) sur la pâte et versez l'appareil.",
+      "Faites cuire 35 à 40 minutes jusqu'à ce que ce soit gonflé, pris et doré."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve warm or cold with a green salad."
+    ],
+    "fr": [
+      "Servez tiède ou froid avec une salade verte."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

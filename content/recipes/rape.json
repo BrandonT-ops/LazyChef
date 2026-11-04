@@ -1,0 +1,60 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 40,
+  "cookMinutes": 90,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "1 kg macabo (cocoyam)",
+      "500 g fresh cassava",
+      "2 tbsp palm oil",
+      "Banana leaves",
+      "Sauce: 300 g raw peanuts, 4 smoked fish, 50 g dried shrimp, 2 onions, 2 tomatoes, 2 cloves garlic, 1 piece ginger, 100 ml oil, 1 pepper, salt"
+    ],
+    "fr": [
+      "1 kg de macabo",
+      "500 g de manioc frais",
+      "2 c. à soupe d'huile de palme",
+      "Feuilles de bananier",
+      "Sauce : 300 g d'arachides crues, 4 poissons fumés, 50 g de crevettes séchées, 2 oignons, 2 tomates, 2 gousses d'ail, 1 morceau de gingembre, 100 ml d'huile, 1 piment, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel and wash the macabo and cassava, then grate both finely and mix with the palm oil and a pinch of salt.",
+      "Wrap spoonfuls of the grated dough in banana leaves and steam them for about 1 hour, until firm.",
+      "For the sauce: boil the peanuts 5 minutes, drain, rub off the skins and blend them with a little water into a smooth paste.",
+      "Fry the chopped onions, then add the blended tomatoes, garlic, ginger and shrimp. Cook 10 minutes.",
+      "Stir in the peanut paste and a little water and simmer on very low heat about 30 minutes, stirring often, until the oil comes up. Add the smoked fish, pepper and salt for the last 10 minutes."
+    ],
+    "fr": [
+      "Épluchez et lavez le macabo et le manioc, puis râpez-les finement et mélangez avec l'huile de palme et une pincée de sel.",
+      "Emballez des cuillerées de pâte râpée dans des feuilles de bananier et faites-les cuire à la vapeur environ 1 heure, jusqu'à ce qu'elles soient fermes.",
+      "Pour la sauce : faites bouillir les arachides 5 minutes, égouttez, frottez-les pour enlever la peau et mixez-les avec un peu d'eau en pâte lisse.",
+      "Faites revenir les oignons hachés, puis ajoutez les tomates mixées, l'ail, le gingembre et les crevettes. Laissez cuire 10 minutes.",
+      "Ajoutez la pâte d'arachide et un peu d'eau, et laissez mijoter à feu très doux environ 30 minutes en remuant souvent, jusqu'à ce que l'huile remonte. Ajoutez le poisson fumé, le piment et le sel pour les 10 dernières minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Unwrap the râpé and pour the hot peanut-fish sauce over it."
+    ],
+    "fr": [
+      "Déballez le râpé et nappez-le de sauce d'arachide au poisson bien chaude."
+    ]
+  },
+  "images": [],
+  "video": "https://www.tiktok.com/@kisse12x/video/7525457550637075743",
+  "sources": [
+    {
+      "label": "Afrik – Kouakoukou à la sauce blanche",
+      "url": "https://www.afrik.com/kouakoukou-a-la-sauce-blanche"
+    },
+    {
+      "label": "TikTok – Râpé",
+      "url": "https://www.tiktok.com/@kisse12x/video/7525457550637075743"
+    }
+  ]
+}

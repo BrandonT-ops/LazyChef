@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "kids",
+    "vegetarian",
+    "occasion",
+    "western"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "3 eggs",
+      "150 g sugar",
+      "100 ml oil or 120 g melted butter",
+      "Zest of 2 oranges + 150 ml orange juice",
+      "250 g flour",
+      "1 sachet (11 g) baking powder",
+      "Glaze: 100 g icing sugar + 2 tbsp orange juice (optional)"
+    ],
+    "fr": [
+      "3 œufs",
+      "150 g de sucre",
+      "100 ml d'huile ou 120 g de beurre fondu",
+      "Zeste de 2 oranges + 150 ml de jus d'orange",
+      "250 g de farine",
+      "1 sachet (11 g) de levure chimique",
+      "Glaçage : 100 g de sucre glace + 2 c. à soupe de jus d'orange (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Beat the eggs and sugar until pale and foamy.",
+      "Add the oil, zest and juice, then the flour and baking powder; mix until smooth.",
+      "Pour into a greased cake tin.",
+      "Bake at 180 °C for 35 to 40 minutes, until a knife comes out clean.",
+      "Cool, then drizzle with the glaze if you like."
+    ],
+    "fr": [
+      "Battez les œufs et le sucre jusqu'à ce que le mélange blanchisse et mousse.",
+      "Ajoutez l'huile, le zeste et le jus, puis la farine et la levure ; mélangez jusqu'à ce que ce soit lisse.",
+      "Versez dans un moule beurré.",
+      "Faites cuire à 180 °C 35 à 40 minutes, jusqu'à ce qu'un couteau ressorte sec.",
+      "Laissez refroidir, puis nappez de glaçage si vous voulez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve in slices with tea or juice."
+    ],
+    "fr": [
+      "Servez en tranches avec du thé ou du jus."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

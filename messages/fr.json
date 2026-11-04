@@ -83,7 +83,8 @@
     "snack": "Snack",
     "vegetarian": "Végétarien",
     "occasion": "Occasion",
-    "batch": "Se garde bien"
+    "batch": "Se garde bien",
+    "western": "Occidental"
   },
   "dish": {
     "comingSoon": "Recette à venir",
@@ -434,7 +435,6 @@
   },
   "landing": {
     "hero": {
-      "badge": "Gratuit · Fonctionne hors ligne · Français & English",
       "title": "Planifiez une semaine de cuisine maison en quelques secondes.",
       "subtitle": "Chop transforme {count} plats camerounais et familiaux en planning de la semaine, liste de courses chiffrée et recettes pas à pas. Du petit-déjeuner au dîner, sur votre téléphone.",
       "primary": "Planifier ma semaine",

@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "quick",
+    "vegetarian"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "4 eggs, whites and yolks separated",
+      "2 handfuls of spinach",
+      "1 small onion, 1 clove garlic",
+      "1 tbsp oil, salt, pepper"
+    ],
+    "fr": [
+      "4 œufs, blancs et jaunes séparés",
+      "2 poignées d'épinards",
+      "1 petit oignon, 1 gousse d'ail",
+      "1 c. à soupe d'huile, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Sauté the onion and garlic in the oil 2 minutes, add the spinach and cook until wilted. Season.",
+      "Beat the whites with a pinch of salt and pour them over the spinach; cook on low heat until almost set.",
+      "Make 4 little wells and slip a yolk into each.",
+      "Cover and cook 2 to 3 minutes until the yolks are as you like them."
+    ],
+    "fr": [
+      "Faites revenir l'oignon et l'ail dans l'huile 2 minutes, ajoutez les épinards et laissez-les tomber. Assaisonnez.",
+      "Battez les blancs avec une pincée de sel et versez-les sur les épinards ; laissez cuire à feu doux jusqu'à ce qu'ils soient presque pris.",
+      "Creusez 4 petits puits et déposez un jaune dans chacun.",
+      "Couvrez et laissez cuire 2 à 3 minutes jusqu'à ce que les jaunes soient comme vous les aimez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with bread or toast."
+    ],
+    "fr": [
+      "Servez avec du pain ou des toasts."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

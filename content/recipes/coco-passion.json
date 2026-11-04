@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "6 passion fruits",
+      "400 ml coconut milk",
+      "400 ml cold water",
+      "4 tbsp sugar",
+      "Ice"
+    ],
+    "fr": [
+      "6 fruits de la passion",
+      "400 ml de lait de coco",
+      "400 ml d'eau froide",
+      "4 c. à soupe de sucre",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Pulse the passion fruit pulp briefly with the water and strain out the seeds.",
+      "Whisk in the coconut milk and sugar.",
+      "Chill and shake before serving."
+    ],
+    "fr": [
+      "Mixez brièvement la pulpe des fruits de la passion avec l'eau et filtrez les graines.",
+      "Ajoutez le lait de coco et le sucre en fouettant.",
+      "Mettez au frais et secouez avant de servir."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

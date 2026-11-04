@@ -1,0 +1,46 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "12 safou (African plums)",
+      "Water and a pinch of salt (to boil)",
+      "Or: hot embers / an oven (to roast)"
+    ],
+    "fr": [
+      "12 safous (prunes africaines)",
+      "De l'eau et une pincée de sel (pour bouillir)",
+      "Ou : de la braise / un four (pour griller)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash the plums.",
+      "To boil: drop them into simmering salted water for 3 to 5 minutes, just until soft – don't let them burst.",
+      "To roast: lay them on hot embers or in a hot oven 5 to 10 minutes, turning, until soft.",
+      "Peel or bite into the soft flesh, avoiding the stone."
+    ],
+    "fr": [
+      "Lavez les prunes.",
+      "Bouillies : plongez-les dans de l'eau salée frémissante 3 à 5 minutes, juste jusqu'à ce qu'elles soient tendres – sans les laisser éclater.",
+      "Grillées : posez-les sur la braise ou dans un four chaud 5 à 10 minutes en les retournant, jusqu'à ce qu'elles ramollissent.",
+      "Pelez ou croquez la chair tendre en évitant le noyau."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Eat with bread, boiled or roasted corn, or plantain."
+    ],
+    "fr": [
+      "Mangez avec du pain, du maïs bouilli ou grillé, ou du plantain."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

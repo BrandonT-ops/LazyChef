@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "2 ripe mangoes",
+      "5 passion fruits",
+      "800 ml cold water",
+      "Sugar to taste",
+      "Ice"
+    ],
+    "fr": [
+      "2 mangues mûres",
+      "5 fruits de la passion",
+      "800 ml d'eau froide",
+      "Sucre selon le goût",
+      "Glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Pulse the passion fruit pulp briefly with half the water and strain out the seeds.",
+      "Blend the mango flesh with this juice and the rest of the water.",
+      "Sweeten and chill."
+    ],
+    "fr": [
+      "Mixez brièvement la pulpe des fruits de la passion avec la moitié de l'eau et filtrez les graines.",
+      "Mixez la chair des mangues avec ce jus et le reste de l'eau.",
+      "Sucrez et mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold, over ice. Best drunk the same day."
+    ],
+    "fr": [
+      "Servez bien frais, avec des glaçons. À boire le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

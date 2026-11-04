@@ -1,0 +1,64 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 120,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "1 kg raw peanuts",
+      "300 g smoked or dried fish (or meat)",
+      "2 tbsp ground crayfish",
+      "1 onion, 2 cloves garlic",
+      "1 hot pepper",
+      "Salt",
+      "Banana leaves and string"
+    ],
+    "fr": [
+      "1 kg d'arachides crues",
+      "300 g de poisson fumé ou séché (ou de viande)",
+      "2 c. à soupe d'écrevisses moulues",
+      "1 oignon, 2 gousses d'ail",
+      "1 piment",
+      "Sel",
+      "Feuilles de bananier et ficelle"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Soak the peanuts 1 hour in warm water and rub off the red skins.",
+      "Grind them very finely with the onion, garlic and pepper, adding a little water, until you get a smooth, thick paste.",
+      "Beat the paste with a wooden spoon for a few minutes, then mix in the crayfish, flaked fish and salt.",
+      "Spoon portions onto wilted banana leaves, fold into tight parcels and tie.",
+      "Steam in a large pot over a little water (with stems at the bottom) for about 2 hours, topping up water as needed."
+    ],
+    "fr": [
+      "Faites tremper les arachides 1 heure dans de l'eau tiède et frottez-les pour enlever les peaux rouges.",
+      "Écrasez-les très finement avec l'oignon, l'ail et le piment en ajoutant un peu d'eau, jusqu'à obtenir une pâte lisse et épaisse.",
+      "Battez la pâte quelques minutes à la cuillère en bois, puis ajoutez les écrevisses, le poisson émietté et le sel.",
+      "Déposez des portions sur des feuilles de bananier passées à la flamme, pliez en paquets serrés et ficelez.",
+      "Faites cuire à la vapeur dans une grande marmite sur un peu d'eau (avec des tiges au fond) environ 2 heures, en rajoutant de l'eau si besoin."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with boiled cassava, bobolo or ripe plantain."
+    ],
+    "fr": [
+      "Servez avec du manioc bouilli, du bâton de manioc ou du plantain mûr."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Vikidia – Nkongui owondo",
+      "url": "https://fr.vikidia.org/wiki/Nkongui_Owondo"
+    },
+    {
+      "label": "Afrik – Le nnam owondo",
+      "url": "https://www.afrik.com/cameroun-gastronomie-le-nnam-owondo-le-totem-des-beti"
+    }
+  ]
+}

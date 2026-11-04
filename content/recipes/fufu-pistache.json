@@ -1,0 +1,64 @@
+{
+  "tags": [],
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g shelled egusi (pistache / melon seeds), ground",
+      "500 g beef, in pieces",
+      "2 smoked fish, cleaned and flaked",
+      "2 tbsp ground crayfish",
+      "1 onion, 1 hot pepper",
+      "Salt",
+      "Fufu: 800 g corn or cassava fufu flour + water",
+      "Banana leaves or foil (to steam)"
+    ],
+    "fr": [
+      "500 g de pistache (graines de melon / egusi) décortiquée et moulue",
+      "500 g de bœuf en morceaux",
+      "2 poissons fumés nettoyés et émiettés",
+      "2 c. à soupe d'écrevisses moulues",
+      "1 oignon, 1 piment",
+      "Sel",
+      "Fufu : 800 g de farine de fufu (maïs ou manioc) + eau",
+      "Feuilles de bananier ou papier aluminium (pour la vapeur)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the beef with the onion and salt until tender. Keep the broth.",
+      "In a bowl, mix the ground pistache with the crayfish, crushed pepper and a little warm broth until it's a thick, smooth paste.",
+      "Fold in the beef and smoked fish; season with salt.",
+      "Wrap portions in wilted banana leaves (or foil) and tie. Steam over a little water for 45 minutes to 1 hour, until set like a pudding.",
+      "Make the fufu: stir the flour into boiling water, working it hard on low heat for 10 minutes until smooth."
+    ],
+    "fr": [
+      "Faites bouillir le bœuf avec l'oignon et le sel jusqu'à ce qu'il soit tendre. Gardez le bouillon.",
+      "Dans un bol, mélangez la pistache moulue avec les écrevisses, le piment écrasé et un peu de bouillon tiède pour obtenir une pâte épaisse et lisse.",
+      "Incorporez la viande et le poisson fumé ; salez.",
+      "Emballez des portions dans des feuilles de bananier passées à la flamme (ou de l'aluminium) et ficelez. Faites cuire à la vapeur sur un peu d'eau 45 minutes à 1 heure, jusqu'à ce que ce soit pris comme un flan.",
+      "Préparez le fufu : versez la farine dans l'eau bouillante en la travaillant fort à feu doux 10 minutes jusqu'à ce qu'elle soit lisse."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve the pistache parcels with fufu, boiled plantain or miondo."
+    ],
+    "fr": [
+      "Servez les paquets de pistache avec du fufu, du plantain bouilli ou des miondo."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Afrik – Pudding egusi",
+      "url": "https://www.afrik.com/pudding-egusi"
+    },
+    {
+      "label": "Keng's Kitchen – Cameroonian egusi pudding",
+      "url": "https://kengskitchen.com/cameroon-recipes/cameroonian-egusi-pudding"
+    }
+  ]
+}

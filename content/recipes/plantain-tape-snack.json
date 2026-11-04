@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian",
+    "snack"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "3 green or half-ripe plantains",
+      "Oil for frying",
+      "Salt, chili powder",
+      "Garlic-pepper dip (optional)"
+    ],
+    "fr": [
+      "3 plantains verts ou mi-mûrs",
+      "Huile de friture",
+      "Sel, piment en poudre",
+      "Sauce ail-piment (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the plantains and cut them in 3 cm pieces.",
+      "Fry them in hot oil 4 to 5 minutes until lightly golden but still pale. Drain.",
+      "Put each piece between two sheets of paper (or a folded plastic bag) and flatten with the bottom of a glass or a board.",
+      "Fry the flattened pieces again 2 to 3 minutes until crisp and golden. Season with salt and chili right away."
+    ],
+    "fr": [
+      "Épluchez les plantains et coupez-les en morceaux de 3 cm.",
+      "Faites-les frire dans l'huile chaude 4 à 5 minutes, légèrement dorés mais encore pâles. Égouttez.",
+      "Placez chaque morceau entre deux feuilles de papier (ou un sachet plié) et aplatissez-le avec le fond d'un verre ou une planche.",
+      "Refaites frire les morceaux aplatis 2 à 3 minutes jusqu'à ce qu'ils soient croustillants et dorés. Salez et pimentez tout de suite."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot as a snack with a spicy dip, or with grilled fish."
+    ],
+    "fr": [
+      "Servez chaud en snack avec une sauce pimentée, ou avec du poisson braisé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Keng's Kitchen – Tapé tapé",
+      "url": "https://www.kengskitchen.com/kengs-kitchen-blog/tap-tap-t-he-non-traditional-fried-plantainsdodo"
+    },
+    {
+      "label": "Saiga Tours – Food of Cameroon",
+      "url": "https://www.saigatours.com/article/What-is-the-food-of-Cameroon"
+    }
+  ]
+}

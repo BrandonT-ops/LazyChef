@@ -1,0 +1,65 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "Beignets: 500 g flour, 7 g dry yeast, 80 g sugar, 1 pinch salt, about 300 ml warm water, oil for frying",
+      "Beans: 500 g red or white beans (soaked overnight), 2 onions, 2 tomatoes, 100 ml oil, salt, pepper",
+      "Bouillie: 150 g corn flour (or fermented corn paste), 1 litre water, 2 lemongrass stalks, sugar, juice of 1 lime"
+    ],
+    "fr": [
+      "Beignets : 500 g de farine, 7 g de levure sèche, 80 g de sucre, 1 pincée de sel, environ 300 ml d'eau tiède, huile de friture",
+      "Haricots : 500 g de haricots rouges ou blancs (trempés la veille), 2 oignons, 2 tomates, 100 ml d'huile, sel, piment",
+      "Bouillie : 150 g de farine de maïs (ou de pâte de maïs fermentée), 1 litre d'eau, 2 tiges de citronnelle, sucre, jus d'1 citron vert"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Beans: cook the soaked beans until very soft (about 1 hour), salt and drain. Fry the onions in the oil, add the tomatoes and pepper, then the beans; cook 10 minutes.",
+      "Beignets: mix the flour, yeast, sugar and salt, and add the water little by little to a soft, sticky dough. Beat it with your hand 5 minutes, cover and let it rise 1 hour.",
+      "With wet fingers, drop small balls of dough into hot oil and fry 4 to 5 minutes, turning, until golden and puffed. Drain.",
+      "Bouillie: boil 750 ml water with the lemongrass 10 minutes. Mix the corn flour with 250 ml cold water, pour it into the boiling water while whisking, and cook 10 minutes, stirring, until smooth. Remove the lemongrass; add sugar and lime to taste."
+    ],
+    "fr": [
+      "Haricots : faites cuire les haricots trempés jusqu'à ce qu'ils soient très tendres (environ 1 heure), salez et égouttez. Faites revenir les oignons dans l'huile, ajoutez les tomates et le piment, puis les haricots ; laissez cuire 10 minutes.",
+      "Beignets : mélangez la farine, la levure, le sucre et le sel, et ajoutez l'eau petit à petit pour une pâte souple et collante. Battez-la à la main 5 minutes, couvrez et laissez lever 1 heure.",
+      "Avec les doigts mouillés, déposez de petites boules de pâte dans l'huile chaude et faites frire 4 à 5 minutes en retournant, jusqu'à ce qu'elles soient dorées et gonflées. Égouttez.",
+      "Bouillie : faites bouillir 750 ml d'eau avec la citronnelle 10 minutes. Délayez la farine de maïs dans 250 ml d'eau froide, versez dans l'eau bouillante en fouettant, et laissez cuire 10 minutes en remuant jusqu'à ce que ce soit lisse. Retirez la citronnelle ; ajoutez sucre et citron à votre goût."
+    ]
+  },
+  "serving": {
+    "en": [
+      "The classic Cameroonian breakfast: beignets and beans on a plate, with a cup of hot bouillie.",
+      "Add chili sauce on the beans if you like."
+    ],
+    "fr": [
+      "Le petit-déjeuner camerounais par excellence : beignets et haricots dans l'assiette, avec un bol de bouillie chaude.",
+      "Ajoutez de la sauce pimentée sur les haricots si vous aimez."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Nkosi Agro – Beignet haricot et bouillie",
+      "url": "https://www.nkosiagro.com/blogs/culture-africaine/beignet-haricot-et-bouille"
+    },
+    {
+      "label": "Kelianfood – Beignet haricot",
+      "url": "https://kelianfood.com/en/the-best-recipe-bignet-haricot-cameroon"
+    },
+    {
+      "label": "Afrik – Beignets-haricots",
+      "url": "https://www.afrik.com/beignets-haricots-le-plat-mythique-des-camerounais"
+    },
+    {
+      "label": "Allodocteurs – BHB et santé",
+      "url": "https://www.allodocteurs.fr/stars-du-petit-dejeuner-camerounais-les-beignets-haricots-sont-ils-vraiment-dangereux-pour-la-sante-44300.html"
+    }
+  ]
+}

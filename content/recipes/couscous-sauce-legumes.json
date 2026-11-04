@@ -1,0 +1,49 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "500 g corn flour + water (couscous)",
+      "1 carrot, 1 zucchini, 1 green pepper, a handful of green beans",
+      "3 tomatoes, 2 onions, 2 cloves garlic",
+      "300 g beef or chicken (optional)",
+      "4 tbsp oil, 1 cube, thyme, salt, pepper"
+    ],
+    "fr": [
+      "500 g de farine de maïs + eau (couscous)",
+      "1 carotte, 1 courgette, 1 poivron, une poignée de haricots verts",
+      "3 tomates, 2 oignons, 2 gousses d'ail",
+      "300 g de bœuf ou de poulet (facultatif)",
+      "4 c. à soupe d'huile, 1 cube, thym, sel, piment"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Brown the meat (if using) in the oil, then add the onions and garlic.",
+      "Add the blended tomatoes, thyme and cube and simmer 10 minutes.",
+      "Add the vegetables cut small with a glass of water, and simmer 15 minutes until just tender.",
+      "Make the corn couscous."
+    ],
+    "fr": [
+      "Faites dorer la viande (si vous en mettez) dans l'huile, puis ajoutez les oignons et l'ail.",
+      "Ajoutez les tomates mixées, le thym et le cube et laissez mijoter 10 minutes.",
+      "Ajoutez les légumes en petits morceaux avec un verre d'eau et laissez mijoter 15 minutes, juste tendres.",
+      "Préparez le couscous de maïs."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with the couscous, or with rice."
+    ],
+    "fr": [
+      "Servez avec le couscous, ou avec du riz."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

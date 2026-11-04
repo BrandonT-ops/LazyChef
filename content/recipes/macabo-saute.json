@@ -1,0 +1,47 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg macabo",
+      "200 g smoked fish or meat (optional)",
+      "2 onions, 2 tomatoes",
+      "4 tbsp oil (or palm oil)",
+      "1 cube, salt, pepper"
+    ],
+    "fr": [
+      "1 kg de macabo",
+      "200 g de poisson fumé ou de viande (facultatif)",
+      "2 oignons, 2 tomates",
+      "4 c. à soupe d'huile (ou d'huile de palme)",
+      "1 cube, sel, piment"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel, cube and boil the macabo 20 minutes in salted water, until just tender. Drain.",
+      "Fry the onions in the oil, add the chopped tomatoes and the fish or meat; cook 8 minutes.",
+      "Add the macabo and the cube, and sauté gently 5 minutes until coated."
+    ],
+    "fr": [
+      "Épluchez, coupez en cubes et faites bouillir le macabo 20 minutes à l'eau salée, juste tendre. Égouttez.",
+      "Faites revenir les oignons dans l'huile, ajoutez les tomates hachées et le poisson ou la viande ; laissez cuire 8 minutes.",
+      "Ajoutez le macabo et le cube, et faites sauter doucement 5 minutes pour bien l'enrober."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with avocado or a green salad."
+    ],
+    "fr": [
+      "Servez chaud avec de l'avocat ou une salade verte."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

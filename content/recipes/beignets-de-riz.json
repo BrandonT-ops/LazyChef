@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian",
+    "snack",
+    "kids"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "2 cups cooked rice (leftover is perfect)",
+      "1 cup flour",
+      "1 tsp baking powder",
+      "3 tbsp sugar",
+      "1 egg",
+      "100 ml milk",
+      "1 pinch nutmeg or vanilla",
+      "Oil for frying"
+    ],
+    "fr": [
+      "2 tasses de riz cuit (un reste est parfait)",
+      "1 tasse de farine",
+      "1 c. à café de levure chimique",
+      "3 c. à soupe de sucre",
+      "1 œuf",
+      "100 ml de lait",
+      "1 pincée de muscade ou de vanille",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mash the rice roughly with a fork (or pulse it in a blender).",
+      "Mix in the flour, baking powder, sugar, egg, milk and flavouring to make a thick batter.",
+      "Drop spoonfuls into medium-hot oil and fry 3 to 4 minutes, turning, until golden.",
+      "Drain and dust with sugar if you like."
+    ],
+    "fr": [
+      "Écrasez grossièrement le riz à la fourchette (ou mixez-le rapidement).",
+      "Ajoutez la farine, la levure, le sucre, l'œuf, le lait et l'arôme pour obtenir une pâte épaisse.",
+      "Déposez des cuillerées dans une huile moyennement chaude et faites frire 3 à 4 minutes en retournant, jusqu'à ce qu'elles soient dorées.",
+      "Égouttez et saupoudrez de sucre si vous voulez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve warm with tea or bouillie."
+    ],
+    "fr": [
+      "Servez tiède avec du thé ou de la bouillie."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

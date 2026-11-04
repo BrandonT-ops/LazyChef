@@ -1,0 +1,47 @@
+{
+  "tags": [
+    "snack"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 25,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "400 g minced beef, seasoned (onion, garlic, parsley, salt, pepper)",
+      "6 miondo (thin cassava sticks), unwrapped",
+      "1 egg + flour",
+      "Oil for frying"
+    ],
+    "fr": [
+      "400 g de bœuf haché assaisonné (oignon, ail, persil, sel, poivre)",
+      "6 miondo (fins bâtons de manioc) déballés",
+      "1 œuf + farine",
+      "Huile de friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Shape the seasoned meat into small balls.",
+      "Mash the miondo with a fork (or briefly in a blender) into a smooth, sticky dough.",
+      "Wrap each meatball in a thin layer of miondo with wet hands.",
+      "Dip in flour, then beaten egg, and fry 6 to 8 minutes until golden and the meat is cooked through."
+    ],
+    "fr": [
+      "Formez de petites boulettes avec la viande assaisonnée.",
+      "Écrasez les miondo à la fourchette (ou rapidement au mixeur) en une pâte lisse et collante.",
+      "Enrobez chaque boulette d'une fine couche de miondo avec les mains mouillées.",
+      "Passez dans la farine puis l'œuf battu, et faites frire 6 à 8 minutes jusqu'à ce qu'elles soient dorées et la viande cuite."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve as a party snack with a chili dip."
+    ],
+    "fr": [
+      "Servez en amuse-bouche de fête avec une sauce pimentée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

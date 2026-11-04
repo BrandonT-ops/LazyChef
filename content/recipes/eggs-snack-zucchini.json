@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids",
+    "snack",
+    "western"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "2 zucchini, grated and squeezed",
+      "3 eggs",
+      "4 tbsp flour",
+      "50 g grated cheese",
+      "½ onion, chopped, parsley",
+      "Salt, pepper, oil"
+    ],
+    "fr": [
+      "2 courgettes râpées et pressées",
+      "3 œufs",
+      "4 c. à soupe de farine",
+      "50 g de fromage râpé",
+      "½ oignon haché, persil",
+      "Sel, poivre, huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix all the ingredients into a thick batter.",
+      "Heat a little oil and drop spoonfuls, flattening them slightly.",
+      "Cook 3 minutes per side until golden."
+    ],
+    "fr": [
+      "Mélangez tous les ingrédients en une pâte épaisse.",
+      "Chauffez un peu d'huile et déposez des cuillerées en les aplatissant légèrement.",
+      "Faites cuire 3 minutes de chaque côté jusqu'à ce qu'elles soient dorées."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve warm with yogurt sauce or ketchup."
+    ],
+    "fr": [
+      "Servez tiède avec une sauce au yaourt ou du ketchup."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

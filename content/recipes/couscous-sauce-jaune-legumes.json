@@ -1,0 +1,60 @@
+{
+  "tags": [],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g corn flour + water (couscous)",
+      "150 ml palm oil",
+      "1 small piece kanwa, dissolved in ½ glass water",
+      "500 g beef or tripe, cooked (keep the broth)",
+      "2 bunches of greens (njama-njama or spinach), blanched",
+      "1 tsp yellow-sauce spices, 1 pepper, salt"
+    ],
+    "fr": [
+      "500 g de farine de maïs + eau (couscous)",
+      "150 ml d'huile de palme",
+      "1 petit morceau de kanwa dissous dans ½ verre d'eau",
+      "500 g de bœuf ou de tripes cuits (gardez le bouillon)",
+      "2 bottes de légumes verts (njama-njama ou épinards) blanchis",
+      "1 c. à café d'épices sauce jaune, 1 piment, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Whisk the palm oil with the strained kanwa water until thick and yellow.",
+      "Add warm broth little by little, whisking, then the ground spices and pepper.",
+      "Add the meat and simmer 10 minutes. Salt to taste.",
+      "Sauté the blanched greens with a little oil and salt, to serve on the side.",
+      "Make the corn couscous: flour into boiling water, stirring hard, 10 minutes on low heat."
+    ],
+    "fr": [
+      "Fouettez l'huile de palme avec l'eau de kanwa filtrée jusqu'à ce qu'elle soit épaisse et jaune.",
+      "Ajoutez le bouillon tiède petit à petit en fouettant, puis les épices moulues et le piment.",
+      "Ajoutez la viande et laissez mijoter 10 minutes. Salez.",
+      "Faites sauter les légumes blanchis avec un peu d'huile et de sel, pour servir à côté.",
+      "Préparez le couscous de maïs : farine dans l'eau bouillante en remuant fort, 10 minutes à feu doux."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve couscous, yellow sauce and greens together on the plate."
+    ],
+    "fr": [
+      "Servez couscous, sauce jaune et légumes ensemble dans l'assiette."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Camer.be – Taro pilé et sauce jaune",
+      "url": "https://www.camer.be/71107/35:32/cameroon-cameroun-tchop-le-taro-pile-et-sa-sauce-jaune.html"
+    },
+    {
+      "label": "Brut – Sauce jaune camerounaise",
+      "url": "https://www.brut.media/afrique/videos/la-recette-de-la-sauce-jaune-camerounaise"
+    }
+  ]
+}

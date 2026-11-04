@@ -1,0 +1,47 @@
+{
+  "tags": [
+    "quick",
+    "kids",
+    "western"
+  ],
+  "prepMinutes": 3,
+  "cookMinutes": 0,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "½ baguette",
+      "4 to 6 slices of saucisson (salami)",
+      "Butter or mayonnaise",
+      "Lettuce or cucumber (optional)"
+    ],
+    "fr": [
+      "½ baguette",
+      "4 à 6 tranches de saucisson",
+      "Beurre ou mayonnaise",
+      "Salade ou concombre (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Open the bread and spread with butter or mayonnaise.",
+      "Lay in the saucisson, with lettuce or cucumber for crunch.",
+      "Close and press."
+    ],
+    "fr": [
+      "Ouvrez le pain et tartinez de beurre ou de mayonnaise.",
+      "Disposez le saucisson, avec de la salade ou du concombre pour le croquant.",
+      "Refermez et pressez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Good with tea or coffee in the morning."
+    ],
+    "fr": [
+      "Bon avec du thé ou du café le matin."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}
