@@ -73,31 +73,15 @@ so it can be uploaded to their account when Phase 2 arrives.
   types (butcher, fish, bakery…), and the markets page shows what's left to buy.
 - **Week planner:** a "people eating" count, so quantities and costs in the list fit the household.
 
-### Phase 2: accounts, submissions, admin
-Proposed backend: **Supabase** (Postgres, auth, file storage for photos and videos, row-level security), with a free tier.
-
-```
-profiles   id (auth user) · display_name · role: 'user' | 'admin'
-recipes    id · slug · section · name · alt_names{en,fr}
-           tags[] · prep/cook minutes · servings
-           ingredients{en[],fr[]} · steps{en[],fr[]}
-           images[] · video_url · links[{label,url}]
-           author_id · visibility: 'private' | 'public'
-           status: 'draft' | 'pending' | 'approved' | 'rejected'
-           review_note · created_at · updated_at
-plans      user_id · week (json)   -- optional: sync the planner across devices
-```
-
-Rules (enforced by row-level security):
-- Anyone can read `public` + `approved` recipes.
-- Authors can read and edit their own recipes. Publishing a recipe sets its status to `pending`.
-- Admins can do everything, including approve and reject.
-
-Screens: sign in (email magic link or Google), "My recipes", recipe editor (bilingual fields, photo and
-video upload, links), "Submit for review", admin review queue, and **"I made it!" photo posts** on recipe pages.
-
-`src/lib/dishes.ts` is the only place that reads data, so Phase 2 swaps its internals for
-database queries without touching the pages.
+### Phase 2: accounts, submissions, admin ✅ (Supabase)
+- Accounts: email sign-in link or email + password; profile with display name
+- Synced kitchen: favorites, shopping list, prices, week and event plans follow the account
+  (local storage stays the working copy, so it keeps working offline)
+- My recipes and "I made it!" photos saved in the account; on-device items can be moved up
+- Submit for review → admins approve or reject (with a note) → approved recipes appear on
+  /community and on the dish's page; editing an approved recipe sends it back to review
+- Admin on Supabase: official recipes (photos and video uploads up to 50 MB), review queue, admin roles
+- Database rules (row-level security) tested: 32 checks; see supabase/migrations and docs/SUPABASE.md
 
 ### Phase 3: nice-to-haves
 - Shopping list built from the week plan

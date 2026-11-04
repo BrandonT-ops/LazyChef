@@ -17,10 +17,10 @@ export function Footer() {
     {
       title: t("footer.explore"),
       links: [
+        { href: "/community", label: t("footer.community") },
         { href: "/search", label: t("nav.search") },
         { href: "/random", label: t("nav.random") },
         { href: "/sections/sunday", label: t("sections.sunday.name") },
-        { href: "/sections/drinks", label: t("sections.drinks.name") },
       ],
     },
     {

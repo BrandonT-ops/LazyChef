@@ -14,7 +14,10 @@
     "menu": "Menu",
     "markets": "Marchés",
     "kitchen": "Ma cuisine",
-    "events": "Événements"
+    "events": "Événements",
+    "account": "Compte",
+    "signIn": "Connexion",
+    "community": "Communauté"
   },
   "home": {
     "kicker": "Trop fatigué pour réfléchir ? Pareil.",
@@ -167,7 +170,8 @@
     "kitchen": "Votre cuisine",
     "about": "La cuisine maison simplifiée : plannings, menus d'événements, listes de courses chiffrées et recettes pas à pas.",
     "local": "Vos plannings et recettes restent sur votre appareil.",
-    "admin": "Admin"
+    "admin": "Admin",
+    "community": "Communauté"
   },
   "notFound": {
     "title": "Cette assiette est vide",
@@ -248,7 +252,7 @@
   },
   "kitchen": {
     "title": "Ma cuisine",
-    "subtitle": "Vos favoris, vos propres recettes, vos photos et votre liste de courses. Tout reste sur cet appareil.",
+    "subtitle": "Vos favoris, vos propres recettes, vos photos et votre liste de courses.",
     "tabs": {
       "favorites": "Favoris",
       "recipes": "Mes recettes",
@@ -270,13 +274,18 @@
     "notFound": "Cette recette n'est pas sur cet appareil.",
     "sharedWithYou": "Partagée avec vous",
     "saveToMine": "Enregistrer dans mes recettes",
-    "badLink": "Ce lien de recette ne fonctionne pas. Demandez qu'on vous la partage à nouveau."
+    "badLink": "Ce lien de recette ne fonctionne pas. Demandez qu'on vous la partage à nouveau.",
+    "recipesNoteAccount": "Enregistrées dans votre compte. Envoyez-en une en validation pour la partager avec la communauté.",
+    "signInBanner": "Connectez-vous pour retrouver votre cuisine sur tous vos appareils et partager avec la communauté.",
+    "signInCta": "Se connecter",
+    "moveBanner": "Des recettes ou photos sont encore seulement sur ce téléphone.",
+    "moveCta": "Les déplacer dans mon compte"
   },
   "made": {
     "button": "Je l'ai fait !",
     "saving": "Enregistrement…",
     "savedTitle": "Ça a l'air délicieux !",
-    "savedText": "Votre photo est enregistrée sur cet appareil.",
+    "savedText": "Enregistrée sur cet appareil.",
     "share": "Partager la photo",
     "seeAll": "Voir mes photos",
     "close": "Fermer",
@@ -284,7 +293,15 @@
     "empty": "Pas encore de photos. Cuisinez, puis touchez « Je l'ai fait ! » sur la recette.",
     "yours": "Vos photos",
     "delete": "Supprimer la photo",
-    "confirmDelete": "Supprimer cette photo ?"
+    "confirmDelete": "Supprimer cette photo ?",
+    "signInToShare": "Connectez-vous pour la partager avec tout le monde.",
+    "sharedPublic": "Partagée sur la page du plat, visible par tous.",
+    "keptPrivate": "Vous seul voyez cette photo.",
+    "makePrivate": "Rendre privée",
+    "makePublic": "Partager",
+    "onDevice": "Sur l'appareil",
+    "public": "Publique",
+    "private": "Privée"
   },
   "shopping": {
     "add": "Ajouter aux courses",
@@ -333,9 +350,19 @@
     "linkLabel": "Libellé",
     "addLink": "Ajouter un lien",
     "removeLink": "Retirer le lien",
-    "deviceNote": "Enregistrée sur cet appareil seulement, en attendant les comptes.",
+    "deviceNote": "Enregistrée sur cet appareil seulement.",
     "cancel": "Annuler",
-    "save": "Enregistrer"
+    "save": "Enregistrer",
+    "accountNote": "Enregistrée dans votre compte. Vous pourrez l'envoyer en validation pour la partager.",
+    "signIn": "Connectez-vous pour la garder dans votre compte et la partager.",
+    "whichDish": "De quel plat s'agit-il ? (facultatif)",
+    "noDish": "Pas dans la liste / mon propre plat",
+    "whichDishHint": "Si vous la reliez, votre version apparaîtra sur la page du plat une fois publiée.",
+    "servingHint": "Un conseil par ligne : accompagnements, présentation…",
+    "servingPlaceholder": "Servir avec du plantain frit\nAjouter du piment à côté",
+    "uploadVideo": "Ou envoyer une vidéo (50 Mo max)",
+    "removeVideo": "Retirer la vidéo",
+    "videoTooBig": "Cette vidéo dépasse 50 Mo. Utilisez-en une plus courte ou un lien."
   },
   "events": {
     "title": "Planifier un événement",
@@ -514,15 +541,13 @@
   "admin": {
     "eyebrow": "Admin",
     "title": "Recettes",
-    "subtitle": "Écrivez et mettez à jour les recettes pour tout le monde. Chaque enregistrement est publié sur le site en une minute environ.",
+    "subtitle": "Écrivez et mettez à jour les recettes, validez les propositions de la communauté et gérez les admins. Les changements sont en ligne dès la publication.",
     "notConfigured": "L'admin n'est pas encore configuré",
-    "notConfiguredText": "Ajoutez ces réglages dans Vercel (Project → Settings → Environment Variables), puis redéployez :",
-    "setupDoc": "Les instructions pas à pas sont dans docs/ADMIN.md du dépôt.",
-    "signInTitle": "Connexion à l'admin",
-    "signInText": "Utilisez votre compte GitHub. Seules les personnes de la liste admin peuvent entrer.",
-    "signIn": "Se connecter avec GitHub",
-    "forbidden": "Ce compte GitHub n'est pas dans la liste admin.",
-    "signinError": "La connexion n'a pas fonctionné. Réessayez.",
+    "notConfiguredText": "Connectez Supabase à ce site pour utiliser l'admin (voir docs/SUPABASE.md).",
+    "setupDoc": "Les étapes de configuration sont dans docs/SUPABASE.md.",
+    "signInTitle": "Admin",
+    "signInText": "Connectez-vous avec votre compte Chop pour gérer les recettes.",
+    "signIn": "Se connecter",
     "signedInAs": "Connecté en tant que",
     "signOut": "Déconnexion",
     "newDish": "Nouveau plat",
@@ -562,17 +587,146 @@
     "addPhotos": "Ajouter des photos",
     "remove": "Retirer",
     "video": "Vidéo de préparation",
-    "videoHint": "Collez un lien YouTube, TikTok, Facebook ou Instagram. Il s'affiche avec le lecteur de la plateforme.",
+    "videoHint": "Collez un lien YouTube, TikTok, Facebook ou Instagram, ou envoyez votre propre vidéo.",
     "videoUnknown": "Ce lien ne peut pas être affiché en vidéo. Il apparaîtra comme un simple lien.",
-    "videoUploadNote": "Envoyer vos propres fichiers vidéo sera possible quand la base de données sera branchée.",
     "sources": "Sources et recettes similaires",
     "sourcesHint": "Citez les recettes ou vidéos qui ont inspiré celle-ci.",
     "sourceLabel": "Nom (ex. Keng's Kitchen)",
     "addSource": "Ajouter une source",
-    "saved": "Publié. Le site se met à jour dans une minute environ.",
+    "saved": "Publié. C'est en ligne.",
     "saveFailed": "Publication impossible :",
-    "viewCommit": "Voir la modification",
     "unsaved": "Modifications non publiées",
-    "upToDate": "À jour"
+    "upToDate": "À jour",
+    "notAdmin": "Ce compte n'est pas admin",
+    "notAdminText": "Vous êtes connecté en tant que {email}. Demandez à un admin de vous ajouter, dans Admin → Admins.",
+    "tabs": {
+      "recipes": "Recettes",
+      "review": "Validation",
+      "admins": "Admins"
+    },
+    "savedHidden": "Enregistré, mais masqué sur le site.",
+    "visible": "Visible sur le site",
+    "hidden": "Masqué",
+    "uploadVideo": "Ou envoyer un fichier vidéo (50 Mo max)",
+    "videoTooBig": "Cette vidéo dépasse 50 Mo.",
+    "review": {
+      "filters": {
+        "submitted": "En attente",
+        "approved": "Publiées",
+        "rejected": "Non retenues"
+      },
+      "empty": {
+        "submitted": "Rien à valider pour l'instant.",
+        "approved": "Pas encore de recettes de la communauté publiées.",
+        "rejected": "Rien ici."
+      },
+      "anonymous": "Cuisinier sans nom",
+      "notePlaceholder": "Note pour le cuisinier (affichée si vous ne la retenez pas)",
+      "approve": "Valider",
+      "reject": "Ne pas retenir",
+      "takeDown": "Retirer",
+      "approveAnyway": "Publier",
+      "decided": {
+        "approved": "Publiée sur le site.",
+        "rejected": "Non retenue."
+      }
+    },
+    "admins": {
+      "addTitle": "Ajouter un admin",
+      "addHint": "La personne doit d'abord avoir un compte Chop. Les admins peuvent modifier les recettes, valider les propositions et gérer les admins.",
+      "add": "Ajouter",
+      "added": "{email} est maintenant admin.",
+      "removed": "{email} n'est plus admin.",
+      "listTitle": "Admins",
+      "you": "Vous",
+      "remove": "Retirer",
+      "confirmRemove": "Retirer {email} des admins ?"
+    }
+  },
+  "account": {
+    "title": "Votre compte",
+    "notConfigured": "Les comptes ne sont pas encore disponibles.",
+    "signInTitle": "Connexion à Chop",
+    "signInText": "Retrouvez votre cuisine sur tous vos appareils, partagez vos recettes et vos photos avec la communauté.",
+    "tabs": {
+      "link": "Lien par e-mail",
+      "password": "Mot de passe",
+      "signup": "Créer un compte"
+    },
+    "name": "Votre nom (affiché sur ce que vous partagez)",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "passwordHint": "Au moins 8 caractères.",
+    "sendLink": "Recevoir un lien de connexion",
+    "signIn": "Se connecter",
+    "createAccount": "Créer le compte",
+    "sendReset": "Envoyer le lien",
+    "checkEmail": "Regardez vos e-mails : nous vous avons envoyé un lien de connexion.",
+    "confirmEmail": "Presque fini : confirmez votre e-mail avec le lien que nous venons d'envoyer.",
+    "resetSent": "Si un compte utilise cet e-mail, un lien de réinitialisation arrive.",
+    "linkExpired": "Ce lien n'a pas fonctionné ou a expiré. Réessayez.",
+    "forgot": "Mot de passe oublié ?",
+    "forgotText": "Entrez votre e-mail et nous vous enverrons un lien pour choisir un nouveau mot de passe.",
+    "backToSignIn": "Retour à la connexion",
+    "why": "Gratuit. Votre e-mail sert uniquement à vous connecter.",
+    "errors": {
+      "credentials": "E-mail ou mot de passe incorrect.",
+      "exists": "Un compte utilise déjà cet e-mail. Connectez-vous plutôt.",
+      "rate": "Trop d'essais. Patientez quelques minutes.",
+      "unconfirmed": "Confirmez d'abord votre e-mail (regardez votre boîte de réception)."
+    },
+    "newPassword": "Choisissez un nouveau mot de passe",
+    "savePassword": "Enregistrer",
+    "passwordSaved": "Mot de passe enregistré.",
+    "continue": "Continuer",
+    "signOut": "Déconnexion",
+    "syncing": "Synchronisation de votre cuisine…",
+    "synced": "Vos favoris, votre liste de courses et vos plannings sont synchronisés avec votre compte.",
+    "openKitchen": "Ouvrir ma cuisine",
+    "moveText": "Ce téléphone contient {recipes, plural, one {# recette} other {# recettes}} et {photos, plural, one {# photo} other {# photos}} enregistrées seulement sur l'appareil. Déplacez-les dans votre compte pour ne pas les perdre.",
+    "moveButton": "Déplacer dans mon compte",
+    "moved": "C'est fait : {recipes} recettes et {photos} photos déplacées. Les photos restent privées jusqu'à ce que vous les partagiez.",
+    "displayName": "Nom affiché",
+    "displayNameHint": "Affiché à côté des recettes et photos que vous partagez.",
+    "save": "Enregistrer",
+    "adminTitle": "Admin",
+    "adminText": "Gérer les recettes, valider les propositions et les admins."
+  },
+  "review": {
+    "title": "Partager avec la communauté",
+    "device": "Sur cet appareil",
+    "signIn": "Se connecter pour partager",
+    "status": {
+      "private": "Privée",
+      "submitted": "En validation",
+      "approved": "Publiée",
+      "rejected": "Non retenue"
+    },
+    "needAccount": "Connectez-vous pour envoyer cette recette en validation. Une fois acceptée, tout le monde pourra la voir.",
+    "privateText": "Vous seul voyez cette recette. Envoyez-la en validation pour la publier sur Chop.",
+    "submittedText": "Un admin va la relire bientôt. Vous pouvez continuer à la modifier.",
+    "approvedText": "Publiée : tout le monde peut la voir. Si vous la modifiez, elle repasse en validation.",
+    "rejectedText": "Elle n'a pas été retenue cette fois. Vous pouvez la modifier et la renvoyer.",
+    "submit": "Envoyer en validation",
+    "resubmit": "Renvoyer",
+    "withdraw": "Retirer",
+    "unpublish": "Dépublier"
+  },
+  "community": {
+    "title": "Communauté",
+    "subtitle": "Les recettes et photos partagées par les personnes qui cuisinent avec Chop.",
+    "shareRecipe": "Partager une recette",
+    "sharePhoto": "Poster une photo",
+    "recipes": "Recettes de la communauté",
+    "photos": "Je l'ai fait !",
+    "noRecipes": "Pas encore de recettes. Soyez le premier à en partager une.",
+    "noPhotos": "Pas encore de photos. Cuisinez un plat et touchez « Je l'ai fait ! ».",
+    "by": "par {name}",
+    "madeBy": "par {name}",
+    "anonymous": "par un cuisinier Chop",
+    "seeDish": "Voir le plat",
+    "fromCommunity": "De la communauté",
+    "versions": "Leurs versions de ce plat",
+    "madeIt": "Ils l'ont fait"
   }
 }

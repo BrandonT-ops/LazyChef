@@ -12,8 +12,16 @@ export { newId };
 const listeners = new Map<string, Set<() => void>>();
 const cache = new Map<string, { raw: string | null; value: unknown }>();
 
+const writeListeners = new Set<(key: string) => void>();
+
 function notify(key: string) {
   listeners.get(key)?.forEach((l) => l());
+}
+
+/** Called after every local write (used to sync to the account). Returns an unsubscribe function. */
+export function onLocalWrite(cb: (key: string) => void): () => void {
+  writeListeners.add(cb);
+  return () => writeListeners.delete(cb);
 }
 
 export function readLocal<T>(key: string, fallback: T): T {
@@ -37,7 +45,8 @@ export function readLocal<T>(key: string, fallback: T): T {
   return value;
 }
 
-export function writeLocal<T>(key: string, value: T) {
+/** `quiet` skips the account sync (used when applying data that came from the account). */
+export function writeLocal<T>(key: string, value: T, quiet = false) {
   const raw = JSON.stringify(value);
   try {
     localStorage.setItem(key, raw);
@@ -46,6 +55,7 @@ export function writeLocal<T>(key: string, value: T) {
   }
   cache.set(key, { raw, value });
   notify(key);
+  if (!quiet) writeListeners.forEach((l) => l(key));
 }
 
 if (typeof window !== "undefined") {

@@ -26,7 +26,7 @@ import { SIDES } from "@/data/sides";
 import type { DishSummary } from "@/data/types";
 import type { Locale } from "@/i18n/routing";
 import { SITE } from "@/config/site";
-import { useShopping } from "@/lib/local";
+import { useLocal, useShopping } from "@/lib/local";
 import { dishKey, sideKey, usePrices } from "@/lib/prices";
 import {
   BUDGETS,
@@ -68,34 +68,19 @@ export function EventPlanner({ dishes }: { dishes: DishSummary[] }) {
   const [occasion, setOccasion] = useState<Occasion>("birthday");
   const [guests, setGuests] = useState(20);
   const [budget, setBudget] = useState<Budget>("comfortable");
-  const [plan, setPlan] = useState<EventPlan | null>(null);
+  // Saved on the device (and synced to the account when signed in).
+  const [stored, setStored] = useLocal<EventPlan | null>(STORAGE_KEY, null);
+  const plan = stored?.v === 1 ? stored : null;
 
+  // Show the saved event's settings (also when it arrives from another device).
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        const saved = JSON.parse(raw) as EventPlan;
-        if (saved?.v === 1) {
-          setPlan(saved);
-          setOccasion(saved.occasion);
-          setGuests(saved.guests);
-          setBudget(saved.budget);
-        }
-      }
-    } catch {
-      /* ignore */
-    }
-  }, []);
+    if (!plan) return;
+    setOccasion(plan.occasion);
+    setGuests(plan.guests);
+    setBudget(plan.budget);
+  }, [plan]);
 
-  const save = (next: EventPlan | null) => {
-    setPlan(next);
-    try {
-      if (next) localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-      else localStorage.removeItem(STORAGE_KEY);
-    } catch {
-      /* ignore */
-    }
-  };
+  const save = (next: EventPlan | null) => setStored(next);
 
   const setGuestCount = (n: number) => {
     const g = Math.max(1, Math.min(2000, Math.round(n) || 1));

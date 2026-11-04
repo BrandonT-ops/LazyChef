@@ -25,7 +25,7 @@ export default async function BrowsePage({ params }: { params: Promise<{ locale:
         </h1>
         <p className="mt-2 text-muted">{t("subtitle")}</p>
       </Reveal>
-      <Book dishes={getAllSummaries()} />
+      <Book dishes={await getAllSummaries()} />
     </div>
   );
 }

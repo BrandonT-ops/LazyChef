@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
-import { BookOpen, CalendarDays, ChefHat, Dices, Heart, MapPinned, Menu, PartyPopper, Search, X } from "lucide-react";
+import { BookOpen, CalendarDays, ChefHat, Dices, Heart, MapPinned, Menu, PartyPopper, Search, UserRound, Users, X } from "lucide-react";
+import { useAuth } from "./auth/AuthProvider";
 import { Link, usePathname } from "@/i18n/navigation";
 import { SITE } from "@/config/site";
 import { ThemeToggle } from "./ThemeToggle";
@@ -14,6 +15,7 @@ const MAIN = [
   { href: "/planner", key: "planner", icon: CalendarDays },
   { href: "/events", key: "events", icon: PartyPopper },
   { href: "/markets", key: "markets", icon: MapPinned },
+  { href: "/community", key: "community", icon: Users },
 ] as const;
 
 const TOOLS = [
@@ -96,6 +98,7 @@ export function Header() {
           <span aria-hidden className="mx-1 hidden h-5 w-px bg-line sm:block" />
           <LocaleSwitcher />
           <ThemeToggle label={t("theme")} />
+          <AccountButton />
           <InstallButton />
           <button
             type="button"
@@ -139,6 +142,27 @@ export function Header() {
         )}
       </AnimatePresence>
     </header>
+  );
+}
+
+function AccountButton() {
+  const t = useTranslations("nav");
+  const { configured, user, profile } = useAuth();
+  if (!configured) return null;
+  const initial = (profile?.display_name || user?.email || "").slice(0, 1).toUpperCase();
+  return (
+    <Link
+      href="/account"
+      aria-label={t("account")}
+      title={user ? (profile?.display_name ?? user.email ?? t("account")) : t("signIn")}
+      className="grid h-9 w-9 place-items-center rounded-lg text-muted transition-colors hover:bg-subtle hover:text-ink"
+    >
+      {user ? (
+        <span className="grid h-7 w-7 place-items-center rounded-full bg-tomato text-xs font-semibold text-white">{initial}</span>
+      ) : (
+        <UserRound className="h-[18px] w-[18px]" aria-hidden />
+      )}
+    </Link>
   );
 }
 

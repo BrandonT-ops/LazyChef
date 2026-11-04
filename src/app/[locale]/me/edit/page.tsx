@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { RecipeEditor } from "@/components/RecipeEditor";
+import { getAllSummaries } from "@/lib/dishes";
 
 type Props = { params: Promise<{ locale: string }>; searchParams: Promise<{ id?: string }> };
 
@@ -24,7 +25,7 @@ export default async function EditPage({ params, searchParams }: Props) {
         {t("kitchen.title")}
       </Link>
       <h1 className="heading mb-8 mt-4 text-3xl sm:text-4xl">{id ? t("editor.editTitle") : t("editor.title")}</h1>
-      <RecipeEditor id={id} />
+      <RecipeEditor id={id} dishes={await getAllSummaries()} />
     </div>
   );
 }

@@ -27,7 +27,7 @@ export default async function MarketsPage({ params, searchParams }: Props) {
   const initialKinds = (kinds ?? "").split(",").filter((k): k is PlaceKind => (PLACE_KINDS as string[]).includes(k));
   setRequestLocale(locale);
   const t = await getTranslations("markets");
-  const dish = slug ? getDish(slug) : undefined;
+  const dish = slug ? await getDish(slug) : undefined;
   const shopping = dish?.recipe?.ingredients[locale as Locale];
 
   return (
@@ -55,7 +55,7 @@ export default async function MarketsPage({ params, searchParams }: Props) {
         </Reveal>
       )}
 
-      {!dish && <ShoppingSummary dishes={getAllSummaries()} />}
+      {!dish && <ShoppingSummary dishes={await getAllSummaries()} />}
 
       <NearbyMap initialKinds={initialKinds} />
     </div>

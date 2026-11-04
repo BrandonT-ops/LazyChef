@@ -7,6 +7,8 @@ import { getSection } from "@/data/sections";
 import { getAllDishes, getDish, getDishesBySection, toSummary } from "@/lib/dishes";
 import { ACCENT_BG } from "@/lib/ui";
 import { DishCard } from "@/components/DishCard";
+import { getCommunityForDish } from "@/lib/community";
+import { CommunityPhotoGrid, CommunityRecipeGrid } from "@/components/community/CommunityBlocks";
 import { IngredientList } from "@/components/IngredientList";
 import { TreasureMap } from "@/components/TreasureMap";
 import { LinkList, PhotoGallery, VideoPlayer } from "@/components/RecipeMedia";
@@ -21,27 +23,29 @@ import { SectionIcon, TagIcon } from "@/components/icons";
 
 type Params = Promise<{ locale: string; slug: string }>;
 
-export function generateStaticParams() {
-  return routing.locales.flatMap((locale) => getAllDishes().map((d) => ({ locale, slug: d.slug })));
+export async function generateStaticParams() {
+  const dishes = await getAllDishes();
+  return routing.locales.flatMap((locale) => dishes.map((d) => ({ locale, slug: d.slug })));
 }
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { slug } = await params;
-  const dish = getDish(slug);
+  const dish = await getDish(slug);
   return dish ? { title: dish.name } : {};
 }
 
 export default async function DishPage({ params }: { params: Params }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const dish = getDish(slug);
+  const dish = await getDish(slug);
   if (!dish) notFound();
   const t = await getTranslations();
   const section = getSection(dish.section)!;
   const sectionName = t(`sections.${section.id}.name`);
   const recipe = dish.recipe;
   const lang = locale as Locale;
-  const more = getDishesBySection(section.id)
+  const community = await getCommunityForDish(dish.slug);
+  const more = (await getDishesBySection(section.id))
     .filter((d) => d.slug !== dish.slug)
     .sort((a, b) => Number(Boolean(b.recipe)) - Number(Boolean(a.recipe)))
     .slice(0, 4)
@@ -165,6 +169,24 @@ export default async function DishPage({ params }: { params: Params }) {
           <h2 className="heading text-2xl">{t("dish.comingSoon")}</h2>
           <p className="max-w-md text-muted">{t("dish.comingSoonText")}</p>
         </Reveal>
+      )}
+
+      {(community.recipes.length > 0 || community.photos.length > 0) && (
+        <section className="no-print mt-16">
+          <h2 className="heading text-2xl">{t("community.fromCommunity")}</h2>
+          {community.recipes.length > 0 && (
+            <div className="mt-5">
+              <p className="mb-3 text-sm font-semibold text-muted">{t("community.versions")}</p>
+              <CommunityRecipeGrid recipes={community.recipes} />
+            </div>
+          )}
+          {community.photos.length > 0 && (
+            <div className="mt-6">
+              <p className="mb-3 text-sm font-semibold text-muted">{t("community.madeIt")}</p>
+              <CommunityPhotoGrid photos={community.photos} />
+            </div>
+          )}
+        </section>
       )}
 
       {more.length > 0 && (

@@ -27,9 +27,9 @@ export default async function PlannerPage({ params }: { params: Promise<{ locale
         <p className="mt-2 text-muted">{t("subtitle")}</p>
       </Reveal>
       <WeekPlanner
-        dishes={getAllSummaries()}
+        dishes={await getAllSummaries()}
         ingredients={Object.fromEntries(
-          getAllDishes()
+          (await getAllDishes())
             .filter((d) => d.recipe)
             .map((d) => [d.slug, d.recipe!.ingredients[locale as Locale]]),
         )}

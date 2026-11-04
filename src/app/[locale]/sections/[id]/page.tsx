@@ -30,7 +30,7 @@ export default async function SectionPage({ params }: { params: Params }) {
   const section = getSection(id);
   if (!section) notFound();
   const t = await getTranslations();
-  const dishes = getDishesBySection(section.id).map(toSummary);
+  const dishes = (await getDishesBySection(section.id)).map(toSummary);
 
   return (
     <div className="container-page py-12">

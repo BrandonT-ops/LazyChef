@@ -29,7 +29,7 @@ export default async function SearchPage({ params, searchParams }: Props) {
         <h1 className="heading text-3xl sm:text-4xl">{t("title")}</h1>
       </Reveal>
       <SearchView
-        dishes={getAllSummaries()}
+        dishes={await getAllSummaries()}
         initial={{
           q: sp.q,
           section: sp.section && isSectionId(sp.section) ? sp.section : undefined,

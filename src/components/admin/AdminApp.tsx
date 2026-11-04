@@ -1,39 +1,32 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { CircleCheck, ExternalLink, LogOut, PencilLine, Plus, Search, ShieldX } from "lucide-react";
-import { GithubMark } from "./GithubMark";
+import { CircleCheck, ExternalLink, LogOut, PencilLine, Plus, Search, ShieldCheck, ShieldX } from "lucide-react";
+import { Link } from "@/i18n/navigation";
+import { useAuth } from "../auth/AuthProvider";
+import { ReviewQueue } from "./ReviewQueue";
+import { AdminsPanel } from "./AdminsPanel";
 import type { DishSummary } from "@/data/types";
 import { searchKey } from "@/lib/text";
 import { SectionIcon } from "../icons";
 import { RecipeAdminForm } from "./RecipeAdminForm";
 
-interface Me {
-  configured: boolean;
-  missing: string[];
-  login: string | null;
-}
+type Tab = "recipes" | "review" | "admins";
 
-export function AdminApp({ dishes, error }: { dishes: DishSummary[]; error?: string }) {
+export function AdminApp({ dishes }: { dishes: DishSummary[] }) {
   const t = useTranslations("admin");
   const locale = useLocale();
-  const [me, setMe] = useState<Me | null>(null);
+  const { configured, loading, user, profile, isAdmin, signOut } = useAuth();
+  const [tab, setTab] = useState<Tab>("recipes");
   const [q, setQ] = useState("");
   const [selected, setSelected] = useState<{ slug: string; isNew: boolean } | null>(null);
   const [saved, setSaved] = useState<Set<string>>(new Set());
-  /** Dishes created in this session (they appear on the site after the next publish). */
+  /** Dishes created in this session (they appear in the list right away). */
   const [added, setAdded] = useState<DishSummary[]>([]);
   const all = useMemo(() => [...added, ...dishes.filter((d) => !added.some((a) => a.slug === d.slug))], [added, dishes]);
   const [dirty, setDirty] = useState(false);
-
-  useEffect(() => {
-    fetch("/api/admin/me")
-      .then((r) => r.json())
-      .then(setMe)
-      .catch(() => setMe({ configured: false, missing: [], login: null }));
-  }, []);
 
   const results = useMemo(() => {
     const words = searchKey(q).split(" ").filter(Boolean);
@@ -49,68 +42,89 @@ export function AdminApp({ dishes, error }: { dishes: DishSummary[]; error?: str
     [dirty, t],
   );
 
-  if (!me) return <div className="card h-64 animate-pulse" />;
-
-  if (!me.configured) {
+  if (!configured) {
     return (
       <div className="card mx-auto max-w-2xl p-8">
         <ShieldX className="h-8 w-8 text-mango" aria-hidden />
         <h2 className="heading mt-4 text-xl">{t("notConfigured")}</h2>
         <p className="mt-2 text-muted">{t("notConfiguredText")}</p>
-        {me.missing.length > 0 && (
-          <ul className="mt-4 flex flex-wrap gap-2">
-            {me.missing.map((m) => (
-              <li key={m} className="rounded-md bg-subtle px-2 py-1 font-mono text-xs">
-                {m}
-              </li>
-            ))}
-          </ul>
-        )}
         <p className="mt-4 text-sm text-muted">{t("setupDoc")}</p>
       </div>
     );
   }
 
-  if (!me.login) {
+  if (loading || (user && !profile)) return <div className="card h-64 animate-pulse" />;
+
+  if (!user) {
     return (
       <div className="card mx-auto max-w-md p-8 text-center">
         <span className="mx-auto grid h-12 w-12 place-items-center rounded-xl bg-subtle">
-          <GithubMark className="h-6 w-6" />
+          <ShieldCheck className="h-6 w-6" aria-hidden />
         </span>
         <h2 className="heading mt-4 text-xl">{t("signInTitle")}</h2>
         <p className="mt-2 text-sm text-muted">{t("signInText")}</p>
-        {error === "forbidden" && <p className="mt-4 rounded-lg bg-tomato/10 px-3 py-2 text-sm text-tomato">{t("forbidden")}</p>}
-        {error === "signin" && <p className="mt-4 rounded-lg bg-tomato/10 px-3 py-2 text-sm text-tomato">{t("signinError")}</p>}
-        <a href={`/api/admin/login?locale=${locale}`} className="btn-primary btn-lg mt-6 w-full">
-          <GithubMark />
+        <Link href="/account" className="btn-primary btn-lg mt-6 w-full">
           {t("signIn")}
-        </a>
+        </Link>
       </div>
     );
   }
 
+  if (!isAdmin) {
+    return (
+      <div className="card mx-auto max-w-md p-8 text-center">
+        <ShieldX className="mx-auto h-8 w-8 text-tomato" aria-hidden />
+        <h2 className="heading mt-4 text-xl">{t("notAdmin")}</h2>
+        <p className="mt-2 text-sm text-muted">{t("notAdminText", { email: user.email ?? "" })}</p>
+      </div>
+    );
+  }
+
+  const tabs: { id: Tab; label: string }[] = [
+    { id: "recipes", label: t("tabs.recipes") },
+    { id: "review", label: t("tabs.review") },
+    { id: "admins", label: t("tabs.admins") },
+  ];
+
+  const header = (
+    <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+      <div className="flex rounded-lg border border-line p-1" role="tablist">
+        {tabs.map((x) => (
+          <button
+            key={x.id}
+            type="button"
+            role="tab"
+            aria-selected={tab === x.id}
+            onClick={() => (dirty && tab === "recipes" && x.id !== "recipes" && !confirm(t("unsavedConfirm")) ? null : setTab(x.id))}
+            className={`rounded-md px-4 py-1.5 text-sm font-medium ${tab === x.id ? "bg-ink text-bg" : "text-muted hover:text-ink"}`}
+          >
+            {x.label}
+          </button>
+        ))}
+      </div>
+      <div className="flex items-center gap-3 text-sm">
+        <span className="text-muted">
+          {t("signedInAs")} <strong className="text-ink">{profile?.display_name || user.email}</strong>
+        </span>
+        <button type="button" onClick={signOut} className="inline-flex items-center gap-1 text-muted hover:text-ink">
+          <LogOut className="h-4 w-4" aria-hidden />
+          {t("signOut")}
+        </button>
+      </div>
+    </div>
+  );
+
+  if (tab === "review") return <>{header}<ReviewQueue /></>;
+  if (tab === "admins") return <>{header}<AdminsPanel /></>;
+
   const withRecipe = (d: DishSummary) => d.hasRecipe || saved.has(d.slug);
 
   return (
+    <>
+    {header}
     <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
       <aside className="lg:sticky lg:top-24 lg:self-start">
         <div className="card overflow-hidden">
-          <div className="flex items-center justify-between border-b border-line px-4 py-3 text-sm">
-            <span className="truncate">
-              {t("signedInAs")} <strong>@{me.login}</strong>
-            </span>
-            <button
-              type="button"
-              onClick={async () => {
-                await fetch("/api/admin/logout", { method: "POST" });
-                setMe({ ...me, login: null });
-              }}
-              className="inline-flex items-center gap-1 text-muted hover:text-ink"
-            >
-              <LogOut className="h-4 w-4" aria-hidden />
-              {t("signOut")}
-            </button>
-          </div>
           <div className="p-3">
             <button type="button" onClick={() => choose({ slug: "", isNew: true })} className="btn-primary w-full">
               <Plus className="h-4 w-4" aria-hidden />
@@ -187,5 +201,6 @@ export function AdminApp({ dishes, error }: { dishes: DishSummary[]; error?: str
         )}
       </section>
     </div>
+    </>
   );
 }

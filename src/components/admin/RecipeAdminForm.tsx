@@ -3,10 +3,14 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
-import { Camera, CircleCheck, ExternalLink, Loader, Plus, Trash2, CloudUpload, X } from "lucide-react";
+import { Camera, CircleCheck, ExternalLink, Eye, EyeOff, Film, Loader, Plus, Trash2, CloudUpload, X } from "lucide-react";
 import { SECTIONS } from "@/data/sections";
 import { TAGS, type DishSummary, type RecipeFile, type RecipeLink, type SectionId, type Tag } from "@/data/types";
 import { compressImage } from "@/lib/image";
+import { supabaseBrowser } from "@/lib/supabase/browser";
+import { storageUrl } from "@/lib/supabase/env";
+import { fileToRow, rowToFile, type RecipeRow } from "@/lib/supabase/rows";
+import { useAuth } from "../auth/AuthProvider";
 import { slugify } from "@/lib/text";
 import { videoEmbed } from "@/lib/media";
 import { TagIcon } from "../icons";
@@ -26,11 +30,15 @@ interface Upload {
 const field = "h-10 w-full rounded-lg border border-line bg-surface px-3 text-sm outline-none focus:border-ink";
 const label = "mb-1.5 block text-sm font-medium";
 
-async function toBase64(blob: Blob): Promise<string> {
-  const buf = new Uint8Array(await blob.arrayBuffer());
-  let s = "";
-  for (let i = 0; i < buf.length; i += 0x8000) s += String.fromCharCode(...buf.subarray(i, i + 0x8000));
-  return btoa(s);
+const MAX_VIDEO = 50 * 1024 * 1024;
+
+/** Uploads a file to the recipe-media bucket under official/<slug>/ and returns its public address. */
+async function upload(slug: string, name: string, file: Blob): Promise<string> {
+  const sb = supabaseBrowser()!;
+  const path = `official/${slug}/${name}`;
+  const { error } = await sb.storage.from("recipe-media").upload(path, file, { contentType: file.type || "image/jpeg", upsert: true });
+  if (error) throw error;
+  return storageUrl("recipe-media", path);
 }
 
 export function RecipeAdminForm({
@@ -52,6 +60,10 @@ export function RecipeAdminForm({
   const tAll = useTranslations();
   const locale = useLocale();
   const fileInput = useRef<HTMLInputElement>(null);
+  const videoInput = useRef<HTMLInputElement>(null);
+  const { user } = useAuth();
+  const [videoFile, setVideoFile] = useState<File | null>(null);
+  const [published, setPublished] = useState(true);
 
   const [loading, setLoading] = useState(!isNew);
   const [name, setName] = useState("");
@@ -69,7 +81,7 @@ export function RecipeAdminForm({
   const [video, setVideo] = useState("");
   const [sources, setSources] = useState<RecipeLink[]>([]);
   const [saving, setSaving] = useState(false);
-  const [result, setResult] = useState<{ ok: boolean; text: string; commitUrl?: string } | null>(null);
+  const [result, setResult] = useState<{ ok: boolean; text: string } | null>(null);
   const [touched, setTouched] = useState(false);
   /** Dishes created in the admin keep their own name and section in the file. */
   const [ownName, setOwnName] = useState(isNew);
@@ -79,15 +91,21 @@ export function RecipeAdminForm({
   const slug = lockedSlug ?? (isNew ? slugify(name) : initialSlug);
   const slugTaken = isNew && !lockedSlug && !!slug && existingSlugs.includes(slug);
 
-  // Load the latest saved version from GitHub.
+  // Load the latest saved version from the database.
   useEffect(() => {
     if (isNew) return;
     let alive = true;
     setLoading(true);
-    fetch(`/api/admin/recipe?slug=${initialSlug}`)
-      .then((r) => r.json())
-      .then(({ recipe }: { recipe: RecipeFile | null }) => {
+    supabaseBrowser()!
+      .from("recipes")
+      .select("*")
+      .eq("slug", initialSlug)
+      .maybeSingle()
+      .then(({ data }) => {
         if (!alive) return;
+        const row = data as RecipeRow | null;
+        const recipe: RecipeFile | null = row ? rowToFile(row) : null;
+        if (row) setPublished(row.published);
         if (recipe) {
           if (recipe.name) {
             setName(recipe.name);
@@ -106,8 +124,7 @@ export function RecipeAdminForm({
           setSources(recipe.sources ?? []);
         }
         setLoading(false);
-      })
-      .catch(() => setLoading(false));
+      }, () => setLoading(false));
     return () => {
       alive = false;
     };
@@ -148,32 +165,33 @@ export function RecipeAdminForm({
     setSaving(true);
     setResult(null);
     try {
+      const clean = (l: Lists): Lists => ({ en: l.en.map((x) => x.trim()).filter(Boolean), fr: l.fr.map((x) => x.trim()).filter(Boolean) });
+      const newImages = await Promise.all(uploads.map((u) => upload(slug, u.name, u.blob)));
+      const videoUrl = videoFile
+        ? await upload(slug, `video-${Date.now().toString(36)}.${(videoFile.name.split(".").pop() || "mp4").toLowerCase()}`, videoFile)
+        : video.trim();
       const recipe: RecipeFile = {
         ...(ownName ? { name: name.trim(), section } : {}),
         tags,
         prepMinutes: prep,
         cookMinutes: cook,
         servings,
-        ingredients,
-        steps,
-        serving,
-        images: [...images, ...uploads.map((u) => `/recipes/${slug}/${u.name}`)],
-        video: video.trim(),
-        sources: sources.filter((s) => s.url.trim()),
+        ingredients: clean(ingredients),
+        steps: clean(steps),
+        serving: clean(serving),
+        images: [...images, ...newImages],
+        video: videoUrl,
+        sources: sources.filter((s) => s.url.trim()).map((s) => ({ label: (s.label || s.url).trim(), url: s.url.trim() })),
       };
-      const body = {
-        slug,
-        recipe,
-        uploads: await Promise.all(uploads.map(async (u) => ({ name: u.name, base64: await toBase64(u.blob) }))),
-      };
-      const res = await fetch("/api/admin/recipe", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
-      });
-      const data = (await res.json()) as { ok?: boolean; error?: string; commitUrl?: string };
-      if (!res.ok || !data.ok) throw new Error(data.error ?? res.statusText);
+      const { error } = await supabaseBrowser()!
+        .from("recipes")
+        .upsert({ ...fileToRow(slug, recipe), published, updated_by: user?.id ?? null });
+      if (error) throw error;
+      // Refresh the public pages right away.
+      await fetch("/api/revalidate", { method: "POST" }).catch(() => undefined);
       setImages(recipe.images ?? []);
+      setVideo(videoUrl);
+      setVideoFile(null);
       setUploads([]);
       setTouched(false);
       if (isNew) setLockedSlug(slug);
@@ -184,7 +202,7 @@ export function RecipeAdminForm({
         tags,
         hasRecipe: true,
       });
-      setResult({ ok: true, text: t("saved"), commitUrl: data.commitUrl });
+      setResult({ ok: true, text: published ? t("saved") : t("savedHidden") });
     } catch (e) {
       setResult({ ok: false, text: `${t("saveFailed")} ${(e as Error).message}` });
     } finally {
@@ -357,13 +375,42 @@ export function RecipeAdminForm({
 
       {/* Video */}
       <Card title={t("video")} hint={t("videoHint")}>
-        <input value={video} onChange={(e) => change(setVideo)(e.target.value)} className={field} placeholder="https://www.youtube.com/watch?v=… · https://www.tiktok.com/@…/video/… · https://www.facebook.com/…" />
-        {video.trim() && (
+        {videoFile ? (
+          <div className="flex items-center gap-3 rounded-lg border border-line px-3 py-2 text-sm">
+            <Film className="h-4 w-4 text-muted" aria-hidden />
+            <span className="min-w-0 flex-1 truncate">{videoFile.name}</span>
+            <span className="text-xs text-muted">{Math.round(videoFile.size / 1024 / 1024)} MB</span>
+            <button type="button" onClick={() => change(setVideoFile)(null)} aria-label={t("remove")}>
+              <X className="h-4 w-4" />
+            </button>
+          </div>
+        ) : (
+          <input value={video} onChange={(e) => change(setVideo)(e.target.value)} className={field} placeholder="https://www.youtube.com/watch?v=… · https://www.tiktok.com/@…/video/… · https://www.facebook.com/…" />
+        )}
+        {!videoFile && video.trim() && (
           <div className="mt-4">
             {videoEmbed(video) ? <VideoPlayer url={video} title={dish?.name ?? name} /> : <p className="text-sm text-tomato">{t("videoUnknown")}</p>}
           </div>
         )}
-        <p className="mt-3 text-xs text-muted">{t("videoUploadNote")}</p>
+        {!videoFile && (
+          <button type="button" onClick={() => videoInput.current?.click()} className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-muted hover:text-ink">
+            <Film className="h-4 w-4" aria-hidden />
+            {t("uploadVideo")}
+          </button>
+        )}
+        <input
+          ref={videoInput}
+          type="file"
+          accept="video/mp4,video/webm,video/quicktime"
+          className="hidden"
+          onChange={(e) => {
+            const f = e.target.files?.[0];
+            e.target.value = "";
+            if (!f) return;
+            if (f.size > MAX_VIDEO) setResult({ ok: false, text: t("videoTooBig") });
+            else change(setVideoFile)(f);
+          }}
+        />
       </Card>
 
       {/* Sources */}
@@ -417,12 +464,6 @@ export function RecipeAdminForm({
                 <span className="inline-flex flex-wrap items-center gap-2">
                   {result.ok && <CircleCheck className="h-4 w-4" aria-hidden />}
                   {result.text}
-                  {result.commitUrl && (
-                    <a href={result.commitUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-ink underline">
-                      {t("viewCommit")}
-                      <ExternalLink className="h-3.5 w-3.5" aria-hidden />
-                    </a>
-                  )}
                 </span>
               ) : touched ? (
                 t("unsaved")
@@ -431,6 +472,15 @@ export function RecipeAdminForm({
               )}
             </motion.p>
           </AnimatePresence>
+          <button
+            type="button"
+            onClick={() => change(setPublished)(!published)}
+            aria-pressed={published}
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-muted hover:text-ink"
+          >
+            {published ? <Eye className="h-4 w-4 text-leaf" aria-hidden /> : <EyeOff className="h-4 w-4" aria-hidden />}
+            {published ? t("visible") : t("hidden")}
+          </button>
           <SaveButton saving={saving} disabled={!canSave} onClick={save} label={t("publish")} savingLabel={t("publishing")} />
         </div>
       </div>

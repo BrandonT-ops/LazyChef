@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Map as MapIcon, ShoppingBasket } from "lucide-react";
+import { Map as MapIcon, ShoppingBasket, UtensilsCrossed } from "lucide-react";
 import { getSection } from "@/data/sections";
 import type { RecipeLink, SectionId, Tag } from "@/data/types";
 import { ACCENT_BG } from "@/lib/ui";
@@ -19,6 +19,7 @@ export interface ViewableRecipe {
   servings: number;
   ingredients: string[];
   steps: string[];
+  serving?: string[];
   video?: string;
   links: RecipeLink[];
 }
@@ -95,7 +96,7 @@ export function RecipeView({
         <div className="card p-5 lg:sticky lg:top-24 lg:self-start">
           <h2 className="heading flex items-center gap-2 text-xl">
             <ShoppingBasket className="h-5 w-5 text-mango" aria-hidden />
-            {t("dish.ingredients")}
+            {t("dish.whatToBuy")}
           </h2>
           <p className="mb-3 mt-1 text-xs text-muted">{t("dish.checkHint")}</p>
           <IngredientList items={recipe.ingredients} />
@@ -103,12 +104,29 @@ export function RecipeView({
         <div>
           <h2 className="heading mb-1 flex items-center gap-2 text-xl">
             <MapIcon className="h-5 w-5 text-leaf" aria-hidden />
-            {t("map.title")}
+            {t("dish.howToCook")}
           </h2>
           <p className="mb-6 text-sm text-muted">{t("map.subtitle")}</p>
           {recipe.steps.length > 0 && <TreasureMap steps={recipe.steps} storageKey={storageKey} />}
         </div>
       </div>
+
+      {recipe.serving && recipe.serving.length > 0 && (
+        <section className="mt-14">
+          <h2 className="heading mb-4 flex items-center gap-2 text-xl">
+            <UtensilsCrossed className="h-5 w-5 text-hibiscus" aria-hidden />
+            {t("dish.howToServe")}
+          </h2>
+          <ul className="space-y-3">
+            {recipe.serving.map((line) => (
+              <li key={line} className="flex items-start gap-3">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-tomato" aria-hidden />
+                <span>{line}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </article>
   );
 }

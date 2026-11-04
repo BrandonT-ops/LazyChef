@@ -1,10 +1,10 @@
 import { useLocale, useTranslations } from "next-intl";
 import { ChefHat, Cookie, Refrigerator, ShoppingBasket, PartyPopper } from "lucide-react";
-import { getDish } from "@/lib/dishes";
+import { menuDish } from "@/lib/menu";
 import { CURRENCY } from "@/data/prices";
 
 const fcfa = (n: number, locale: string) => `${new Intl.NumberFormat(locale).format(n)} ${CURRENCY}`;
-const dishName = (slug: string, fallback: string) => getDish(slug)?.name ?? fallback;
+const dishName = (slug: string, fallback: string) => menuDish(slug)?.name ?? fallback;
 
 type Row = { day: string; dish: string; side?: string; kind: "cook" | "left" | "snack" };
 

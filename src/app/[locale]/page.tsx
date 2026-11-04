@@ -1,6 +1,4 @@
-import { useTranslations } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
-import { use } from "react";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
   ArrowRight,
   BookOpen,
@@ -31,12 +29,11 @@ const FEATURES: { key: string; icon: LucideIcon; href: string }[] = [
   { key: "cookbook", icon: BookOpen, href: "/browse" },
 ];
 
-export default function HomePage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = use(params);
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  const t = useTranslations();
-  const counts = countBySection();
-  const dishes = getAllSummaries();
+  const t = await getTranslations();
+  const [counts, dishes] = await Promise.all([countBySection(), getAllSummaries()]);
 
   const stats = [
     { value: dishes.length, label: t("landing.stats.dishes") },

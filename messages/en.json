@@ -14,7 +14,10 @@
     "menu": "Menu",
     "markets": "Markets",
     "kitchen": "My kitchen",
-    "events": "Events"
+    "events": "Events",
+    "account": "Account",
+    "signIn": "Sign in",
+    "community": "Community"
   },
   "home": {
     "kicker": "Too tired to think? Same.",
@@ -167,7 +170,8 @@
     "kitchen": "Your kitchen",
     "about": "Home cooking made easy: weekly plans, event menus, costed shopping lists and step-by-step recipes.",
     "local": "Your plans and recipes stay on your device.",
-    "admin": "Admin"
+    "admin": "Admin",
+    "community": "Community"
   },
   "notFound": {
     "title": "This plate is empty",
@@ -248,7 +252,7 @@
   },
   "kitchen": {
     "title": "My kitchen",
-    "subtitle": "Your favorites, your own recipes, your photos and your shopping list. Everything stays on this device.",
+    "subtitle": "Your favorites, your own recipes, your photos and your shopping list.",
     "tabs": {
       "favorites": "Favorites",
       "recipes": "My recipes",
@@ -270,13 +274,18 @@
     "notFound": "This recipe isn't on this device.",
     "sharedWithYou": "Shared with you",
     "saveToMine": "Save to my recipes",
-    "badLink": "This recipe link doesn't work. Ask for it to be shared again."
+    "badLink": "This recipe link doesn't work. Ask for it to be shared again.",
+    "recipesNoteAccount": "Saved in your account. Send one for review to share it with the community.",
+    "signInBanner": "Sign in to keep your kitchen on all your devices and share with the community.",
+    "signInCta": "Sign in",
+    "moveBanner": "Some recipes or photos are still only on this phone.",
+    "moveCta": "Move them to my account"
   },
   "made": {
     "button": "I made it!",
     "saving": "Saving…",
     "savedTitle": "Looks delicious!",
-    "savedText": "Your photo is saved on this device.",
+    "savedText": "Saved on this device.",
     "share": "Share photo",
     "seeAll": "See my photos",
     "close": "Close",
@@ -284,7 +293,15 @@
     "empty": "No photos yet. Cook something, then tap \"I made it!\" on the recipe.",
     "yours": "Your photos",
     "delete": "Delete photo",
-    "confirmDelete": "Delete this photo?"
+    "confirmDelete": "Delete this photo?",
+    "signInToShare": "Sign in to share it with everyone.",
+    "sharedPublic": "Shared on the dish page for everyone to see.",
+    "keptPrivate": "Only you can see this photo.",
+    "makePrivate": "Make private",
+    "makePublic": "Share publicly",
+    "onDevice": "On this device",
+    "public": "Public",
+    "private": "Private"
   },
   "shopping": {
     "add": "Add to shopping list",
@@ -333,9 +350,19 @@
     "linkLabel": "Label",
     "addLink": "Add a link",
     "removeLink": "Remove link",
-    "deviceNote": "Saved on this device only, until accounts arrive.",
+    "deviceNote": "Saved on this device only.",
     "cancel": "Cancel",
-    "save": "Save recipe"
+    "save": "Save recipe",
+    "accountNote": "Saved to your account. You can send it for review later to share it with everyone.",
+    "signIn": "Sign in to keep it in your account and share it.",
+    "whichDish": "Which dish is this? (optional)",
+    "noDish": "Not on the list / my own dish",
+    "whichDishHint": "Linking it shows your version on that dish's page once it's published.",
+    "servingHint": "One tip per line: sides, presentation…",
+    "servingPlaceholder": "Serve with fried plantain\nAdd fresh pepper on the side",
+    "uploadVideo": "Or upload a video (up to 50 MB)",
+    "removeVideo": "Remove video",
+    "videoTooBig": "This video is over 50 MB. Please use a shorter one or a link."
   },
   "events": {
     "title": "Plan an event",
@@ -514,15 +541,13 @@
   "admin": {
     "eyebrow": "Admin",
     "title": "Recipes",
-    "subtitle": "Write and update recipes for everyone. Each save is published to the site in about a minute.",
+    "subtitle": "Write and update recipes for everyone, review what the community submits, and manage admins. Changes go live as soon as you publish.",
     "notConfigured": "The admin isn't set up yet",
-    "notConfiguredText": "Add these settings in Vercel (Project → Settings → Environment Variables), then redeploy:",
-    "setupDoc": "Step-by-step instructions are in docs/ADMIN.md in the repository.",
-    "signInTitle": "Sign in to the admin",
-    "signInText": "Use your GitHub account. Only people on the admin list can get in.",
-    "signIn": "Sign in with GitHub",
-    "forbidden": "This GitHub account isn't on the admin list.",
-    "signinError": "Sign-in didn't work. Please try again.",
+    "notConfiguredText": "Connect Supabase to this site to use the admin (see docs/SUPABASE.md).",
+    "setupDoc": "The setup steps are in docs/SUPABASE.md.",
+    "signInTitle": "Admin",
+    "signInText": "Sign in with your Chop account to manage recipes.",
+    "signIn": "Sign in",
     "signedInAs": "Signed in as",
     "signOut": "Sign out",
     "newDish": "New dish",
@@ -562,17 +587,146 @@
     "addPhotos": "Add photos",
     "remove": "Remove",
     "video": "How-to video",
-    "videoHint": "Paste a link from YouTube, TikTok, Facebook or Instagram. It's shown with the platform's own player.",
+    "videoHint": "Paste a YouTube, TikTok, Facebook or Instagram link, or upload your own video.",
     "videoUnknown": "This link can't be shown as a video. It will appear as a link instead.",
-    "videoUploadNote": "Uploading your own video files will be possible once the database is connected.",
     "sources": "Sources and similar recipes",
     "sourcesHint": "Credit the recipes or videos that inspired this one.",
     "sourceLabel": "Name (e.g. Keng's Kitchen)",
     "addSource": "Add a source",
-    "saved": "Published. The site updates in about a minute.",
+    "saved": "Published. It's live on the site.",
     "saveFailed": "Couldn't publish:",
-    "viewCommit": "View change",
     "unsaved": "Unsaved changes",
-    "upToDate": "Up to date"
+    "upToDate": "Up to date",
+    "notAdmin": "This account isn't an admin",
+    "notAdminText": "You're signed in as {email}. Ask an admin to add you, from Admin → Admins.",
+    "tabs": {
+      "recipes": "Recipes",
+      "review": "Review",
+      "admins": "Admins"
+    },
+    "savedHidden": "Saved, but hidden from the site.",
+    "visible": "Visible on the site",
+    "hidden": "Hidden",
+    "uploadVideo": "Or upload a video file (up to 50 MB)",
+    "videoTooBig": "This video is over 50 MB.",
+    "review": {
+      "filters": {
+        "submitted": "Waiting",
+        "approved": "Published",
+        "rejected": "Not accepted"
+      },
+      "empty": {
+        "submitted": "Nothing to review right now.",
+        "approved": "No published community recipes yet.",
+        "rejected": "Nothing here."
+      },
+      "anonymous": "Unnamed cook",
+      "notePlaceholder": "Note for the cook (shown if you don't accept it)",
+      "approve": "Approve",
+      "reject": "Don't accept",
+      "takeDown": "Take down",
+      "approveAnyway": "Publish",
+      "decided": {
+        "approved": "Published on the site.",
+        "rejected": "Not accepted."
+      }
+    },
+    "admins": {
+      "addTitle": "Add an admin",
+      "addHint": "They need a Chop account first. Admins can edit recipes, review submissions and manage admins.",
+      "add": "Add",
+      "added": "{email} is now an admin.",
+      "removed": "{email} is no longer an admin.",
+      "listTitle": "Admins",
+      "you": "You",
+      "remove": "Remove",
+      "confirmRemove": "Remove {email} as admin?"
+    }
+  },
+  "account": {
+    "title": "Your account",
+    "notConfigured": "Accounts aren't available yet.",
+    "signInTitle": "Sign in to Chop",
+    "signInText": "Keep your kitchen on every device, share your recipes and photos with the community.",
+    "tabs": {
+      "link": "Email link",
+      "password": "Password",
+      "signup": "Create account"
+    },
+    "name": "Your name (shown on what you share)",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "At least 8 characters.",
+    "sendLink": "Email me a sign-in link",
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "sendReset": "Send reset link",
+    "checkEmail": "Check your email: we sent you a sign-in link.",
+    "confirmEmail": "Almost there: confirm your email with the link we just sent.",
+    "resetSent": "If an account uses this email, a reset link is on its way.",
+    "linkExpired": "That link didn't work or has expired. Please try again.",
+    "forgot": "Forgot your password?",
+    "forgotText": "Enter your email and we'll send you a link to choose a new password.",
+    "backToSignIn": "Back to sign in",
+    "why": "Free. We only use your email to sign you in.",
+    "errors": {
+      "credentials": "Wrong email or password.",
+      "exists": "An account already uses this email. Sign in instead.",
+      "rate": "Too many tries. Please wait a few minutes.",
+      "unconfirmed": "Please confirm your email first (check your inbox)."
+    },
+    "newPassword": "Choose a new password",
+    "savePassword": "Save password",
+    "passwordSaved": "Password saved.",
+    "continue": "Continue",
+    "signOut": "Sign out",
+    "syncing": "Syncing your kitchen…",
+    "synced": "Your favorites, shopping list and plans are synced to your account.",
+    "openKitchen": "Open my kitchen",
+    "moveText": "This phone has {recipes, plural, one {# recipe} other {# recipes}} and {photos, plural, one {# photo} other {# photos}} saved only on the device. Move them to your account to keep them safe.",
+    "moveButton": "Move to my account",
+    "moved": "Done: {recipes} recipes and {photos} photos moved. Photos stay private until you share them.",
+    "displayName": "Display name",
+    "displayNameHint": "Shown next to the recipes and photos you share.",
+    "save": "Save",
+    "adminTitle": "Admin",
+    "adminText": "Manage recipes, review submissions and admins."
+  },
+  "review": {
+    "title": "Share with the community",
+    "device": "On this device",
+    "signIn": "Sign in to share",
+    "status": {
+      "private": "Private",
+      "submitted": "In review",
+      "approved": "Published",
+      "rejected": "Not accepted"
+    },
+    "needAccount": "Sign in to send this recipe for review. Once approved, everyone can see it.",
+    "privateText": "Only you can see this recipe. Send it for review to publish it on Chop.",
+    "submittedText": "An admin will review it soon. You can keep editing in the meantime.",
+    "approvedText": "Published: everyone can see it. If you edit it, it goes back to review.",
+    "rejectedText": "It wasn't accepted this time. You can edit it and send it again.",
+    "submit": "Send for review",
+    "resubmit": "Send again",
+    "withdraw": "Withdraw",
+    "unpublish": "Unpublish"
+  },
+  "community": {
+    "title": "Community",
+    "subtitle": "Recipes and photos shared by people who cook with Chop.",
+    "shareRecipe": "Share a recipe",
+    "sharePhoto": "Post a photo",
+    "recipes": "Community recipes",
+    "photos": "I made it!",
+    "noRecipes": "No community recipes yet. Be the first to share one.",
+    "noPhotos": "No photos yet. Cook a dish and tap \"I made it!\".",
+    "by": "by {name}",
+    "madeBy": "by {name}",
+    "anonymous": "by a Chop cook",
+    "seeDish": "See the dish",
+    "fromCommunity": "From the community",
+    "versions": "Their versions of this dish",
+    "madeIt": "They made it"
   }
 }

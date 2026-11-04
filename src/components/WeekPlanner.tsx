@@ -28,7 +28,7 @@ import { SIDES, type SideId } from "@/data/sides";
 import type { DishSummary, SectionId } from "@/data/types";
 import type { Locale } from "@/i18n/routing";
 import { SITE } from "@/config/site";
-import { useShopping } from "@/lib/local";
+import { useLocal, useShopping } from "@/lib/local";
 import { dishKey, sideKey } from "@/lib/prices";
 import {
   DAYS,
@@ -53,37 +53,22 @@ import { ShareButton } from "./ShareButton";
 
 const MEAL_ICON: Record<Meal, LucideIcon> = { breakfast: Sunrise, lunch: Sun, supper: Moon };
 const STORAGE_KEY = "chop-plan-v3";
+const DEFAULT_PLAN = emptyPlan();
 
 export function WeekPlanner({ dishes, ingredients }: { dishes: DishSummary[]; ingredients: Record<string, string[]> }) {
   const t = useTranslations();
   const locale = useLocale() as Locale;
   const router = useRouter();
   const shopping = useShopping();
-  const [plan, setPlan] = useState<PlanState>(() => emptyPlan());
+  // Saved on the device (and synced to the account when signed in).
+  const [stored, setStored] = useLocal<PlanState | null>(STORAGE_KEY, null);
+  const plan = stored?.v === 3 ? stored : DEFAULT_PLAN;
   const [today, setToday] = useState<number | null>(null);
   const bySlug = useMemo(() => new Map(dishes.map((d) => [d.slug, d])), [dishes]);
 
-  useEffect(() => {
-    setToday(new Date().getDay());
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
-        const saved = JSON.parse(raw) as PlanState;
-        if (saved?.v === 3) setPlan(saved);
-      }
-    } catch {
-      /* ignore broken or unavailable storage */
-    }
-  }, []);
+  useEffect(() => setToday(new Date().getDay()), []);
 
-  const save = (next: PlanState) => {
-    setPlan(next);
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-    } catch {
-      /* ignore */
-    }
-  };
+  const save = (next: PlanState) => setStored(next);
 
   const empty = isEmpty(plan);
   const batch = plan.mode === "batch" && plan.cookDays.length > 0;

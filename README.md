@@ -34,6 +34,9 @@ npm run lint
 | Favorites, shopping list (on device) | `src/lib/local.ts` |
 | My recipes, "I made it" photos (on device) | `src/lib/idb.ts` |
 | Recipe share links (`/r#…`) | `src/lib/recipe-link.ts` |
+| Official recipes (fallback when Supabase isn't set up) | `content/recipes/*.json` |
+| Database tables, security rules, storage | `supabase/migrations/` |
+| Supabase setup (accounts, admin, community) | `docs/SUPABASE.md` |
 | Shop search (OpenStreetMap) | `src/lib/places.ts` |
 | Event menus per occasion | `src/lib/events.ts` |
 | Price estimates (FCFA) | `src/data/prices.ts` |

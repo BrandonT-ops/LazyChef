@@ -19,6 +19,8 @@ export interface UserRecipe {
   servings: number;
   ingredients: string[];
   steps: string[];
+  serving?: string[];
+  dishSlug?: string;
   video?: string;
   links: RecipeLink[];
   photo?: Blob;

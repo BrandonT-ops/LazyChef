@@ -24,7 +24,7 @@ export default async function EventsPage({ params }: { params: Promise<{ locale:
         </h1>
         <p className="mt-2 text-muted">{t("subtitle")}</p>
       </Reveal>
-      <EventPlanner dishes={getAllSummaries()} />
+      <EventPlanner dishes={await getAllSummaries()} />
     </div>
   );
 }

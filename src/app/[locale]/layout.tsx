@@ -14,6 +14,9 @@ import "../globals.css";
 // Sets the theme before first paint so there's no light/dark flash.
 const themeScript = `(function(){try{var t=localStorage.getItem('lc-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;}catch(e){}})();`;
 
+// Pages are rebuilt in the background at most every 5 minutes, so new recipes show up without a redeploy.
+export const revalidate = 300;
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }

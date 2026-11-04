@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ChefHat } from "lucide-react";
 import { getAllSummaries } from "@/lib/dishes";
 import { MyKitchen, type KitchenTab } from "@/components/MyKitchen";
+import { KitchenAccountBanner } from "@/components/auth/KitchenAccountBanner";
 import { Reveal } from "@/components/Reveal";
 
 const TABS: KitchenTab[] = ["favorites", "recipes", "photos", "shopping"];
@@ -30,7 +31,8 @@ export default async function KitchenPage({ params, searchParams }: Props) {
         </h1>
         <p className="mt-2 text-muted">{t("subtitle")}</p>
       </Reveal>
-      <MyKitchen dishes={getAllSummaries()} initialTab={TABS.find((x) => x === tab) ?? "favorites"} />
+      <KitchenAccountBanner />
+      <MyKitchen dishes={await getAllSummaries()} initialTab={TABS.find((x) => x === tab) ?? "favorites"} />
     </div>
   );
 }

@@ -32,7 +32,7 @@ export default async function RandomPage({ params, searchParams }: Props) {
         </h1>
         <p className="mt-2 text-muted">{t("subtitle")}</p>
       </Reveal>
-      <DiceRoller dishes={getAllSummaries()} initialFrom={from && isSectionId(from) ? from : undefined} />
+      <DiceRoller dishes={await getAllSummaries()} initialFrom={from && isSectionId(from) ? from : undefined} />
     </div>
   );
 }
