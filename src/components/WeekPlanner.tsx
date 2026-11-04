@@ -7,10 +7,12 @@ import { Link } from "@/i18n/navigation";
 import { WEEKDAY_SECTIONS } from "@/data/sections";
 import type { DishSummary, SectionId } from "@/data/types";
 import { pickRandom } from "@/lib/random";
+import { CalendarDays, Coffee, CupSoda, Dices, Lock, LockOpen, Save, Sparkles, UtensilsCrossed, type LucideIcon } from "lucide-react";
+import { SectionIcon } from "./icons";
 
 type Slot = "breakfast" | "main" | "drink";
 const SLOTS: Slot[] = ["breakfast", "main", "drink"];
-const SLOT_ICON: Record<Slot, string> = { breakfast: "☕", main: "🍽️", drink: "🥤" };
+const SLOT_ICON: Record<Slot, LucideIcon> = { breakfast: Coffee, main: UtensilsCrossed, drink: CupSoda };
 
 interface DayPlan {
   breakfast: string | null;
@@ -90,7 +92,8 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
     <div>
       <div className="flex flex-wrap items-center justify-center gap-3">
         <button type="button" onClick={generate} className="btn-primary">
-          ✨ {plan ? t("planner.regenerate") : t("planner.generate")}
+          <Sparkles className="h-4 w-4" aria-hidden />
+          {plan ? t("planner.regenerate") : t("planner.generate")}
         </button>
         {plan && (
           <button type="button" onClick={() => save(null)} className="btn-ghost">
@@ -98,11 +101,16 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
           </button>
         )}
       </div>
-      {plan && <p className="mt-3 text-center text-xs text-muted">💾 {t("planner.saved")}</p>}
+      {plan && (
+        <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-muted">
+          <Save className="h-3.5 w-3.5" aria-hidden />
+          {t("planner.saved")}
+        </p>
+      )}
 
       {!plan ? (
         <div className="card mx-auto mt-10 max-w-md p-10 text-center text-muted">
-          <span className="mb-3 block text-5xl" aria-hidden>🗓️</span>
+          <CalendarDays className="mx-auto mb-3 h-12 w-12 text-tomato" aria-hidden />
           {t("planner.empty")}
         </div>
       ) : (
@@ -116,21 +124,23 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.05 }}
-                className={`card p-5 ${isToday ? "ring-2 ring-tomato" : ""}`}
+                className={`card min-w-0 p-5 ${isToday ? "ring-2 ring-tomato" : ""}`}
               >
-                <header className="mb-3 flex items-baseline justify-between">
-                  <h2 className="heading text-lg">
-                    {s.emoji} {t(`sections.${s.id}.name`)}
+                <header className="mb-3 flex min-w-0 items-baseline justify-between gap-2">
+                  <h2 className="heading flex shrink-0 items-center gap-2 text-lg">
+                    <SectionIcon id={s.id} className="h-5 w-5 text-tomato" />
+                    {t(`sections.${s.id}.name`)}
                   </h2>
-                  <span className="truncate pl-2 text-xs text-muted">{t(`sections.${s.id}.theme`)}</span>
+                  <span className="min-w-0 truncate text-xs text-muted">{t(`sections.${s.id}.theme`)}</span>
                 </header>
                 <ul className="space-y-2">
                   {SLOTS.map((slot) => {
                     const dish = day?.[slot] ? bySlug.get(day[slot]!) : undefined;
                     const locked = day?.locked.includes(slot);
+                    const SlotIcon = SLOT_ICON[slot];
                     return (
                       <li key={slot} className="flex items-center gap-2 rounded-xl bg-bg/60 px-3 py-2">
-                        <span aria-hidden title={t(`planner.${slot}`)}>{SLOT_ICON[slot]}</span>
+                        <SlotIcon className="h-4 w-4 shrink-0 text-mango" aria-hidden />
                         <div className="min-w-0 flex-1">
                           <p className="text-[10px] font-bold uppercase tracking-wider text-muted">{t(`planner.${slot}`)}</p>
                           <AnimatePresence mode="wait">
@@ -157,11 +167,11 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
                           aria-pressed={locked}
                           title={locked ? t("planner.unlock") : t("planner.lock")}
                           aria-label={locked ? t("planner.unlock") : t("planner.lock")}
-                          className={`grid h-8 w-8 place-items-center rounded-full text-sm transition-colors ${
+                          className={`grid h-8 w-8 place-items-center rounded-full transition-colors ${
                             locked ? "bg-mango/20" : "hover:bg-line/60"
                           }`}
                         >
-                          {locked ? "🔒" : "🔓"}
+                          {locked ? <Lock className="h-4 w-4 text-mango" /> : <LockOpen className="h-4 w-4 text-muted" />}
                         </button>
                         <motion.button
                           type="button"
@@ -169,10 +179,10 @@ export function WeekPlanner({ dishes }: { dishes: DishSummary[] }) {
                           disabled={locked}
                           title={t("planner.reroll")}
                           aria-label={t("planner.reroll")}
-                          className="grid h-8 w-8 place-items-center rounded-full text-sm hover:bg-line/60 disabled:opacity-30"
+                          className="grid h-8 w-8 place-items-center rounded-full hover:bg-line/60 disabled:opacity-30"
                           whileTap={{ rotate: 180 }}
                         >
-                          🎲
+                          <Dices className="h-4 w-4 text-muted" />
                         </motion.button>
                       </li>
                     );

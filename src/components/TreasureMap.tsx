@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import { ArrowRight, Check, Lock, MapPin, RotateCcw, Trophy } from "lucide-react";
 
 /**
  * Recipe steps as a treasure map: a winding dotted trail with one stop per step.
@@ -49,8 +50,9 @@ export function TreasureMap({ steps, storageKey }: { steps: string[]; storageKey
           </p>
         </div>
         {done > 0 && (
-          <button type="button" onClick={() => update(0)} className="text-sm font-semibold text-muted hover:text-tomato">
-            ↺ {t("reset")}
+          <button type="button" onClick={() => update(0)} className="inline-flex items-center gap-1.5 text-sm font-semibold text-muted hover:text-tomato">
+            <RotateCcw className="h-4 w-4" aria-hidden />
+            {t("reset")}
           </button>
         )}
       </div>
@@ -83,7 +85,13 @@ export function TreasureMap({ steps, storageKey }: { steps: string[]; storageKey
                       transition={{ duration: 1.6, repeat: Infinity, ease: "easeOut" }}
                     />
                   )}
-                  {state === "done" ? "✓" : state === "current" ? "📍" : i + 1}
+                  {state === "done" ? (
+                    <Check className="h-5 w-5" strokeWidth={3} aria-hidden />
+                  ) : state === "current" ? (
+                    <MapPin className="h-5 w-5" aria-hidden />
+                  ) : (
+                    i + 1
+                  )}
                 </motion.button>
                 <Trail drawn={i < done} />
               </div>
@@ -110,6 +118,7 @@ export function TreasureMap({ steps, storageKey }: { steps: string[]; storageKey
                       animate={{ opacity: 1, y: 0 }}
                     >
                       {i === steps.length - 1 ? t("finish") : t("next")}
+                      {i === steps.length - 1 ? <Trophy className="h-4 w-4" aria-hidden /> : <ArrowRight className="h-4 w-4" aria-hidden />}
                     </motion.button>
                   )}
                 </div>
@@ -122,13 +131,13 @@ export function TreasureMap({ steps, storageKey }: { steps: string[]; storageKey
         <li className="grid grid-cols-[56px_1fr] gap-3">
           <div className="flex justify-center">
             <motion.div
-              className={`grid h-14 w-14 place-items-center rounded-2xl text-3xl ${
-                finished ? "bg-mango/20" : "bg-line/50 grayscale"
+              className={`grid h-14 w-14 place-items-center rounded-2xl ${
+                finished ? "bg-mango/20 text-mango" : "bg-line/50 text-muted"
               }`}
               animate={finished ? { rotate: [0, -10, 10, -6, 0], scale: [1, 1.2, 1] } : {}}
               transition={{ duration: 0.8 }}
             >
-              {finished ? "🏆" : "🧰"}
+              {finished ? <Trophy className="h-7 w-7" aria-hidden /> : <Lock className="h-6 w-6" aria-hidden />}
             </motion.div>
           </div>
           <AnimatePresence mode="wait">

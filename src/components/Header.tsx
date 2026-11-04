@@ -6,12 +6,13 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeToggle } from "./ThemeToggle";
 import { SITE } from "@/config/site";
+import { BookOpen, CalendarDays, ChefHat, Dices, Menu, Search, X } from "lucide-react";
 
 const NAV = [
-  { href: "/browse", key: "browse", icon: "📖" },
-  { href: "/search", key: "search", icon: "🔎" },
-  { href: "/random", key: "random", icon: "🎲" },
-  { href: "/planner", key: "planner", icon: "🗓️" },
+  { href: "/browse", key: "browse", icon: BookOpen },
+  { href: "/search", key: "search", icon: Search },
+  { href: "/random", key: "random", icon: Dices },
+  { href: "/planner", key: "planner", icon: CalendarDays },
 ] as const;
 
 export function Header() {
@@ -29,7 +30,7 @@ export function Header() {
             className="grid h-9 w-9 place-items-center rounded-full bg-tomato text-lg text-white shadow-soft"
             whileHover={{ rotate: -12, scale: 1.05 }}
           >
-            {SITE.logoEmoji}
+            <ChefHat className="h-5 w-5" aria-hidden />
           </motion.span>
           <span className="heading text-xl">
             {SITE.nameParts[0]}
@@ -67,7 +68,7 @@ export function Header() {
             aria-expanded={open}
             onClick={() => setOpen((o) => !o)}
           >
-            <span aria-hidden>{open ? "✕" : "☰"}</span>
+            {open ? <X className="h-5 w-5" aria-hidden /> : <Menu className="h-5 w-5" aria-hidden />}
           </button>
         </div>
       </div>
@@ -91,7 +92,7 @@ export function Header() {
                     isActive(item.href) ? "border-tomato text-tomato" : ""
                   }`}
                 >
-                  <span aria-hidden>{item.icon}</span>
+                  <item.icon className="h-4 w-4 text-tomato" aria-hidden />
                   {t(item.key)}
                 </Link>
               ))}

@@ -26,7 +26,7 @@
     "browseSubtitle": "Chaque jour a son thème. Choisissez et à vos casseroles.",
     "dishCount": "{count, plural, one {# plat} other {# plats}}",
     "budgetTitle": "Petit budget ?",
-    "budgetText": "Cherchez l'étiquette 💰 : des plats pas chers, avec les basiques du placard.",
+    "budgetText": "Cherchez l'étiquette petit budget : des plats pas chers, avec les basiques du placard.",
     "budgetCta": "Voir les plats pas chers"
   },
   "sections": {
@@ -68,12 +68,12 @@
     }
   },
   "tags": {
-    "budget": "💰 Petit budget",
-    "quick": "⚡ Rapide",
-    "kids": "👶 Enfants",
-    "snack": "🍿 Snack",
-    "vegetarian": "🥬 Végétarien",
-    "occasion": "🎉 Occasion"
+    "budget": "Petit budget",
+    "quick": "Rapide",
+    "kids": "Enfants",
+    "snack": "Snack",
+    "vegetarian": "Végétarien",
+    "occasion": "Occasion"
   },
   "dish": {
     "comingSoon": "Recette à venir",
@@ -94,7 +94,7 @@
     "subtitle": "Vous hésitez ? Laissez LazyChef choisir.",
     "from": "Choisir parmi",
     "everything": "Tout",
-    "roll": "Lancer 🎲",
+    "roll": "Lancer",
     "rollAgain": "Relancer",
     "rolling": "Ça tourne…",
     "open": "Voir le plat",
@@ -137,10 +137,10 @@
     "subtitle": "Suivez le chemin étape par étape. Touchez une étape quand elle est faite.",
     "stop": "Étape {n}",
     "progress": "{done} sur {total} étapes faites",
-    "next": "Fait, étape suivante →",
-    "finish": "Fait, trouvez le trésor ! 🏆",
+    "next": "Fait, étape suivante",
+    "finish": "Fait, trouvez le trésor !",
     "reset": "Recommencer",
-    "treasure": "Trésor trouvé ! Bon appétit 🎉",
+    "treasure": "Trésor trouvé ! Bon appétit",
     "treasureText": "Vous avez suivi toute la carte. À table !",
     "treasureHidden": "Le trésor",
     "treasureHint": "Allez au bout du chemin pour le débloquer."
@@ -158,7 +158,7 @@
     "chapter": "Chapitre {n}",
     "prev": "Précédent",
     "next": "Page suivante",
-    "hint": "Utilisez les touches ← → ou glissez pour tourner les pages",
+    "hint": "Utilisez les flèches du clavier ou glissez pour tourner les pages",
     "end": "C'est tout le livre. Vous avez faim ?",
     "restart": "Retour à la couverture"
   }

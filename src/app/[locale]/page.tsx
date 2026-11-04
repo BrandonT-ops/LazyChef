@@ -7,6 +7,8 @@ import { countBySection, getAllSummaries } from "@/lib/dishes";
 import { TodayCard } from "@/components/TodayCard";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
 import { ACCENT_BG } from "@/lib/ui";
+import { CalendarDays, Dices, Wallet } from "lucide-react";
+import { SectionIcon } from "@/components/icons";
 
 export default function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = use(params);
@@ -33,10 +35,12 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
             <p className="mt-5 max-w-xl text-lg text-muted">{t("home.subtitle")}</p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/random" className="btn-primary">
-                🎲 {t("home.rollCta")}
+                <Dices className="h-5 w-5" aria-hidden />
+                {t("home.rollCta")}
               </Link>
               <Link href="/planner" className="btn-ghost">
-                🗓️ {t("home.planCta")}
+                <CalendarDays className="h-5 w-5" aria-hidden />
+                {t("home.planCta")}
               </Link>
             </div>
           </Reveal>
@@ -61,7 +65,7 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
                   aria-hidden
                   className={`grid h-14 w-14 shrink-0 place-items-center rounded-2xl text-2xl transition-transform group-hover:rotate-6 group-hover:scale-110 ${ACCENT_BG[s.accent]}`}
                 >
-                  {s.emoji}
+                  <SectionIcon id={s.id} className="h-7 w-7" />
                 </span>
                 <div className="min-w-0">
                   <h3 className="heading text-lg">{t(`sections.${s.id}.name`)}</h3>
@@ -80,7 +84,10 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
       <section className="container-page py-8">
         <Reveal className="card flex flex-col items-start gap-4 bg-gradient-to-br from-mango/20 to-leaf/10 p-8 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="heading text-2xl">💰 {t("home.budgetTitle")}</h2>
+            <h2 className="heading flex items-center gap-2 text-2xl">
+              <Wallet className="h-6 w-6 text-leaf" aria-hidden />
+              {t("home.budgetTitle")}
+            </h2>
             <p className="mt-1 text-muted">{t("home.budgetText")}</p>
           </div>
           <Link href="/search?tag=budget" className="btn-primary shrink-0">

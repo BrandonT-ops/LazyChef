@@ -6,5 +6,4 @@
 export const SITE = {
   name: "LazyChef",
   nameParts: ["Lazy", "Chef"] as [string, string],
-  logoEmoji: "🍳",
 };

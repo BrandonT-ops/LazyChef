@@ -8,6 +8,8 @@ import { getDishesBySection, toSummary } from "@/lib/dishes";
 import { DishCard } from "@/components/DishCard";
 import { ACCENT_BG } from "@/lib/ui";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
+import { Dices } from "lucide-react";
+import { SectionIcon } from "@/components/icons";
 
 type Params = Promise<{ locale: string; id: string }>;
 
@@ -38,7 +40,7 @@ export default async function SectionPage({ params }: { params: Params }) {
             aria-hidden
             className={`grid h-16 w-16 place-items-center rounded-2xl text-3xl ${ACCENT_BG[section.accent]}`}
           >
-            {section.emoji}
+            <SectionIcon id={section.id} className="h-8 w-8" />
           </span>
           <div>
             <h1 className="heading text-3xl sm:text-4xl">{t(`sections.${section.id}.name`)}</h1>
@@ -46,7 +48,8 @@ export default async function SectionPage({ params }: { params: Params }) {
           </div>
         </div>
         <Link href={`/random?from=${section.id}`} className="btn-ghost self-start sm:self-auto">
-          🎲 {t("random.title")}
+          <Dices className="h-4 w-4" aria-hidden />
+          {t("random.title")}
         </Link>
       </Reveal>
 

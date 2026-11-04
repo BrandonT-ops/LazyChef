@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import type { RecipeMedia as Media } from "@/data/types";
 import { youtubeEmbed } from "@/lib/dishes";
+import { ExternalLink, Link2 } from "lucide-react";
 
 /** Photos, a preview video and helpful links for a recipe. Renders nothing when empty. */
 export function RecipeMedia({ media, title }: { media?: Media; title: string }) {
@@ -48,12 +49,16 @@ export function RecipeMedia({ media, title }: { media?: Media; title: string }) 
 
       {links.length > 0 && (
         <div>
-          <h3 className="heading mb-2 text-lg">🔗 {t("links")}</h3>
+          <h3 className="heading mb-2 flex items-center gap-2 text-lg">
+            <Link2 className="h-5 w-5 text-tomato" aria-hidden />
+            {t("links")}
+          </h3>
           <ul className="flex flex-wrap gap-2">
             {links.map((l) => (
               <li key={l.url}>
-                <a href={l.url} target="_blank" rel="noopener noreferrer" className="chip hover:border-tomato hover:text-tomato">
-                  {l.label} ↗
+                <a href={l.url} target="_blank" rel="noopener noreferrer" className="chip gap-1.5 hover:border-tomato hover:text-tomato">
+                  {l.label}
+                  <ExternalLink className="h-3.5 w-3.5" aria-hidden />
                 </a>
               </li>
             ))}

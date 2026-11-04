@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { Moon, Sun } from "lucide-react";
 
 function currentTheme(): "light" | "dark" {
   const set = document.documentElement.dataset.theme;
@@ -43,7 +44,7 @@ export function ThemeToggle({ label }: { label: string }) {
           exit={{ y: -14, opacity: 0, rotate: 40 }}
           transition={{ duration: 0.2 }}
         >
-          {theme === "dark" ? "🌙" : "☀️"}
+          {theme === "dark" ? <Moon className="h-[18px] w-[18px] text-mango" /> : <Sun className="h-[18px] w-[18px] text-mango" />}
         </motion.span>
       </AnimatePresence>
     </button>

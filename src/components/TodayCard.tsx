@@ -6,6 +6,8 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { sectionForWeekday } from "@/data/sections";
 import type { DishSummary } from "@/data/types";
+import { ArrowRight } from "lucide-react";
+import { SectionIcon } from "./icons";
 
 /** Shows today's theme. The day comes from the visitor's own clock, so it runs client-side. */
 export function TodayCard({ dishes }: { dishes: DishSummary[] }) {
@@ -29,9 +31,7 @@ export function TodayCard({ dishes }: { dishes: DishSummary[] }) {
       animate={{ opacity: 1, scale: 1 }}
       className="card relative overflow-hidden p-6"
     >
-      <div aria-hidden className="pointer-events-none absolute -right-6 -top-6 text-[7rem] opacity-15">
-        {section.emoji}
-      </div>
+      <SectionIcon id={section.id} className="pointer-events-none absolute -right-6 -top-6 h-36 w-36 text-tomato opacity-10" />
       <p className="text-sm font-semibold uppercase tracking-wider text-tomato">
         {t("home.todayIs", { day: dayName })}
       </p>
@@ -48,14 +48,15 @@ export function TodayCard({ dishes }: { dishes: DishSummary[] }) {
               href={`/dishes/${d.slug}`}
               className="flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-tomato/10"
             >
-              <span aria-hidden className="text-mango">●</span>
+              <span aria-hidden className="h-2 w-2 shrink-0 rounded-full bg-mango" />
               {d.name}
             </Link>
           </motion.li>
         ))}
       </ul>
       <Link href={`/sections/${section.id}`} className="btn-ghost mt-5">
-        {t("home.seeToday")} →
+        {t("home.seeToday")}
+        <ArrowRight className="h-4 w-4" aria-hidden />
       </Link>
     </motion.div>
   );

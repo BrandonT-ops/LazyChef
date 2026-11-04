@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Check } from "lucide-react";
 
 export function IngredientList({ items }: { items: string[] }) {
   const [checked, setChecked] = useState<Set<number>>(new Set());
@@ -33,7 +34,7 @@ export function IngredientList({ items }: { items: string[] }) {
                 }`}
                 animate={{ scale: on ? [1, 1.25, 1] : 1 }}
               >
-                {on && "✓"}
+                {on && <Check className="h-3.5 w-3.5" strokeWidth={3} />}
               </motion.span>
               <span className={on ? "text-muted line-through" : ""}>{item}</span>
             </button>

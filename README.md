@@ -6,7 +6,7 @@ in English and French. Browse the cookbook, search, plan your week or roll the d
 See [`docs/PLAN.md`](docs/PLAN.md) for the full plan and roadmap.
 
 ## Stack
-Next.js 15 (App Router) · TypeScript · Tailwind CSS · next-intl · Framer Motion
+Next.js 15 (App Router) · TypeScript · Tailwind CSS · next-intl · Framer Motion · Lucide icons
 
 ## Run it
 

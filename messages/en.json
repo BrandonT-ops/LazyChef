@@ -26,7 +26,7 @@
     "browseSubtitle": "Every day has its theme. Pick one and get cooking.",
     "dishCount": "{count, plural, one {# dish} other {# dishes}}",
     "budgetTitle": "Low budget?",
-    "budgetText": "Look for the 💰 tag: cheap dishes made from pantry staples.",
+    "budgetText": "Look for the low-budget tag: cheap dishes made from pantry staples.",
     "budgetCta": "Show cheap dishes"
   },
   "sections": {
@@ -68,12 +68,12 @@
     }
   },
   "tags": {
-    "budget": "💰 Low budget",
-    "quick": "⚡ Quick",
-    "kids": "👶 Kids",
-    "snack": "🍿 Snack",
-    "vegetarian": "🥬 Vegetarian",
-    "occasion": "🎉 Occasion"
+    "budget": "Low budget",
+    "quick": "Quick",
+    "kids": "Kids",
+    "snack": "Snack",
+    "vegetarian": "Vegetarian",
+    "occasion": "Occasion"
   },
   "dish": {
     "comingSoon": "Recipe coming soon",
@@ -94,7 +94,7 @@
     "subtitle": "Can't decide? Let LazyChef pick for you.",
     "from": "Pick from",
     "everything": "Everything",
-    "roll": "Roll 🎲",
+    "roll": "Roll",
     "rollAgain": "Roll again",
     "rolling": "Rolling…",
     "open": "Open dish",
@@ -137,10 +137,10 @@
     "subtitle": "Follow the trail one stop at a time. Tap a stop when it's done.",
     "stop": "Stop {n}",
     "progress": "{done} of {total} stops done",
-    "next": "Done, next stop →",
-    "finish": "Done, find the treasure! 🏆",
+    "next": "Done, next stop",
+    "finish": "Done, find the treasure!",
     "reset": "Start over",
-    "treasure": "Treasure found! Bon appétit 🎉",
+    "treasure": "Treasure found! Bon appétit",
     "treasureText": "You followed the whole map. Time to eat.",
     "treasureHidden": "The treasure",
     "treasureHint": "Reach the end of the trail to unlock it."
@@ -158,7 +158,7 @@
     "chapter": "Chapter {n}",
     "prev": "Previous",
     "next": "Next page",
-    "hint": "Use ← → keys or swipe to turn the pages",
+    "hint": "Use the arrow keys or swipe to turn the pages",
     "end": "That's the whole book. Hungry yet?",
     "restart": "Back to the cover"
   }

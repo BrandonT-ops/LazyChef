@@ -3,10 +3,12 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { SECTIONS, getSection } from "@/data/sections";
+import { SECTIONS } from "@/data/sections";
 import type { DishSummary, SectionId, Tag } from "@/data/types";
 import { searchKey } from "@/lib/text";
 import { DishCard } from "./DishCard";
+import { Search } from "lucide-react";
+import { SectionIcon, TagIcon } from "./icons";
 
 const TAGS: Tag[] = ["budget", "quick", "kids", "snack", "vegetarian", "occasion"];
 const PAGE = 48;
@@ -43,7 +45,7 @@ export function SearchView({
   return (
     <div>
       <div className="relative mx-auto max-w-2xl">
-        <span aria-hidden className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-lg">🔎</span>
+        <Search aria-hidden className="pointer-events-none absolute left-5 top-1/2 h-5 w-5 -translate-y-1/2 text-muted" />
         <input
           type="search"
           value={q}
@@ -69,7 +71,8 @@ export function SearchView({
             onClick={() => setSection(section === s.id ? null : s.id)}
             className={`chip ${section === s.id ? "chip-active" : "hover:border-tomato"}`}
           >
-            {getSection(s.id)!.emoji} {t(`sections.${s.id}.name`)}
+            <SectionIcon id={s.id} className="mr-1.5 h-4 w-4" />
+            {t(`sections.${s.id}.name`)}
           </button>
         ))}
       </div>
@@ -81,6 +84,7 @@ export function SearchView({
             onClick={() => setTag(tag === tg ? null : tg)}
             className={`chip ${tag === tg ? "border-mango bg-mango text-ink" : "hover:border-mango"}`}
           >
+            <TagIcon tag={tg} className="mr-1.5 h-3.5 w-3.5" />
             {t(`tags.${tg}`)}
           </button>
         ))}

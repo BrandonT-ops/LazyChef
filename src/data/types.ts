@@ -52,7 +52,6 @@ export interface Dish {
 
 export interface Section {
   id: SectionId;
-  emoji: string;
   /** JS Date#getDay() value for weekday sections (0 = Sunday). */
   weekday?: number;
   /** Tailwind accent token used for this section's color. */

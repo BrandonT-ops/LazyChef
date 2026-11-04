@@ -11,6 +11,8 @@ import { IngredientList } from "@/components/IngredientList";
 import { TreasureMap } from "@/components/TreasureMap";
 import { RecipeMedia } from "@/components/RecipeMedia";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
+import { ArrowLeft, Map as MapIcon, NotebookPen, ShoppingBasket } from "lucide-react";
+import { SectionIcon, TagIcon } from "@/components/icons";
 
 type Params = Promise<{ locale: string; slug: string }>;
 
@@ -42,8 +44,9 @@ export default async function DishPage({ params }: { params: Params }) {
 
   return (
     <article className="container-page py-10">
-      <Link href={`/sections/${section.id}`} className="no-print text-sm font-semibold text-muted hover:text-tomato">
-        ← {t("dish.back", { section: sectionName })}
+      <Link href={`/sections/${section.id}`} className="no-print inline-flex items-center gap-1.5 text-sm font-semibold text-muted hover:text-tomato">
+        <ArrowLeft className="h-4 w-4" aria-hidden />
+        {t("dish.back", { section: sectionName })}
       </Link>
 
       <Reveal className="mt-4 flex flex-col gap-5 sm:flex-row sm:items-center">
@@ -51,14 +54,15 @@ export default async function DishPage({ params }: { params: Params }) {
           aria-hidden
           className={`grid h-20 w-20 shrink-0 place-items-center rounded-3xl text-4xl ${ACCENT_BG[section.accent]}`}
         >
-          {section.emoji}
+          <SectionIcon id={section.id} className="h-10 w-10" />
         </span>
         <div>
           <h1 className="heading text-3xl sm:text-5xl">{dish.name}</h1>
           <div className="mt-3 flex flex-wrap gap-2">
             <span className="chip">{sectionName}</span>
             {dish.tags.map((tag) => (
-              <Link key={tag} href={`/search?tag=${tag}`} className="chip hover:border-tomato hover:text-tomato">
+              <Link key={tag} href={`/search?tag=${tag}`} className="chip gap-1.5 hover:border-tomato hover:text-tomato">
+                <TagIcon tag={tag} className="h-3.5 w-3.5" />
                 {t(`tags.${tag}`)}
               </Link>
             ))}
@@ -72,7 +76,7 @@ export default async function DishPage({ params }: { params: Params }) {
             {[
               { label: t("dish.prep"), value: t("dish.minutes", { count: recipe.prepMinutes }) },
               { label: t("dish.cook"), value: t("dish.minutes", { count: recipe.cookMinutes }) },
-              { label: t("dish.servings"), value: `🍽 ${recipe.servings}` },
+              { label: t("dish.servings"), value: String(recipe.servings) },
             ].map((s) => (
               <div key={s.label} className="card px-3 py-3 text-center">
                 <p className="text-xs font-semibold uppercase tracking-wider text-muted">{s.label}</p>
@@ -90,13 +94,19 @@ export default async function DishPage({ params }: { params: Params }) {
           <div className="mt-10 grid gap-10 lg:grid-cols-[320px_1fr]">
             <Reveal>
               <div className="card p-5 lg:sticky lg:top-24">
-                <h2 className="heading text-xl">🧺 {t("dish.ingredients")}</h2>
+                <h2 className="heading flex items-center gap-2 text-xl">
+                  <ShoppingBasket className="h-5 w-5 text-mango" aria-hidden />
+                  {t("dish.ingredients")}
+                </h2>
                 <p className="mb-3 mt-1 text-xs text-muted">{t("dish.checkHint")}</p>
                 <IngredientList items={recipe.ingredients[lang]} />
               </div>
             </Reveal>
             <Reveal delay={0.1}>
-              <h2 className="heading mb-1 text-xl">🗺️ {t("map.title")}</h2>
+              <h2 className="heading mb-1 flex items-center gap-2 text-xl">
+                <MapIcon className="h-5 w-5 text-leaf" aria-hidden />
+                {t("map.title")}
+              </h2>
               <p className="mb-6 text-sm text-muted">{t("map.subtitle")}</p>
               <TreasureMap steps={recipe.steps[lang]} storageKey={`${dish.slug}-${locale}`} />
             </Reveal>
@@ -104,7 +114,7 @@ export default async function DishPage({ params }: { params: Params }) {
         </>
       ) : (
         <Reveal className="card mt-10 flex flex-col items-center gap-3 px-6 py-14 text-center" delay={0.05}>
-          <span aria-hidden className="text-5xl">📝</span>
+          <NotebookPen className="h-12 w-12 text-mango" aria-hidden />
           <h2 className="heading text-2xl">{t("dish.comingSoon")}</h2>
           <p className="max-w-md text-muted">{t("dish.comingSoonText")}</p>
         </Reveal>

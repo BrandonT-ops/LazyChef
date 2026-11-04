@@ -8,6 +8,8 @@ import { SECTIONS, getSection } from "@/data/sections";
 import type { DishSummary, SectionId } from "@/data/types";
 import { ACCENT_BG } from "@/lib/ui";
 import { pickRandom } from "@/lib/random";
+import { ArrowRight, Dices } from "lucide-react";
+import { SectionIcon } from "./icons";
 
 export function DiceRoller({ dishes, initialFrom }: { dishes: DishSummary[]; initialFrom?: SectionId }) {
   const t = useTranslations();
@@ -64,7 +66,8 @@ export function DiceRoller({ dishes, initialFrom }: { dishes: DishSummary[]; ini
             onClick={() => setFrom(id)}
             className={`chip ${from === id ? "chip-active" : "hover:border-tomato"}`}
           >
-            {id === "all" ? t("random.everything") : `${getSection(id)!.emoji} ${t(`sections.${id}.name`)}`}
+            {id !== "all" && <SectionIcon id={id} className="mr-1.5 h-4 w-4" />}
+            {id === "all" ? t("random.everything") : t(`sections.${id}.name`)}
           </button>
         ))}
       </div>
@@ -84,13 +87,13 @@ export function DiceRoller({ dishes, initialFrom }: { dishes: DishSummary[]; ini
           onClick={roll}
           disabled={!pool.length}
           aria-label={t("random.roll")}
-          className="grid h-32 w-32 place-items-center rounded-[2rem] bg-gradient-to-br from-tomato to-mango text-6xl shadow-lift disabled:opacity-40"
+          className="grid h-32 w-32 place-items-center rounded-[2rem] bg-gradient-to-br from-tomato to-mango text-white shadow-lift disabled:opacity-40"
           animate={rolling ? { rotate: [0, 90, 180, 270, 360], scale: [1, 1.08, 1] } : { rotate: 0 }}
           transition={rolling ? { duration: 0.9, ease: "easeInOut" } : {}}
           whileHover={{ scale: 1.05, rotate: -6 }}
           whileTap={{ scale: 0.92 }}
         >
-          🎲
+          <Dices className="h-16 w-16" strokeWidth={1.6} aria-hidden />
         </motion.button>
         <p className="mt-3 text-sm font-semibold text-muted">
           {pool.length ? (rolling ? t("random.rolling") : t("random.roll")) : t("random.empty")}
@@ -109,7 +112,7 @@ export function DiceRoller({ dishes, initialFrom }: { dishes: DishSummary[]; ini
               className="card mx-auto flex max-w-md flex-col items-center gap-3 p-8 text-center"
             >
               <span className={`grid h-16 w-16 place-items-center rounded-2xl text-3xl ${ACCENT_BG[section.accent]}`} aria-hidden>
-                {section.emoji}
+                <SectionIcon id={section.id} className="h-8 w-8" />
               </span>
               <p className="text-xs font-bold uppercase tracking-wider text-muted">{t(`sections.${section.id}.name`)}</p>
               <h2 className="heading text-3xl">{shown.name}</h2>
@@ -121,10 +124,12 @@ export function DiceRoller({ dishes, initialFrom }: { dishes: DishSummary[]; ini
                   transition={{ delay: 0.15 }}
                 >
                   <Link href={`/dishes/${shown.slug}`} className="btn-primary">
-                    {t("random.open")} →
+                    {t("random.open")}
+                    <ArrowRight className="h-4 w-4" aria-hidden />
                   </Link>
                   <button type="button" onClick={roll} className="btn-ghost">
-                    🎲 {t("random.rollAgain")}
+                    <Dices className="h-4 w-4" aria-hidden />
+                    {t("random.rollAgain")}
                   </button>
                 </motion.div>
               )}

@@ -4,6 +4,7 @@ import { getAllSummaries } from "@/lib/dishes";
 import { isSectionId } from "@/data/sections";
 import { DiceRoller } from "@/components/DiceRoller";
 import { Reveal } from "@/components/Reveal";
+import { Dices } from "lucide-react";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -25,7 +26,10 @@ export default async function RandomPage({ params, searchParams }: Props) {
   return (
     <div className="container-page py-12">
       <Reveal className="mb-8 text-center">
-        <h1 className="heading text-3xl sm:text-4xl">🎲 {t("title")}</h1>
+        <h1 className="heading flex flex-col items-center justify-center gap-2 text-3xl sm:flex-row sm:gap-3 sm:text-4xl">
+          <Dices className="h-8 w-8 text-tomato" aria-hidden />
+          {t("title")}
+        </h1>
         <p className="mt-2 text-muted">{t("subtitle")}</p>
       </Reveal>
       <DiceRoller dishes={getAllSummaries()} initialFrom={from && isSectionId(from) ? from : undefined} />

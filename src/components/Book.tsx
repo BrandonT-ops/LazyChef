@@ -8,6 +8,8 @@ import { SECTIONS } from "@/data/sections";
 import type { DishSummary, Section } from "@/data/types";
 import { ACCENT_BG } from "@/lib/ui";
 import { SITE } from "@/config/site";
+import { ArrowLeft, ArrowRight, ChefHat, CircleCheck, ListOrdered, PencilLine, RotateCcw, UtensilsCrossed } from "lucide-react";
+import { SectionIcon } from "./icons";
 
 const PER_PAGE = 9;
 
@@ -137,11 +139,13 @@ export function Book({ dishes }: { dishes: DishSummary[] }) {
 
       <div className="mx-auto mt-6 flex max-w-5xl items-center justify-between gap-4">
         <button type="button" onClick={prev} disabled={shown === 0} className="btn-ghost">
-          ← {t("book.prev")}
+          <ArrowLeft className="h-4 w-4" aria-hidden />
+          {t("book.prev")}
         </button>
         <p className="hidden text-center text-xs text-muted sm:block">{t("book.hint")}</p>
         <button type="button" onClick={next} disabled={shown + step > last} className="btn-primary">
-          {t("book.next")} →
+          {t("book.next")}
+          <ArrowRight className="h-4 w-4" aria-hidden />
         </button>
       </div>
     </div>
@@ -171,12 +175,13 @@ function PageView({
     case "cover":
       return (
         <div className="flex h-full flex-col items-center justify-center gap-4 rounded-xl bg-gradient-to-br from-tomato to-mango p-8 text-center text-white">
-          <span className="text-6xl" aria-hidden>{SITE.logoEmoji}</span>
+          <ChefHat className="h-16 w-16" strokeWidth={1.5} aria-hidden />
           <h2 className="heading text-4xl">{SITE.name}</h2>
           <p className="text-lg font-semibold opacity-90">{t("book.cover")}</p>
           <p className="text-sm opacity-80">{t("home.dishCount", { count: dishes.length })}</p>
           <button type="button" onClick={() => goTo(1)} className="btn mt-4 bg-white text-tomato">
-            {t("book.open")} →
+            {t("book.open")}
+            <ArrowRight className="h-4 w-4" aria-hidden />
           </button>
         </div>
       );
@@ -184,7 +189,10 @@ function PageView({
     case "toc":
       return (
         <div className="pb-8">
-          <h2 className="heading mb-5 text-2xl">📑 {t("book.toc")}</h2>
+          <h2 className="heading mb-5 flex items-center gap-2 text-2xl">
+            <ListOrdered className="h-6 w-6 text-tomato" aria-hidden />
+            {t("book.toc")}
+          </h2>
           <ol className="space-y-1">
             {SECTIONS.map((s, i) => (
               <li key={s.id}>
@@ -194,7 +202,7 @@ function PageView({
                   className="group flex w-full items-baseline gap-2 rounded-lg px-2 py-1.5 text-left hover:bg-tomato/10"
                 >
                   <span className="text-xs font-bold text-muted">{i + 1}.</span>
-                  <span aria-hidden>{s.emoji}</span>
+                  <SectionIcon id={s.id} className="h-4 w-4 translate-y-0.5 self-start text-muted" />
                   <span className="font-semibold group-hover:text-tomato">{t(`sections.${s.id}.name`)}</span>
                   <span aria-hidden className="mx-1 flex-1 translate-y-[-3px] border-b-2 border-dotted border-line" />
                   <span className="text-sm font-semibold text-muted">{chapterStart[s.id]}</span>
@@ -212,8 +220,8 @@ function PageView({
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-muted">
             {t("book.chapter", { n: page.chapter })}
           </p>
-          <span className={`grid h-24 w-24 place-items-center rounded-3xl text-5xl ${ACCENT_BG[page.section.accent]}`} aria-hidden>
-            {page.section.emoji}
+          <span className={`grid h-24 w-24 place-items-center rounded-3xl ${ACCENT_BG[page.section.accent]}`} aria-hidden>
+            <SectionIcon id={page.section.id} className="h-12 w-12" />
           </span>
           <h2 className="heading text-3xl">{t(`sections.${page.section.id}.name`)}</h2>
           <p className="max-w-xs text-muted">{t(`sections.${page.section.id}.theme`)}</p>
@@ -226,7 +234,7 @@ function PageView({
       return (
         <div className="pb-8">
           <p className="mb-4 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-muted">
-            <span aria-hidden>{page.section.emoji}</span>
+            <SectionIcon id={page.section.id} className="h-3.5 w-3.5" />
             {t(`sections.${page.section.id}.name`)}
           </p>
           <ul className="space-y-0.5">
@@ -239,8 +247,12 @@ function PageView({
                 >
                   <span className="font-medium group-hover:text-tomato">{d.name}</span>
                   <span aria-hidden className="mx-1 flex-1 translate-y-[-3px] border-b-2 border-dotted border-line" />
-                  <span className="shrink-0 text-xs" title={d.hasRecipe ? t("dish.hasRecipe") : t("dish.comingSoon")}>
-                    {d.hasRecipe ? "✅" : "📝"}
+                  <span className="shrink-0" title={d.hasRecipe ? t("dish.hasRecipe") : t("dish.comingSoon")}>
+                    {d.hasRecipe ? (
+                      <CircleCheck className="h-4 w-4 text-leaf" aria-label={t("dish.hasRecipe")} />
+                    ) : (
+                      <PencilLine className="h-4 w-4 text-muted" aria-label={t("dish.comingSoon")} />
+                    )}
                   </span>
                 </Link>
               </li>
@@ -253,10 +265,11 @@ function PageView({
     case "end":
       return (
         <div className="flex h-full flex-col items-center justify-center gap-3 pb-8 text-center">
-          <span className="text-5xl" aria-hidden>🍽️</span>
+          <UtensilsCrossed className="h-12 w-12 text-tomato" aria-hidden />
           <h2 className="heading text-2xl">{t("book.end")}</h2>
           <button type="button" onClick={() => goTo(0)} className="btn-ghost">
-            ↺ {t("book.restart")}
+            <RotateCcw className="h-4 w-4" aria-hidden />
+            {t("book.restart")}
           </button>
           {footer}
         </div>

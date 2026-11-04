@@ -14,7 +14,7 @@ export function Footer() {
           · {t("tagline")}
         </p>
         <p>
-          {t("made")} 🍲 {new Date().getFullYear()}
+          {t("made")} · {new Date().getFullYear()}
         </p>
       </div>
     </footer>
