@@ -33,7 +33,7 @@ export function ThemeToggle({ label }: { label: string }) {
       onClick={toggle}
       aria-label={label}
       title={label}
-      className="grid h-10 w-10 place-items-center overflow-hidden rounded-full border border-line bg-surface transition-colors hover:border-mango"
+      className="grid h-9 w-9 place-items-center overflow-hidden rounded-lg text-muted transition-colors hover:bg-subtle hover:text-ink"
     >
       <AnimatePresence mode="wait" initial={false}>
         <motion.span
@@ -44,7 +44,7 @@ export function ThemeToggle({ label }: { label: string }) {
           exit={{ y: -14, opacity: 0, rotate: 40 }}
           transition={{ duration: 0.2 }}
         >
-          {theme === "dark" ? <Moon className="h-[18px] w-[18px] text-mango" /> : <Sun className="h-[18px] w-[18px] text-mango" />}
+          {theme === "dark" ? <Moon className="h-[18px] w-[18px]" /> : <Sun className="h-[18px] w-[18px]" />}
         </motion.span>
       </AnimatePresence>
     </button>

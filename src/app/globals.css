@@ -3,48 +3,51 @@
 @tailwind utilities;
 
 /*
- * Marché palette — warm market colors.
+ * Chop design tokens: clean, neutral surfaces with tomato red as the single brand accent.
+ * Mango, leaf and hibiscus are kept for small category accents only.
  * Values are space-separated RGB so Tailwind can apply opacity (bg-tomato/10).
- * Change the palette here only; components use the tokens.
  */
 :root {
-  --bg: 255 248 238;        /* #FFF8EE cream */
-  --surface: 255 255 255;   /* card */
-  --ink: 42 26 18;          /* #2A1A12 cocoa */
-  --muted: 120 96 80;       /* softer cocoa for secondary text */
-  --line: 238 224 205;      /* borders */
-  --tomato: 228 87 46;      /* #E4572E primary */
-  --mango: 244 169 22;      /* #F4A916 */
-  --leaf: 46 139 87;        /* #2E8B57 */
-  --hibiscus: 122 62 157;   /* #7A3E9D, used sparingly */
+  --bg: 255 255 255;        /* page */
+  --subtle: 248 247 245;    /* alternate section background */
+  --surface: 255 255 255;   /* cards */
+  --ink: 24 24 27;          /* text */
+  --muted: 113 113 122;     /* secondary text */
+  --line: 231 229 228;      /* borders */
+  --tomato: 226 83 43;      /* brand / primary actions */
+  --mango: 217 144 18;
+  --leaf: 34 128 82;
+  --hibiscus: 124 72 160;
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: 27 20 16;
-    --surface: 38 29 23;
-    --ink: 246 235 221;
-    --muted: 190 170 150;
-    --line: 62 49 40;
-    --tomato: 255 112 72;
-    --mango: 255 189 64;
-    --leaf: 86 190 128;
-    --hibiscus: 190 130 222;
+    --bg: 11 11 12;
+    --subtle: 18 18 20;
+    --surface: 22 22 25;
+    --ink: 244 244 245;
+    --muted: 161 161 170;
+    --line: 39 39 43;
+    --tomato: 255 106 61;
+    --mango: 240 176 64;
+    --leaf: 74 190 128;
+    --hibiscus: 180 138 220;
     color-scheme: dark;
   }
 }
 
 :root[data-theme="dark"] {
-  --bg: 27 20 16;
-  --surface: 38 29 23;
-  --ink: 246 235 221;
-  --muted: 190 170 150;
-  --line: 62 49 40;
-  --tomato: 255 112 72;
-  --mango: 255 189 64;
-  --leaf: 86 190 128;
-  --hibiscus: 190 130 222;
+  --bg: 11 11 12;
+  --subtle: 18 18 20;
+  --surface: 22 22 25;
+  --ink: 244 244 245;
+  --muted: 161 161 170;
+  --line: 39 39 43;
+  --tomato: 255 106 61;
+  --mango: 240 176 64;
+  --leaf: 74 190 128;
+  --hibiscus: 180 138 220;
   color-scheme: dark;
 }
 
@@ -71,32 +74,38 @@ body {
 
 @layer components {
   .container-page {
-    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
   }
   .card {
     @apply rounded-xl2 border border-line bg-surface shadow-soft;
   }
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 font-semibold
-      transition-all duration-200 focus-visible:outline-none focus-visible:ring-2
-      focus-visible:ring-tomato focus-visible:ring-offset-2 focus-visible:ring-offset-bg
-      active:scale-[0.97] disabled:opacity-50;
+    @apply inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded-lg px-4 text-sm font-medium
+      transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+      focus-visible:ring-tomato/60 focus-visible:ring-offset-2 focus-visible:ring-offset-bg
+      disabled:pointer-events-none disabled:opacity-50;
   }
   .btn-primary {
-    @apply btn bg-tomato text-white shadow-soft hover:shadow-lift hover:-translate-y-0.5;
+    @apply btn bg-tomato text-white shadow-sm hover:bg-tomato/90;
   }
   .btn-ghost {
-    @apply btn border border-line bg-surface text-ink hover:border-tomato hover:text-tomato;
+    @apply btn border border-line bg-surface text-ink shadow-sm hover:bg-subtle;
+  }
+  .btn-lg {
+    @apply h-12 px-6 text-base;
   }
   .chip {
-    @apply inline-flex items-center rounded-full border border-line bg-surface px-3 py-1 text-sm
+    @apply inline-flex h-8 items-center rounded-full border border-line bg-surface px-3 text-sm
       font-medium text-muted transition-colors;
   }
   .chip-active {
-    @apply border-tomato bg-tomato text-white;
+    @apply border-ink bg-ink text-bg;
   }
   .heading {
-    @apply font-display font-bold tracking-tight;
+    @apply font-display font-semibold tracking-tight;
+  }
+  .eyebrow {
+    @apply text-sm font-semibold text-tomato;
   }
 }
 
@@ -152,7 +161,16 @@ body {
 .paper {
   background-color: rgb(var(--surface));
   background-image:
-    radial-gradient(120% 90% at 50% 40%, transparent 60%, rgb(var(--mango) / 0.08) 100%),
+    radial-gradient(120% 90% at 50% 40%, transparent 60%, rgb(var(--mango) / 0.06) 100%),
     linear-gradient(rgb(var(--ink) / 0.015) 1px, transparent 1px);
   background-size: 100% 100%, 100% 28px;
+}
+
+/* ---- Landing: faint grid behind the hero ---- */
+.hero-grid {
+  background-image:
+    linear-gradient(rgb(var(--ink) / 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(var(--ink) / 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 40%, transparent 100%);
 }

@@ -67,7 +67,7 @@ export function InstallButton() {
       <button
         type="button"
         onClick={onClick}
-        className="inline-flex h-10 items-center gap-1.5 rounded-full bg-tomato px-3 text-sm font-semibold text-white shadow-soft transition-transform hover:-translate-y-0.5"
+        className="inline-flex h-9 items-center gap-1.5 rounded-lg bg-ink px-3 text-sm font-medium text-bg transition-opacity hover:opacity-90"
         aria-label={t("install")}
       >
         <Download className="h-4 w-4" aria-hidden />

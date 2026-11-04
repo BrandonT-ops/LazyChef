@@ -1,6 +1,9 @@
 "use client";
 
 import { useCallback, useSyncExternalStore } from "react";
+import { newId } from "./id";
+
+export { newId };
 
 /**
  * Small JSON values in localStorage, shared live between components
@@ -130,8 +133,3 @@ export function useShopping() {
   };
 }
 
-export function newId(): string {
-  return typeof crypto !== "undefined" && "randomUUID" in crypto
-    ? crypto.randomUUID()
-    : `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
-}

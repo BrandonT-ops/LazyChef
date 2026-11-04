@@ -8,6 +8,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Providers } from "@/components/Providers";
 import { ServiceWorker } from "@/components/Pwa";
+import "@fontsource-variable/inter";
 import "../globals.css";
 
 // Sets the theme before first paint so there's no light/dark flash.
@@ -36,8 +37,8 @@ export async function generateMetadata({
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FFF8EE" },
-    { media: "(prefers-color-scheme: dark)", color: "#1B1410" },
+    { media: "(prefers-color-scheme: light)", color: "#FFFFFF" },
+    { media: "(prefers-color-scheme: dark)", color: "#0B0B0C" },
   ],
 };
 

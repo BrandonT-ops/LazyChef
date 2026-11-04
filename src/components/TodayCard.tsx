@@ -3,13 +3,13 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
+import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { sectionForWeekday } from "@/data/sections";
 import type { DishSummary } from "@/data/types";
-import { ArrowRight } from "lucide-react";
 import { SectionIcon } from "./icons";
 
-/** Shows today's theme. The day comes from the visitor's own clock, so it runs client-side. */
+/** A slim "today" bar. The day comes from the visitor's own clock, so it renders client-side. */
 export function TodayCard({ dishes }: { dishes: DishSummary[] }) {
   const t = useTranslations();
   const locale = useLocale();
@@ -17,44 +17,27 @@ export function TodayCard({ dishes }: { dishes: DishSummary[] }) {
 
   useEffect(() => setDay(new Date().getDay()), []);
 
-  if (day === null) {
-    return <div className="card h-64 animate-pulse" aria-hidden />;
-  }
+  if (day === null) return <div className="h-[68px] rounded-xl2 border border-line" aria-hidden />;
 
   const section = sectionForWeekday(day);
-  const picks = dishes.filter((d) => d.section === section.id).slice(0, 4);
+  const picks = dishes.filter((d) => d.section === section.id).slice(0, 3);
   const dayName = new Intl.DateTimeFormat(locale, { weekday: "long" }).format(new Date());
 
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.97 }}
-      animate={{ opacity: 1, scale: 1 }}
-      className="card relative overflow-hidden p-6"
+      initial={{ opacity: 0, y: 8 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="flex flex-col gap-3 rounded-xl2 border border-line bg-surface px-5 py-4 sm:flex-row sm:items-center"
     >
-      <SectionIcon id={section.id} className="pointer-events-none absolute -right-6 -top-6 h-36 w-36 text-tomato opacity-10" />
-      <p className="text-sm font-semibold uppercase tracking-wider text-tomato">
-        {t("home.todayIs", { day: dayName })}
+      <span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-tomato/[0.08] text-tomato">
+        <SectionIcon id={section.id} className="h-[18px] w-[18px]" />
+      </span>
+      <p className="min-w-0 flex-1 text-sm">
+        <span className="font-semibold capitalize">{dayName}</span>
+        <span className="text-muted"> · {t(`sections.${section.id}.theme`)}</span>
+        <span className="hidden text-muted md:inline"> · {picks.map((d) => d.name).join(", ")}</span>
       </p>
-      <h2 className="heading mt-1 text-2xl">{t(`sections.${section.id}.theme`)}</h2>
-      <ul className="mt-4 space-y-2">
-        {picks.map((d, i) => (
-          <motion.li
-            key={d.slug}
-            initial={{ opacity: 0, x: -8 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.1 + i * 0.06 }}
-          >
-            <Link
-              href={`/dishes/${d.slug}`}
-              className="flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-tomato/10"
-            >
-              <span aria-hidden className="h-2 w-2 shrink-0 rounded-full bg-mango" />
-              {d.name}
-            </Link>
-          </motion.li>
-        ))}
-      </ul>
-      <Link href={`/sections/${section.id}`} className="btn-ghost mt-5">
+      <Link href={`/sections/${section.id}`} className="inline-flex items-center gap-1 text-sm font-medium text-tomato hover:underline">
         {t("home.seeToday")}
         <ArrowRight className="h-4 w-4" aria-hidden />
       </Link>

@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         bg: token("bg"),
+        subtle: token("subtle"),
         surface: token("surface"),
         ink: token("ink"),
         muted: token("muted"),
@@ -21,14 +22,14 @@ const config: Config = {
         hibiscus: token("hibiscus"),
       },
       fontFamily: {
-        display: ['"Trebuchet MS"', "ui-rounded", "system-ui", "sans-serif"],
-        sans: ["system-ui", "-apple-system", '"Segoe UI"', "Roboto", "sans-serif"],
+        display: ['"Inter Variable"', "Inter", "system-ui", "sans-serif"],
+        sans: ['"Inter Variable"', "Inter", "system-ui", "-apple-system", '"Segoe UI"', "sans-serif"],
       },
       boxShadow: {
-        soft: "0 6px 20px -8px rgb(var(--tomato) / 0.25)",
-        lift: "0 14px 30px -10px rgb(var(--tomato) / 0.35)",
+        soft: "0 1px 2px rgb(0 0 0 / 0.04), 0 1px 3px rgb(0 0 0 / 0.04)",
+        lift: "0 12px 32px -12px rgb(0 0 0 / 0.18), 0 2px 6px rgb(0 0 0 / 0.04)",
       },
-      borderRadius: { xl2: "1.25rem" },
+      borderRadius: { xl2: "0.875rem" },
     },
   },
   plugins: [],

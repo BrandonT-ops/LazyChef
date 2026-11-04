@@ -2,7 +2,7 @@ import type { DishSummary } from "@/data/types";
 import type { SideId } from "@/data/sides";
 import { estimateDishPrice } from "@/data/prices";
 import { pickSide } from "./planner";
-import { newId } from "./local";
+import { newId } from "./id";
 
 export type Occasion = "birthday" | "wedding" | "holidays" | "baptism" | "funeral" | "family" | "party";
 export const OCCASIONS: Occasion[] = ["birthday", "wedding", "holidays", "baptism", "funeral", "family", "party"];

@@ -155,7 +155,12 @@
   },
   "footer": {
     "tagline": "Cuisinez plus, réfléchissez moins.",
-    "made": "Fait maison"
+    "made": "Fait maison",
+    "product": "Produit",
+    "explore": "Explorer",
+    "kitchen": "Votre cuisine",
+    "about": "La cuisine maison simplifiée : plannings, menus d'événements, listes de courses chiffrées et recettes pas à pas.",
+    "local": "Vos plannings et recettes restent sur votre appareil."
   },
   "notFound": {
     "title": "Cette assiette est vide",
@@ -391,5 +396,111 @@
   "prices": {
     "edit": "Changer le prix",
     "add": "ajouter un prix"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Gratuit · Fonctionne hors ligne · Français & English",
+      "title": "Planifiez une semaine de cuisine maison en quelques secondes.",
+      "subtitle": "Chop transforme {count} plats camerounais et familiaux en planning de la semaine, liste de courses chiffrée et recettes pas à pas. Du petit-déjeuner au dîner, sur votre téléphone.",
+      "primary": "Planifier ma semaine",
+      "secondary": "Ouvrir le livre de recettes"
+    },
+    "stats": {
+      "dishes": "plats",
+      "themes": "rubriques à thème",
+      "occasions": "menus d'événements"
+    },
+    "preview": {
+      "title": "Cette semaine",
+      "subtitle": "2 jours de cuisine · 2 personnes",
+      "cook": "On cuisine",
+      "leftovers": "Restes",
+      "snack": "Journée snack",
+      "list": "Liste de courses",
+      "event": "Anniversaire · 20 invités",
+      "guests": "{count} invités",
+      "perGuest": "par invité",
+      "footer": "Petits-déjeuners et dîners légers prévus aussi"
+    },
+    "features": {
+      "eyebrow": "Fonctionnalités",
+      "title": "Tout pour ne plus se demander « on mange quoi ? »",
+      "subtitle": "Planifiez, faites les courses et cuisinez avec une seule app, pensée pour ce que vous mangez vraiment.",
+      "open": "Ouvrir",
+      "items": {
+        "planner": {
+          "title": "Planning de la semaine",
+          "text": "Petit-déjeuner, déjeuner et dîner chaque jour, selon le thème du jour. Gardez ce qui vous plaît, relancez le reste."
+        },
+        "batch": {
+          "title": "Cuisiner à l'avance",
+          "text": "Libre seulement deux fois par semaine ? Préparez un plat qui se garde et mangez-le jusqu'au prochain jour de cuisine, accompagnements et dîners légers compris."
+        },
+        "events": {
+          "title": "Menus d'événements",
+          "text": "Anniversaires, mariages, fêtes : un menu complet pour vos invités, avec un coût estimé par invité."
+        },
+        "shopping": {
+          "title": "Liste de courses chiffrée",
+          "text": "Transformez un planning en liste avec les prix en FCFA. Cochez au marché et partagez en un geste."
+        },
+        "markets": {
+          "title": "Marchés près de vous",
+          "text": "Trouvez marchés, boucheries, poissonneries et épiceries autour de vous, avec l'itinéraire."
+        },
+        "cookbook": {
+          "title": "Recettes pas à pas",
+          "text": "Suivez chaque recette étape par étape, et gardez vos propres recettes et photos dans votre cuisine."
+        }
+      }
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "De « je ne sais pas » à « à table » en trois étapes",
+      "steps": {
+        "1": {
+          "title": "Choisissez vos jours",
+          "text": "Dites à Chop quels jours vous pouvez cuisiner et combien vous êtes à table."
+        },
+        "2": {
+          "title": "Recevez votre planning",
+          "text": "Chaque repas est prévu, avec des accompagnements assortis et les restes comptés."
+        },
+        "3": {
+          "title": "Faites les courses et cuisinez",
+          "text": "Emportez la liste chiffrée au marché, puis suivez chaque recette pas à pas."
+        }
+      }
+    },
+    "batch": {
+      "eyebrow": "Cuisiner à l'avance",
+      "title": "Cuisinez une fois. Mangez bien trois jours.",
+      "text": "Semaine chargée ? Choisissez vos jours libres : Chop prévoit un grand plat pour chacun, puis place les restes les bons jours.",
+      "b1": "Un plat par jour de cuisine, avec l'accompagnement qui va bien",
+      "b2": "Les restes répartis jusqu'au prochain jour de cuisine",
+      "b3": "Une journée snack au milieu pour souffler",
+      "cta": "Essayer"
+    },
+    "events": {
+      "eyebrow": "Événements",
+      "title": "Organisez la fête. Connaissez le coût.",
+      "text": "Choisissez l'occasion, le nombre d'invités et votre budget. Chop propose le menu, calcule les quantités et estime la dépense.",
+      "b1": "Sept occasions, de l'anniversaire au déjeuner en famille",
+      "b2": "Quantités adaptées au nombre d'invités",
+      "b3": "Changez un prix, Chop s'en souvient",
+      "cta": "Planifier un événement"
+    },
+    "days": {
+      "eyebrow": "Livre de recettes",
+      "title": "Un thème pour chaque jour de la semaine",
+      "subtitle": "La liste de plats de la famille, organisée pour décider facilement.",
+      "cta": "Ouvrir le livre"
+    },
+    "cta": {
+      "title": "Prêt à planifier votre semaine ?",
+      "text": "Gratuit, sans compte. Installez Chop sur votre téléphone, il fonctionne hors ligne.",
+      "primary": "Planifier ma semaine",
+      "secondary": "Lancer le dé"
+    }
   }
 }

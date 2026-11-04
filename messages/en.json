@@ -155,7 +155,12 @@
   },
   "footer": {
     "tagline": "Cook more, think less.",
-    "made": "Made at home"
+    "made": "Made at home",
+    "product": "Product",
+    "explore": "Explore",
+    "kitchen": "Your kitchen",
+    "about": "Home cooking made easy: weekly plans, event menus, costed shopping lists and step-by-step recipes.",
+    "local": "Your plans and recipes stay on your device."
   },
   "notFound": {
     "title": "This plate is empty",
@@ -391,5 +396,111 @@
   "prices": {
     "edit": "Change price",
     "add": "add price"
+  },
+  "landing": {
+    "hero": {
+      "badge": "Free · Works offline · English & Français",
+      "title": "Plan a week of home cooking in seconds.",
+      "subtitle": "Chop turns {count} Cameroonian and family favourites into a weekly plan, a costed shopping list and step-by-step recipes. Breakfast to supper, right on your phone.",
+      "primary": "Plan my week",
+      "secondary": "Browse the cookbook"
+    },
+    "stats": {
+      "dishes": "dishes",
+      "themes": "themed sections",
+      "occasions": "event menus"
+    },
+    "preview": {
+      "title": "This week",
+      "subtitle": "2 cooking days · 2 people",
+      "cook": "Cooking day",
+      "leftovers": "Leftovers",
+      "snack": "Snack day",
+      "list": "Shopping list",
+      "event": "Birthday · 20 guests",
+      "guests": "{count} guests",
+      "perGuest": "per guest",
+      "footer": "Breakfasts and light suppers planned too"
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "Everything you need to stop asking “what’s for dinner?”",
+      "subtitle": "Plan, shop and cook with one app built around the food you actually eat.",
+      "open": "Open",
+      "items": {
+        "planner": {
+          "title": "Weekly planner",
+          "text": "Breakfast, lunch and supper for every day, following each day’s theme. Keep what you like and reroll the rest."
+        },
+        "batch": {
+          "title": "Cook ahead",
+          "text": "Only free twice a week? Cook one dish that keeps well and eat it until the next cooking day, with sides and light suppers planned."
+        },
+        "events": {
+          "title": "Event menus",
+          "text": "Birthdays, weddings, holidays: a full menu for your guest count, with an estimated cost per guest."
+        },
+        "shopping": {
+          "title": "Costed shopping list",
+          "text": "Turn any plan into a list with prices in FCFA. Tick items off at the market and share it in one tap."
+        },
+        "markets": {
+          "title": "Markets near you",
+          "text": "Find markets, butchers, fishmongers and grocery stores around you, with directions."
+        },
+        "cookbook": {
+          "title": "Step-by-step recipes",
+          "text": "Follow each recipe one stop at a time, and keep your own recipes and photos in your kitchen."
+        }
+      }
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "From “I don’t know” to dinner in three steps",
+      "steps": {
+        "1": {
+          "title": "Pick your days",
+          "text": "Tell Chop which days you can cook and how many people are eating."
+        },
+        "2": {
+          "title": "Get your plan",
+          "text": "Every meal is planned, with sides that go together and leftovers counted."
+        },
+        "3": {
+          "title": "Shop and cook",
+          "text": "Take the costed list to the market, then follow each recipe step by step."
+        }
+      }
+    },
+    "batch": {
+      "eyebrow": "Cook ahead",
+      "title": "Cook once. Eat well for three days.",
+      "text": "Busy week? Choose the days you’re free and Chop plans one big dish for each, then places the leftovers on the right days.",
+      "b1": "One dish per cooking day, with a side that goes with it",
+      "b2": "Leftovers placed until your next cooking day",
+      "b3": "A snack day in the middle when you need a break",
+      "cta": "Try cook-ahead"
+    },
+    "events": {
+      "eyebrow": "Events",
+      "title": "Plan the party. Know the cost.",
+      "text": "Pick the occasion, the number of guests and your budget. Chop proposes the menu, scales the quantities and estimates what you’ll spend.",
+      "b1": "Seven occasions, from birthdays to family lunches",
+      "b2": "Quantities scaled to your guest count",
+      "b3": "Change any price and Chop remembers it",
+      "cta": "Plan an event"
+    },
+    "days": {
+      "eyebrow": "Cookbook",
+      "title": "A theme for every day of the week",
+      "subtitle": "Your family’s food list, organised so deciding is easy.",
+      "cta": "Open the cookbook"
+    },
+    "cta": {
+      "title": "Ready to plan your week?",
+      "text": "Free, with no account needed. Install Chop on your phone and it works offline.",
+      "primary": "Plan my week",
+      "secondary": "Roll the dice"
+    }
   }
 }
