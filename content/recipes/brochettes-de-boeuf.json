@@ -1,0 +1,56 @@
+{
+  "tags": [
+    "snack",
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 15,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg beef (sirloin or rump), thinly sliced",
+      "6 tbsp kankankan / suya spice (or 4 tbsp roasted peanut powder + 1 tsp each of chili, ginger and garlic powder + 1 crushed stock cube)",
+      "3 tbsp oil",
+      "Salt",
+      "Skewers (soak wooden ones in water)",
+      "1 onion and 2 tomatoes, sliced, to serve"
+    ],
+    "fr": [
+      "1 kg de bœuf (faux-filet ou rumsteck) en fines tranches",
+      "6 c. à soupe de kankankan / épices soya (ou 4 c. à soupe de poudre d'arachide grillée + 1 c. à café de piment, de gingembre et d'ail en poudre + 1 cube écrasé)",
+      "3 c. à soupe d'huile",
+      "Sel",
+      "Des brochettes (trempez celles en bois dans l'eau)",
+      "1 oignon et 2 tomates en rondelles, pour servir"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cut the beef into thin strips and thread them onto the skewers like a ribbon.",
+      "Mix the spice with a little salt.",
+      "Brush the meat with oil, then roll each skewer in the spice so it's well coated. Leave for 30 minutes.",
+      "Grill over hot charcoal for 5 to 7 minutes per side, brushing with a little oil.",
+      "Sprinkle with more spice when they come off the grill."
+    ],
+    "fr": [
+      "Coupez le bœuf en fines lanières et enfilez-les sur les brochettes en accordéon.",
+      "Mélangez les épices avec un peu de sel.",
+      "Badigeonnez la viande d'huile, puis roulez chaque brochette dans les épices pour bien l'enrober. Laissez reposer 30 minutes.",
+      "Faites griller sur une braise vive 5 à 7 minutes de chaque côté en badigeonnant d'un peu d'huile.",
+      "Saupoudrez encore d'épices à la sortie du feu."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with raw onion and tomato slices and a small plate of extra spice.",
+      "Perfect for parties, with cold drinks."
+    ],
+    "fr": [
+      "Servez avec des rondelles d'oignon et de tomate crus et une petite assiette d'épices en plus.",
+      "Parfait pour les fêtes, avec des boissons fraîches."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

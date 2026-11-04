@@ -1,0 +1,72 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg pork (shoulder or ribs), in pieces",
+      "5 ripe plantains (still firm)",
+      "2 carrots",
+      "150 g green beans",
+      "1 green bell pepper",
+      "2 onions",
+      "3 tomatoes",
+      "4 cloves garlic",
+      "1 thumb of fresh ginger",
+      "1 leek",
+      "2 stock cubes, salt, black pepper",
+      "Oil for frying"
+    ],
+    "fr": [
+      "1 kg de porc (échine ou travers) en morceaux",
+      "5 plantains mûrs (encore fermes)",
+      "2 carottes",
+      "150 g de haricots verts",
+      "1 poivron vert",
+      "2 oignons",
+      "3 tomates",
+      "4 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "1 poireau",
+      "2 cubes d'assaisonnement, sel, poivre",
+      "De l'huile pour la friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the pork with garlic, ginger, a stock cube, salt and pepper. Cook it in a little water for 30 to 35 minutes until tender.",
+      "Drain the pork (keep the broth) and fry it until golden and crisp at the edges.",
+      "Fry the plantain slices until golden.",
+      "In a large pot, fry the onions, then add the tomatoes, carrots, green beans, bell pepper and leek. Cook for 8 minutes.",
+      "Add the pork and half a cup of broth and simmer for 10 minutes.",
+      "Fold in the plantains and cook for 5 more minutes."
+    ],
+    "fr": [
+      "Assaisonnez le porc avec l'ail, le gingembre, un cube, du sel et du poivre. Faites-le cuire 30 à 35 minutes dans un peu d'eau jusqu'à ce qu'il soit tendre.",
+      "Égouttez le porc (gardez le bouillon) et faites-le frire jusqu'à ce qu'il soit doré et croustillant sur les bords.",
+      "Faites frire les rondelles de plantain jusqu'à ce qu'elles soient dorées.",
+      "Dans une grande marmite, faites revenir les oignons, puis ajoutez les tomates, les carottes, les haricots verts, le poivron et le poireau. Laissez cuire 8 minutes.",
+      "Ajoutez le porc et une demi-tasse de bouillon et laissez mijoter 10 minutes.",
+      "Incorporez les plantains et laissez cuire encore 5 minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A complete dish: serve hot, garnished with parsley."
+    ],
+    "fr": [
+      "Un plat complet : servez chaud, parsemé de persil."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Similar: Fried pork and plantains (Precious Core)",
+      "url": "https://www.preciouscore.com/fried-pork-and-plantains/"
+    }
+  ]
+}

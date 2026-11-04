@@ -1,0 +1,67 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 75,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1.5 kg fish (carp, bar) or chicken, in pieces",
+      "2 onions",
+      "4 cloves garlic",
+      "1 thumb of fresh ginger",
+      "2 tomatoes",
+      "1 tsp pebe",
+      "1 tsp njansang",
+      "1 small bunch of basil or parsley",
+      "1 hot pepper",
+      "3 tbsp oil",
+      "2 stock cubes, salt",
+      "Banana leaves and kitchen string"
+    ],
+    "fr": [
+      "1,5 kg de poisson (carpe, bar) ou de poulet en morceaux",
+      "2 oignons",
+      "4 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "2 tomates",
+      "1 c. à café de pèbè",
+      "1 c. à café de njansang",
+      "1 petite botte de basilic ou de persil",
+      "1 piment",
+      "3 c. à soupe d'huile",
+      "2 cubes d'assaisonnement, sel",
+      "Des feuilles de bananier et de la ficelle"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend the onions, garlic, ginger, tomatoes, spices, herbs, pepper, oil, stock cubes and salt into a thick paste.",
+      "Coat the fish or chicken with the paste and leave for 30 minutes.",
+      "Soften the banana leaves over a flame. Place 1 or 2 pieces with plenty of paste in the middle of two crossed leaves, fold into a parcel and tie with string.",
+      "Set the parcels in a pot on a bed of leaves or stalks, add a glass of water, cover and steam on low heat for about 1 hour (40 minutes for fish). Or bake them at 180 °C for 1 hour.",
+      "The ndomba is ready when the parcels are puffed up and the meat is tender."
+    ],
+    "fr": [
+      "Mixez les oignons, l'ail, le gingembre, les tomates, les épices, les herbes, le piment, l'huile, les cubes et le sel en une pâte épaisse.",
+      "Enrobez le poisson ou le poulet de cette pâte et laissez reposer 30 minutes.",
+      "Assouplissez les feuilles de bananier au-dessus d'une flamme. Déposez 1 ou 2 morceaux avec beaucoup de pâte au centre de deux feuilles croisées, fermez en papillote et ficelez.",
+      "Posez les papillotes dans une marmite sur un lit de feuilles ou de tiges, ajoutez un verre d'eau, couvrez et faites cuire à la vapeur à feu doux environ 1 heure (40 minutes pour le poisson). Ou au four à 180 °C pendant 1 heure.",
+      "Le ndomba est prêt quand les papillotes sont gonflées et la viande tendre."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Bring the parcels to the table and open them on each plate.",
+      "With boiled plantain, bobolo or macabo."
+    ],
+    "fr": [
+      "Apportez les papillotes à table et ouvrez-les dans chaque assiette.",
+      "Avec du plantain bouilli, du bâton de manioc ou du macabo."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

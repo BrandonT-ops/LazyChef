@@ -1,0 +1,61 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 90,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "2 kg taro",
+      "300 ml red palm oil",
+      "1 tsp limestone powder (kanwa), dissolved in 200 ml warm water",
+      "3 tbsp ground achu spices",
+      "1 kg beef with cow skin or tripe",
+      "1 hot pepper",
+      "2 stock cubes, salt",
+      "Njama-njama or spinach, sautéed (optional, to serve)"
+    ],
+    "fr": [
+      "2 kg de taro",
+      "300 ml d'huile de palme rouge",
+      "1 c. à café de sel gemme (kanwa) dissous dans 200 ml d'eau tiède",
+      "3 c. à soupe d'épices pour taro (achu) moulues",
+      "1 kg de bœuf avec peau ou tripes",
+      "1 piment",
+      "2 cubes d'assaisonnement, sel",
+      "Du njama-njama ou des épinards sautés (facultatif, pour servir)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the meat with salt and a stock cube until tender, about 45 minutes. Keep 500 ml of broth.",
+      "Boil the taro in its skin for 40 to 60 minutes until soft. Peel it while hot and pound it into a smooth, stretchy paste, adding a little warm water if needed.",
+      "Let the limestone water settle, then pour off the clear water and keep it.",
+      "Pour the palm oil into a large bowl. Slowly add the clear limestone water while stirring, until the oil turns thick and yellow.",
+      "Add the broth mixed with the achu spices, pepper and the second stock cube, a little at a time, stirring until the sauce is smooth and creamy.",
+      "Add the meat to the sauce."
+    ],
+    "fr": [
+      "Faites cuire la viande avec du sel et un cube jusqu'à ce qu'elle soit tendre, environ 45 minutes. Gardez 500 ml de bouillon.",
+      "Faites bouillir le taro avec la peau 40 à 60 minutes jusqu'à ce qu'il soit tendre. Épluchez-le chaud et pilez-le en une pâte lisse et élastique, avec un peu d'eau tiède si besoin.",
+      "Laissez reposer l'eau de kanwa, puis récupérez l'eau claire du dessus.",
+      "Versez l'huile de palme dans un grand bol. Ajoutez lentement l'eau de kanwa en remuant, jusqu'à ce que l'huile devienne épaisse et jaune.",
+      "Ajoutez petit à petit le bouillon mélangé aux épices, au piment et au second cube, en remuant jusqu'à obtenir une sauce lisse et crémeuse.",
+      "Ajoutez la viande dans la sauce."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Shape the taro into a ring on the plate, pour the yellow sauce in the middle and add the meat.",
+      "Eat with your fingers, with sautéed njama-njama on the side."
+    ],
+    "fr": [
+      "Formez une couronne de taro dans l'assiette, versez la sauce jaune au milieu et ajoutez la viande.",
+      "Se mange avec les doigts, accompagné de njama-njama sauté."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,63 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 chicken (about 1.3 kg), cut in 4 or 8",
+      "1 onion",
+      "4 cloves garlic",
+      "1 thumb of fresh ginger",
+      "1 small bunch of parsley",
+      "1 celery stalk or 1 leek",
+      "1 tbsp mustard",
+      "1 hot pepper",
+      "1 stock cube, salt",
+      "4 tbsp oil"
+    ],
+    "fr": [
+      "1 poulet (environ 1,3 kg) coupé en 4 ou 8",
+      "1 oignon",
+      "4 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "1 petite botte de persil",
+      "1 branche de céleri ou 1 poireau",
+      "1 c. à soupe de moutarde",
+      "1 piment",
+      "1 cube d'assaisonnement, sel",
+      "4 c. à soupe d'huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Make a few shallow cuts in the chicken pieces.",
+      "Blend the onion, garlic, ginger, parsley, celery, pepper, mustard, stock cube, salt and oil.",
+      "Coat the chicken with the marinade and leave it for at least 1 hour (overnight in the fridge is best).",
+      "Optional, for juicy chicken: steam or boil the pieces for 10 minutes first.",
+      "Grill over medium charcoal for 20 to 25 minutes, turning and brushing with marinade, until well browned and the juices run clear."
+    ],
+    "fr": [
+      "Faites quelques entailles peu profondes dans les morceaux de poulet.",
+      "Mixez l'oignon, l'ail, le gingembre, le persil, le céleri, le piment, la moutarde, le cube, le sel et l'huile.",
+      "Enrobez le poulet de marinade et laissez reposer au moins 1 heure (une nuit au frais, c'est encore mieux).",
+      "Facultatif, pour un poulet bien moelleux : faites d'abord cuire les morceaux 10 minutes à la vapeur ou à l'eau.",
+      "Faites griller sur une braise moyenne 20 à 25 minutes en retournant et en badigeonnant de marinade, jusqu'à ce que le poulet soit bien doré et que le jus soit clair."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fried plantain, fries or bobolo.",
+      "Add raw onion rings, and pepper sauce or mayonnaise on the side."
+    ],
+    "fr": [
+      "Servez avec du plantain frit, des frites ou du bâton de manioc.",
+      "Ajoutez des rondelles d'oignon cru, et du piment ou de la mayonnaise à côté."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

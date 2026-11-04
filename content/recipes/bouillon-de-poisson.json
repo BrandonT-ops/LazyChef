@@ -1,0 +1,70 @@
+{
+  "tags": [
+    "quick"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 kg fish (carp, catfish or tilapia), in thick slices",
+      "1 onion",
+      "3 cloves garlic",
+      "1 thumb of fresh ginger",
+      "2 tbsp pepper-soup spices (ground njansang, pebe and country onion)",
+      "1 to 2 hot peppers",
+      "A handful of basil or scent leaves",
+      "1 stock cube, salt",
+      "1.5 litres water",
+      "1 lime or a little vinegar, to clean the fish"
+    ],
+    "fr": [
+      "1 kg de poisson (carpe, silure ou tilapia) en grosses tranches",
+      "1 oignon",
+      "3 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "2 c. à soupe d'épices pour bouillon (njansang, pèbè et esèsè moulus)",
+      "1 à 2 piments",
+      "Une poignée de basilic ou de feuilles de massep",
+      "1 cube d'assaisonnement, sel",
+      "1,5 litre d'eau",
+      "1 citron vert ou un peu de vinaigre pour nettoyer le poisson"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Clean the fish with lime juice or vinegar, then rinse.",
+      "Blend the onion, garlic, ginger and pepper.",
+      "Boil the water with the blended mix, the spices, the stock cube and salt for 10 minutes.",
+      "Lower the heat, slide in the fish and simmer gently for 12 to 15 minutes without stirring (shake the pot instead) so the fish stays whole.",
+      "Add the chopped basil or scent leaves for the last 2 minutes."
+    ],
+    "fr": [
+      "Nettoyez le poisson avec le citron ou le vinaigre, puis rincez.",
+      "Mixez l'oignon, l'ail, le gingembre et le piment.",
+      "Faites bouillir l'eau avec le mélange mixé, les épices, le cube et le sel pendant 10 minutes.",
+      "Baissez le feu, plongez le poisson et laissez frémir 12 à 15 minutes sans remuer (secouez la marmite) pour qu'il reste entier.",
+      "Ajoutez le basilic ou le massep haché 2 minutes avant la fin."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very hot in deep bowls.",
+      "With boiled plantain, yam or bread.",
+      "Perfect when you're tired, cold or feeling unwell."
+    ],
+    "fr": [
+      "Servez bien chaud dans des bols creux.",
+      "Avec du plantain ou de l'igname bouillis, ou du pain.",
+      "Parfait quand on est fatigué, qu'il fait froid ou qu'on est un peu malade."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": [
+    {
+      "label": "Similar: Goat meat pepper soup (Keng's Kitchen)",
+      "url": "https://www.kengskitchen.com/cameroon-recipes/goat-meat-pepper-soup"
+    }
+  ]
+}

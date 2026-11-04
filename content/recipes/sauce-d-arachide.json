@@ -1,0 +1,59 @@
+{
+  "tags": [],
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "400 g roasted peanut paste",
+      "1 chicken (about 1.2 kg) in pieces, or 800 g beef",
+      "3 tomatoes",
+      "2 onions",
+      "3 cloves garlic",
+      "1 thumb of fresh ginger",
+      "1 hot pepper",
+      "2 stock cubes, salt",
+      "1 litre water"
+    ],
+    "fr": [
+      "400 g de pâte d'arachide grillée",
+      "1 poulet (environ 1,2 kg) en morceaux, ou 800 g de bœuf",
+      "3 tomates",
+      "2 oignons",
+      "3 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "1 piment",
+      "2 cubes d'assaisonnement, sel",
+      "1 litre d'eau"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the meat with garlic, ginger, half an onion, a stock cube and salt. Cook it in the water for 20 minutes.",
+      "Blend the tomatoes, the rest of the onions and the pepper. Add them to the pot and cook for 10 minutes.",
+      "Loosen the peanut paste with a ladle of hot broth until smooth, then stir it into the pot.",
+      "Simmer on low heat for 25 to 30 minutes, stirring often, until a layer of red oil appears on top.",
+      "Adjust the salt, and the thickness with a little water."
+    ],
+    "fr": [
+      "Assaisonnez la viande avec l'ail, le gingembre, un demi-oignon, un cube et du sel. Faites-la cuire 20 minutes dans l'eau.",
+      "Mixez les tomates, le reste des oignons et le piment. Ajoutez-les et laissez cuire 10 minutes.",
+      "Délayez la pâte d'arachide dans une louche de bouillon chaud jusqu'à ce qu'elle soit lisse, puis versez-la dans la marmite.",
+      "Laissez mijoter à feu doux 25 à 30 minutes en remuant souvent, jusqu'à ce qu'une couche d'huile rouge apparaisse en surface.",
+      "Rectifiez le sel, et l'épaisseur avec un peu d'eau."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with white rice, boiled plantain, yam or macabo.",
+      "Keeps 3 days in the fridge; reheat gently with a splash of water."
+    ],
+    "fr": [
+      "Servez avec du riz blanc, du plantain, de l'igname ou du macabo bouillis.",
+      "Se garde 3 jours au frais ; réchauffez doucement avec un peu d'eau."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

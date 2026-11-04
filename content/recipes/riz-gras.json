@@ -1,0 +1,68 @@
+{
+  "tags": [
+    "occasion",
+    "kids"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 45,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "600 g long-grain rice",
+      "500 g chicken or beef",
+      "4 tomatoes (or 3 tbsp tomato paste)",
+      "2 onions",
+      "1 red bell pepper",
+      "3 cloves garlic",
+      "1 thumb of fresh ginger",
+      "2 carrots, diced",
+      "100 g green beans, cut",
+      "1 bay leaf",
+      "100 ml oil",
+      "2 stock cubes, salt, black pepper"
+    ],
+    "fr": [
+      "600 g de riz long grain",
+      "500 g de poulet ou de bœuf",
+      "4 tomates (ou 3 c. à soupe de concentré)",
+      "2 oignons",
+      "1 poivron rouge",
+      "3 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "2 carottes en dés",
+      "100 g de haricots verts coupés",
+      "1 feuille de laurier",
+      "100 ml d'huile",
+      "2 cubes d'assaisonnement, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cook the meat with half an onion, the garlic, ginger, a stock cube and salt. Keep 1 litre of broth.",
+      "Blend the tomatoes, the rest of the onions and the bell pepper.",
+      "Heat the oil and fry the meat until golden, then set it aside. Fry the blended mix in the same oil for 15 minutes, until it darkens and the oil rises to the top.",
+      "Add the rinsed rice and stir to coat it. Pour in the broth and add the bay leaf, carrots, green beans, second stock cube and salt. The liquid should sit just above the rice.",
+      "Cover and cook on low heat for 20 to 25 minutes until the rice is tender, stirring once halfway. Put the meat back on top for the last 5 minutes."
+    ],
+    "fr": [
+      "Faites cuire la viande avec un demi-oignon, l'ail, le gingembre, un cube et du sel. Gardez 1 litre de bouillon.",
+      "Mixez les tomates, le reste des oignons et le poivron.",
+      "Chauffez l'huile et faites dorer la viande, puis réservez-la. Faites revenir le mélange mixé dans la même huile 15 minutes, jusqu'à ce qu'il fonce et que l'huile remonte.",
+      "Ajoutez le riz rincé et mélangez pour bien l'enrober. Versez le bouillon et ajoutez le laurier, les carottes, les haricots verts, le second cube et le sel. Le liquide doit arriver juste au-dessus du riz.",
+      "Couvrez et laissez cuire à feu doux 20 à 25 minutes jusqu'à ce que le riz soit tendre, en remuant une fois à mi-cuisson. Remettez la viande dessus pour les 5 dernières minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fried ripe plantain and a fresh salad.",
+      "A party favorite: it's easy to cook in big pots."
+    ],
+    "fr": [
+      "Servez avec du plantain mûr frit et une salade fraîche.",
+      "Un incontournable des fêtes : facile à préparer en grande quantité."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

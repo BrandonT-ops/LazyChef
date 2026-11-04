@@ -1,0 +1,63 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 60,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "2 kg cocoyams (macabo), peeled",
+      "About 50 cocoyam leaves (or large spinach leaves)",
+      "300 ml red palm oil",
+      "300 g smoked fish",
+      "200 g cooked beef or cow skin",
+      "3 tbsp ground crayfish",
+      "1 onion",
+      "2 hot peppers",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "2 kg de macabo épluché",
+      "Environ 50 feuilles de macabo (ou de grandes feuilles d'épinards)",
+      "300 ml d'huile de palme rouge",
+      "300 g de poisson fumé",
+      "200 g de bœuf ou de peau de bœuf cuits",
+      "3 c. à soupe de crayfish moulu",
+      "1 oignon",
+      "2 piments",
+      "2 cubes d'assaisonnement, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Grate the cocoyams finely (or blend them with very little water) into a smooth paste. Add a pinch of salt.",
+      "Wash the leaves and cut off the thick stalks.",
+      "Put a spoonful of paste on each leaf and roll it into a small, tight roll.",
+      "Line a pot with a few leaves and arrange the rolls in circles. Add the meat, smoked fish, crayfish, pepper, sliced onion and stock cubes.",
+      "Pour in the palm oil and just enough water to reach the top layer. Cover and cook on low heat for about 1 hour, shaking the pot now and then instead of stirring.",
+      "It's ready when the rolls are firm and the sauce is thick and glossy."
+    ],
+    "fr": [
+      "Râpez finement le macabo (ou mixez-le avec très peu d'eau) en une pâte lisse. Ajoutez une pincée de sel.",
+      "Lavez les feuilles et coupez les grosses tiges.",
+      "Déposez une cuillerée de pâte sur chaque feuille et roulez-la en un petit rouleau bien serré.",
+      "Tapissez une marmite de quelques feuilles et disposez les rouleaux en cercles. Ajoutez la viande, le poisson fumé, le crayfish, le piment, l'oignon émincé et les cubes.",
+      "Versez l'huile de palme et juste assez d'eau pour atteindre la couche du dessus. Couvrez et laissez cuire à feu doux environ 1 heure, en secouant la marmite de temps en temps au lieu de remuer.",
+      "C'est prêt quand les rouleaux sont fermes et la sauce épaisse et brillante."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve in a deep plate with the rolls and fish on top; no side needed.",
+      "Keeps 2 to 3 days in the fridge."
+    ],
+    "fr": [
+      "Servez dans une assiette creuse, les rouleaux et le poisson dessus ; pas besoin d'accompagnement.",
+      "Se garde 2 à 3 jours au frais."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -61,7 +61,12 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} Chop. {t("footer.tagline")}
           </p>
-          <p>{t("footer.local")}</p>
+          <p className="flex items-center gap-4">
+            {t("footer.local")}
+            <Link href="/admin" className="hover:text-ink">
+              {t("footer.admin")}
+            </Link>
+          </p>
         </div>
       </div>
     </footer>

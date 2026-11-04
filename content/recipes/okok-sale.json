@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 40,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g shredded okok (gnetum) leaves",
+      "1 kg palm nuts (or 400 ml palm nut cream)",
+      "300 g peanut paste",
+      "300 g smoked fish",
+      "1 hot pepper (optional)",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "500 g de feuilles d'okok émincées",
+      "1 kg de noix de palme (ou 400 ml de crème de noix de palme)",
+      "300 g de pâte d'arachide",
+      "300 g de poisson fumé",
+      "1 piment (facultatif)",
+      "2 cubes d'assaisonnement, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the palm nuts for 30 minutes, pound them and squeeze them in warm water to get the juice. Strain it.",
+      "Wash the okok leaves. If they're thick, pound them lightly in a mortar.",
+      "Bring the palm nut juice to a boil and cook for 15 minutes.",
+      "Add the okok and cook for 20 minutes, stirring.",
+      "Loosen the peanut paste with a little warm water and stir it in with the smoked fish, stock cubes, salt and pepper.",
+      "Simmer 15 more minutes until thick."
+    ],
+    "fr": [
+      "Faites bouillir les noix de palme 30 minutes, pilez-les et pressez-les dans de l'eau tiède pour en extraire le jus. Filtrez.",
+      "Lavez les feuilles d'okok. Si elles sont épaisses, pilez-les légèrement au mortier.",
+      "Portez le jus de noix de palme à ébullition et laissez cuire 15 minutes.",
+      "Ajoutez l'okok et laissez cuire 20 minutes en remuant.",
+      "Délayez la pâte d'arachide dans un peu d'eau tiède et ajoutez-la avec le poisson fumé, les cubes, le sel et le piment.",
+      "Laissez mijoter encore 15 minutes jusqu'à ce que ce soit épais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Traditionally served with bobolo or miondo.",
+      "Serve warm."
+    ],
+    "fr": [
+      "Traditionnellement servi avec du bâton de manioc ou du miondo.",
+      "Servez tiède."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

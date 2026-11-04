@@ -1,0 +1,64 @@
+{
+  "tags": [
+    "budget",
+    "snack",
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g flour",
+      "100 g sugar",
+      "1 tbsp (10 g) dry yeast",
+      "½ tsp salt",
+      "1 pinch of nutmeg (optional)",
+      "350 to 400 ml warm water",
+      "Oil for deep-frying"
+    ],
+    "fr": [
+      "500 g de farine",
+      "100 g de sucre",
+      "1 c. à soupe (10 g) de levure sèche",
+      "½ c. à café de sel",
+      "1 pincée de muscade (facultatif)",
+      "350 à 400 ml d'eau tiède",
+      "De l'huile pour la friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the yeast with a little of the warm water and a pinch of sugar. Wait 5 minutes until foamy.",
+      "Mix the flour, sugar, salt and nutmeg. Add the yeast and the rest of the water and beat for 5 minutes into a soft, sticky batter.",
+      "Cover and let it rise somewhere warm for about 1 hour, until doubled.",
+      "Heat the oil to about 170 °C: a drop of batter should rise quickly.",
+      "Grab some batter, squeeze a ball out between your thumb and index finger and drop it into the oil. Fry, turning, until golden all over (3 to 4 minutes).",
+      "Drain on paper towels."
+    ],
+    "fr": [
+      "Mélangez la levure avec un peu d'eau tiède et une pincée de sucre. Attendez 5 minutes qu'elle mousse.",
+      "Mélangez la farine, le sucre, le sel et la muscade. Ajoutez la levure et le reste de l'eau et battez 5 minutes pour obtenir une pâte souple et collante.",
+      "Couvrez et laissez lever au chaud environ 1 heure, jusqu'à ce que la pâte double.",
+      "Chauffez l'huile à environ 170 °C : une goutte de pâte doit remonter vite.",
+      "Prenez de la pâte, faites sortir une boule entre le pouce et l'index et laissez-la tomber dans l'huile. Faites frire en retournant jusqu'à ce que les beignets soient dorés (3 à 4 minutes).",
+      "Égouttez sur du papier absorbant."
+    ]
+  },
+  "serving": {
+    "en": [
+      "The classic BHB: beignets with haricots (beans) and bouillie (corn porridge).",
+      "Or with tea or coffee for breakfast.",
+      "Best eaten the same day."
+    ],
+    "fr": [
+      "Le fameux BHB : beignets, haricots et bouillie.",
+      "Ou avec du thé ou du café au petit-déjeuner.",
+      "À manger le jour même."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

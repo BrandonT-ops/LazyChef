@@ -1,0 +1,56 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 75,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1.5 kg potatoes",
+      "500 g red beans, soaked overnight",
+      "200 ml red palm oil",
+      "1 onion",
+      "1 hot pepper (optional)",
+      "1 stock cube, salt"
+    ],
+    "fr": [
+      "1,5 kg de pommes de terre",
+      "500 g de haricots rouges trempés la veille",
+      "200 ml d'huile de palme rouge",
+      "1 oignon",
+      "1 piment (facultatif)",
+      "1 cube d'assaisonnement, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cook the soaked beans in fresh water until very soft, about 1 hour. Add salt at the end.",
+      "Peel the potatoes and boil them in salted water for 20 minutes until soft. Drain, keeping a little of the water.",
+      "Heat the palm oil with the sliced onion and pepper for 3 minutes, without letting it smoke.",
+      "Pound or mash the potatoes with the beans, adding the hot palm oil and a little cooking water, until you get a smooth orange mash with whole beans in it.",
+      "Season with the stock cube and salt."
+    ],
+    "fr": [
+      "Faites cuire les haricots trempés dans de l'eau propre jusqu'à ce qu'ils soient très tendres, environ 1 heure. Salez à la fin.",
+      "Épluchez les pommes de terre et faites-les bouillir 20 minutes dans de l'eau salée. Égouttez en gardant un peu d'eau.",
+      "Chauffez l'huile de palme avec l'oignon émincé et le piment 3 minutes, sans la faire fumer.",
+      "Pilez ou écrasez les pommes de terre avec les haricots en ajoutant l'huile chaude et un peu d'eau de cuisson, jusqu'à obtenir une purée orange et lisse avec des haricots entiers.",
+      "Assaisonnez avec le cube et le sel."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve in a bowl with a drizzle of palm oil on top.",
+      "Add a piece of fish or meat if you like, or eat it just as it is."
+    ],
+    "fr": [
+      "Servez dans un bol avec un filet d'huile de palme dessus.",
+      "Ajoutez un morceau de poisson ou de viande si vous voulez, ou mangez-le tel quel."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

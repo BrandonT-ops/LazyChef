@@ -1,5 +1,5 @@
 import { MENU } from "@/data/menu";
-import { RECIPES } from "@/data/recipes";
+import { loadRecipeFiles, toRecipe } from "./recipe-files";
 import { SECTIONS } from "@/data/sections";
 import { inferredTags } from "@/data/traits";
 import type { Dish, DishSummary, SectionId } from "@/data/types";
@@ -9,6 +9,7 @@ import { slugify } from "./text";
 export { slugify, searchKey } from "./text";
 
 function buildDishes(): Dish[] {
+  const files = loadRecipeFiles();
   const seen = new Set<string>();
   const dishes: Dish[] = [];
   for (const section of SECTIONS) {
@@ -16,15 +17,27 @@ function buildDishes(): Dish[] {
       let slug = slugify(name);
       if (seen.has(slug)) slug = `${slug}-${section.id}`;
       seen.add(slug);
-      const written = RECIPES[slug];
+      const file = files[slug];
       dishes.push({
         slug,
         name,
         section: section.id,
-        tags: [...new Set([...(written?.tags ?? []), ...inferredTags(slug)])],
-        recipe: written?.recipe,
+        tags: [...new Set([...(file?.tags ?? []), ...inferredTags(slug)])],
+        recipe: file ? toRecipe(file) : undefined,
       });
     }
+  }
+  // Dishes added from the admin that aren't in the family list yet.
+  for (const [slug, file] of Object.entries(files)) {
+    if (seen.has(slug) || !file.name || !file.section) continue;
+    seen.add(slug);
+    dishes.push({
+      slug,
+      name: file.name,
+      section: file.section,
+      tags: [...new Set([...(file.tags ?? []), ...inferredTags(slug)])],
+      recipe: toRecipe(file),
+    });
   }
   return dishes;
 }

@@ -9,9 +9,9 @@ import { ACCENT_BG } from "@/lib/ui";
 import { DishCard } from "@/components/DishCard";
 import { IngredientList } from "@/components/IngredientList";
 import { TreasureMap } from "@/components/TreasureMap";
-import { RecipeMedia } from "@/components/RecipeMedia";
+import { LinkList, PhotoGallery, VideoPlayer } from "@/components/RecipeMedia";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
-import { ArrowLeft, Map as MapIcon, MapPinned, NotebookPen, ShoppingBasket } from "lucide-react";
+import { ArrowLeft, Map as MapIcon, MapPinned, NotebookPen, PlayCircle, ShoppingBasket, UtensilsCrossed } from "lucide-react";
 import { ShareButton } from "@/components/ShareButton";
 import { FavoriteButton } from "@/components/FavoriteButton";
 import { MadeItButton, PhotoGrid } from "@/components/MadeIt";
@@ -109,32 +109,55 @@ export default async function DishPage({ params }: { params: Params }) {
             ))}
           </Reveal>
 
-          {recipe.media && (
-            <Reveal className="mt-10">
-              <RecipeMedia media={recipe.media} title={dish.name} />
+          {recipe.media?.video && (
+            <Reveal className="mt-12">
+              <SectionTitle icon={<PlayCircle className="h-5 w-5 text-tomato" aria-hidden />} title={t("dish.watch")} />
+              <VideoPlayer url={recipe.media.video} title={dish.name} />
             </Reveal>
           )}
 
-          <div className="mt-10 grid gap-10 lg:grid-cols-[320px_1fr]">
+          <div className="mt-12 grid gap-10 lg:grid-cols-[340px_1fr]">
             <Reveal>
               <div className="card p-5 lg:sticky lg:top-24">
                 <h2 className="heading flex items-center gap-2 text-xl">
                   <ShoppingBasket className="h-5 w-5 text-mango" aria-hidden />
-                  {t("dish.ingredients")}
+                  {t("dish.whatToBuy")}
                 </h2>
                 <p className="mb-3 mt-1 text-xs text-muted">{t("dish.checkHint")}</p>
                 <IngredientList items={recipe.ingredients[lang]} />
               </div>
             </Reveal>
             <Reveal delay={0.1}>
-              <h2 className="heading mb-1 flex items-center gap-2 text-xl">
-                <MapIcon className="h-5 w-5 text-leaf" aria-hidden />
-                {t("map.title")}
-              </h2>
-              <p className="mb-6 text-sm text-muted">{t("map.subtitle")}</p>
+              <SectionTitle icon={<MapIcon className="h-5 w-5 text-leaf" aria-hidden />} title={t("dish.howToCook")} subtitle={t("map.subtitle")} />
               <TreasureMap steps={recipe.steps[lang]} storageKey={`${dish.slug}-${locale}`} />
             </Reveal>
           </div>
+
+          {(recipe.serving?.[lang]?.length || recipe.media?.images?.length) ? (
+            <Reveal className="mt-14">
+              <SectionTitle icon={<UtensilsCrossed className="h-5 w-5 text-hibiscus" aria-hidden />} title={t("dish.howToServe")} />
+              <div className={`grid gap-8 ${recipe.media?.images?.length ? "lg:grid-cols-[1.4fr_1fr]" : ""}`}>
+                {recipe.media?.images?.length ? <PhotoGallery images={recipe.media.images} title={dish.name} /> : null}
+                {recipe.serving?.[lang]?.length ? (
+                  <ul className="space-y-3">
+                    {recipe.serving[lang].map((line) => (
+                      <li key={line} className="flex items-start gap-3">
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-tomato" aria-hidden />
+                        <span>{line}</span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+              </div>
+            </Reveal>
+          ) : null}
+
+          {recipe.sources?.length ? (
+            <div className="mt-12 border-t border-line pt-6">
+              <LinkList links={recipe.sources} heading={t("dish.sources")} />
+              <p className="mt-3 text-xs text-muted">{t("dish.sourcesNote")}</p>
+            </div>
+          ) : null}
         </>
       ) : (
         <Reveal className="card mt-10 flex flex-col items-center gap-3 px-6 py-14 text-center" delay={0.05}>
@@ -157,5 +180,17 @@ export default async function DishPage({ params }: { params: Params }) {
         </section>
       )}
     </article>
+  );
+}
+
+function SectionTitle({ icon, title, subtitle }: { icon: React.ReactNode; title: string; subtitle?: string }) {
+  return (
+    <div className="mb-5">
+      <h2 className="heading flex items-center gap-2 text-xl">
+        {icon}
+        {title}
+      </h2>
+      {subtitle && <p className="mt-1 text-sm text-muted">{subtitle}</p>}
+    </div>
   );
 }

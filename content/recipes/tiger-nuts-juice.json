@@ -1,0 +1,56 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 0,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g dried tiger nuts",
+      "1.5 litres water",
+      "6 to 8 pitted dates, or 4 tbsp sugar",
+      "1 small piece of ginger (optional)",
+      "½ coconut, grated (optional)",
+      "1 pinch of cinnamon"
+    ],
+    "fr": [
+      "500 g de souchet séché (tiger nuts)",
+      "1,5 litre d'eau",
+      "6 à 8 dattes dénoyautées, ou 4 c. à soupe de sucre",
+      "1 petit morceau de gingembre (facultatif)",
+      "½ noix de coco râpée (facultatif)",
+      "1 pincée de cannelle"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash the tiger nuts and soak them in water for 24 hours, changing the water once.",
+      "Drain, then blend them with the dates, ginger, coconut and half of the water until very smooth.",
+      "Strain through a fine cloth or sieve, squeezing well. Blend the pulp again with the rest of the water and strain again.",
+      "Add the cinnamon, taste and sweeten if needed.",
+      "Chill for at least 2 hours."
+    ],
+    "fr": [
+      "Lavez le souchet et faites-le tremper 24 heures en changeant l'eau une fois.",
+      "Égouttez, puis mixez-le avec les dattes, le gingembre, la noix de coco et la moitié de l'eau jusqu'à ce que ce soit très lisse.",
+      "Filtrez dans un linge fin ou une passoire en pressant bien. Mixez la pulpe avec le reste de l'eau et filtrez à nouveau.",
+      "Ajoutez la cannelle, goûtez et sucrez si besoin.",
+      "Mettez au frais au moins 2 heures."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold and shake well before pouring.",
+      "Keeps 2 days in the fridge."
+    ],
+    "fr": [
+      "Servez bien frais et secouez avant de verser.",
+      "Se garde 2 jours au frais."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

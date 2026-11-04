@@ -1,0 +1,65 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 50,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg fish (carp, catfish or bar), in pieces",
+      "4 tbsp ground mbongo spice (burnt black spices)",
+      "2 onions",
+      "4 cloves garlic",
+      "1 thumb of fresh ginger",
+      "2 tomatoes",
+      "1 tsp each of pebe and njansang (optional)",
+      "1 hot pepper",
+      "4 tbsp oil",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "1 kg de poisson (carpe, silure ou bar) en morceaux",
+      "4 c. à soupe d'épices mbongo moulues (épices noires grillées)",
+      "2 oignons",
+      "4 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "2 tomates",
+      "1 c. à café de pèbè et de njansang (facultatif)",
+      "1 piment",
+      "4 c. à soupe d'huile",
+      "2 cubes d'assaisonnement, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Clean the fish and season it with salt.",
+      "Blend the onions, garlic, ginger, tomatoes and pepper with a little water.",
+      "Heat the oil in a pot, add the blended mix and cook for 10 minutes.",
+      "Stir in the mbongo spice and the other spices, add 500 ml of water and simmer for 15 minutes until the sauce is black and fragrant.",
+      "Add the fish and stock cubes. Cover and simmer gently for 15 minutes, shaking the pot rather than stirring so the fish stays whole.",
+      "Taste and adjust the salt: the sauce should coat the back of a spoon."
+    ],
+    "fr": [
+      "Nettoyez le poisson et salez-le.",
+      "Mixez les oignons, l'ail, le gingembre, les tomates et le piment avec un peu d'eau.",
+      "Chauffez l'huile dans une marmite, ajoutez le mélange mixé et laissez cuire 10 minutes.",
+      "Ajoutez les épices mbongo et les autres épices, versez 500 ml d'eau et laissez mijoter 15 minutes jusqu'à ce que la sauce soit noire et parfumée.",
+      "Ajoutez le poisson et les cubes. Couvrez et laissez mijoter doucement 15 minutes, en secouant la marmite plutôt qu'en remuant, pour garder le poisson entier.",
+      "Goûtez et rectifiez le sel : la sauce doit napper le dos d'une cuillère."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with boiled plantain, bobolo or rice.",
+      "Lay the fish whole on top of the black sauce."
+    ],
+    "fr": [
+      "Servez avec du plantain bouilli, du bâton de manioc ou du riz.",
+      "Disposez le poisson entier sur la sauce noire."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

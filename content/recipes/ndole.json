@@ -1,0 +1,67 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 40,
+  "cookMinutes": 75,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g washed bitter leaves (fresh or frozen, ready to cook)",
+      "500 g raw peanuts",
+      "700 g beef, in cubes",
+      "200 g smoked fish or dried shrimps",
+      "2 onions",
+      "4 cloves garlic",
+      "1 thumb of fresh ginger",
+      "1 hot pepper (optional)",
+      "150 ml vegetable oil",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "500 g de feuilles de ndolé lavées (fraîches ou surgelées)",
+      "500 g d'arachides crues",
+      "700 g de bœuf en cubes",
+      "200 g de poisson fumé ou de crevettes séchées",
+      "2 oignons",
+      "4 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "1 piment (facultatif)",
+      "150 ml d'huile végétale",
+      "2 cubes d'assaisonnement, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the peanuts for 15 minutes, rub off the skins, then blend them into a smooth paste with a little water.",
+      "Season the beef with 1 onion, the garlic, ginger, a stock cube and salt. Cook it in a little water until tender, about 40 minutes. Keep the broth.",
+      "If your bitter leaves are fresh, boil them with a pinch of salt, then rinse and squeeze them several times until only a mild bitterness is left.",
+      "Pour the peanut paste into the meat and its broth. Simmer gently for 20 minutes, stirring often so it doesn't stick.",
+      "Add the smoked fish or shrimps and the bitter leaves, mix well and simmer 10 more minutes. Season to taste.",
+      "Fry the second onion, sliced, in the oil until golden. Pour the hot oil and onions over the ndolé just before serving."
+    ],
+    "fr": [
+      "Faites bouillir les arachides 15 minutes, frottez-les pour enlever la peau, puis mixez-les en pâte lisse avec un peu d'eau.",
+      "Assaisonnez le bœuf avec 1 oignon, l'ail, le gingembre, un cube et du sel. Faites-le cuire dans un peu d'eau jusqu'à ce qu'il soit tendre, environ 40 minutes. Gardez le bouillon.",
+      "Si vos feuilles sont fraîches, faites-les bouillir avec une pincée de sel, puis rincez et pressez-les plusieurs fois jusqu'à ce qu'il ne reste qu'une légère amertume.",
+      "Versez la pâte d'arachide dans la viande et son bouillon. Laissez mijoter doucement 20 minutes en remuant souvent pour que ça n'attache pas.",
+      "Ajoutez le poisson fumé ou les crevettes et les feuilles de ndolé, mélangez et laissez mijoter encore 10 minutes. Rectifiez l'assaisonnement.",
+      "Faites dorer le second oignon émincé dans l'huile. Versez l'huile chaude et les oignons sur le ndolé juste avant de servir."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with miondo, bobolo or fried ripe plantain.",
+      "Top each plate with a spoonful of the fried onions.",
+      "Ndolé is even better the next day and keeps 3 days in the fridge."
+    ],
+    "fr": [
+      "Servez chaud avec du miondo, du bâton de manioc ou du plantain mûr frit.",
+      "Garnissez chaque assiette d'une cuillerée d'oignons frits.",
+      "Le ndolé est encore meilleur le lendemain et se garde 3 jours au frais."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

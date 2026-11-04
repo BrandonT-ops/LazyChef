@@ -23,9 +23,9 @@ export interface RecipeLink {
 }
 
 export interface RecipeMedia {
-  /** Photo URLs (first one is the cover). */
+  /** Photos of the finished dish and how it's served (the first one is the cover). */
   images?: string[];
-  /** Preview video: a YouTube link or a direct video file (.mp4/.webm). */
+  /** How-to video: a YouTube, TikTok, Facebook or Instagram link, or a direct video file (.mp4/.webm). */
   video?: string;
   /** Helpful external links (original source, technique videos, shops…). */
   links?: RecipeLink[];
@@ -36,8 +36,33 @@ export interface Recipe {
   prepMinutes: number;
   cookMinutes: number;
   servings: number;
+  /** What to buy, one item per line. */
+  ingredients: Localized<string[]>;
+  /** How to cook, one step per line (each becomes a stop on the treasure map). */
+  steps: Localized<string[]>;
+  /** How to serve and present the dish. */
+  serving?: Localized<string[]>;
+  /** Credits: recipes or videos this one is based on or similar to. */
+  sources?: RecipeLink[];
+}
+
+/**
+ * One recipe as stored in content/recipes/<slug>.json (written by the admin).
+ * `name` and `section` are only needed for dishes that aren't in the family menu list.
+ */
+export interface RecipeFile {
+  name?: string;
+  section?: SectionId;
+  tags?: Tag[];
+  prepMinutes: number;
+  cookMinutes: number;
+  servings: number;
   ingredients: Localized<string[]>;
   steps: Localized<string[]>;
+  serving?: Localized<string[]>;
+  images?: string[];
+  video?: string;
+  sources?: RecipeLink[];
 }
 
 export interface Dish {

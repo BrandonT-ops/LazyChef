@@ -1,0 +1,71 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 50,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 chicken (about 1.5 kg), in pieces",
+      "5 ripe plantains (still firm)",
+      "3 carrots",
+      "200 g green beans",
+      "1 green bell pepper",
+      "2 onions",
+      "3 tomatoes",
+      "4 cloves garlic",
+      "1 thumb of fresh ginger",
+      "1 leek or a few celery stalks",
+      "2 stock cubes, salt, black pepper",
+      "Oil for frying"
+    ],
+    "fr": [
+      "1 poulet (environ 1,5 kg) en morceaux",
+      "5 plantains mûrs (encore fermes)",
+      "3 carottes",
+      "200 g de haricots verts",
+      "1 poivron vert",
+      "2 oignons",
+      "3 tomates",
+      "4 gousses d'ail",
+      "1 morceau de gingembre frais",
+      "1 poireau ou quelques branches de céleri",
+      "2 cubes d'assaisonnement, sel, poivre",
+      "De l'huile pour la friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the chicken with garlic, ginger, a stock cube, salt and pepper. Leave for 20 minutes.",
+      "Simmer the chicken in a little water for 15 minutes, then fry the pieces until golden. Keep the broth.",
+      "Peel the plantains, cut them into thick slices and fry until golden. Drain.",
+      "In a large pot, fry the onions, then add the chopped tomatoes, carrots, green beans, bell pepper and leek. Cook for 8 minutes.",
+      "Add the chicken and a cup of broth, cover and simmer for 10 minutes.",
+      "Gently fold in the plantains and cook 5 more minutes so they soak up the sauce without breaking. Season to taste."
+    ],
+    "fr": [
+      "Assaisonnez le poulet avec l'ail, le gingembre, un cube, du sel et du poivre. Laissez reposer 20 minutes.",
+      "Faites mijoter le poulet 15 minutes dans un peu d'eau, puis faites dorer les morceaux à la poêle. Gardez le bouillon.",
+      "Épluchez les plantains, coupez-les en grosses rondelles et faites-les frire jusqu'à ce qu'ils soient dorés. Égouttez.",
+      "Dans une grande marmite, faites revenir les oignons, puis ajoutez les tomates hachées, les carottes, les haricots verts, le poivron et le poireau. Laissez cuire 8 minutes.",
+      "Ajoutez le poulet et une tasse de bouillon, couvrez et laissez mijoter 10 minutes.",
+      "Incorporez délicatement les plantains et laissez cuire encore 5 minutes pour qu'ils prennent la sauce sans se casser. Rectifiez l'assaisonnement."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A complete meal on its own, with plantain and vegetables.",
+      "Garnish with chopped parsley.",
+      "A favorite for Sunday lunch and celebrations."
+    ],
+    "fr": [
+      "Un plat complet à lui seul, avec le plantain et les légumes.",
+      "Parsemez de persil haché.",
+      "Le plat préféré des dimanches et des fêtes."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,46 @@
+{
+  "tags": [
+    "budget",
+    "quick",
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 1,
+  "cookMinutes": 10,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "2 eggs",
+      "Water",
+      "A pinch of salt"
+    ],
+    "fr": [
+      "2 œufs",
+      "De l'eau",
+      "Une pincée de sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Put the eggs in a small pot and cover them with cold water.",
+      "Bring to a boil, then lower the heat: 6 minutes for soft, 10 minutes for hard.",
+      "Cool the eggs in cold water for 1 minute, then peel and season."
+    ],
+    "fr": [
+      "Mettez les œufs dans une petite casserole et couvrez-les d'eau froide.",
+      "Portez à ébullition puis baissez le feu : 6 minutes pour mollets, 10 minutes pour durs.",
+      "Refroidissez les œufs 1 minute dans l'eau froide, écalez et assaisonnez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with bread and butter, or sliced over avocado."
+    ],
+    "fr": [
+      "Servez avec du pain beurré, ou en rondelles sur de l'avocat."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

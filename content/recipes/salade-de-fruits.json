@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "quick",
+    "kids",
+    "vegetarian",
+    "occasion"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 ripe mango",
+      "¼ pineapple",
+      "2 bananas",
+      "1 orange",
+      "1 passion fruit (optional)",
+      "1 tbsp sugar or honey (optional)"
+    ],
+    "fr": [
+      "1 mangue mûre",
+      "¼ d'ananas",
+      "2 bananes",
+      "1 orange",
+      "1 fruit de la passion (facultatif)",
+      "1 c. à soupe de sucre ou de miel (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the mango, pineapple and bananas and cut them into bite-size pieces.",
+      "Squeeze half the orange over the fruit and cut the other half into pieces.",
+      "Add the passion fruit pulp and sugar, mix gently and chill for 15 minutes."
+    ],
+    "fr": [
+      "Épluchez la mangue, l'ananas et les bananes et coupez-les en morceaux.",
+      "Pressez la moitié de l'orange sur les fruits et coupez l'autre moitié en morceaux.",
+      "Ajoutez la pulpe de passion et le sucre, mélangez doucement et réservez 15 minutes au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve chilled in small glasses or bowls."
+    ],
+    "fr": [
+      "Servez bien frais dans des verrines ou des bols."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}
