@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Marché palette — warm market colors.
+ * Values are space-separated RGB so Tailwind can apply opacity (bg-tomato/10).
+ * Change the palette here only; components use the tokens.
+ */
+:root {
+  --bg: 255 248 238;        /* #FFF8EE cream */
+  --surface: 255 255 255;   /* card */
+  --ink: 42 26 18;          /* #2A1A12 cocoa */
+  --muted: 120 96 80;       /* softer cocoa for secondary text */
+  --line: 238 224 205;      /* borders */
+  --tomato: 228 87 46;      /* #E4572E primary */
+  --mango: 244 169 22;      /* #F4A916 */
+  --leaf: 46 139 87;        /* #2E8B57 */
+  --hibiscus: 122 62 157;   /* #7A3E9D, used sparingly */
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: 27 20 16;
+    --surface: 38 29 23;
+    --ink: 246 235 221;
+    --muted: 190 170 150;
+    --line: 62 49 40;
+    --tomato: 255 112 72;
+    --mango: 255 189 64;
+    --leaf: 86 190 128;
+    --hibiscus: 190 130 222;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: 27 20 16;
+  --surface: 38 29 23;
+  --ink: 246 235 221;
+  --muted: 190 170 150;
+  --line: 62 49 40;
+  --tomato: 255 112 72;
+  --mango: 255 189 64;
+  --leaf: 86 190 128;
+  --hibiscus: 190 130 222;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg text-ink font-sans antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+  }
+  .card {
+    @apply rounded-xl2 border border-line bg-surface shadow-soft;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 font-semibold
+      transition-all duration-200 focus-visible:outline-none focus-visible:ring-2
+      focus-visible:ring-tomato focus-visible:ring-offset-2 focus-visible:ring-offset-bg
+      active:scale-[0.97] disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-tomato text-white shadow-soft hover:shadow-lift hover:-translate-y-0.5;
+  }
+  .btn-ghost {
+    @apply btn border border-line bg-surface text-ink hover:border-tomato hover:text-tomato;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full border border-line bg-surface px-3 py-1 text-sm
+      font-medium text-muted transition-colors;
+  }
+  .chip-active {
+    @apply border-tomato bg-tomato text-white;
+  }
+  .heading {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  .card {
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "{site} — what are we eating today?",
+    "description": "Home recipes for breakfast, lunch, supper and drinks. Browse by day, plan your week, or roll the dice."
+  },
+  "nav": {
+    "home": "Home",
+    "browse": "Browse",
+    "search": "Search",
+    "random": "Roll the dice",
+    "planner": "Week planner",
+    "language": "Language",
+    "theme": "Toggle dark mode",
+    "menu": "Menu"
+  },
+  "home": {
+    "kicker": "Too tired to think? Same.",
+    "title": "What are we eating today?",
+    "subtitle": "Recipes for breakfast, every day of the week and drinks, made at home, with whatever you have.",
+    "todayIs": "Today is {day}",
+    "todayTheme": "Today's theme",
+    "seeToday": "See today's dishes",
+    "rollCta": "Roll the dice",
+    "planCta": "Plan my week",
+    "browseTitle": "Browse the week",
+    "browseSubtitle": "Every day has its theme. Pick one and get cooking.",
+    "dishCount": "{count, plural, one {# dish} other {# dishes}}",
+    "budgetTitle": "Low budget?",
+    "budgetText": "Look for the 💰 tag: cheap dishes made from pantry staples.",
+    "budgetCta": "Show cheap dishes"
+  },
+  "sections": {
+    "breakfast": {
+      "name": "Breakfast",
+      "theme": "Eggs, breads, crêpes and sweet treats"
+    },
+    "monday": {
+      "name": "Monday",
+      "theme": "Protein snacks & raw salads"
+    },
+    "tuesday": {
+      "name": "Tuesday",
+      "theme": "Sautés"
+    },
+    "wednesday": {
+      "name": "Wednesday",
+      "theme": "Pastries & cooked salads"
+    },
+    "thursday": {
+      "name": "Thursday",
+      "theme": "Roasts"
+    },
+    "friday": {
+      "name": "Friday",
+      "theme": "Sauces, broths & beignets"
+    },
+    "saturday": {
+      "name": "Saturday",
+      "theme": "Grills, egg snacks & fruit salads"
+    },
+    "sunday": {
+      "name": "Sunday",
+      "theme": "Traditional dishes"
+    },
+    "drinks": {
+      "name": "Drinks",
+      "theme": "Juices, smoothies & cocktails"
+    }
+  },
+  "tags": {
+    "budget": "💰 Low budget",
+    "quick": "⚡ Quick",
+    "kids": "👶 Kids",
+    "snack": "🍿 Snack",
+    "vegetarian": "🥬 Vegetarian",
+    "occasion": "🎉 Occasion"
+  },
+  "dish": {
+    "comingSoon": "Recipe coming soon",
+    "comingSoonText": "This dish is on the menu, but its recipe hasn't been written yet.",
+    "hasRecipe": "Recipe",
+    "ingredients": "Ingredients",
+    "steps": "Steps",
+    "prep": "Prep",
+    "cook": "Cook",
+    "servings": "Serves",
+    "minutes": "{count} min",
+    "back": "Back to {section}",
+    "more": "More from {section}",
+    "checkHint": "Tap an ingredient to tick it off."
+  },
+  "random": {
+    "title": "Roll the dice",
+    "subtitle": "Can't decide? Let LazyChef pick for you.",
+    "from": "Pick from",
+    "everything": "Everything",
+    "roll": "Roll 🎲",
+    "rollAgain": "Roll again",
+    "rolling": "Rolling…",
+    "open": "Open dish",
+    "onlyRecipes": "Only dishes with a recipe",
+    "empty": "Nothing to pick from with these filters."
+  },
+  "planner": {
+    "title": "Week planner",
+    "subtitle": "One breakfast, one main and one drink per day, following each day's theme. Reroll anything you don't like.",
+    "generate": "Plan my week",
+    "regenerate": "Plan a new week",
+    "clear": "Clear",
+    "breakfast": "Breakfast",
+    "main": "Main",
+    "drink": "Drink",
+    "reroll": "Reroll",
+    "lock": "Keep",
+    "unlock": "Unkeep",
+    "empty": "Your week is empty. Let LazyChef fill it in.",
+    "saved": "Saved on this device"
+  },
+  "search": {
+    "title": "Find a dish",
+    "placeholder": "Search: ndolé, beignets, jus…",
+    "all": "All",
+    "results": "{count, plural, =0 {No dishes found} one {# dish} other {# dishes}}",
+    "withRecipe": "With recipe only"
+  },
+  "footer": {
+    "tagline": "Cook more, think less.",
+    "made": "Made at home"
+  },
+  "notFound": {
+    "title": "This plate is empty",
+    "text": "We couldn't find that page.",
+    "back": "Back home"
+  },
+  "map": {
+    "title": "Treasure map",
+    "subtitle": "Follow the trail one stop at a time. Tap a stop when it's done.",
+    "stop": "Stop {n}",
+    "progress": "{done} of {total} stops done",
+    "next": "Done, next stop →",
+    "finish": "Done, find the treasure! 🏆",
+    "reset": "Start over",
+    "treasure": "Treasure found! Bon appétit 🎉",
+    "treasureText": "You followed the whole map. Time to eat.",
+    "treasureHidden": "The treasure",
+    "treasureHint": "Reach the end of the trail to unlock it."
+  },
+  "media": {
+    "video": "Preview video",
+    "links": "Useful links"
+  },
+  "book": {
+    "title": "The cookbook",
+    "subtitle": "Every dish, chapter by chapter. Turn the pages.",
+    "cover": "Recipes from home",
+    "open": "Open the book",
+    "toc": "Contents",
+    "chapter": "Chapter {n}",
+    "prev": "Previous",
+    "next": "Next page",
+    "hint": "Use ← → keys or swipe to turn the pages",
+    "end": "That's the whole book. Hungry yet?",
+    "restart": "Back to the cover"
+  }
+}

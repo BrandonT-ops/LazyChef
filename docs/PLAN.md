@@ -1,0 +1,78 @@
+# Project plan
+
+> Working name: **LazyChef** (taken by another app; a new name is coming).
+> The name lives in `src/config/site.ts`, so renaming is a one-line change.
+
+## Goal
+
+A bilingual (English / French) home-cooking site where anyone, with no account needed, can:
+
+- browse the family's dishes by **day-of-week theme**, breakfast and drinks
+- **search** for a dish and filter it (💰 low budget, ⚡ quick, 👶 kids…)
+- **plan a week** of meals automatically
+- **roll the dice** for a random dish
+- follow a recipe as a **treasure map**, step by step
+- leaf through everything as a **cookbook** with turning pages
+
+Accounts are only needed to contribute:
+
+- **Users** can write personal recipes (private) or publish them, which sends them to review.
+- **Admins** add recipes directly and approve or reject submissions.
+
+## Design
+
+- **Palette: Marché (warm market).** Cream `#FFF8EE`, cocoa `#2A1A12`, tomato `#E4572E`,
+  mango `#F4A916`, plantain leaf `#2E8B57`, with a little hibiscus `#7A3E9D`. The colors are
+  tokens in `src/app/globals.css`, and dark mode follows the device setting, with a toggle.
+- **Motion:** Framer Motion for gentle page fades, cards that fade up as you scroll, a hover lift, the dice roll,
+  page turns and the trail drawing itself on the treasure map. Nothing flashes or loops loudly, and all
+  motion turns off when the device asks for reduced motion.
+
+## Phases
+
+### Phase 1: public site ✅ (this branch)
+- Next.js 15 (App Router) + Tailwind + next-intl (`/en`, `/fr`) + Framer Motion
+- The whole family food list as data (`src/data/menu.ts`): about 250 dishes, each marked "recipe coming soon"
+- 3 sample recipes (`src/data/recipes.ts`): Œuf bouillie, Pain perdu, Salade de fruits
+- Pages: home (today's theme), cookbook, section, dish (treasure map, ingredient checklist,
+  photos / preview video / links), search with filters, dice, week planner (saved on the device)
+- Static generation for every dish in both languages
+
+### Phase 2: accounts, submissions, admin
+Proposed backend: **Supabase** (Postgres, auth, file storage for photos and videos, row-level security), with a free tier.
+
+```
+profiles   id (auth user) · display_name · role: 'user' | 'admin'
+recipes    id · slug · section · name · alt_names{en,fr}
+           tags[] · prep/cook minutes · servings
+           ingredients{en[],fr[]} · steps{en[],fr[]}
+           images[] · video_url · links[{label,url}]
+           author_id · visibility: 'private' | 'public'
+           status: 'draft' | 'pending' | 'approved' | 'rejected'
+           review_note · created_at · updated_at
+plans      user_id · week (json)   -- optional: sync the planner across devices
+```
+
+Rules (enforced by row-level security):
+- Anyone can read `public` + `approved` recipes.
+- Authors can read and edit their own recipes. Publishing a recipe sets its status to `pending`.
+- Admins can do everything, including approve and reject.
+
+Screens: sign in (email magic link or Google), "My recipes", recipe editor (bilingual fields, photo and
+video upload, links), "Submit for review", admin review queue.
+
+`src/lib/dishes.ts` is the only place that reads data, so Phase 2 swaps its internals for
+database queries without touching the pages.
+
+### Phase 3: nice-to-haves
+- Shopping list built from the week plan
+- Serving-size scaler
+- Favorites
+- Occasion collections (birthday, Christmas, guests…)
+- Share a week plan by link
+
+## Open questions
+- **Name:** a new name in the same spirit as LazyChef
+- What are **BHB, Dovv, SL, Dakere**? (They are listed under breakfast for now.)
+- **Présentations, Trials, Et autre** were left out: should they be categories, dishes, or nothing?
+- Which dishes are **💰 low budget**, quick, or kid-friendly? Tag them so the filters fill up.

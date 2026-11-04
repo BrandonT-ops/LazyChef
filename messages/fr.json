@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "title": "{site} — on mange quoi aujourd'hui ?",
+    "description": "Des recettes maison pour le petit-déjeuner, le déjeuner, le dîner et les boissons. Parcourez par jour, planifiez votre semaine ou lancez le dé."
+  },
+  "nav": {
+    "home": "Accueil",
+    "browse": "Parcourir",
+    "search": "Rechercher",
+    "random": "Lancer le dé",
+    "planner": "Planning",
+    "language": "Langue",
+    "theme": "Mode sombre",
+    "menu": "Menu"
+  },
+  "home": {
+    "kicker": "Trop fatigué pour réfléchir ? Pareil.",
+    "title": "On mange quoi aujourd'hui ?",
+    "subtitle": "Des recettes pour le petit-déjeuner, chaque jour de la semaine et les boissons, faites maison, avec ce que vous avez.",
+    "todayIs": "Nous sommes {day}",
+    "todayTheme": "Le thème du jour",
+    "seeToday": "Voir les plats du jour",
+    "rollCta": "Lancer le dé",
+    "planCta": "Planifier ma semaine",
+    "browseTitle": "Parcourir la semaine",
+    "browseSubtitle": "Chaque jour a son thème. Choisissez et à vos casseroles.",
+    "dishCount": "{count, plural, one {# plat} other {# plats}}",
+    "budgetTitle": "Petit budget ?",
+    "budgetText": "Cherchez l'étiquette 💰 : des plats pas chers, avec les basiques du placard.",
+    "budgetCta": "Voir les plats pas chers"
+  },
+  "sections": {
+    "breakfast": {
+      "name": "Petit-déjeuner",
+      "theme": "Œufs, pains, crêpes et douceurs"
+    },
+    "monday": {
+      "name": "Lundi",
+      "theme": "Snacks protéinés & salades crues"
+    },
+    "tuesday": {
+      "name": "Mardi",
+      "theme": "Sautés"
+    },
+    "wednesday": {
+      "name": "Mercredi",
+      "theme": "Pâtisseries & salades cuites"
+    },
+    "thursday": {
+      "name": "Jeudi",
+      "theme": "Rôtis"
+    },
+    "friday": {
+      "name": "Vendredi",
+      "theme": "Sauces, bouillons & beignets"
+    },
+    "saturday": {
+      "name": "Samedi",
+      "theme": "Braisés, snacks aux œufs & salades de fruits"
+    },
+    "sunday": {
+      "name": "Dimanche",
+      "theme": "Plats traditionnels"
+    },
+    "drinks": {
+      "name": "Boissons",
+      "theme": "Jus, smoothies & cocktails"
+    }
+  },
+  "tags": {
+    "budget": "💰 Petit budget",
+    "quick": "⚡ Rapide",
+    "kids": "👶 Enfants",
+    "snack": "🍿 Snack",
+    "vegetarian": "🥬 Végétarien",
+    "occasion": "🎉 Occasion"
+  },
+  "dish": {
+    "comingSoon": "Recette à venir",
+    "comingSoonText": "Ce plat est au menu, mais sa recette n'a pas encore été écrite.",
+    "hasRecipe": "Recette",
+    "ingredients": "Ingrédients",
+    "steps": "Étapes",
+    "prep": "Préparation",
+    "cook": "Cuisson",
+    "servings": "Pour",
+    "minutes": "{count} min",
+    "back": "Retour à {section}",
+    "more": "Plus de plats : {section}",
+    "checkHint": "Touchez un ingrédient pour le cocher."
+  },
+  "random": {
+    "title": "Lancer le dé",
+    "subtitle": "Vous hésitez ? Laissez LazyChef choisir.",
+    "from": "Choisir parmi",
+    "everything": "Tout",
+    "roll": "Lancer 🎲",
+    "rollAgain": "Relancer",
+    "rolling": "Ça tourne…",
+    "open": "Voir le plat",
+    "onlyRecipes": "Seulement les plats avec recette",
+    "empty": "Rien à choisir avec ces filtres."
+  },
+  "planner": {
+    "title": "Planning de la semaine",
+    "subtitle": "Un petit-déjeuner, un plat et une boisson par jour, selon le thème de chaque jour. Relancez ce qui ne vous plaît pas.",
+    "generate": "Planifier ma semaine",
+    "regenerate": "Nouvelle semaine",
+    "clear": "Effacer",
+    "breakfast": "Petit-déj",
+    "main": "Plat",
+    "drink": "Boisson",
+    "reroll": "Relancer",
+    "lock": "Garder",
+    "unlock": "Libérer",
+    "empty": "Votre semaine est vide. Laissez LazyChef la remplir.",
+    "saved": "Enregistré sur cet appareil"
+  },
+  "search": {
+    "title": "Trouver un plat",
+    "placeholder": "Rechercher : ndolé, beignets, jus…",
+    "all": "Tout",
+    "results": "{count, plural, =0 {Aucun plat trouvé} one {# plat} other {# plats}}",
+    "withRecipe": "Avec recette seulement"
+  },
+  "footer": {
+    "tagline": "Cuisinez plus, réfléchissez moins.",
+    "made": "Fait maison"
+  },
+  "notFound": {
+    "title": "Cette assiette est vide",
+    "text": "Nous n'avons pas trouvé cette page.",
+    "back": "Retour à l'accueil"
+  },
+  "map": {
+    "title": "Carte au trésor",
+    "subtitle": "Suivez le chemin étape par étape. Touchez une étape quand elle est faite.",
+    "stop": "Étape {n}",
+    "progress": "{done} sur {total} étapes faites",
+    "next": "Fait, étape suivante →",
+    "finish": "Fait, trouvez le trésor ! 🏆",
+    "reset": "Recommencer",
+    "treasure": "Trésor trouvé ! Bon appétit 🎉",
+    "treasureText": "Vous avez suivi toute la carte. À table !",
+    "treasureHidden": "Le trésor",
+    "treasureHint": "Allez au bout du chemin pour le débloquer."
+  },
+  "media": {
+    "video": "Vidéo d'aperçu",
+    "links": "Liens utiles"
+  },
+  "book": {
+    "title": "Le livre de recettes",
+    "subtitle": "Tous les plats, chapitre par chapitre. Tournez les pages.",
+    "cover": "Recettes de la maison",
+    "open": "Ouvrir le livre",
+    "toc": "Sommaire",
+    "chapter": "Chapitre {n}",
+    "prev": "Précédent",
+    "next": "Page suivante",
+    "hint": "Utilisez les touches ← → ou glissez pour tourner les pages",
+    "end": "C'est tout le livre. Vous avez faim ?",
+    "restart": "Retour à la couverture"
+  }
+}
