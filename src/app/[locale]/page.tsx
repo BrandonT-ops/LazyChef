@@ -7,7 +7,7 @@ import { countBySection, getAllSummaries } from "@/lib/dishes";
 import { TodayCard } from "@/components/TodayCard";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
 import { ACCENT_BG } from "@/lib/ui";
-import { CalendarDays, Dices, Wallet } from "lucide-react";
+import { CalendarDays, Dices, PartyPopper, Wallet } from "lucide-react";
 import { SectionIcon } from "@/components/icons";
 
 export default function HomePage({ params }: { params: Promise<{ locale: string }> }) {
@@ -78,6 +78,22 @@ export default function HomePage({ params }: { params: Promise<{ locale: string 
             </StaggerItem>
           ))}
         </Stagger>
+      </section>
+
+      {/* Events */}
+      <section className="container-page py-4">
+        <Reveal className="card flex flex-col items-start gap-4 bg-gradient-to-br from-hibiscus/10 to-tomato/10 p-8 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 className="heading flex items-center gap-2 text-2xl">
+              <PartyPopper className="h-6 w-6 text-hibiscus" aria-hidden />
+              {t("home.eventsTitle")}
+            </h2>
+            <p className="mt-1 text-muted">{t("home.eventsText")}</p>
+          </div>
+          <Link href="/events" className="btn-primary shrink-0">
+            {t("home.eventsCta")}
+          </Link>
+        </Reveal>
       </section>
 
       {/* Budget */}

@@ -7,13 +7,14 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeToggle } from "./ThemeToggle";
 import { InstallButton } from "./Pwa";
 import { SITE } from "@/config/site";
-import { BookOpen, CalendarDays, ChefHat, Dices, Heart, MapPinned, Menu, Search, X } from "lucide-react";
+import { BookOpen, CalendarDays, ChefHat, Dices, Heart, MapPinned, Menu, PartyPopper, Search, X } from "lucide-react";
 
 const NAV = [
   { href: "/browse", key: "browse", icon: BookOpen },
   { href: "/search", key: "search", icon: Search },
   { href: "/random", key: "random", icon: Dices },
   { href: "/planner", key: "planner", icon: CalendarDays },
+  { href: "/events", key: "events", icon: PartyPopper },
   { href: "/markets", key: "markets", icon: MapPinned },
   { href: "/me", key: "kitchen", icon: Heart },
 ] as const;
@@ -46,7 +47,7 @@ export function Header() {
             <Link
               key={item.href}
               href={item.href}
-              className={`relative rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+              className={`relative rounded-full px-3 py-2 text-sm font-semibold transition-colors xl:px-4 ${
                 isActive(item.href) ? "text-tomato" : "text-muted hover:text-ink"
               }`}
             >

@@ -56,14 +56,14 @@ const RADII = [1000, 3000, 5000];
 
 type Status = "idle" | "locating" | "loading" | "done" | "error" | "denied";
 
-export function NearbyMap() {
+export function NearbyMap({ initialKinds }: { initialKinds?: PlaceKind[] }) {
   const t = useTranslations("markets");
   const locale = useLocale();
   const [center, setCenter] = useState<LatLon | null>(null);
   const [radius, setRadius] = useState(3000);
   const [status, setStatus] = useState<Status>("idle");
   const [places, setPlaces] = useState<Place[]>([]);
-  const [kinds, setKinds] = useState<Set<PlaceKind>>(new Set(PLACE_KINDS));
+  const [kinds, setKinds] = useState<Set<PlaceKind>>(new Set(initialKinds?.length ? initialKinds : PLACE_KINDS));
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<GeocodeResult[]>([]);
   const [active, setActive] = useState<string | null>(null);

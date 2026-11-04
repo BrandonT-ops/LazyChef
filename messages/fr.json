@@ -13,7 +13,8 @@
     "theme": "Mode sombre",
     "menu": "Menu",
     "markets": "Marchés",
-    "kitchen": "Ma cuisine"
+    "kitchen": "Ma cuisine",
+    "events": "Événements"
   },
   "home": {
     "kicker": "Trop fatigué pour réfléchir ? Pareil.",
@@ -29,7 +30,10 @@
     "dishCount": "{count, plural, one {# plat} other {# plats}}",
     "budgetTitle": "Petit budget ?",
     "budgetText": "Cherchez l'étiquette petit budget : des plats pas chers, avec les basiques du placard.",
-    "budgetCta": "Voir les plats pas chers"
+    "budgetCta": "Voir les plats pas chers",
+    "eventsTitle": "Vous organisez un événement ?",
+    "eventsText": "Anniversaire, mariage, Noël… dites à Chop combien d'invités et votre budget, et obtenez un menu complet avec les coûts.",
+    "eventsCta": "Planifier un événement"
   },
   "sections": {
     "breakfast": {
@@ -139,7 +143,8 @@
     "snackLabel": "journée snack, pas de cuisine",
     "with": "avec",
     "otherSide": "Autre accompagnement",
-    "toShopping": "Liste de courses"
+    "toShopping": "Liste de courses",
+    "people": "Personnes à table"
   },
   "search": {
     "title": "Trouver un plat",
@@ -285,7 +290,14 @@
     "other": "Autres",
     "sides": "Accompagnements",
     "noRecipeGroup": "Plats sans recette pour l'instant",
-    "ingredientsFor": "Ingrédients pour {name}"
+    "ingredientsFor": "Ingrédients pour {name}",
+    "toBuy": "Reste à acheter",
+    "total": "Toute la liste",
+    "each": "l'unité",
+    "addPrice": "ajouter un prix",
+    "yourList": "Votre liste de courses",
+    "unpriced": "{count, plural, one {# article n'a pas encore de prix} other {# articles n'ont pas encore de prix}}. Touchez pour en ajouter.",
+    "estimateNote": "Les prix sont des estimations. Touchez-en un pour le changer."
   },
   "editor": {
     "title": "Nouvelle recette",
@@ -311,5 +323,73 @@
     "deviceNote": "Enregistrée sur cet appareil seulement, en attendant les comptes.",
     "cancel": "Annuler",
     "save": "Enregistrer"
+  },
+  "events": {
+    "title": "Planifier un événement",
+    "subtitle": "Choisissez l'occasion, le nombre d'invités et votre budget. Chop propose un menu complet avec boissons, quantités et coût estimé.",
+    "whatOccasion": "Quelle est l'occasion ?",
+    "guests": "Invités",
+    "fewer": "Moins",
+    "more": "Plus",
+    "budgets": {
+      "small": "Petit budget",
+      "comfortable": "Confortable",
+      "generous": "Généreux"
+    },
+    "propose": "Proposer un menu",
+    "proposeAgain": "Proposer un autre menu",
+    "toShopping": "Liste de courses",
+    "share": "Partager le menu",
+    "clear": "Effacer",
+    "courses": {
+      "starters": "Amuse-bouches & entrées",
+      "mains": "Plats principaux",
+      "dessert": "Dessert",
+      "drinks": "Boissons"
+    },
+    "add": "Ajouter",
+    "none": "Rien ici. Touchez Ajouter si vous en voulez.",
+    "swap": "Changer",
+    "remove": "Retirer",
+    "servings": "{count, plural, one {# portion} other {# portions}}",
+    "perServing": "/ portion",
+    "total": "Coût estimé",
+    "perGuest": "Environ {amount} par invité ({guests} invités)",
+    "estimateNote": "Les prix sont des estimations en FCFA. Touchez un prix pour le changer ; Chop retient vos prix.",
+    "shareTitle": "Menu {occasion} pour {guests} invités ({site})",
+    "occasions": {
+      "birthday": {
+        "name": "Anniversaire",
+        "hint": "Amuse-bouches, un gâteau et des boissons festives."
+      },
+      "wedding": {
+        "name": "Mariage / dot / cérémonie",
+        "hint": "Un grand repas traditionnel pour beaucoup d'invités."
+      },
+      "holidays": {
+        "name": "Noël & Nouvel An",
+        "hint": "Plats de fête, desserts et cocktails."
+      },
+      "baptism": {
+        "name": "Baptême / baby shower",
+        "hint": "Des plats légers et faciles, et des jus frais."
+      },
+      "funeral": {
+        "name": "Deuil / veillée",
+        "hint": "Des plats simples et nourrissants, en grandes marmites pour tous."
+      },
+      "family": {
+        "name": "Déjeuner du dimanche",
+        "hint": "Des plats traditionnels à partager en famille."
+      },
+      "party": {
+        "name": "Soirée braise entre amis",
+        "hint": "Poisson braisé, brochettes et boissons."
+      }
+    }
+  },
+  "prices": {
+    "edit": "Changer le prix",
+    "add": "ajouter un prix"
   }
 }

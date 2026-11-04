@@ -11,6 +11,9 @@ import {
   ListPlus,
   Lock,
   LockOpen,
+  Minus,
+  Plus,
+  Users,
   Moon,
   Refrigerator,
   Save,
@@ -26,6 +29,7 @@ import type { DishSummary, SectionId } from "@/data/types";
 import type { Locale } from "@/i18n/routing";
 import { SITE } from "@/config/site";
 import { useShopping } from "@/lib/local";
+import { dishKey, sideKey } from "@/lib/prices";
 import {
   DAYS,
   MEALS,
@@ -112,25 +116,29 @@ export function WeekPlanner({ dishes, ingredients }: { dishes: DishSummary[]; in
     return `${t("planner.shareTitle", { site: SITE.name })}\n\n${lines.join("\n")}`;
   };
 
-  /** Turns the week into a shopping list (replacing the previous week's items). */
+  const people = plan.people ?? 2;
+  const setPeople = (n: number) => save({ ...plan, people: Math.max(1, Math.min(30, n)) });
+
+  /** Turns the week into a shopping list (replacing the previous week's items), with servings for everyone. */
   const toShopping = () => {
-    const seen = new Set<string>();
-    const sides = new Set<string>();
-    const items: { text: string; group: string }[] = [];
-    const noRecipe: string[] = [];
+    const dishMeals = new Map<string, number>();
+    const sideMeals = new Map<SideId, number>();
     for (const d of DAYS) {
       for (const m of MEALS) {
         const c = grid[d][m];
-        if (c.side) sides.add(sideName(c.side));
-        if (!c.slug || seen.has(c.slug)) continue;
-        seen.add(c.slug);
-        const ing = ingredients[c.slug];
-        if (ing?.length) ing.forEach((text) => items.push({ text, group: nameOf(c.slug) }));
-        else noRecipe.push(nameOf(c.slug));
+        if (c.slug) dishMeals.set(c.slug, (dishMeals.get(c.slug) ?? 0) + 1);
+        if (c.side) sideMeals.set(c.side, (sideMeals.get(c.side) ?? 0) + 1);
       }
     }
-    sides.forEach((text) => items.push({ text, group: t("shopping.sides") }));
-    noRecipe.forEach((text) => items.push({ text, group: t("shopping.noRecipeGroup") }));
+    const items: { text: string; group: string; priceKey?: string; qty?: number }[] = [];
+    dishMeals.forEach((meals, slug) => {
+      const ing = ingredients[slug];
+      if (ing?.length) ing.forEach((text) => items.push({ text, group: nameOf(slug) }));
+      else items.push({ text: nameOf(slug), group: t("shopping.noRecipeGroup"), priceKey: dishKey(slug), qty: meals * people });
+    });
+    sideMeals.forEach((meals, side) =>
+      items.push({ text: sideName(side), group: t("shopping.sides"), priceKey: sideKey(side), qty: meals * people }),
+    );
     shopping.replaceSource("week", items);
     router.push("/me?tab=shopping");
   };
@@ -194,6 +202,21 @@ export function WeekPlanner({ dishes, ingredients }: { dishes: DishSummary[]; in
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Household size */}
+      <div className="mt-6 flex items-center justify-center gap-3">
+        <Users className="h-5 w-5 text-tomato" aria-hidden />
+        <span className="text-sm font-semibold">{t("planner.people")}</span>
+        <div className="flex items-center rounded-full border border-line bg-surface">
+          <button type="button" onClick={() => setPeople(people - 1)} aria-label={t("events.fewer")} className="grid h-9 w-9 place-items-center">
+            <Minus className="h-4 w-4" />
+          </button>
+          <span className="w-8 text-center font-bold" aria-live="polite">{people}</span>
+          <button type="button" onClick={() => setPeople(people + 1)} aria-label={t("events.more")} className="grid h-9 w-9 place-items-center">
+            <Plus className="h-4 w-4" />
+          </button>
+        </div>
+      </div>
 
       {/* Actions */}
       <div className="mt-6 flex flex-wrap items-center justify-center gap-3">

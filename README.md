@@ -35,6 +35,8 @@ npm run lint
 | My recipes, "I made it" photos (on device) | `src/lib/idb.ts` |
 | Recipe share links (`/r#…`) | `src/lib/recipe-link.ts` |
 | Shop search (OpenStreetMap) | `src/lib/places.ts` |
+| Event menus per occasion | `src/lib/events.ts` |
+| Price estimates (FCFA) | `src/data/prices.ts` |
 | App install + offline | `src/app/manifest.ts`, `public/sw.js` |
 | English / French text | `messages/en.json`, `messages/fr.json` |
 | Pages | `src/app/[locale]/…` |

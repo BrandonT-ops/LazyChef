@@ -62,6 +62,17 @@ so it can be uploaded to their account when Phase 2 arrives.
 - **Shopping list:** built from the week plan or from one recipe. Tick items off, share it, find a market.
 - **Cookbook:** a real book with a hard cover, page turns over the spine, and the book centered when closed
 
+### Phase 1.7: events and costs ✅
+- **Events** (`/events`): birthday, wedding / dot / ceremony, Christmas & New Year, baptism / baby shower,
+  funeral / wake, family Sunday lunch, friends & grill night. Pick the guests and a budget (small, comfortable,
+  generous) to get snacks, mains with sides, a dessert and drinks, with servings scaled to the guests. Swap,
+  add or remove items, see the total and cost per guest, share the menu, and send it to the shopping list.
+- **Costs in FCFA:** rough per-serving estimates (`src/data/prices.ts`). Tap any price to change it; your
+  prices are remembered and used everywhere.
+- **Shopping list:** price per line, "left to buy" and total. "Find a market" pre-selects the right shop
+  types (butcher, fish, bakery…), and the markets page shows what's left to buy.
+- **Week planner:** a "people eating" count, so quantities and costs in the list fit the household.
+
 ### Phase 2: accounts, submissions, admin
 Proposed backend: **Supabase** (Postgres, auth, file storage for photos and videos, row-level security), with a free tier.
 

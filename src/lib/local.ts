@@ -95,8 +95,13 @@ export interface ShoppingItem {
   checked: boolean;
   /** Heading the item is listed under (a dish name, "Sides", "Other"). */
   group: string;
-  /** Where it came from, so a source can be replaced as a whole: "week", "dish:<slug>", "manual". */
+  /** Where it came from, so a source can be replaced as a whole: "week", "event", "dish:<slug>", "manual". */
   source: string;
+  /** Priced by servings: price key ("dish:<slug>" / "side:<id>") × number of servings. */
+  priceKey?: string;
+  qty?: number;
+  /** Or a price typed for the whole line (FCFA). */
+  price?: number;
 }
 
 const NO_ITEMS: ShoppingItem[] = [];
@@ -106,6 +111,8 @@ export function useShopping() {
   return {
     items,
     /** Replaces every item from `source` with `fresh` (keeps ticks on identical lines). */
+    setPrice: (id: string, price: number | undefined) =>
+      setItems((prev) => prev.map((i) => (i.id === id ? { ...i, price } : i))),
     replaceSource: (source: string, fresh: Omit<ShoppingItem, "id" | "checked" | "source">[]) =>
       setItems((prev) => {
         const ticked = new Set(prev.filter((i) => i.source === source && i.checked).map((i) => `${i.group}|${i.text}`));

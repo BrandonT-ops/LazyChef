@@ -80,7 +80,7 @@ export function MyKitchen({ dishes, initialTab }: { dishes: DishSummary[]; initi
             ))}
           {tab === "recipes" && <MyRecipeList />}
           {tab === "photos" && <PhotoGrid />}
-          {tab === "shopping" && <ShoppingList />}
+          {tab === "shopping" && <ShoppingList dishes={dishes} />}
         </motion.div>
       </AnimatePresence>
     </div>

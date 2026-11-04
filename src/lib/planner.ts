@@ -35,6 +35,8 @@ export interface PlanState {
   locked: string[];
   /** Side per dish: "day:lunch" / "day:supper" (every-day mode) or "batch:<cookDay>". */
   sides: Record<string, SideId | null>;
+  /** How many people eat; used for quantities and costs. */
+  people?: number;
 }
 
 export type CellKind = "breakfast" | "theme" | "batch" | "light" | "snack";
@@ -63,6 +65,7 @@ export function emptyPlan(mode: Mode = "daily"): PlanState {
     snackDays: [],
     locked: [],
     sides: {},
+    people: 2,
   };
 }
 

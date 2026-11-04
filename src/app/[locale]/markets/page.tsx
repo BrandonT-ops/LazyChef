@@ -3,14 +3,16 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { MapPinned, ShoppingBasket } from "lucide-react";
 import type { Locale } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
-import { getDish } from "@/lib/dishes";
+import { getAllSummaries, getDish } from "@/lib/dishes";
+import { PLACE_KINDS, type PlaceKind } from "@/lib/places";
+import { ShoppingSummary } from "@/components/ShoppingSummary";
 import { NearbyMap } from "@/components/NearbyMap";
 import { IngredientList } from "@/components/IngredientList";
 import { Reveal } from "@/components/Reveal";
 
 type Props = {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ dish?: string }>;
+  searchParams: Promise<{ dish?: string; kinds?: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -21,7 +23,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function MarketsPage({ params, searchParams }: Props) {
   const { locale } = await params;
-  const { dish: slug } = await searchParams;
+  const { dish: slug, kinds } = await searchParams;
+  const initialKinds = (kinds ?? "").split(",").filter((k): k is PlaceKind => (PLACE_KINDS as string[]).includes(k));
   setRequestLocale(locale);
   const t = await getTranslations("markets");
   const dish = slug ? getDish(slug) : undefined;
@@ -52,7 +55,9 @@ export default async function MarketsPage({ params, searchParams }: Props) {
         </Reveal>
       )}
 
-      <NearbyMap />
+      {!dish && <ShoppingSummary dishes={getAllSummaries()} />}
+
+      <NearbyMap initialKinds={initialKinds} />
     </div>
   );
 }

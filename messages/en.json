@@ -13,7 +13,8 @@
     "theme": "Toggle dark mode",
     "menu": "Menu",
     "markets": "Markets",
-    "kitchen": "My kitchen"
+    "kitchen": "My kitchen",
+    "events": "Events"
   },
   "home": {
     "kicker": "Too tired to think? Same.",
@@ -29,7 +30,10 @@
     "dishCount": "{count, plural, one {# dish} other {# dishes}}",
     "budgetTitle": "Low budget?",
     "budgetText": "Look for the low-budget tag: cheap dishes made from pantry staples.",
-    "budgetCta": "Show cheap dishes"
+    "budgetCta": "Show cheap dishes",
+    "eventsTitle": "Planning an event?",
+    "eventsText": "Birthday, wedding, Christmas… tell Chop how many guests and your budget, and get a full menu with costs.",
+    "eventsCta": "Plan an event"
   },
   "sections": {
     "breakfast": {
@@ -139,7 +143,8 @@
     "snackLabel": "snack day, no cooking",
     "with": "with",
     "otherSide": "Another side",
-    "toShopping": "Shopping list"
+    "toShopping": "Shopping list",
+    "people": "People eating"
   },
   "search": {
     "title": "Find a dish",
@@ -285,7 +290,14 @@
     "other": "Other",
     "sides": "Sides",
     "noRecipeGroup": "Dishes without a recipe yet",
-    "ingredientsFor": "Ingredients for {name}"
+    "ingredientsFor": "Ingredients for {name}",
+    "toBuy": "Left to buy",
+    "total": "Whole list",
+    "each": "each",
+    "addPrice": "add price",
+    "yourList": "Your shopping list",
+    "unpriced": "{count, plural, one {# item has no price yet} other {# items have no price yet}}. Tap to add.",
+    "estimateNote": "Prices are estimates. Tap one to change it."
   },
   "editor": {
     "title": "New recipe",
@@ -311,5 +323,73 @@
     "deviceNote": "Saved on this device only, until accounts arrive.",
     "cancel": "Cancel",
     "save": "Save recipe"
+  },
+  "events": {
+    "title": "Plan an event",
+    "subtitle": "Pick the occasion, the number of guests and your budget. Chop proposes a full menu with drinks, the quantities and an estimated cost.",
+    "whatOccasion": "What's the occasion?",
+    "guests": "Guests",
+    "fewer": "Fewer",
+    "more": "More",
+    "budgets": {
+      "small": "Small budget",
+      "comfortable": "Comfortable",
+      "generous": "Generous"
+    },
+    "propose": "Propose a menu",
+    "proposeAgain": "Propose another menu",
+    "toShopping": "Shopping list",
+    "share": "Share menu",
+    "clear": "Clear",
+    "courses": {
+      "starters": "Snacks & starters",
+      "mains": "Main dishes",
+      "dessert": "Dessert",
+      "drinks": "Drinks"
+    },
+    "add": "Add",
+    "none": "Nothing here. Tap Add if you want some.",
+    "swap": "Swap",
+    "remove": "Remove",
+    "servings": "{count, plural, one {# serving} other {# servings}}",
+    "perServing": "/ serving",
+    "total": "Estimated cost",
+    "perGuest": "About {amount} per guest ({guests} guests)",
+    "estimateNote": "Prices are rough estimates in FCFA. Tap any price to change it; Chop remembers your prices.",
+    "shareTitle": "{occasion} menu for {guests} guests ({site})",
+    "occasions": {
+      "birthday": {
+        "name": "Birthday",
+        "hint": "Party food, a cake and fun drinks."
+      },
+      "wedding": {
+        "name": "Wedding / dot / ceremony",
+        "hint": "A big traditional spread for many guests."
+      },
+      "holidays": {
+        "name": "Christmas & New Year",
+        "hint": "Festive dishes, desserts and cocktails."
+      },
+      "baptism": {
+        "name": "Baptism / baby shower",
+        "hint": "Light, easy food and fresh juices."
+      },
+      "funeral": {
+        "name": "Funeral / wake",
+        "hint": "Simple, filling dishes in big pots for everyone who comes."
+      },
+      "family": {
+        "name": "Family Sunday lunch",
+        "hint": "Traditional dishes to share at the table."
+      },
+      "party": {
+        "name": "Friends & grill night",
+        "hint": "Grilled fish, brochettes and drinks."
+      }
+    }
+  },
+  "prices": {
+    "edit": "Change price",
+    "add": "add price"
   }
 }
