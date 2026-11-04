@@ -1,0 +1,61 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 35,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "4 fish steaks or 2 whole fish (bar, carp, mackerel)",
+      "4 potatoes, thinly sliced",
+      "2 tomatoes, sliced",
+      "1 onion, sliced",
+      "1 bell pepper, sliced",
+      "3 cloves garlic",
+      "1 small bunch of parsley",
+      "Juice of 1 lemon",
+      "4 tbsp oil",
+      "1 stock cube, salt, pepper"
+    ],
+    "fr": [
+      "4 darnes ou 2 poissons entiers (bar, carpe, maquereau)",
+      "4 pommes de terre en fines rondelles",
+      "2 tomates en rondelles",
+      "1 oignon émincé",
+      "1 poivron émincé",
+      "3 gousses d'ail",
+      "1 petite botte de persil",
+      "Le jus d'un citron",
+      "4 c. à soupe d'huile",
+      "1 cube, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oven to 200 °C.",
+      "Blend the garlic, parsley, lemon juice, oil, stock cube, salt and pepper, and coat the fish.",
+      "Line a dish with the potato slices, season, and add a splash of water. Bake 10 minutes.",
+      "Lay the fish on top with the tomatoes, onion and bell pepper around it.",
+      "Bake 20 to 25 minutes until the fish flakes and the potatoes are tender."
+    ],
+    "fr": [
+      "Préchauffez le four à 200 °C.",
+      "Mixez l'ail, le persil, le jus de citron, l'huile, le cube, le sel et le poivre, et enrobez-en le poisson.",
+      "Tapissez un plat de rondelles de pommes de terre, assaisonnez et ajoutez un filet d'eau. Faites cuire 10 minutes.",
+      "Posez le poisson dessus avec les tomates, l'oignon et le poivron autour.",
+      "Faites cuire 20 à 25 minutes jusqu'à ce que le poisson se détache et que les pommes de terre soient tendres."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A complete dish; add a green salad if you like."
+    ],
+    "fr": [
+      "Un plat complet ; ajoutez une salade verte si vous voulez."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

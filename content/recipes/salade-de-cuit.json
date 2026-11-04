@@ -1,0 +1,60 @@
+{
+  "tags": [
+    "occasion",
+    "vegetarian"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g potatoes",
+      "3 carrots",
+      "150 g green beans",
+      "150 g peas",
+      "3 eggs",
+      "1 small onion, finely chopped",
+      "4 tbsp mayonnaise",
+      "1 tsp mustard",
+      "Salt and pepper"
+    ],
+    "fr": [
+      "500 g de pommes de terre",
+      "3 carottes",
+      "150 g de haricots verts",
+      "150 g de petits pois",
+      "3 œufs",
+      "1 petit oignon finement haché",
+      "4 c. à soupe de mayonnaise",
+      "1 c. à café de moutarde",
+      "Sel et poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel and dice the potatoes and carrots, and cut the green beans.",
+      "Boil them in salted water until just tender (about 12 minutes), adding the peas for the last 3 minutes. Drain and cool.",
+      "Boil the eggs 10 minutes, cool, peel and chop.",
+      "Mix the mayonnaise, mustard, salt and pepper.",
+      "Combine everything with the onion and chill before serving."
+    ],
+    "fr": [
+      "Épluchez et coupez en dés les pommes de terre et les carottes, et coupez les haricots verts.",
+      "Faites-les cuire à l'eau salée jusqu'à ce qu'ils soient juste tendres (environ 12 minutes), en ajoutant les petits pois pour les 3 dernières minutes. Égouttez et laissez refroidir.",
+      "Faites cuire les œufs 10 minutes, refroidissez, écalez et hachez-les.",
+      "Mélangez la mayonnaise, la moutarde, le sel et le poivre.",
+      "Réunissez le tout avec l'oignon et mettez au frais avant de servir."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve cold as a starter or with grilled meat or fish."
+    ],
+    "fr": [
+      "Servez frais en entrée ou avec de la viande ou du poisson grillés."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

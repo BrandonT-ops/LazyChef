@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "vegetarian",
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 50,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "1 kg fresh cassava, peeled and finely grated",
+      "200 ml coconut milk",
+      "150 g sugar",
+      "2 eggs",
+      "50 g butter, melted",
+      "1 tsp vanilla",
+      "1 pinch of nutmeg",
+      "1 pinch of salt"
+    ],
+    "fr": [
+      "1 kg de manioc frais épluché et finement râpé",
+      "200 ml de lait de coco",
+      "150 g de sucre",
+      "2 œufs",
+      "50 g de beurre fondu",
+      "1 c. à café de vanille",
+      "1 pincée de muscade",
+      "1 pincée de sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oven to 180 °C and grease a baking dish.",
+      "Squeeze the grated cassava in a cloth to remove some of its liquid.",
+      "Mix with the coconut milk, sugar, eggs, melted butter, vanilla, nutmeg and salt.",
+      "Pour into the dish and smooth the top.",
+      "Bake 45 to 50 minutes, until golden and firm."
+    ],
+    "fr": [
+      "Préchauffez le four à 180 °C et beurrez un plat.",
+      "Pressez le manioc râpé dans un linge pour retirer une partie de son jus.",
+      "Mélangez-le avec le lait de coco, le sucre, les œufs, le beurre fondu, la vanille, la muscade et le sel.",
+      "Versez dans le plat et lissez le dessus.",
+      "Faites cuire 45 à 50 minutes, jusqu'à ce qu'il soit doré et ferme."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Let it cool before cutting into squares."
+    ],
+    "fr": [
+      "Laissez refroidir avant de couper en carrés."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

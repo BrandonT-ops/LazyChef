@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 chicken (a village chicken is traditional), in pieces",
+      "150 ml red palm oil",
+      "1 onion",
+      "3 cloves garlic",
+      "1 thumb of ginger",
+      "1 hot pepper",
+      "2 stock cubes, salt",
+      "For serving: corn fufu (corn couscous) and njama-njama (huckleberry leaves) or spinach"
+    ],
+    "fr": [
+      "1 poulet (un poulet du village est traditionnel) en morceaux",
+      "150 ml d'huile de palme rouge",
+      "1 oignon",
+      "3 gousses d'ail",
+      "1 morceau de gingembre",
+      "1 piment",
+      "2 cubes, sel",
+      "Pour servir : couscous de maïs et njama-njama (morelle) ou épinards"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the chicken with salt and grill it over charcoal (or roast it) until browned and nearly cooked.",
+      "Blend the onion, garlic, ginger and pepper.",
+      "In a pot, warm the palm oil, add the blended mix and cook 5 minutes.",
+      "Add the grilled chicken, stock cubes and a splash of water, and simmer 20 to 30 minutes until the chicken is tender and coated in the red oil sauce.",
+      "Meanwhile, prepare the corn fufu and sauté the njama-njama with a little onion and oil."
+    ],
+    "fr": [
+      "Salez le poulet et faites-le griller sur la braise (ou rôtir) jusqu'à ce qu'il soit doré et presque cuit.",
+      "Mixez l'oignon, l'ail, le gingembre et le piment.",
+      "Dans une marmite, chauffez l'huile de palme, ajoutez le mélange mixé et laissez cuire 5 minutes.",
+      "Ajoutez le poulet grillé, les cubes et un peu d'eau, et laissez mijoter 20 à 30 minutes jusqu'à ce que le poulet soit tendre et enrobé de sauce rouge.",
+      "Pendant ce temps, préparez le couscous de maïs et faites sauter le njama-njama avec un peu d'oignon et d'huile."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve the chicken with corn fufu and njama-njama on the side."
+    ],
+    "fr": [
+      "Servez le poulet avec le couscous de maïs et le njama-njama à côté."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

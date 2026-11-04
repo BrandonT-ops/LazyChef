@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "budget",
+    "vegetarian"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 90,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "500 g red beans, soaked overnight",
+      "150 ml red palm oil or vegetable oil",
+      "2 onions, sliced",
+      "3 tomatoes, chopped",
+      "2 cloves garlic",
+      "1 thumb of ginger",
+      "1 hot pepper",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "500 g de haricots rouges trempés la veille",
+      "150 ml d'huile de palme rouge ou d'huile végétale",
+      "2 oignons émincés",
+      "3 tomates hachées",
+      "2 gousses d'ail",
+      "1 morceau de gingembre",
+      "1 piment",
+      "2 cubes, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cook the soaked beans in fresh water until soft, about 1 hour. Drain, keeping a cup of the water.",
+      "Heat the oil and fry the onions until golden.",
+      "Add the garlic, ginger, pepper and tomatoes and cook 10 minutes into a thick sauce.",
+      "Add the beans, stock cubes, salt and a little of the cooking water.",
+      "Simmer 15 minutes, stirring gently, until the beans soak up the sauce."
+    ],
+    "fr": [
+      "Faites cuire les haricots trempés dans de l'eau propre jusqu'à ce qu'ils soient tendres, environ 1 heure. Égouttez en gardant une tasse d'eau.",
+      "Chauffez l'huile et faites dorer les oignons.",
+      "Ajoutez l'ail, le gingembre, le piment et les tomates et laissez cuire 10 minutes pour obtenir une sauce épaisse.",
+      "Ajoutez les haricots, les cubes, le sel et un peu d'eau de cuisson.",
+      "Laissez mijoter 15 minutes en remuant doucement, jusqu'à ce que les haricots prennent la sauce."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fried ripe plantain, bread, rice or beignets."
+    ],
+    "fr": [
+      "Servez avec du plantain mûr frit, du pain, du riz ou des beignets."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

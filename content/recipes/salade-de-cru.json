@@ -1,0 +1,59 @@
+{
+  "tags": [
+    "vegetarian",
+    "quick",
+    "budget"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "½ small cabbage, finely sliced",
+      "2 carrots, grated",
+      "1 cucumber, sliced",
+      "2 tomatoes, in wedges",
+      "1 small onion, sliced",
+      "3 tbsp oil",
+      "1 tbsp vinegar or lime juice",
+      "1 tsp mustard",
+      "Salt and pepper"
+    ],
+    "fr": [
+      "½ petit chou émincé finement",
+      "2 carottes râpées",
+      "1 concombre en rondelles",
+      "2 tomates en quartiers",
+      "1 petit oignon émincé",
+      "3 c. à soupe d'huile",
+      "1 c. à soupe de vinaigre ou de jus de citron",
+      "1 c. à café de moutarde",
+      "Sel et poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash all the vegetables well.",
+      "Slice, grate and cut them as listed.",
+      "Whisk the oil, vinegar, mustard, salt and pepper.",
+      "Toss the vegetables with the dressing just before serving."
+    ],
+    "fr": [
+      "Lavez bien tous les légumes.",
+      "Émincez, râpez et coupez-les comme indiqué.",
+      "Fouettez l'huile, le vinaigre, la moutarde, le sel et le poivre.",
+      "Mélangez les légumes à la vinaigrette juste avant de servir."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve as a side with grilled fish or chicken, or with boiled eggs and avocado for a light meal."
+    ],
+    "fr": [
+      "Servez en accompagnement de poisson ou de poulet grillé, ou avec des œufs durs et de l'avocat pour un repas léger."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "8 green or half-ripe plantains",
+      "300 g smoked fish or dried shrimps",
+      "2 tomatoes",
+      "1 onion",
+      "100 ml red palm oil",
+      "1 hot pepper",
+      "A handful of spinach or bitter leaves (optional)",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "8 plantains verts ou mi-mûrs",
+      "300 g de poisson fumé ou de crevettes séchées",
+      "2 tomates",
+      "1 oignon",
+      "100 ml d'huile de palme rouge",
+      "1 piment",
+      "Une poignée d'épinards ou de feuilles de ndolé (facultatif)",
+      "2 cubes, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the plantains and cut them into pieces.",
+      "Blend the tomatoes, onion and pepper.",
+      "Warm the palm oil, add the blended mix and cook 5 minutes.",
+      "Add the plantains, smoked fish, stock cubes, salt and enough water to almost cover. Cook 25 to 30 minutes until the plantains are very soft.",
+      "Mash them roughly into the sauce (that's the 'malaxé'), stir in the leaves and cook 5 more minutes."
+    ],
+    "fr": [
+      "Épluchez les plantains et coupez-les en morceaux.",
+      "Mixez les tomates, l'oignon et le piment.",
+      "Chauffez l'huile de palme, ajoutez le mélange mixé et laissez cuire 5 minutes.",
+      "Ajoutez les plantains, le poisson fumé, les cubes, le sel et presque assez d'eau pour couvrir. Laissez cuire 25 à 30 minutes jusqu'à ce que les plantains soient très tendres.",
+      "Écrasez-les grossièrement dans la sauce (c'est le « malaxé »), ajoutez les feuilles et laissez cuire encore 5 minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A one-pot meal: serve hot in deep plates."
+    ],
+    "fr": [
+      "Un plat complet : servez chaud dans des assiettes creuses."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

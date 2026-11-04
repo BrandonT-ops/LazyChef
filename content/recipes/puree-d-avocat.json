@@ -1,0 +1,55 @@
+{
+  "tags": [
+    "quick",
+    "vegetarian",
+    "budget"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "2 ripe avocados",
+      "Juice of ½ lime",
+      "½ small onion, finely chopped",
+      "½ tomato, diced",
+      "1 pinch of chili (optional)",
+      "Salt"
+    ],
+    "fr": [
+      "2 avocats mûrs",
+      "Le jus d'un demi citron vert",
+      "½ petit oignon finement haché",
+      "½ tomate en dés",
+      "1 pincée de piment (facultatif)",
+      "Sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Halve the avocados, remove the stones and scoop the flesh into a bowl.",
+      "Mash with a fork, leaving it a little chunky.",
+      "Stir in the lime juice, onion, tomato, chili and salt.",
+      "Taste and add more lime or salt if needed."
+    ],
+    "fr": [
+      "Coupez les avocats en deux, retirez les noyaux et mettez la chair dans un bol.",
+      "Écrasez à la fourchette en gardant quelques morceaux.",
+      "Ajoutez le jus de citron, l'oignon, la tomate, le piment et le sel.",
+      "Goûtez et rajoutez du citron ou du sel si besoin."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Spread on bread or toast, or eat with boiled eggs.",
+      "Make it just before eating so it stays green."
+    ],
+    "fr": [
+      "Tartinez sur du pain ou des toasts, ou mangez avec des œufs durs.",
+      "Préparez-la juste avant de manger pour qu'elle reste bien verte."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

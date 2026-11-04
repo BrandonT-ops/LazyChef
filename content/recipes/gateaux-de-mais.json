@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "vegetarian",
+    "snack"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "10 ears of fresh corn (not too dry)",
+      "100 ml oil or 100 g butter, melted",
+      "3 tbsp sugar (or 1 tsp salt for a savory version)",
+      "1 pinch of salt",
+      "Fresh corn husks or banana leaves for wrapping"
+    ],
+    "fr": [
+      "10 épis de maïs frais (pas trop secs)",
+      "100 ml d'huile ou 100 g de beurre fondu",
+      "3 c. à soupe de sucre (ou 1 c. à café de sel pour une version salée)",
+      "1 pincée de sel",
+      "Des feuilles de maïs fraîches ou de bananier pour emballer"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Remove the husks carefully and keep the best ones for wrapping.",
+      "Grate or blend the corn kernels into a thick paste (a little water only if needed).",
+      "Mix in the oil, sugar and salt.",
+      "Spoon the paste into husks or banana leaves, fold and tie.",
+      "Steam on a bed of husks with a little water for about 1 hour, until firm."
+    ],
+    "fr": [
+      "Retirez les feuilles délicatement et gardez les plus belles pour emballer.",
+      "Râpez ou mixez les grains de maïs en une pâte épaisse (un peu d'eau seulement si besoin).",
+      "Ajoutez l'huile, le sucre et le sel.",
+      "Déposez la pâte dans les feuilles de maïs ou de bananier, pliez et ficelez.",
+      "Faites cuire à la vapeur sur un lit de feuilles avec un peu d'eau pendant environ 1 heure, jusqu'à ce qu'ils soient fermes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Eat warm as a snack or with a sauce, or for breakfast with tea."
+    ],
+    "fr": [
+      "À manger tiède en en-cas ou avec une sauce, ou au petit-déjeuner avec du thé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

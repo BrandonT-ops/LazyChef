@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids",
+    "quick"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 ripe pineapple",
+      "1 litre cold water",
+      "1 thumb of ginger (optional)",
+      "Sugar or honey to taste",
+      "Ice"
+    ],
+    "fr": [
+      "1 ananas bien mûr",
+      "1 litre d'eau froide",
+      "1 morceau de gingembre (facultatif)",
+      "Du sucre ou du miel à votre goût",
+      "Des glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the pineapple and cut the flesh into pieces (keep the core, it adds flavor).",
+      "Blend with half the water and the ginger.",
+      "Strain through a fine sieve, pressing well.",
+      "Add the rest of the water and sweeten to taste.",
+      "Chill and serve with ice."
+    ],
+    "fr": [
+      "Épluchez l'ananas et coupez la chair en morceaux (gardez le cœur, il donne du goût).",
+      "Mixez avec la moitié de l'eau et le gingembre.",
+      "Filtrez dans une passoire fine en pressant bien.",
+      "Ajoutez le reste de l'eau et sucrez à votre goût.",
+      "Mettez au frais et servez avec des glaçons."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Keeps 2 days in the fridge; shake before serving."
+    ],
+    "fr": [
+      "Se garde 2 jours au frais ; secouez avant de servir."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

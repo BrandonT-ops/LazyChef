@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 75,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg fresh palm nuts (or 800 ml palm nut cream)",
+      "500 g fish (fresh or smoked) or meat",
+      "300 g dried shrimps or crayfish",
+      "1 onion",
+      "1 tbsp mbanga soup spices (country onion, njansang, bush pepper…)",
+      "1 hot pepper",
+      "A handful of scent leaves or basil",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "1 kg de noix de palme fraîches (ou 800 ml de crème de noix de palme)",
+      "500 g de poisson (frais ou fumé) ou de viande",
+      "300 g de crevettes séchées ou de crayfish",
+      "1 oignon",
+      "1 c. à soupe d'épices pour mbanga soup (esèsè, njansang, poivre sauvage…)",
+      "1 piment",
+      "Une poignée de massep ou de basilic",
+      "2 cubes, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the palm nuts about 30 minutes until soft, then pound them and squeeze them in warm water to extract the cream. Strain out the fibres and kernels.",
+      "Bring the palm cream to a boil and cook 20 minutes, stirring now and then.",
+      "Add the onion, spices, pepper and stock cubes and simmer 10 minutes.",
+      "Add the fish (or cooked meat) and shrimps and simmer 15 minutes until the soup thickens and the oil rises a little.",
+      "Add the scent leaves and adjust the salt."
+    ],
+    "fr": [
+      "Faites bouillir les noix de palme environ 30 minutes jusqu'à ce qu'elles soient tendres, puis pilez-les et pressez-les dans de l'eau tiède pour extraire la crème. Filtrez les fibres et les noyaux.",
+      "Portez la crème de palme à ébullition et laissez cuire 20 minutes en remuant de temps en temps.",
+      "Ajoutez l'oignon, les épices, le piment et les cubes et laissez mijoter 10 minutes.",
+      "Ajoutez le poisson (ou la viande cuite) et les crevettes et laissez mijoter 15 minutes jusqu'à ce que la sauce épaississe et que l'huile remonte un peu.",
+      "Ajoutez le massep et rectifiez le sel."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with boiled plantain, garri, water fufu or rice."
+    ],
+    "fr": [
+      "Servez avec du plantain bouilli, du gari, du water fufu ou du riz."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

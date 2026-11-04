@@ -1,0 +1,56 @@
+{
+  "tags": [
+    "snack",
+    "occasion"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "7 eggs (6 boiled, 1 beaten)",
+      "500 g sausage meat or seasoned minced beef",
+      "1 small onion, finely chopped",
+      "1 tsp thyme, salt, pepper, chili",
+      "100 g flour",
+      "120 g breadcrumbs",
+      "Oil for frying"
+    ],
+    "fr": [
+      "7 œufs (6 durs, 1 battu)",
+      "500 g de chair à saucisse ou de bœuf haché assaisonné",
+      "1 petit oignon finement haché",
+      "1 c. à café de thym, sel, poivre, piment",
+      "100 g de farine",
+      "120 g de chapelure",
+      "De l'huile pour la friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil 6 eggs for 8 minutes, cool and peel.",
+      "Mix the meat with the onion, thyme and seasoning, and divide into 6.",
+      "Roll each egg in flour, then wrap it evenly in a portion of meat.",
+      "Dip in beaten egg, then roll in breadcrumbs.",
+      "Fry in medium-hot oil 7 to 8 minutes, turning, until deep golden and the meat is cooked through."
+    ],
+    "fr": [
+      "Faites cuire 6 œufs 8 minutes, refroidissez-les et écalez-les.",
+      "Mélangez la viande avec l'oignon, le thym et l'assaisonnement, et divisez en 6.",
+      "Roulez chaque œuf dans la farine, puis enveloppez-le uniformément d'une portion de viande.",
+      "Passez-les dans l'œuf battu, puis dans la chapelure.",
+      "Faites frire dans l'huile moyennement chaude 7 à 8 minutes en retournant, jusqu'à ce qu'ils soient bien dorés et la viande cuite."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Cut in half and serve warm or cold with ketchup or pepper sauce."
+    ],
+    "fr": [
+      "Coupez en deux et servez chaud ou froid avec du ketchup ou du piment."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

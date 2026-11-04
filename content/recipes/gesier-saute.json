@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "snack",
+    "occasion"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 50,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "800 g chicken gizzards, cleaned",
+      "2 onions, sliced",
+      "1 green bell pepper, sliced",
+      "2 tomatoes, chopped",
+      "3 cloves garlic",
+      "1 thumb of ginger",
+      "1 hot pepper",
+      "2 stock cubes, salt",
+      "3 tbsp oil"
+    ],
+    "fr": [
+      "800 g de gésiers de poulet nettoyés",
+      "2 oignons émincés",
+      "1 poivron vert émincé",
+      "2 tomates hachées",
+      "3 gousses d'ail",
+      "1 morceau de gingembre",
+      "1 piment",
+      "2 cubes, sel",
+      "3 c. à soupe d'huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the gizzards with half an onion, garlic, ginger, a stock cube and salt until tender, about 35 minutes. Drain and slice them.",
+      "Fry the sliced gizzards in the oil until golden at the edges.",
+      "Add the onions, bell pepper, tomatoes and pepper and stir-fry 8 minutes.",
+      "Add the second stock cube and a splash of the cooking water, and cook until it coats the gizzards."
+    ],
+    "fr": [
+      "Faites bouillir les gésiers avec un demi-oignon, l'ail, le gingembre, un cube et du sel jusqu'à ce qu'ils soient tendres, environ 35 minutes. Égouttez et coupez-les en lamelles.",
+      "Faites dorer les gésiers dans l'huile.",
+      "Ajoutez les oignons, le poivron, les tomates et le piment et faites sauter 8 minutes.",
+      "Ajoutez le second cube et un peu d'eau de cuisson, et laissez cuire jusqu'à ce que la sauce enrobe les gésiers."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve as a snack with cold drinks, or with fried plantain or fries."
+    ],
+    "fr": [
+      "Servez à l'apéritif avec des boissons fraîches, ou avec du plantain frit ou des frites."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

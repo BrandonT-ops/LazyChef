@@ -1,0 +1,63 @@
+{
+  "tags": [
+    "budget"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg fresh tomatoes (or 2 tins)",
+      "2 onions",
+      "1 red bell pepper",
+      "3 cloves garlic",
+      "1 thumb of ginger",
+      "1 hot pepper",
+      "2 tbsp tomato paste",
+      "100 ml oil",
+      "500 g beef, chicken or fried fish (optional)",
+      "2 stock cubes, salt, 1 bay leaf"
+    ],
+    "fr": [
+      "1 kg de tomates fraîches (ou 2 boîtes)",
+      "2 oignons",
+      "1 poivron rouge",
+      "3 gousses d'ail",
+      "1 morceau de gingembre",
+      "1 piment",
+      "2 c. à soupe de concentré de tomate",
+      "100 ml d'huile",
+      "500 g de bœuf, de poulet ou de poisson frit (facultatif)",
+      "2 cubes, sel, 1 feuille de laurier"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend the tomatoes, 1 onion, the bell pepper, garlic, ginger and pepper.",
+      "Heat the oil and fry the second onion, sliced, until soft. Add the tomato paste and fry 2 minutes.",
+      "Pour in the blended mix and the bay leaf, and cook uncovered on medium heat 25 to 30 minutes, stirring now and then, until thick and the oil rises to the top.",
+      "Add the cooked meat or fried fish and the stock cubes, and simmer 10 more minutes.",
+      "Season to taste."
+    ],
+    "fr": [
+      "Mixez les tomates, 1 oignon, le poivron, l'ail, le gingembre et le piment.",
+      "Chauffez l'huile et faites revenir le second oignon émincé. Ajoutez le concentré et faites-le revenir 2 minutes.",
+      "Versez le mélange mixé et le laurier, et laissez cuire à découvert à feu moyen 25 à 30 minutes en remuant de temps en temps, jusqu'à ce que ce soit épais et que l'huile remonte.",
+      "Ajoutez la viande cuite ou le poisson frit et les cubes, et laissez mijoter encore 10 minutes.",
+      "Rectifiez l'assaisonnement."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with white rice, boiled plantain, yam, potatoes or spaghetti.",
+      "Keeps 4 days in the fridge and freezes well."
+    ],
+    "fr": [
+      "Servez avec du riz blanc, du plantain bouilli, de l'igname, des pommes de terre ou des spaghettis.",
+      "Se garde 4 jours au frais et se congèle bien."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

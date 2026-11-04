@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "budget",
+    "quick",
+    "vegetarian"
+  ],
+  "prepMinutes": 2,
+  "cookMinutes": 0,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "4 tbsp tapioca (garri)",
+      "Cold water",
+      "2 tbsp sugar",
+      "3 tbsp milk (evaporated or powdered)",
+      "A handful of roasted peanuts (optional)"
+    ],
+    "fr": [
+      "4 c. à soupe de tapioca (gari)",
+      "De l'eau froide",
+      "2 c. à soupe de sucre",
+      "3 c. à soupe de lait (concentré non sucré ou en poudre)",
+      "Une poignée d'arachides grillées (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Put the tapioca in a bowl and cover with cold water.",
+      "Stir, let the light bits float up and pour off some of the water if you like it less wet.",
+      "Add the sugar and milk and stir.",
+      "Top with roasted peanuts and eat straight away."
+    ],
+    "fr": [
+      "Mettez le tapioca dans un bol et couvrez d'eau froide.",
+      "Mélangez, laissez remonter les petites peaux et videz un peu d'eau si vous l'aimez moins liquide.",
+      "Ajoutez le sucre et le lait et mélangez.",
+      "Parsemez d'arachides grillées et mangez aussitôt."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A quick breakfast or snack on hot days."
+    ],
+    "fr": [
+      "Un petit-déjeuner ou un en-cas rapide quand il fait chaud."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

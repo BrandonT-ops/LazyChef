@@ -1,0 +1,61 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1.5 kg pork (ribs, belly or shoulder), in pieces",
+      "2 onions",
+      "5 cloves garlic",
+      "1 thumb of ginger",
+      "1 small bunch of parsley and celery",
+      "1 tsp pebe or white pepper",
+      "1 hot pepper",
+      "1 tbsp mustard",
+      "2 stock cubes, salt",
+      "3 tbsp oil"
+    ],
+    "fr": [
+      "1,5 kg de porc (travers, poitrine ou échine) en morceaux",
+      "2 oignons",
+      "5 gousses d'ail",
+      "1 morceau de gingembre",
+      "1 petite botte de persil et de céleri",
+      "1 c. à café de pèbè ou de poivre blanc",
+      "1 piment",
+      "1 c. à soupe de moutarde",
+      "2 cubes, sel",
+      "3 c. à soupe d'huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend 1 onion with the garlic, ginger, herbs, spices, pepper, mustard, stock cubes, salt and oil.",
+      "Coat the pork and leave at least 1 hour (overnight is best).",
+      "Boil the pork in a little water with its marinade for 20 minutes so it cooks through.",
+      "Grill over medium charcoal 15 to 20 minutes, turning and brushing with the leftover juices, until well browned and crisp at the edges.",
+      "Serve with the second onion, sliced into rings."
+    ],
+    "fr": [
+      "Mixez 1 oignon avec l'ail, le gingembre, les herbes, les épices, le piment, la moutarde, les cubes, le sel et l'huile.",
+      "Enrobez le porc et laissez reposer au moins 1 heure (une nuit, c'est mieux).",
+      "Faites bouillir le porc dans un peu d'eau avec sa marinade 20 minutes pour qu'il soit bien cuit.",
+      "Faites griller sur une braise moyenne 15 à 20 minutes en retournant et en badigeonnant du jus restant, jusqu'à ce qu'il soit bien doré et croustillant sur les bords.",
+      "Servez avec le second oignon en rondelles."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fried plantain, bobolo, miondo or fries, and pepper sauce."
+    ],
+    "fr": [
+      "Servez avec du plantain frit, du bâton de manioc, du miondo ou des frites, et du piment."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

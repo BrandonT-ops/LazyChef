@@ -1,0 +1,63 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 70,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "1 chicken (about 1.5 kg), in pieces",
+      "8 green (unripe) plantains",
+      "2 onions",
+      "3 tomatoes",
+      "4 cloves garlic",
+      "1 thumb of ginger",
+      "1 tsp each of white pepper, pebe and njansang (or kondre spice mix)",
+      "1 leek or a few celery stalks",
+      "1 hot pepper",
+      "4 tbsp oil",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "1 poulet (environ 1,5 kg) en morceaux",
+      "8 plantains verts",
+      "2 oignons",
+      "3 tomates",
+      "4 gousses d'ail",
+      "1 morceau de gingembre",
+      "1 c. à café de poivre blanc, de pèbè et de njansang (ou mélange pour kondre)",
+      "1 poireau ou quelques branches de céleri",
+      "1 piment",
+      "4 c. à soupe d'huile",
+      "2 cubes, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the chicken with garlic, ginger, a stock cube and salt and leave 15 minutes.",
+      "Blend the onions, tomatoes, leek and spices.",
+      "Cook the chicken with the blended spices and oil for 15 minutes.",
+      "Peel the plantains, cut each into 3 or 4 pieces, and add them with enough water to just cover.",
+      "Cover and cook on medium heat 30 to 40 minutes until the plantains are soft and the sauce has thickened. Stir gently once or twice and season."
+    ],
+    "fr": [
+      "Assaisonnez le poulet avec l'ail, le gingembre, un cube et du sel et laissez reposer 15 minutes.",
+      "Mixez les oignons, les tomates, le poireau et les épices.",
+      "Faites cuire le poulet avec les épices mixées et l'huile 15 minutes.",
+      "Épluchez les plantains, coupez chacun en 3 ou 4 morceaux et ajoutez-les avec juste assez d'eau pour les couvrir.",
+      "Couvrez et laissez cuire à feu moyen 30 à 40 minutes jusqu'à ce que les plantains soient tendres et la sauce épaissie. Remuez délicatement une ou deux fois et rectifiez l'assaisonnement."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A one-pot meal: no side needed."
+    ],
+    "fr": [
+      "Un plat complet en une marmite : pas besoin d'accompagnement."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,50 @@
+{
+  "tags": [
+    "budget",
+    "quick",
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 2,
+  "cookMinutes": 5,
+  "servings": 1,
+  "ingredients": {
+    "en": [
+      "2 eggs",
+      "1 tbsp oil or butter",
+      "Salt and pepper",
+      "½ tomato and ½ onion, chopped (optional)"
+    ],
+    "fr": [
+      "2 œufs",
+      "1 c. à soupe d'huile ou de beurre",
+      "Sel et poivre",
+      "½ tomate et ½ oignon hachés (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oil in a frying pan over medium heat.",
+      "If you like, soften the onion and tomato for 2 minutes first.",
+      "Crack in the eggs and cook 2 to 3 minutes, until the white is set; flip for 30 seconds if you prefer them well done.",
+      "Season with salt and pepper."
+    ],
+    "fr": [
+      "Chauffez l'huile dans une poêle à feu moyen.",
+      "Si vous voulez, faites revenir l'oignon et la tomate 2 minutes d'abord.",
+      "Cassez les œufs et laissez cuire 2 à 3 minutes jusqu'à ce que le blanc soit pris ; retournez-les 30 secondes si vous les aimez bien cuits.",
+      "Salez et poivrez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with bread, fried plantain or avocado."
+    ],
+    "fr": [
+      "Servez avec du pain, du plantain frit ou de l'avocat."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "vegetarian",
+    "occasion"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "½ ripe pineapple",
+      "6 passion fruits",
+      "1 litre cold water",
+      "Sugar to taste",
+      "Ice"
+    ],
+    "fr": [
+      "½ ananas bien mûr",
+      "6 fruits de la passion",
+      "1 litre d'eau froide",
+      "Du sucre à votre goût",
+      "Des glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel and chop the pineapple.",
+      "Scoop out the passion fruit pulp.",
+      "Blend the pineapple with half the water, then add the passion fruit pulp and pulse briefly (don't crush the seeds).",
+      "Strain, add the rest of the water and sweeten.",
+      "Chill and serve with ice."
+    ],
+    "fr": [
+      "Épluchez et coupez l'ananas.",
+      "Récupérez la pulpe des fruits de la passion.",
+      "Mixez l'ananas avec la moitié de l'eau, puis ajoutez la pulpe de passion et mixez brièvement (sans écraser les graines).",
+      "Filtrez, ajoutez le reste de l'eau et sucrez.",
+      "Mettez au frais et servez avec des glaçons."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A favorite for parties and hot afternoons."
+    ],
+    "fr": [
+      "Un incontournable des fêtes et des après-midi chauds."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

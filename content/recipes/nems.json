@@ -1,0 +1,62 @@
+{
+  "tags": [
+    "snack",
+    "occasion"
+  ],
+  "prepMinutes": 40,
+  "cookMinutes": 20,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "20 spring roll wrappers (rice or wheat)",
+      "300 g minced beef or chicken",
+      "50 g glass noodles, soaked",
+      "2 carrots, grated",
+      "¼ cabbage, finely sliced",
+      "1 onion, finely chopped",
+      "2 cloves garlic",
+      "1 egg",
+      "2 tbsp soy sauce, salt, pepper",
+      "Oil for frying"
+    ],
+    "fr": [
+      "20 galettes pour nems (riz ou blé)",
+      "300 g de viande hachée de bœuf ou de poulet",
+      "50 g de vermicelles de soja trempés",
+      "2 carottes râpées",
+      "¼ de chou émincé finement",
+      "1 oignon finement haché",
+      "2 gousses d'ail",
+      "1 œuf",
+      "2 c. à soupe de sauce soja, sel, poivre",
+      "De l'huile pour la friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cut the soaked noodles short and mix them with the meat, vegetables, onion, garlic, egg, soy sauce, salt and pepper.",
+      "If using rice paper, dip each sheet in warm water for a few seconds to soften it.",
+      "Put a spoonful of filling near the bottom, fold the sides in and roll up tightly.",
+      "Fry in medium-hot oil 6 to 8 minutes, turning, until golden and crisp.",
+      "Drain on paper towels."
+    ],
+    "fr": [
+      "Coupez les vermicelles et mélangez-les avec la viande, les légumes, l'oignon, l'ail, l'œuf, la sauce soja, le sel et le poivre.",
+      "Si vous utilisez des galettes de riz, trempez chaque feuille quelques secondes dans l'eau tiède pour l'assouplir.",
+      "Déposez une cuillerée de farce en bas, rabattez les côtés et roulez bien serré.",
+      "Faites frire dans l'huile moyennement chaude 6 à 8 minutes en retournant, jusqu'à ce qu'ils soient dorés et croustillants.",
+      "Égouttez sur du papier absorbant."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve hot with lettuce leaves, fresh mint and a sweet chili or soy dipping sauce."
+    ],
+    "fr": [
+      "Servez chaud avec des feuilles de salade, de la menthe fraîche et une sauce aigre-douce ou soja."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

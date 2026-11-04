@@ -1,0 +1,52 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "8 ripe guavas",
+      "1 litre cold water",
+      "Juice of 1 lime",
+      "Sugar to taste",
+      "Ice"
+    ],
+    "fr": [
+      "8 goyaves bien mûres",
+      "1 litre d'eau froide",
+      "Le jus d'un citron vert",
+      "Du sucre à votre goût",
+      "Des glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash the guavas, cut off the ends and cut them into pieces.",
+      "Blend with half the water.",
+      "Strain through a fine sieve to remove the hard seeds, pressing well.",
+      "Add the rest of the water, the lime juice and sugar.",
+      "Chill and serve with ice."
+    ],
+    "fr": [
+      "Lavez les goyaves, coupez les extrémités et coupez-les en morceaux.",
+      "Mixez avec la moitié de l'eau.",
+      "Filtrez dans une passoire fine pour retirer les graines dures, en pressant bien.",
+      "Ajoutez le reste de l'eau, le jus de citron et le sucre.",
+      "Mettez au frais et servez avec des glaçons."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Keeps 2 days in the fridge."
+    ],
+    "fr": [
+      "Se garde 2 jours au frais."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

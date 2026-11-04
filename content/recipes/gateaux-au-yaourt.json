@@ -1,0 +1,59 @@
+{
+  "tags": [
+    "kids",
+    "vegetarian",
+    "budget"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "1 pot of plain yogurt (125 g), used as the measure",
+      "3 pots of flour",
+      "2 pots of sugar",
+      "½ pot of oil",
+      "3 eggs",
+      "1 sachet (11 g) baking powder",
+      "1 tsp vanilla or lemon zest"
+    ],
+    "fr": [
+      "1 pot de yaourt nature (125 g), qui sert de mesure",
+      "3 pots de farine",
+      "2 pots de sucre",
+      "½ pot d'huile",
+      "3 œufs",
+      "1 sachet (11 g) de levure chimique",
+      "1 c. à café de vanille ou de zeste de citron"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oven to 180 °C and grease a cake tin.",
+      "Empty the yogurt into a bowl, then use the empty pot to measure the rest.",
+      "Mix in the eggs and sugar, then the oil and vanilla.",
+      "Add the flour and baking powder and mix until just smooth.",
+      "Pour into the tin and bake 30 to 35 minutes, until a knife comes out clean."
+    ],
+    "fr": [
+      "Préchauffez le four à 180 °C et beurrez un moule.",
+      "Videz le yaourt dans un saladier, puis utilisez le pot vide pour mesurer le reste.",
+      "Ajoutez les œufs et le sucre, puis l'huile et la vanille.",
+      "Ajoutez la farine et la levure et mélangez juste ce qu'il faut.",
+      "Versez dans le moule et faites cuire 30 à 35 minutes, jusqu'à ce qu'un couteau ressorte propre."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve in slices with tea, coffee or juice.",
+      "Keeps 3 days wrapped."
+    ],
+    "fr": [
+      "Servez en parts avec du thé, du café ou un jus.",
+      "Se garde 3 jours emballé."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "budget",
+    "quick",
+    "vegetarian"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "1 small cabbage, finely sliced",
+      "2 carrots, cut in thin sticks",
+      "1 green bell pepper, sliced",
+      "1 onion, sliced",
+      "2 tomatoes, chopped",
+      "2 cloves garlic",
+      "3 tbsp oil",
+      "1 stock cube, salt, pepper"
+    ],
+    "fr": [
+      "1 petit chou émincé finement",
+      "2 carottes en bâtonnets fins",
+      "1 poivron vert émincé",
+      "1 oignon émincé",
+      "2 tomates hachées",
+      "2 gousses d'ail",
+      "3 c. à soupe d'huile",
+      "1 cube, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oil and fry the onion and garlic for 2 minutes.",
+      "Add the tomatoes and cook 5 minutes.",
+      "Add the cabbage, carrots and bell pepper and stir-fry on medium-high heat 8 to 10 minutes. Keep the cabbage a little crunchy.",
+      "Season with the stock cube, salt and pepper."
+    ],
+    "fr": [
+      "Chauffez l'huile et faites revenir l'oignon et l'ail 2 minutes.",
+      "Ajoutez les tomates et laissez cuire 5 minutes.",
+      "Ajoutez le chou, les carottes et le poivron et faites sauter à feu moyen-vif 8 à 10 minutes. Gardez le chou un peu croquant.",
+      "Assaisonnez avec le cube, le sel et le poivre."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with rice, boiled plantain or as a side to grilled meat."
+    ],
+    "fr": [
+      "Servez avec du riz, du plantain bouilli ou en accompagnement de viande grillée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

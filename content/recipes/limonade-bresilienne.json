@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "vegetarian",
+    "quick",
+    "occasion"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "4 limes",
+      "1 litre cold water",
+      "100 g sugar",
+      "4 tbsp sweetened condensed milk",
+      "Ice"
+    ],
+    "fr": [
+      "4 citrons verts",
+      "1 litre d'eau froide",
+      "100 g de sucre",
+      "4 c. à soupe de lait concentré sucré",
+      "Des glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Wash the limes well, cut off the ends and cut each into 8 pieces (with the peel).",
+      "Blend the limes with the water and sugar for only 10 to 15 seconds (longer makes it bitter).",
+      "Strain straight away through a fine sieve.",
+      "Stir in the condensed milk.",
+      "Serve immediately over ice."
+    ],
+    "fr": [
+      "Lavez bien les citrons, coupez les extrémités et coupez chacun en 8 morceaux (avec la peau).",
+      "Mixez les citrons avec l'eau et le sucre seulement 10 à 15 secondes (plus longtemps, ça devient amer).",
+      "Filtrez aussitôt dans une passoire fine.",
+      "Ajoutez le lait concentré et mélangez.",
+      "Servez tout de suite sur des glaçons."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Drink it fresh: it turns bitter if it waits."
+    ],
+    "fr": [
+      "À boire tout de suite : elle devient amère en attendant."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

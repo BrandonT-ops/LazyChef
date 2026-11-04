@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 90,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "500 g ground pistachio seeds (egusi)",
+      "300 g smoked fish, flaked",
+      "200 g dried shrimps or crayfish",
+      "1 onion",
+      "1 hot pepper",
+      "2 stock cubes, salt",
+      "About 200 ml warm water",
+      "Banana leaves and string for wrapping"
+    ],
+    "fr": [
+      "500 g de graines de pistache (egusi) moulues",
+      "300 g de poisson fumé émietté",
+      "200 g de crevettes séchées ou de crayfish",
+      "1 oignon",
+      "1 piment",
+      "2 cubes, sel",
+      "Environ 200 ml d'eau tiède",
+      "Des feuilles de bananier et de la ficelle"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend the onion and pepper and mix them into the ground pistachio.",
+      "Add the smoked fish, shrimps, crushed stock cubes and salt, then enough warm water to make a thick, soft paste.",
+      "Soften the banana leaves over a flame, put a few spoonfuls of paste in the middle of each, fold into tight parcels and tie.",
+      "Steam the parcels in a pot on a bed of stalks with a little water for about 1½ hours, adding water as needed.",
+      "It's ready when the met is firm."
+    ],
+    "fr": [
+      "Mixez l'oignon et le piment et mélangez-les à la pistache moulue.",
+      "Ajoutez le poisson fumé, les crevettes, les cubes écrasés et le sel, puis assez d'eau tiède pour obtenir une pâte épaisse et souple.",
+      "Assouplissez les feuilles de bananier au-dessus d'une flamme, déposez quelques cuillerées de pâte au centre de chacune, fermez en papillotes bien serrées et ficelez.",
+      "Faites cuire les papillotes à la vapeur dans une marmite sur un lit de tiges avec un peu d'eau pendant environ 1 h 30, en rajoutant de l'eau si besoin.",
+      "C'est prêt quand le met est ferme."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with boiled plantain, bobolo or macabo."
+    ],
+    "fr": [
+      "Servez avec du plantain bouilli, du bâton de manioc ou du macabo."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

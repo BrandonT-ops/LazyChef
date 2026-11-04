@@ -1,0 +1,57 @@
+{
+  "tags": [],
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "150 g ground ogbono seeds",
+      "500 g beef or goat meat",
+      "300 g smoked or dried fish",
+      "2 tbsp ground crayfish",
+      "100 ml red palm oil",
+      "1 onion",
+      "1 hot pepper",
+      "A handful of spinach or bitter leaves",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "150 g de graines d'ogbono (mangue sauvage) moulues",
+      "500 g de bœuf ou de chèvre",
+      "300 g de poisson fumé ou séché",
+      "2 c. à soupe de crayfish moulu",
+      "100 ml d'huile de palme rouge",
+      "1 oignon",
+      "1 piment",
+      "Une poignée d'épinards ou de feuilles de ndolé",
+      "2 cubes, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cook the meat with the onion, salt and a stock cube until tender. Keep about 1 litre of broth.",
+      "Warm the palm oil on low heat (don't let it smoke), stir in the ground ogbono until it dissolves.",
+      "Add the broth little by little, stirring, until the soup draws (becomes stretchy).",
+      "Add the meat, fish, crayfish, pepper and second stock cube, and simmer 10 to 15 minutes, stirring often so it doesn't stick.",
+      "Stir in the leaves and cook 3 more minutes."
+    ],
+    "fr": [
+      "Faites cuire la viande avec l'oignon, du sel et un cube jusqu'à ce qu'elle soit tendre. Gardez environ 1 litre de bouillon.",
+      "Chauffez doucement l'huile de palme (sans la faire fumer) et ajoutez l'ogbono moulu en remuant jusqu'à ce qu'il fonde.",
+      "Ajoutez le bouillon petit à petit en remuant, jusqu'à ce que la sauce devienne gluante.",
+      "Ajoutez la viande, le poisson, le crayfish, le piment et le second cube, et laissez mijoter 10 à 15 minutes en remuant souvent pour que ça n'attache pas.",
+      "Ajoutez les feuilles et laissez cuire encore 3 minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with water fufu, garri or pounded yam."
+    ],
+    "fr": [
+      "Servez avec du water fufu, du gari ou de l'igname pilée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

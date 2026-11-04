@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "quick",
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 2,
+  "ingredients": {
+    "en": [
+      "1 ripe banana",
+      "1 cup of mango or pineapple pieces",
+      "250 ml milk or yogurt",
+      "1 tbsp honey or sugar (optional)",
+      "A few ice cubes"
+    ],
+    "fr": [
+      "1 banane mûre",
+      "1 tasse de morceaux de mangue ou d'ananas",
+      "250 ml de lait ou de yaourt",
+      "1 c. à soupe de miel ou de sucre (facultatif)",
+      "Quelques glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel and cut the fruit.",
+      "Put everything in a blender.",
+      "Blend until smooth, about 1 minute.",
+      "Taste and add honey or a splash of milk if it's too thick."
+    ],
+    "fr": [
+      "Épluchez et coupez les fruits.",
+      "Mettez tout dans un mixeur.",
+      "Mixez jusqu'à ce que ce soit lisse, environ 1 minute.",
+      "Goûtez et ajoutez du miel ou un peu de lait si c'est trop épais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve straight away in tall glasses."
+    ],
+    "fr": [
+      "Servez tout de suite dans de grands verres."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,59 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 120,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "1.5 kg goat meat (leg or shoulder), in large pieces",
+      "2 onions",
+      "5 cloves garlic",
+      "1 thumb of ginger",
+      "1 tsp each of pebe and white pepper (optional)",
+      "1 small bunch of parsley and celery",
+      "1 hot pepper",
+      "2 stock cubes, salt",
+      "4 tbsp oil"
+    ],
+    "fr": [
+      "1,5 kg de viande de chèvre (gigot ou épaule) en gros morceaux",
+      "2 oignons",
+      "5 gousses d'ail",
+      "1 morceau de gingembre",
+      "1 c. à café de pèbè et de poivre blanc (facultatif)",
+      "1 petite botte de persil et de céleri",
+      "1 piment",
+      "2 cubes, sel",
+      "4 c. à soupe d'huile"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend 1 onion with the garlic, ginger, spices, herbs, pepper, stock cubes and salt.",
+      "Coat the meat and leave at least 2 hours (overnight is best).",
+      "Simmer the meat with its marinade and a little water for about 1 hour, until nearly tender (goat is firm, so this step matters).",
+      "Heat the oven to 200 °C. Put the meat in a dish with the second onion, sliced, and the oil.",
+      "Roast 40 to 50 minutes, turning once and basting with the cooking juices, until well browned."
+    ],
+    "fr": [
+      "Mixez 1 oignon avec l'ail, le gingembre, les épices, les herbes, le piment, les cubes et le sel.",
+      "Enrobez la viande et laissez reposer au moins 2 heures (une nuit, c'est mieux).",
+      "Faites mijoter la viande avec sa marinade et un peu d'eau environ 1 heure, jusqu'à ce qu'elle soit presque tendre (la chèvre est ferme, cette étape compte).",
+      "Préchauffez le four à 200 °C. Mettez la viande dans un plat avec le second oignon émincé et l'huile.",
+      "Faites rôtir 40 à 50 minutes en retournant une fois et en arrosant de jus, jusqu'à ce qu'elle soit bien dorée."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fried plantain, bobolo or fries and a fresh pepper sauce."
+    ],
+    "fr": [
+      "Servez avec du plantain frit, du bâton de manioc ou des frites et un piment frais."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

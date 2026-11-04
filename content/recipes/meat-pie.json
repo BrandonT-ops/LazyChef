@@ -1,0 +1,60 @@
+{
+  "tags": [
+    "snack",
+    "occasion"
+  ],
+  "prepMinutes": 40,
+  "cookMinutes": 30,
+  "servings": 12,
+  "ingredients": {
+    "en": [
+      "For the pastry: 500 g flour, 250 g cold butter or margarine, 1 tsp baking powder, ½ tsp salt, 1 egg, about 100 ml cold water",
+      "For the filling: 400 g minced beef",
+      "2 potatoes, finely diced",
+      "1 carrot, finely diced",
+      "1 onion, chopped",
+      "1 tsp thyme and curry powder",
+      "1 stock cube, salt, pepper",
+      "1 tbsp flour mixed in 100 ml water",
+      "1 egg yolk to glaze"
+    ],
+    "fr": [
+      "Pour la pâte : 500 g de farine, 250 g de beurre ou de margarine froids, 1 c. à café de levure chimique, ½ c. à café de sel, 1 œuf, environ 100 ml d'eau froide",
+      "Pour la farce : 400 g de bœuf haché",
+      "2 pommes de terre en petits dés",
+      "1 carotte en petits dés",
+      "1 oignon haché",
+      "1 c. à café de thym et de curry",
+      "1 cube, sel, poivre",
+      "1 c. à soupe de farine délayée dans 100 ml d'eau",
+      "1 jaune d'œuf pour dorer"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Rub the butter into the flour, baking powder and salt until it looks like breadcrumbs. Add the egg and just enough cold water to make a dough. Chill 20 minutes.",
+      "Brown the beef with the onion, add the potato, carrot, thyme, curry and seasoning, and cook 10 minutes. Stir in the flour-water to thicken. Let it cool.",
+      "Roll out the pastry and cut circles about 12 cm wide.",
+      "Put a spoonful of filling on each, fold into half-moons, press the edges with a fork and brush with egg yolk.",
+      "Bake at 180 °C for 25 to 30 minutes until golden."
+    ],
+    "fr": [
+      "Sablez le beurre avec la farine, la levure et le sel. Ajoutez l'œuf et juste assez d'eau froide pour former une pâte. Réservez 20 minutes au frais.",
+      "Faites dorer le bœuf avec l'oignon, ajoutez la pomme de terre, la carotte, le thym, le curry et l'assaisonnement, et laissez cuire 10 minutes. Ajoutez la farine délayée pour épaissir. Laissez refroidir.",
+      "Étalez la pâte et découpez des disques d'environ 12 cm.",
+      "Déposez une cuillerée de farce sur chacun, pliez en demi-lune, soudez les bords à la fourchette et dorez au jaune d'œuf.",
+      "Faites cuire à 180 °C pendant 25 à 30 minutes jusqu'à ce qu'ils soient dorés."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve warm or cold as a snack, with a cold drink."
+    ],
+    "fr": [
+      "Servez chaud ou froid en en-cas, avec une boisson fraîche."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

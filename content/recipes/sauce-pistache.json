@@ -1,0 +1,61 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "400 g ground pistachio seeds (egusi)",
+      "500 g beef",
+      "300 g smoked fish",
+      "2 tbsp ground crayfish",
+      "2 onions",
+      "2 tomatoes (optional)",
+      "1 hot pepper",
+      "100 ml red palm oil",
+      "A handful of bitter leaves or spinach",
+      "2 stock cubes, salt"
+    ],
+    "fr": [
+      "400 g de graines de pistache (egusi) moulues",
+      "500 g de bœuf",
+      "300 g de poisson fumé",
+      "2 c. à soupe de crayfish moulu",
+      "2 oignons",
+      "2 tomates (facultatif)",
+      "1 piment",
+      "100 ml d'huile de palme rouge",
+      "Une poignée de feuilles de ndolé ou d'épinards",
+      "2 cubes, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cook the beef with 1 onion, salt and a stock cube until tender, about 40 minutes. Keep the broth.",
+      "Mix the ground pistachio with a little water into a thick paste.",
+      "Heat the palm oil, fry the second onion (and tomatoes if using), then drop in spoonfuls of the pistachio paste. Let them set 5 minutes before stirring so they form small lumps.",
+      "Add the meat with its broth, the smoked fish, crayfish and pepper, and simmer 15 minutes.",
+      "Stir in the leaves and the second stock cube and cook 5 more minutes."
+    ],
+    "fr": [
+      "Faites cuire le bœuf avec 1 oignon, du sel et un cube jusqu'à ce qu'il soit tendre, environ 40 minutes. Gardez le bouillon.",
+      "Mélangez la pistache moulue avec un peu d'eau en une pâte épaisse.",
+      "Chauffez l'huile de palme, faites revenir le second oignon (et les tomates si vous en mettez), puis déposez la pâte de pistache par cuillerées. Laissez prendre 5 minutes avant de remuer pour former de petits grumeaux.",
+      "Ajoutez la viande avec son bouillon, le poisson fumé, le crayfish et le piment, et laissez mijoter 15 minutes.",
+      "Ajoutez les feuilles et le second cube et laissez cuire encore 5 minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fufu, garri, couscous (corn or cassava) or boiled plantain."
+    ],
+    "fr": [
+      "Servez avec du fufu, du gari, du couscous (maïs ou manioc) ou du plantain bouilli."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

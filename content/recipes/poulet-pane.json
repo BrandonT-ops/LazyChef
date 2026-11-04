@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "kids"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 25,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "600 g chicken breast, in thin slices or strips",
+      "2 eggs",
+      "100 g flour",
+      "150 g breadcrumbs",
+      "2 cloves garlic, crushed",
+      "1 tsp paprika",
+      "1 stock cube, salt, pepper",
+      "Oil for frying"
+    ],
+    "fr": [
+      "600 g de blanc de poulet en fines escalopes ou en lanières",
+      "2 œufs",
+      "100 g de farine",
+      "150 g de chapelure",
+      "2 gousses d'ail écrasées",
+      "1 c. à café de paprika",
+      "1 cube, sel, poivre",
+      "De l'huile pour la friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the chicken with the garlic, paprika, crushed stock cube, salt and pepper.",
+      "Set out three plates: flour, beaten eggs, breadcrumbs.",
+      "Coat each piece in flour, then egg, then breadcrumbs, pressing so it sticks.",
+      "Fry in medium-hot oil 3 to 4 minutes per side until golden and cooked through.",
+      "Drain on paper towels."
+    ],
+    "fr": [
+      "Assaisonnez le poulet avec l'ail, le paprika, le cube écrasé, le sel et le poivre.",
+      "Préparez trois assiettes : farine, œufs battus, chapelure.",
+      "Passez chaque morceau dans la farine, puis l'œuf, puis la chapelure en appuyant pour que ça tienne.",
+      "Faites frire dans l'huile moyennement chaude 3 à 4 minutes de chaque côté jusqu'à ce qu'il soit doré et cuit.",
+      "Égouttez sur du papier absorbant."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fries, rice or salad, and ketchup or mayonnaise."
+    ],
+    "fr": [
+      "Servez avec des frites, du riz ou une salade, et du ketchup ou de la mayonnaise."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

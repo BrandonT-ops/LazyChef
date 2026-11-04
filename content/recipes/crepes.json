@@ -1,0 +1,59 @@
+{
+  "tags": [
+    "budget",
+    "kids",
+    "vegetarian"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "250 g flour",
+      "3 eggs",
+      "500 ml milk",
+      "2 tbsp sugar",
+      "1 pinch of salt",
+      "2 tbsp melted butter or oil",
+      "1 tsp vanilla (optional)"
+    ],
+    "fr": [
+      "250 g de farine",
+      "3 œufs",
+      "500 ml de lait",
+      "2 c. à soupe de sucre",
+      "1 pincée de sel",
+      "2 c. à soupe de beurre fondu ou d'huile",
+      "1 c. à café de vanille (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Whisk the flour, sugar and salt, then add the eggs.",
+      "Pour in the milk little by little, whisking, until the batter is smooth and runny.",
+      "Stir in the melted butter and vanilla. Let it rest 15 minutes if you have time.",
+      "Lightly oil a hot pan, pour in a small ladle of batter and tilt to spread it thinly.",
+      "Cook about 1 minute per side until lightly golden. Repeat with the rest."
+    ],
+    "fr": [
+      "Mélangez la farine, le sucre et le sel, puis ajoutez les œufs.",
+      "Versez le lait petit à petit en fouettant jusqu'à obtenir une pâte lisse et fluide.",
+      "Ajoutez le beurre fondu et la vanille. Laissez reposer 15 minutes si vous avez le temps.",
+      "Huilez légèrement une poêle chaude, versez une petite louche de pâte et inclinez pour bien l'étaler.",
+      "Faites cuire environ 1 minute de chaque côté jusqu'à ce qu'elles soient dorées. Recommencez avec le reste."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Fill with sugar, honey, chocolate spread, jam or fruit.",
+      "Fold in four and serve warm."
+    ],
+    "fr": [
+      "Garnissez de sucre, de miel, de pâte à tartiner, de confiture ou de fruits.",
+      "Pliez en quatre et servez tiède."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

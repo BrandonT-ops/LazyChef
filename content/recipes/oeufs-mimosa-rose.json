@@ -1,0 +1,55 @@
+{
+  "tags": [
+    "occasion",
+    "vegetarian",
+    "snack"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 12,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "6 eggs",
+      "1 small cooked beetroot",
+      "3 tbsp mayonnaise",
+      "1 tsp mustard",
+      "Salt and pepper",
+      "Parsley or chives to decorate"
+    ],
+    "fr": [
+      "6 œufs",
+      "1 petite betterave cuite",
+      "3 c. à soupe de mayonnaise",
+      "1 c. à café de moutarde",
+      "Sel et poivre",
+      "Du persil ou de la ciboulette pour décorer"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Boil the eggs for 10 minutes, cool them in cold water and peel.",
+      "Blend or grate the beetroot and soak the peeled eggs in its juice for 10 to 20 minutes to turn the whites pink.",
+      "Halve the eggs and scoop out the yolks.",
+      "Mash the yolks with the mayonnaise, mustard, salt and pepper.",
+      "Fill the whites with the yolk mixture and decorate with herbs."
+    ],
+    "fr": [
+      "Faites cuire les œufs 10 minutes, refroidissez-les dans l'eau froide et écalez-les.",
+      "Mixez ou râpez la betterave et laissez tremper les œufs dans son jus 10 à 20 minutes pour que le blanc devienne rose.",
+      "Coupez les œufs en deux et retirez les jaunes.",
+      "Écrasez les jaunes avec la mayonnaise, la moutarde, le sel et le poivre.",
+      "Garnissez les blancs de cette crème et décorez d'herbes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve chilled as a starter or party snack."
+    ],
+    "fr": [
+      "Servez frais en entrée ou à l'apéritif."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

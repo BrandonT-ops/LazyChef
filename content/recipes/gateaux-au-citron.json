@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "vegetarian",
+    "occasion"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 8,
+  "ingredients": {
+    "en": [
+      "200 g flour",
+      "180 g sugar",
+      "3 eggs",
+      "100 g butter, melted",
+      "1 small pot of yogurt (125 g)",
+      "2 lemons (zest and juice)",
+      "1 sachet (11 g) baking powder",
+      "100 g icing sugar for the glaze"
+    ],
+    "fr": [
+      "200 g de farine",
+      "180 g de sucre",
+      "3 œufs",
+      "100 g de beurre fondu",
+      "1 petit pot de yaourt (125 g)",
+      "2 citrons (zeste et jus)",
+      "1 sachet (11 g) de levure chimique",
+      "100 g de sucre glace pour le glaçage"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Heat the oven to 180 °C and grease a loaf tin.",
+      "Whisk the eggs and sugar until pale, then add the melted butter, yogurt, lemon zest and the juice of 1 lemon.",
+      "Fold in the flour and baking powder.",
+      "Bake 35 to 40 minutes, until golden and a knife comes out clean.",
+      "Mix the icing sugar with the juice of the second lemon and pour over the cooled cake."
+    ],
+    "fr": [
+      "Préchauffez le four à 180 °C et beurrez un moule à cake.",
+      "Fouettez les œufs et le sucre jusqu'à ce que le mélange blanchisse, puis ajoutez le beurre fondu, le yaourt, les zestes et le jus d'un citron.",
+      "Incorporez la farine et la levure.",
+      "Faites cuire 35 à 40 minutes, jusqu'à ce qu'il soit doré et qu'un couteau ressorte propre.",
+      "Mélangez le sucre glace avec le jus du second citron et nappez le gâteau refroidi."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve in slices once the glaze has set."
+    ],
+    "fr": [
+      "Servez en tranches une fois le glaçage pris."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

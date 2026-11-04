@@ -1,0 +1,62 @@
+{
+  "tags": [
+    "quick",
+    "kids"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "600 g cooked rice (cold, ideally from the day before)",
+      "2 eggs",
+      "250 g chicken or shrimp, in small pieces",
+      "2 carrots, diced",
+      "100 g green beans or peas",
+      "1 onion, chopped",
+      "2 cloves garlic",
+      "3 tbsp soy sauce",
+      "3 tbsp oil",
+      "Spring onions, salt, pepper"
+    ],
+    "fr": [
+      "600 g de riz cuit (froid, idéalement de la veille)",
+      "2 œufs",
+      "250 g de poulet ou de crevettes en petits morceaux",
+      "2 carottes en dés",
+      "100 g de haricots verts ou de petits pois",
+      "1 oignon haché",
+      "2 gousses d'ail",
+      "3 c. à soupe de sauce soja",
+      "3 c. à soupe d'huile",
+      "Ciboule, sel, poivre"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Scramble the eggs in a little oil, then set aside.",
+      "Fry the chicken or shrimp until cooked and set aside.",
+      "In the same pan, fry the onion and garlic, then the carrots and beans for 5 minutes.",
+      "Add the rice and stir-fry on high heat for 5 minutes, breaking up any lumps.",
+      "Add the soy sauce, eggs and meat, mix well and season. Finish with spring onions."
+    ],
+    "fr": [
+      "Faites des œufs brouillés dans un peu d'huile, puis réservez.",
+      "Faites revenir le poulet ou les crevettes jusqu'à cuisson et réservez.",
+      "Dans la même poêle, faites revenir l'oignon et l'ail, puis les carottes et les haricots 5 minutes.",
+      "Ajoutez le riz et faites sauter à feu vif 5 minutes en défaisant les grumeaux.",
+      "Ajoutez la sauce soja, les œufs et la viande, mélangez bien et assaisonnez. Terminez avec la ciboule."
+    ]
+  },
+  "serving": {
+    "en": [
+      "A full meal on its own; add fried plantain or a salad if you like."
+    ],
+    "fr": [
+      "Un repas complet ; ajoutez du plantain frit ou une salade si vous voulez."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

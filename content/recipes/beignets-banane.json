@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "snack",
+    "kids",
+    "vegetarian",
+    "budget"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "4 very ripe bananas",
+      "250 g flour",
+      "3 tbsp sugar",
+      "1 tsp dry yeast (or 1 tsp baking powder)",
+      "1 pinch of salt and nutmeg",
+      "A little warm water if needed",
+      "Oil for deep-frying"
+    ],
+    "fr": [
+      "4 bananes bien mûres",
+      "250 g de farine",
+      "3 c. à soupe de sucre",
+      "1 c. à café de levure sèche (ou 1 c. à café de levure chimique)",
+      "1 pincée de sel et de muscade",
+      "Un peu d'eau tiède si besoin",
+      "De l'huile pour la friture"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mash the bananas until smooth.",
+      "Mix in the flour, sugar, yeast, salt and nutmeg to make a thick, sticky batter (add a little warm water only if it's too stiff).",
+      "Cover and leave 30 to 45 minutes if using yeast.",
+      "Heat the oil and drop in spoonfuls of batter.",
+      "Fry, turning, until deep golden (about 4 minutes), then drain."
+    ],
+    "fr": [
+      "Écrasez les bananes en purée lisse.",
+      "Ajoutez la farine, le sucre, la levure, le sel et la muscade pour obtenir une pâte épaisse et collante (un peu d'eau tiède seulement si elle est trop ferme).",
+      "Couvrez et laissez reposer 30 à 45 minutes si vous utilisez de la levure de boulanger.",
+      "Chauffez l'huile et déposez la pâte par cuillerées.",
+      "Faites frire en retournant jusqu'à ce qu'ils soient bien dorés (environ 4 minutes), puis égouttez."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Eat warm, plain or with bouillie, tea or coffee."
+    ],
+    "fr": [
+      "À manger tiède, nature ou avec de la bouillie, du thé ou du café."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

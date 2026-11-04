@@ -1,0 +1,65 @@
+{
+  "tags": [
+    "occasion"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 90,
+  "servings": 10,
+  "ingredients": {
+    "en": [
+      "1.5 kg mixed meat (beef, goat and chicken)",
+      "1 kg tomatoes",
+      "3 red bell peppers",
+      "3 onions",
+      "6 cloves garlic",
+      "1 thumb of ginger",
+      "2 hot peppers",
+      "3 tbsp tomato paste",
+      "150 ml oil",
+      "2 bay leaves, 1 tsp thyme, 1 tsp curry powder",
+      "3 stock cubes, salt"
+    ],
+    "fr": [
+      "1,5 kg de viandes mélangées (bœuf, chèvre et poulet)",
+      "1 kg de tomates",
+      "3 poivrons rouges",
+      "3 oignons",
+      "6 gousses d'ail",
+      "1 morceau de gingembre",
+      "2 piments",
+      "3 c. à soupe de concentré de tomate",
+      "150 ml d'huile",
+      "2 feuilles de laurier, 1 c. à café de thym, 1 c. à café de curry",
+      "3 cubes, sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Season the meats with 1 onion, half the garlic and ginger, thyme, curry, a stock cube and salt, and cook in a little water until tender (chicken last, it's quicker). Keep the broth.",
+      "Fry the drained meat until browned and set aside.",
+      "Blend the tomatoes, bell peppers, 1 onion, the rest of the garlic and ginger, and the hot peppers.",
+      "In the meat oil, fry the last onion and the tomato paste, then add the blended mix and bay leaves. Cook uncovered 30 to 40 minutes until thick and darker red.",
+      "Add the meat, a cup of broth and the remaining stock cubes and simmer 15 minutes."
+    ],
+    "fr": [
+      "Assaisonnez les viandes avec 1 oignon, la moitié de l'ail et du gingembre, le thym, le curry, un cube et du sel, et faites-les cuire dans un peu d'eau jusqu'à ce qu'elles soient tendres (le poulet en dernier, il cuit plus vite). Gardez le bouillon.",
+      "Faites dorer les viandes égouttées et réservez.",
+      "Mixez les tomates, les poivrons, 1 oignon, le reste de l'ail et du gingembre, et les piments.",
+      "Dans l'huile de la viande, faites revenir le dernier oignon et le concentré, puis ajoutez le mélange mixé et le laurier. Laissez cuire à découvert 30 à 40 minutes jusqu'à ce que ce soit épais et d'un rouge plus foncé.",
+      "Ajoutez la viande, une tasse de bouillon et les derniers cubes et laissez mijoter 15 minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with rice, jollof rice or fried plantain at Christmas and New Year.",
+      "Make it a day ahead: it tastes even better."
+    ],
+    "fr": [
+      "Servez avec du riz, du riz gras ou du plantain frit à Noël et au Nouvel An.",
+      "Préparez-le la veille : il n'en est que meilleur."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

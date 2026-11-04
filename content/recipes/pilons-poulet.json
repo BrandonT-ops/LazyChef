@@ -1,0 +1,55 @@
+{
+  "tags": [
+    "kids",
+    "snack",
+    "occasion"
+  ],
+  "prepMinutes": 15,
+  "cookMinutes": 40,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "8 chicken drumsticks",
+      "3 cloves garlic, crushed",
+      "1 thumb of ginger, grated",
+      "1 tsp paprika",
+      "1 tbsp mustard",
+      "1 stock cube, salt, pepper",
+      "3 tbsp oil",
+      "1 tbsp honey (optional)"
+    ],
+    "fr": [
+      "8 pilons de poulet",
+      "3 gousses d'ail écrasées",
+      "1 morceau de gingembre râpé",
+      "1 c. à café de paprika",
+      "1 c. à soupe de moutarde",
+      "1 cube, sel, poivre",
+      "3 c. à soupe d'huile",
+      "1 c. à soupe de miel (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the garlic, ginger, paprika, mustard, crushed stock cube, salt, pepper, oil and honey.",
+      "Coat the drumsticks and leave at least 30 minutes.",
+      "Bake at 200 °C for 35 to 40 minutes, turning halfway, until golden and the juices run clear. They can also be grilled or fried."
+    ],
+    "fr": [
+      "Mélangez l'ail, le gingembre, le paprika, la moutarde, le cube écrasé, le sel, le poivre, l'huile et le miel.",
+      "Enrobez les pilons et laissez reposer au moins 30 minutes.",
+      "Faites cuire au four à 200 °C pendant 35 à 40 minutes en retournant à mi-cuisson, jusqu'à ce qu'ils soient dorés et que le jus soit clair. On peut aussi les griller ou les frire."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fries, fried plantain or a salad."
+    ],
+    "fr": [
+      "Servez avec des frites, du plantain frit ou une salade."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

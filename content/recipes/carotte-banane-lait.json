@@ -1,0 +1,53 @@
+{
+  "tags": [
+    "vegetarian",
+    "kids",
+    "quick"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 0,
+  "servings": 3,
+  "ingredients": {
+    "en": [
+      "3 carrots, peeled and chopped",
+      "2 ripe bananas",
+      "500 ml cold milk",
+      "2 tbsp sugar or honey",
+      "1 pinch of cinnamon or vanilla",
+      "Ice"
+    ],
+    "fr": [
+      "3 carottes épluchées et coupées",
+      "2 bananes mûres",
+      "500 ml de lait froid",
+      "2 c. à soupe de sucre ou de miel",
+      "1 pincée de cannelle ou de vanille",
+      "Des glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Blend the carrots with half the milk until very smooth.",
+      "Add the bananas, the rest of the milk, sugar and cinnamon, and blend again.",
+      "Strain if you prefer it very smooth.",
+      "Serve cold with ice."
+    ],
+    "fr": [
+      "Mixez les carottes avec la moitié du lait jusqu'à ce que ce soit très lisse.",
+      "Ajoutez les bananes, le reste du lait, le sucre et la cannelle, et mixez à nouveau.",
+      "Filtrez si vous l'aimez très lisse.",
+      "Servez frais avec des glaçons."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Best on the day: a filling breakfast drink."
+    ],
+    "fr": [
+      "Meilleur le jour même : une boisson nourrissante pour le petit-déjeuner."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

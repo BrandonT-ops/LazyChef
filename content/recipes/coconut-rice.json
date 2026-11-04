@@ -1,0 +1,58 @@
+{
+  "tags": [
+    "occasion",
+    "vegetarian"
+  ],
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "servings": 4,
+  "ingredients": {
+    "en": [
+      "400 g long-grain rice",
+      "400 ml coconut milk",
+      "300 ml water",
+      "1 small onion, finely chopped",
+      "1 tbsp oil",
+      "1 bay leaf",
+      "1 tsp salt",
+      "Grated coconut to garnish (optional)"
+    ],
+    "fr": [
+      "400 g de riz long grain",
+      "400 ml de lait de coco",
+      "300 ml d'eau",
+      "1 petit oignon finement haché",
+      "1 c. à soupe d'huile",
+      "1 feuille de laurier",
+      "1 c. à café de sel",
+      "De la noix de coco râpée pour décorer (facultatif)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Rinse the rice until the water runs clear.",
+      "Soften the onion in the oil for 2 minutes.",
+      "Add the rice and stir for 1 minute.",
+      "Pour in the coconut milk, water, salt and bay leaf, bring to a boil, then cover and cook on low heat about 18 minutes.",
+      "Turn off the heat and leave covered 5 minutes, then fluff with a fork."
+    ],
+    "fr": [
+      "Rincez le riz jusqu'à ce que l'eau soit claire.",
+      "Faites revenir l'oignon dans l'huile 2 minutes.",
+      "Ajoutez le riz et remuez 1 minute.",
+      "Versez le lait de coco, l'eau, le sel et le laurier, portez à ébullition, puis couvrez et laissez cuire à feu doux environ 18 minutes.",
+      "Éteignez le feu et laissez reposer 5 minutes à couvert, puis égrenez à la fourchette."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with grilled fish, chicken or a spicy sauce."
+    ],
+    "fr": [
+      "Servez avec du poisson grillé, du poulet ou une sauce relevée."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

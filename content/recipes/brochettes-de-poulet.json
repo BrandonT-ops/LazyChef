@@ -1,0 +1,61 @@
+{
+  "tags": [
+    "snack",
+    "occasion",
+    "kids"
+  ],
+  "prepMinutes": 25,
+  "cookMinutes": 20,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 kg chicken breast or thigh, in cubes",
+      "1 green and 1 red bell pepper, in squares",
+      "1 onion, in squares",
+      "3 cloves garlic",
+      "1 thumb of ginger",
+      "1 tsp paprika",
+      "Juice of 1 lemon",
+      "3 tbsp oil",
+      "1 stock cube, salt, pepper",
+      "Skewers"
+    ],
+    "fr": [
+      "1 kg de blanc ou de haut de cuisse de poulet en cubes",
+      "1 poivron vert et 1 poivron rouge en carrés",
+      "1 oignon en carrés",
+      "3 gousses d'ail",
+      "1 morceau de gingembre",
+      "1 c. à café de paprika",
+      "Le jus d'un citron",
+      "3 c. à soupe d'huile",
+      "1 cube, sel, poivre",
+      "Des brochettes"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the garlic, ginger, paprika, lemon juice, oil, crushed stock cube, salt and pepper.",
+      "Coat the chicken and leave 30 minutes or more.",
+      "Thread the chicken onto skewers, alternating with bell pepper and onion.",
+      "Grill over charcoal or in a hot pan 12 to 15 minutes, turning, until cooked through and golden."
+    ],
+    "fr": [
+      "Mélangez l'ail, le gingembre, le paprika, le jus de citron, l'huile, le cube écrasé, le sel et le poivre.",
+      "Enrobez le poulet et laissez reposer 30 minutes ou plus.",
+      "Enfilez le poulet sur les brochettes en alternant avec le poivron et l'oignon.",
+      "Faites griller sur la braise ou dans une poêle bien chaude 12 à 15 minutes en retournant, jusqu'à ce qu'elles soient cuites et dorées."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with fried plantain, fries or a salad, and a dipping sauce."
+    ],
+    "fr": [
+      "Servez avec du plantain frit, des frites ou une salade, et une sauce."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

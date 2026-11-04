@@ -1,0 +1,54 @@
+{
+  "tags": [
+    "vegetarian",
+    "occasion"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 0,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "1 ripe soursop (corossol), about 1 kg",
+      "½ pineapple",
+      "1.2 litres cold water",
+      "Sugar to taste",
+      "1 pinch of nutmeg or vanilla (optional)",
+      "Ice"
+    ],
+    "fr": [
+      "1 corossol bien mûr, environ 1 kg",
+      "½ ananas",
+      "1,2 litre d'eau froide",
+      "Du sucre à votre goût",
+      "1 pincée de muscade ou de vanille (facultatif)",
+      "Des glaçons"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Peel the soursop and remove all the black seeds (they must not be blended).",
+      "Peel the pineapple and cut it into pieces.",
+      "Blend the soursop pulp and pineapple with half the water.",
+      "Strain through a fine sieve or cloth, pressing well, then add the rest of the water.",
+      "Sweeten, add nutmeg if you like, and chill."
+    ],
+    "fr": [
+      "Épluchez le corossol et retirez toutes les graines noires (elles ne doivent pas être mixées).",
+      "Épluchez l'ananas et coupez-le en morceaux.",
+      "Mixez la pulpe de corossol et l'ananas avec la moitié de l'eau.",
+      "Filtrez dans une passoire fine ou un linge en pressant bien, puis ajoutez le reste de l'eau.",
+      "Sucrez, ajoutez la muscade si vous voulez, et mettez au frais."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve very cold. Keeps 1 to 2 days in the fridge."
+    ],
+    "fr": [
+      "Servez bien frais. Se garde 1 à 2 jours au frais."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,61 @@
+{
+  "tags": [],
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "For the okra soup: 500 g fresh okra, chopped or grated",
+      "500 g beef or cow skin",
+      "300 g smoked fish",
+      "2 tbsp ground crayfish",
+      "100 ml red palm oil",
+      "1 onion",
+      "1 hot pepper",
+      "2 stock cubes, salt",
+      "A handful of spinach or bitter leaves (optional)",
+      "For the fufu: 500 g cassava fufu flour (or water fufu)"
+    ],
+    "fr": [
+      "Pour la sauce gombo : 500 g de gombo frais haché ou râpé",
+      "500 g de bœuf ou de peau de bœuf",
+      "300 g de poisson fumé",
+      "2 c. à soupe de crayfish moulu",
+      "100 ml d'huile de palme rouge",
+      "1 oignon",
+      "1 piment",
+      "2 cubes, sel",
+      "Une poignée d'épinards ou de feuilles de ndolé (facultatif)",
+      "Pour le fufu : 500 g de farine de fufu de manioc (ou water fufu)"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Cook the meat with the onion, salt and a stock cube until tender, about 40 minutes.",
+      "Add the smoked fish, crayfish, pepper and palm oil and simmer 5 minutes.",
+      "Stir in the okra and cook only 5 to 8 minutes so it stays green and draws (stretchy).",
+      "Add the leaves and the second stock cube and season.",
+      "For the fufu: bring water to a boil, sprinkle in the flour while stirring hard with a wooden spoon, and keep stirring and folding until smooth and stretchy. Shape into balls."
+    ],
+    "fr": [
+      "Faites cuire la viande avec l'oignon, du sel et un cube jusqu'à ce qu'elle soit tendre, environ 40 minutes.",
+      "Ajoutez le poisson fumé, le crayfish, le piment et l'huile de palme et laissez mijoter 5 minutes.",
+      "Ajoutez le gombo et laissez cuire seulement 5 à 8 minutes pour qu'il reste vert et gluant.",
+      "Ajoutez les feuilles et le second cube et rectifiez l'assaisonnement.",
+      "Pour le fufu : portez de l'eau à ébullition, versez la farine en pluie en remuant vigoureusement avec une spatule en bois, et continuez à remuer et à replier jusqu'à ce que ce soit lisse et élastique. Formez des boules."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve each person a ball of fufu with a bowl of okra soup.",
+      "Eat with your hands, scooping the soup with small pieces of fufu."
+    ],
+    "fr": [
+      "Servez à chacun une boule de fufu avec un bol de sauce gombo.",
+      "Se mange à la main en saisissant la sauce avec de petits morceaux de fufu."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

@@ -1,0 +1,51 @@
+{
+  "tags": [
+    "vegetarian"
+  ],
+  "prepMinutes": 30,
+  "cookMinutes": 60,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "8 ears of fresh corn",
+      "500 g cassava leaves or njama-njama, finely chopped",
+      "1 kg palm nuts (or 500 ml palm nut cream)",
+      "3 tbsp sugar (to taste)",
+      "1 pinch of salt"
+    ],
+    "fr": [
+      "8 épis de maïs frais",
+      "500 g de feuilles de manioc ou de njama-njama finement hachées",
+      "1 kg de noix de palme (ou 500 ml de crème de noix de palme)",
+      "3 c. à soupe de sucre (à ajuster)",
+      "1 pincée de sel"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Grate the corn off the cobs (or blend the kernels) into a thick paste.",
+      "Boil and pound the palm nuts, squeeze them in warm water and strain to get the juice.",
+      "Cook the chopped leaves in the palm nut juice about 30 minutes.",
+      "Stir in the corn paste and cook 20 to 25 minutes on low heat, stirring often, until thick.",
+      "Add sugar and a pinch of salt to taste."
+    ],
+    "fr": [
+      "Râpez le maïs sur l'épi (ou mixez les grains) pour obtenir une pâte épaisse.",
+      "Faites bouillir et pilez les noix de palme, pressez-les dans de l'eau tiède et filtrez pour obtenir le jus.",
+      "Faites cuire les feuilles hachées dans le jus de noix de palme environ 30 minutes.",
+      "Ajoutez la pâte de maïs et laissez cuire 20 à 25 minutes à feu doux en remuant souvent, jusqu'à ce que ce soit épais.",
+      "Sucrez et salez légèrement à votre goût."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve warm in bowls, on its own."
+    ],
+    "fr": [
+      "Servez tiède dans des bols, tel quel."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}

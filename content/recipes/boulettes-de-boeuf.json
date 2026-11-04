@@ -1,0 +1,57 @@
+{
+  "tags": [
+    "kids"
+  ],
+  "prepMinutes": 20,
+  "cookMinutes": 35,
+  "servings": 6,
+  "ingredients": {
+    "en": [
+      "600 g minced beef",
+      "1 onion, finely chopped",
+      "2 cloves garlic",
+      "1 small bunch of parsley, chopped",
+      "1 egg",
+      "3 tbsp breadcrumbs",
+      "1 stock cube, salt, pepper, chili",
+      "For the sauce: 4 tomatoes, 1 onion, 2 tbsp oil, 1 stock cube"
+    ],
+    "fr": [
+      "600 g de bœuf haché",
+      "1 oignon finement haché",
+      "2 gousses d'ail",
+      "1 petite botte de persil haché",
+      "1 œuf",
+      "3 c. à soupe de chapelure",
+      "1 cube, sel, poivre, piment",
+      "Pour la sauce : 4 tomates, 1 oignon, 2 c. à soupe d'huile, 1 cube"
+    ]
+  },
+  "steps": {
+    "en": [
+      "Mix the beef with the onion, garlic, parsley, egg, breadcrumbs and seasoning.",
+      "Roll into balls the size of a walnut.",
+      "Brown them in a little oil on all sides and set aside.",
+      "In the same pan, fry the second onion, add the blended tomatoes and stock cube, and cook 10 minutes.",
+      "Add the meatballs and simmer 15 minutes."
+    ],
+    "fr": [
+      "Mélangez le bœuf avec l'oignon, l'ail, le persil, l'œuf, la chapelure et l'assaisonnement.",
+      "Formez des boulettes de la taille d'une noix.",
+      "Faites-les dorer de tous côtés dans un peu d'huile et réservez.",
+      "Dans la même poêle, faites revenir le second oignon, ajoutez les tomates mixées et le cube, et laissez cuire 10 minutes.",
+      "Ajoutez les boulettes et laissez mijoter 15 minutes."
+    ]
+  },
+  "serving": {
+    "en": [
+      "Serve with rice, spaghetti, potatoes or plantain."
+    ],
+    "fr": [
+      "Servez avec du riz, des spaghettis, des pommes de terre ou du plantain."
+    ]
+  },
+  "images": [],
+  "video": "",
+  "sources": []
+}
