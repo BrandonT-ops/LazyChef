@@ -11,7 +11,8 @@
     "planner": "Planning",
     "language": "Langue",
     "theme": "Mode sombre",
-    "menu": "Menu"
+    "menu": "Menu",
+    "markets": "Marchés"
   },
   "home": {
     "kicker": "Trop fatigué pour réfléchir ? Pareil.",
@@ -73,7 +74,8 @@
     "kids": "Enfants",
     "snack": "Snack",
     "vegetarian": "Végétarien",
-    "occasion": "Occasion"
+    "occasion": "Occasion",
+    "batch": "Se garde bien"
   },
   "dish": {
     "comingSoon": "Recette à venir",
@@ -91,7 +93,7 @@
   },
   "random": {
     "title": "Lancer le dé",
-    "subtitle": "Vous hésitez ? Laissez LazyChef choisir.",
+    "subtitle": "Vous hésitez ? Laissez Chop choisir.",
     "from": "Choisir parmi",
     "everything": "Tout",
     "roll": "Lancer",
@@ -103,18 +105,32 @@
   },
   "planner": {
     "title": "Planning de la semaine",
-    "subtitle": "Un petit-déjeuner, un plat et une boisson par jour, selon le thème de chaque jour. Relancez ce qui ne vous plaît pas.",
+    "subtitle": "Petit-déjeuner, déjeuner et dîner du lundi au dimanche. Relancez ce qui ne vous plaît pas.",
+    "modeDaily": "Cuisiner chaque jour",
+    "modeBatch": "Cuisiner à l'avance",
+    "modeDailyHint": "Le déjeuner et le dîner suivent le thème de chaque jour.",
+    "modeBatchHint": "Pas le temps de cuisiner tous les jours ? Choisissez vos jours libres : vous préparez de grandes quantités de plats qui se gardent bien, et vous mangez les restes les autres jours.",
+    "freeDays": "Quels jours êtes-vous libre pour cuisiner ?",
+    "pickDays": "Choisissez au moins un jour.",
     "generate": "Planifier ma semaine",
-    "regenerate": "Nouvelle semaine",
+    "regenerate": "Nouveau planning",
     "clear": "Effacer",
     "breakfast": "Petit-déj",
-    "main": "Plat",
-    "drink": "Boisson",
+    "lunch": "Déjeuner",
+    "supper": "Dîner",
     "reroll": "Relancer",
     "lock": "Garder",
     "unlock": "Libérer",
-    "empty": "Votre semaine est vide. Laissez LazyChef la remplir.",
-    "saved": "Enregistré sur cet appareil"
+    "empty": "Votre semaine est vide. Laissez Chop la remplir.",
+    "saved": "Enregistré sur cet appareil",
+    "cookPlan": "Vos séances de cuisine",
+    "cookOn": "{day} : à préparer",
+    "covers": "Pour {count} jours, du {from} au {to}",
+    "coversOne": "Seulement pour {day}",
+    "cookToday": "On cuisine",
+    "leftovers": "restes de {day}",
+    "share": "Partager ma semaine",
+    "shareTitle": "Ma semaine sur {site}"
   },
   "search": {
     "title": "Trouver un plat",
@@ -161,5 +177,46 @@
     "hint": "Utilisez les flèches du clavier ou glissez pour tourner les pages",
     "end": "C'est tout le livre. Vous avez faim ?",
     "restart": "Retour à la couverture"
+  },
+  "share": {
+    "button": "Partager",
+    "copy": "Copier le lien",
+    "copied": "Copié !",
+    "dishText": "On fait {name} ! La recette sur {site} :"
+  },
+  "markets": {
+    "title": "Boutiques et marchés près de vous",
+    "subtitle": "Trouvez les marchés, épiceries, boucheries et poissonneries autour de vous pour acheter vos ingrédients.",
+    "whereToBuy": "Où acheter",
+    "shoppingFor": "Courses pour",
+    "useLocation": "Utiliser ma position",
+    "locating": "Localisation…",
+    "searchPlace": "Ou tapez une ville ou un quartier",
+    "privacy": "Votre position reste dans votre navigateur. Elle est seulement envoyée à OpenStreetMap pour trouver les boutiques proches, et n'est jamais enregistrée.",
+    "denied": "Impossible d'obtenir votre position. Tapez plutôt une ville ou un quartier.",
+    "error": "Le service de carte n'a pas répondu. Réessayez dans un instant.",
+    "loading": "Chargement des boutiques",
+    "radius": "Dans un rayon de",
+    "found": "{count, plural, =0 {Aucune boutique trouvée} one {# lieu à proximité} other {# lieux à proximité}}",
+    "none": "Rien trouvé ici. Essayez un rayon plus grand ou un autre endroit.",
+    "you": "Vous êtes ici",
+    "directions": "Itinéraire",
+    "dataNote": "Les boutiques viennent des bénévoles d'OpenStreetMap, donc de petits marchés peuvent manquer. Vous pouvez les ajouter sur",
+    "kinds": {
+      "market": "Marché",
+      "supermarket": "Supermarché",
+      "grocery": "Épicerie",
+      "produce": "Fruits et légumes",
+      "butcher": "Boucherie",
+      "fish": "Poissonnerie",
+      "bakery": "Boulangerie"
+    }
+  },
+  "pwa": {
+    "install": "Installer l'app",
+    "iosTitle": "Installer Chop sur votre iPhone",
+    "iosStep1": "Touchez le bouton Partager dans Safari",
+    "iosStep2": "Choisissez « Sur l'écran d'accueil »",
+    "close": "Fermer"
   }
 }

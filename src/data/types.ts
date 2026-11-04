@@ -11,7 +11,9 @@ export type SectionId =
   | "sunday"
   | "drinks";
 
-export type Tag = "budget" | "quick" | "kids" | "snack" | "vegetarian" | "occasion";
+export type Tag = "budget" | "quick" | "kids" | "snack" | "vegetarian" | "occasion" | "batch";
+
+export const TAGS: Tag[] = ["budget", "quick", "kids", "snack", "vegetarian", "occasion", "batch"];
 
 export type Localized<T> = Record<Locale, T>;
 

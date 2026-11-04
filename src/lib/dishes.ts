@@ -1,6 +1,7 @@
 import { MENU } from "@/data/menu";
 import { RECIPES } from "@/data/recipes";
 import { SECTIONS } from "@/data/sections";
+import { inferredTags } from "@/data/traits";
 import type { Dish, DishSummary, SectionId } from "@/data/types";
 
 import { slugify } from "./text";
@@ -20,7 +21,7 @@ function buildDishes(): Dish[] {
         slug,
         name,
         section: section.id,
-        tags: written?.tags ?? [],
+        tags: [...new Set([...(written?.tags ?? []), ...inferredTags(slug)])],
         recipe: written?.recipe,
       });
     }

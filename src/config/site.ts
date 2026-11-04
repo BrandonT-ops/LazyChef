@@ -1,9 +1,9 @@
 /**
- * Brand settings. The name is temporary ("LazyChef" is taken) —
- * change it here and everywhere in the UI follows.
- * `nameParts` lets the logo color the second word: [plain, highlighted].
+ * Brand settings. Change them here and the whole UI follows.
+ * "Chop" means food / to eat in Cameroonian Pidgin.
+ * `nameParts` lets the logo color the second part: [plain, highlighted].
  */
 export const SITE = {
-  name: "LazyChef",
-  nameParts: ["Lazy", "Chef"] as [string, string],
+  name: "Chop",
+  nameParts: ["Chop", "."] as [string, string],
 };

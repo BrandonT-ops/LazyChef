@@ -2,11 +2,9 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllSummaries } from "@/lib/dishes";
 import { isSectionId } from "@/data/sections";
-import type { Tag } from "@/data/types";
+import { TAGS } from "@/data/types";
 import { SearchView } from "@/components/SearchView";
 import { Reveal } from "@/components/Reveal";
-
-const TAGS: Tag[] = ["budget", "quick", "kids", "snack", "vegetarian", "occasion"];
 
 type Props = {
   params: Promise<{ locale: string }>;

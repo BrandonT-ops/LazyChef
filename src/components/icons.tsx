@@ -9,6 +9,7 @@ import {
   Egg,
   Flame,
   PartyPopper,
+  Refrigerator,
   Soup,
   Sprout,
   Wallet,
@@ -39,6 +40,7 @@ export const TAG_ICON: Record<Tag, LucideIcon> = {
   snack: Cookie,
   vegetarian: Sprout,
   occasion: PartyPopper,
+  batch: Refrigerator,
 };
 
 export function SectionIcon({ id, ...props }: { id: SectionId } & LucideProps) {

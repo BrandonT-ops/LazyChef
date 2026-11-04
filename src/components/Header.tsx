@@ -5,14 +5,16 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { ThemeToggle } from "./ThemeToggle";
+import { InstallButton } from "./Pwa";
 import { SITE } from "@/config/site";
-import { BookOpen, CalendarDays, ChefHat, Dices, Menu, Search, X } from "lucide-react";
+import { BookOpen, CalendarDays, ChefHat, Dices, MapPinned, Menu, Search, X } from "lucide-react";
 
 const NAV = [
   { href: "/browse", key: "browse", icon: BookOpen },
   { href: "/search", key: "search", icon: Search },
   { href: "/random", key: "random", icon: Dices },
   { href: "/planner", key: "planner", icon: CalendarDays },
+  { href: "/markets", key: "markets", icon: MapPinned },
 ] as const;
 
 export function Header() {
@@ -38,7 +40,7 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
+        <nav className="hidden items-center gap-1 lg:flex" aria-label="Main">
           {NAV.map((item) => (
             <Link
               key={item.href}
@@ -59,11 +61,12 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <InstallButton />
           <LocaleSwitcher />
           <ThemeToggle label={t("theme")} />
           <button
             type="button"
-            className="grid h-10 w-10 place-items-center rounded-full border border-line bg-surface md:hidden"
+            className="grid h-10 w-10 place-items-center rounded-full border border-line bg-surface lg:hidden"
             aria-label={t("menu")}
             aria-expanded={open}
             onClick={() => setOpen((o) => !o)}
@@ -77,7 +80,7 @@ export function Header() {
         {open && (
           <motion.nav
             aria-label="Mobile"
-            className="overflow-hidden border-t border-line md:hidden"
+            className="overflow-hidden border-t border-line lg:hidden"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}

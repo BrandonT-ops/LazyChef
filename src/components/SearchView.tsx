@@ -4,13 +4,12 @@ import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { SECTIONS } from "@/data/sections";
-import type { DishSummary, SectionId, Tag } from "@/data/types";
+import { TAGS, type DishSummary, type SectionId, type Tag } from "@/data/types";
 import { searchKey } from "@/lib/text";
 import { DishCard } from "./DishCard";
 import { Search } from "lucide-react";
 import { SectionIcon, TagIcon } from "./icons";
 
-const TAGS: Tag[] = ["budget", "quick", "kids", "snack", "vegetarian", "occasion"];
 const PAGE = 48;
 
 export function SearchView({

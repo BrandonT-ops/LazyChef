@@ -11,7 +11,8 @@
     "planner": "Week planner",
     "language": "Language",
     "theme": "Toggle dark mode",
-    "menu": "Menu"
+    "menu": "Menu",
+    "markets": "Markets"
   },
   "home": {
     "kicker": "Too tired to think? Same.",
@@ -73,7 +74,8 @@
     "kids": "Kids",
     "snack": "Snack",
     "vegetarian": "Vegetarian",
-    "occasion": "Occasion"
+    "occasion": "Occasion",
+    "batch": "Keeps well"
   },
   "dish": {
     "comingSoon": "Recipe coming soon",
@@ -91,7 +93,7 @@
   },
   "random": {
     "title": "Roll the dice",
-    "subtitle": "Can't decide? Let LazyChef pick for you.",
+    "subtitle": "Can't decide? Let Chop pick for you.",
     "from": "Pick from",
     "everything": "Everything",
     "roll": "Roll",
@@ -103,18 +105,32 @@
   },
   "planner": {
     "title": "Week planner",
-    "subtitle": "One breakfast, one main and one drink per day, following each day's theme. Reroll anything you don't like.",
+    "subtitle": "Breakfast, lunch and supper from Monday to Sunday. Reroll anything you don't like.",
+    "modeDaily": "Cook every day",
+    "modeBatch": "Cook ahead",
+    "modeDailyHint": "Lunch and supper follow each day's theme.",
+    "modeBatchHint": "No time to cook every day? Pick the days you're free: you cook big batches of dishes that keep well, and eat the leftovers on the other days.",
+    "freeDays": "Which days are you free to cook?",
+    "pickDays": "Pick at least one day.",
     "generate": "Plan my week",
-    "regenerate": "Plan a new week",
+    "regenerate": "New plan",
     "clear": "Clear",
     "breakfast": "Breakfast",
-    "main": "Main",
-    "drink": "Drink",
+    "lunch": "Lunch",
+    "supper": "Supper",
     "reroll": "Reroll",
     "lock": "Keep",
     "unlock": "Unkeep",
-    "empty": "Your week is empty. Let LazyChef fill it in.",
-    "saved": "Saved on this device"
+    "empty": "Your week is empty. Let Chop fill it in.",
+    "saved": "Saved on this device",
+    "cookPlan": "Your cooking sessions",
+    "cookOn": "{day}: cook these",
+    "covers": "Enough for {count} days, {from} to {to}",
+    "coversOne": "Just for {day}",
+    "cookToday": "Cook today",
+    "leftovers": "leftovers from {day}",
+    "share": "Share my week",
+    "shareTitle": "My week on {site}"
   },
   "search": {
     "title": "Find a dish",
@@ -161,5 +177,46 @@
     "hint": "Use the arrow keys or swipe to turn the pages",
     "end": "That's the whole book. Hungry yet?",
     "restart": "Back to the cover"
+  },
+  "share": {
+    "button": "Share",
+    "copy": "Copy link",
+    "copied": "Copied!",
+    "dishText": "Let's make {name}! Recipe on {site}:"
+  },
+  "markets": {
+    "title": "Shops & markets near you",
+    "subtitle": "Find markets, grocery stores, butchers and fishmongers around you to buy your ingredients.",
+    "whereToBuy": "Where to buy",
+    "shoppingFor": "Shopping for",
+    "useLocation": "Use my location",
+    "locating": "Finding you…",
+    "searchPlace": "Or type a city or neighborhood",
+    "privacy": "Your location stays in your browser. It's only sent to OpenStreetMap to find shops nearby, and never saved.",
+    "denied": "We couldn't get your location. Type a city or neighborhood instead.",
+    "error": "The map service didn't answer. Please try again in a moment.",
+    "loading": "Loading shops",
+    "radius": "Within",
+    "found": "{count, plural, =0 {No shops found} one {# place nearby} other {# places nearby}}",
+    "none": "Nothing found here. Try a bigger radius or another area.",
+    "you": "You are here",
+    "directions": "Directions",
+    "dataNote": "Shop data comes from OpenStreetMap volunteers, so small markets can be missing. You can add them on",
+    "kinds": {
+      "market": "Market",
+      "supermarket": "Supermarket",
+      "grocery": "Grocery",
+      "produce": "Fruit & veg",
+      "butcher": "Butcher",
+      "fish": "Fish",
+      "bakery": "Bakery"
+    }
+  },
+  "pwa": {
+    "install": "Install app",
+    "iosTitle": "Install Chop on your iPhone",
+    "iosStep1": "Tap the Share button in Safari",
+    "iosStep2": "Choose \"Add to Home Screen\"",
+    "close": "Close"
   }
 }

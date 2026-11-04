@@ -1,12 +1,13 @@
-# LazyChef 🍳 *(working name)*
+# Chop
 
 **What are we eating today?** Home recipes for breakfast, every day of the week and drinks,
-in English and French. Browse the cookbook, search, plan your week or roll the dice.
+in English and French. Browse the cookbook, search, plan your week (or cook ahead on your free days),
+roll the dice, find markets near you and share recipes. Installable as an app (PWA) and works offline.
 
 See [`docs/PLAN.md`](docs/PLAN.md) for the full plan and roadmap.
 
 ## Stack
-Next.js 15 (App Router) · TypeScript · Tailwind CSS · next-intl · Framer Motion · Lucide icons
+Next.js 15 (App Router) · TypeScript · Tailwind CSS · next-intl · Framer Motion · Lucide icons · Leaflet + OpenStreetMap
 
 ## Run it
 
@@ -25,7 +26,12 @@ npm run lint
 | Colors (light + dark) | `src/app/globals.css` |
 | Dish list per section | `src/data/menu.ts` |
 | Written recipes (+ photos, video, links) | `src/data/recipes.ts` |
-| Sections (days, emoji, accent color) | `src/data/sections.ts` |
+| Sections (days, accent color) | `src/data/sections.ts` |
+| Section and tag icons | `src/components/icons.tsx` |
+| Which dishes "keep well" (cook-ahead) | `src/data/traits.ts` |
+| Week planner rules | `src/lib/planner.ts` |
+| Shop search (OpenStreetMap) | `src/lib/places.ts` |
+| App install + offline | `src/app/manifest.ts`, `public/sw.js` |
 | English / French text | `messages/en.json`, `messages/fr.json` |
 | Pages | `src/app/[locale]/…` |
 

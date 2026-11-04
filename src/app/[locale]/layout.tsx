@@ -7,6 +7,7 @@ import { SITE } from "@/config/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Providers } from "@/components/Providers";
+import { ServiceWorker } from "@/components/Pwa";
 import "../globals.css";
 
 // Sets the theme before first paint so there's no light/dark flash.
@@ -27,6 +28,9 @@ export async function generateMetadata({
     title: { default: t("title", { site: SITE.name }), template: `%s · ${SITE.name}` },
     description: t("description"),
     alternates: { languages: { en: "/en", fr: "/fr" } },
+    applicationName: SITE.name,
+    appleWebApp: { capable: true, title: SITE.name, statusBarStyle: "default" },
+    formatDetection: { telephone: false },
   };
 }
 
@@ -59,6 +63,7 @@ export default async function LocaleLayout({
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
+            <ServiceWorker />
           </Providers>
         </NextIntlClientProvider>
       </body>

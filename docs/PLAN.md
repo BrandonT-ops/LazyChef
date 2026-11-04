@@ -1,7 +1,6 @@
 # Project plan
 
-> Working name: **LazyChef** (taken by another app; a new name is coming).
-> The name lives in `src/config/site.ts`, so renaming is a one-line change.
+> Name: **Chop** ("food / to eat" in Cameroonian Pidgin). It lives in `src/config/site.ts`.
 
 ## Goal
 
@@ -38,6 +37,16 @@ Accounts are only needed to contribute:
   photos / preview video / links), search with filters, dice, week planner (saved on the device)
 - Static generation for every dish in both languages
 
+### Phase 1.5: planner, markets, sharing, app ✅
+- Week planner with breakfast, lunch and supper. **Cook every day** follows the day themes.
+  **Cook ahead** asks which days you're free, plans batches of dishes that keep well on those days,
+  and fills the other days with the leftovers.
+- **Markets** page: shops and markets near you (geolocation or a typed place) from OpenStreetMap,
+  with filters, distance and directions. Opened from a recipe, it also shows the shopping list.
+- Share a recipe or your week (the phone's share sheet, or WhatsApp / Facebook / copy link)
+- Installable PWA: manifest, icons, an offline service worker and an "Install app" button
+  (with steps for iPhone)
+
 ### Phase 2: accounts, submissions, admin
 Proposed backend: **Supabase** (Postgres, auth, file storage for photos and videos, row-level security), with a free tier.
 
@@ -59,7 +68,7 @@ Rules (enforced by row-level security):
 - Admins can do everything, including approve and reject.
 
 Screens: sign in (email magic link or Google), "My recipes", recipe editor (bilingual fields, photo and
-video upload, links), "Submit for review", admin review queue.
+video upload, links), "Submit for review", admin review queue, and **"I made it!" photo posts** on recipe pages.
 
 `src/lib/dishes.ts` is the only place that reads data, so Phase 2 swaps its internals for
 database queries without touching the pages.
@@ -72,7 +81,6 @@ database queries without touching the pages.
 - Share a week plan by link
 
 ## Open questions
-- **Name:** a new name in the same spirit as LazyChef
 - What are **BHB, Dovv, SL, Dakere**? (They are listed under breakfast for now.)
 - **Présentations, Trials, Et autre** were left out: should they be categories, dishes, or nothing?
 - Which dishes are **💰 low budget**, quick, or kid-friendly? Tag them so the filters fill up.

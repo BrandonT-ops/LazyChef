@@ -11,7 +11,9 @@ import { IngredientList } from "@/components/IngredientList";
 import { TreasureMap } from "@/components/TreasureMap";
 import { RecipeMedia } from "@/components/RecipeMedia";
 import { Reveal, Stagger, StaggerItem } from "@/components/Reveal";
-import { ArrowLeft, Map as MapIcon, NotebookPen, ShoppingBasket } from "lucide-react";
+import { ArrowLeft, Map as MapIcon, MapPinned, NotebookPen, ShoppingBasket } from "lucide-react";
+import { ShareButton } from "@/components/ShareButton";
+import { SITE } from "@/config/site";
 import { SectionIcon, TagIcon } from "@/components/icons";
 
 type Params = Promise<{ locale: string; slug: string }>;
@@ -68,6 +70,14 @@ export default async function DishPage({ params }: { params: Params }) {
             ))}
           </div>
         </div>
+      </Reveal>
+
+      <Reveal className="no-print mt-6 flex flex-wrap gap-3" delay={0.05}>
+        <ShareButton title={dish.name} text={t("share.dishText", { name: dish.name, site: SITE.name })} />
+        <Link href={`/markets?dish=${dish.slug}`} className="btn-ghost">
+          <MapPinned className="h-4 w-4" aria-hidden />
+          {t("markets.whereToBuy")}
+        </Link>
       </Reveal>
 
       {recipe ? (
