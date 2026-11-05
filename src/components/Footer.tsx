@@ -20,6 +20,7 @@ export function Footer() {
         { href: "/community", label: t("footer.community") },
         { href: "/search", label: t("nav.search") },
         { href: "/random", label: t("nav.random") },
+        { href: "/pantry", label: t("nav.pantry") },
         { href: "/sections/sunday", label: t("sections.sunday.name") },
       ],
     },

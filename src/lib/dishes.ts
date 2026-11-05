@@ -2,6 +2,7 @@ import "server-only";
 import { unstable_cache } from "next/cache";
 import { getLocale } from "next-intl/server";
 import { localName } from "@/data/names";
+import { dishNeeds, type DishNeeds } from "@/data/pantry";
 import { SECTIONS } from "@/data/sections";
 import { inferredTags } from "@/data/traits";
 import type { Dish, DishSummary, RecipeFile, SectionId, Tag } from "@/data/types";
@@ -117,12 +118,22 @@ export function toSummary(d: Dish): DishSummary {
     section: d.section,
     tags: d.tags,
     hasRecipe: Boolean(d.recipe),
+    ...(d.recipe ? { minutes: d.recipe.prepMinutes + d.recipe.cookMinutes } : {}),
     cover: d.recipe?.media?.images?.[0],
   };
 }
 
 export async function getAllSummaries(): Promise<DishSummary[]> {
   return (await localized()).map(toSummary);
+}
+
+/** What each dish with a recipe needs, as pantry ingredient ids (for "Cook with what I have"). */
+export async function getPantryIndex(): Promise<Record<string, DishNeeds>> {
+  const out: Record<string, DishNeeds> = {};
+  for (const d of await loadDishes()) {
+    if (d.recipe) out[d.slug] = dishNeeds(d.recipe.ingredients.en, d.recipe.ingredients.fr);
+  }
+  return out;
 }
 
 export { youtubeEmbed } from "./media";

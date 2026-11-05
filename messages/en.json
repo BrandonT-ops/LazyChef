@@ -17,7 +17,8 @@
     "events": "Events",
     "account": "Account",
     "signIn": "Sign in",
-    "community": "Community"
+    "community": "Community",
+    "pantry": "What I have"
   },
   "home": {
     "kicker": "Too tired to think? Same.",
@@ -108,7 +109,7 @@
   },
   "random": {
     "title": "Roll the dice",
-    "subtitle": "Can't decide? Let Chop pick for you.",
+    "subtitle": "Don't know what to cook? Say what you feel like, throw the dice and Chop picks a dish.",
     "from": "Pick from",
     "everything": "Everything",
     "roll": "Roll",
@@ -116,7 +117,34 @@
     "rolling": "Rolling…",
     "open": "Open dish",
     "onlyRecipes": "Only dishes with a recipe",
-    "empty": "Nothing to pick from with these filters."
+    "empty": "Nothing to pick from with these preferences.",
+    "prefsTitle": "Your preferences",
+    "reset": "Reset",
+    "mood": "I feel like",
+    "origin": "Kind of food",
+    "origins": {
+      "all": "Everything",
+      "local": "Cameroonian & African",
+      "western": "Western"
+    },
+    "time": "Time I have",
+    "times": {
+      "any": "No rush",
+      "30": "30 min or less",
+      "60": "1 hour or less"
+    },
+    "usePantry": "Only what I can make with what I have",
+    "pantryCount": "{count, plural, =0 {Tell Chop what's in your kitchen first.} one {# ingredient at home} other {# ingredients at home}}",
+    "pantryEdit": "Edit what I have",
+    "pool": "{count, plural, =0 {No dish matches} one {# dish in the draw} other {# dishes in the draw}}",
+    "throw": "Throw the dice",
+    "tapHint": "Tap the table to throw",
+    "verdictKicker": "The dice have spoken.",
+    "rolled": "You rolled {total}.",
+    "verdict": "Today: {dish}",
+    "missing": "You only need: {items}",
+    "ready": "You have everything for it at home.",
+    "minutes": "{n} min"
   },
   "planner": {
     "title": "Week planner",
@@ -728,5 +756,41 @@
     "fromCommunity": "From the community",
     "versions": "Their versions of this dish",
     "madeIt": "They made it"
+  },
+  "pantry": {
+    "title": "Cook with what I have",
+    "subtitle": "Tell Chop what's in your kitchen and see what you can cook right now, or with one or two things more.",
+    "inputLabel": "What do you have?",
+    "placeholder": "e.g. chicken, rice, tomatoes, onions",
+    "add": "Add",
+    "notFound": "Chop didn't recognise that. Try the buttons below.",
+    "mine": "In my kitchen",
+    "clear": "Clear all",
+    "remove": "Remove",
+    "basics": "I have the basics: oil, salt, sugar, stock cubes, dried spices and water",
+    "browse": "Pick from the list",
+    "groups": {
+      "starch": "Starches & bread",
+      "protein": "Meat, fish, eggs & beans",
+      "veg": "Vegetables & leaves",
+      "fruit": "Fruit",
+      "dairy": "Dairy",
+      "pantry": "Cupboard"
+    },
+    "empty": "Add a few ingredients and Chop will show the dishes you can make.",
+    "noMatch": "No dish uses these yet. Add a few more ingredients.",
+    "summary": "{ready, plural, =0 {Nothing ready yet} one {# dish ready to cook} other {# dishes ready to cook}}, {almost, plural, =0 {none almost there.} one {# almost there.} other {# almost there.}}",
+    "roll": "Can't choose? Roll the dice",
+    "ready": "Ready to cook",
+    "readyText": "You have everything for these.",
+    "almost": "Almost there",
+    "almostText": "Just one or two things to buy.",
+    "more": "Worth a trip to the market",
+    "moreText": "You have part of it; the rest goes on your shopping list.",
+    "open": "Open recipe",
+    "addMissing": "Add to shopping list",
+    "added": "Added to the list",
+    "minutes": "{n} min",
+    "count": "{count, plural, one {# dish} other {# dishes}}"
   }
 }

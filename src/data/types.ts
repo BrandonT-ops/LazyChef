@@ -96,5 +96,7 @@ export interface DishSummary {
   section: SectionId;
   tags: Tag[];
   hasRecipe: boolean;
+  /** Prep + cook time, when there's a recipe. */
+  minutes?: number;
   cover?: string;
 }

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
-import { BookOpen, CalendarDays, ChefHat, Dices, Heart, MapPinned, Menu, PartyPopper, Search, UserRound, Users, X } from "lucide-react";
+import { BookOpen, CalendarDays, ChefHat, Dices, Heart, MapPinned, Menu, PartyPopper, Refrigerator, Search, UserRound, Users, X } from "lucide-react";
 import { useAuth } from "./auth/AuthProvider";
 import { Link, usePathname } from "@/i18n/navigation";
 import { SITE } from "@/config/site";
@@ -21,6 +21,7 @@ const MAIN = [
 const TOOLS = [
   { href: "/search", key: "search", icon: Search },
   { href: "/random", key: "random", icon: Dices },
+  { href: "/pantry", key: "pantry", icon: Refrigerator },
   { href: "/me", key: "kitchen", icon: Heart },
 ] as const;
 

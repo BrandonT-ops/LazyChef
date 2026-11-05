@@ -83,6 +83,14 @@ so it can be uploaded to their account when Phase 2 arrives.
 - Admin on Supabase: official recipes (photos and video uploads up to 50 MB), review queue, admin roles
 - Database rules (row-level security) tested: 32 checks; see supabase/migrations and docs/SUPABASE.md
 
+### Phase 2.5: dice and "what I have" ✅
+- **Roll the dice:** two 3D dice are thrown across a table, bounce and land, then Chop names the dish.
+  Preferences (saved on the device): day/section, mood (cheap, quick, kids, vegetarian, snack, occasion),
+  Cameroonian or Western, time available, only dishes with a recipe, and only what I can make with what I have.
+- **Cook with what I have** (`/pantry`): type or tick what's in the kitchen; Chop reads every recipe's
+  shopping list (EN + FR) and shows dishes ready to cook, almost there (1–2 things missing) and worth a
+  market trip, with "add what's missing to the shopping list".
+
 ### Phase 3: nice-to-haves
 - Shopping list built from the week plan
 - Serving-size scaler

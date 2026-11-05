@@ -143,3 +143,24 @@ export function useShopping() {
   };
 }
 
+
+export interface PantryState {
+  /** Pantry ingredient ids (see src/data/pantry.ts). */
+  items: string[];
+  /** Count oil, salt, sugar, cubes, spices and water as available. */
+  basics: boolean;
+}
+const NO_PANTRY: PantryState = { items: [], basics: true };
+
+/** What the person has at home, for "Cook with what I have" and the dice. */
+export function usePantry() {
+  const [pantry, setPantry] = useLocal<PantryState>("chop-pantry", NO_PANTRY);
+  return {
+    pantry,
+    toggle: (id: string) =>
+      setPantry((p) => ({ ...p, items: p.items.includes(id) ? p.items.filter((x) => x !== id) : [...p.items, id] })),
+    add: (ids: string[]) => setPantry((p) => ({ ...p, items: [...new Set([...p.items, ...ids])] })),
+    setBasics: (basics: boolean) => setPantry((p) => ({ ...p, basics })),
+    clear: () => setPantry((p) => ({ ...p, items: [] })),
+  };
+}

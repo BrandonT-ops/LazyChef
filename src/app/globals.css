@@ -94,6 +94,13 @@ body {
   .btn-lg {
     @apply h-12 px-6 text-base;
   }
+  .btn-sm {
+    @apply h-8 px-3 text-xs;
+  }
+  .input {
+    @apply h-10 rounded-lg border border-line bg-surface px-3 text-sm outline-none transition-colors
+      placeholder:text-muted/70 focus:border-tomato;
+  }
   .chip {
     @apply inline-flex h-8 items-center rounded-full border border-line bg-surface px-3 text-sm
       font-medium text-muted transition-colors;

@@ -17,7 +17,8 @@
     "events": "Événements",
     "account": "Compte",
     "signIn": "Connexion",
-    "community": "Communauté"
+    "community": "Communauté",
+    "pantry": "Ce que j'ai"
   },
   "home": {
     "kicker": "Trop fatigué pour réfléchir ? Pareil.",
@@ -108,15 +109,42 @@
   },
   "random": {
     "title": "Lancer le dé",
-    "subtitle": "Vous hésitez ? Laissez Chop choisir.",
+    "subtitle": "Vous ne savez pas quoi cuisiner ? Dites ce qui vous fait envie, lancez les dés et Chop choisit un plat.",
     "from": "Choisir parmi",
     "everything": "Tout",
     "roll": "Lancer",
     "rollAgain": "Relancer",
-    "rolling": "Ça tourne…",
+    "rolling": "Les dés roulent…",
     "open": "Voir le plat",
     "onlyRecipes": "Seulement les plats avec recette",
-    "empty": "Rien à choisir avec ces filtres."
+    "empty": "Rien à tirer avec ces préférences.",
+    "prefsTitle": "Vos préférences",
+    "reset": "Réinitialiser",
+    "mood": "J'ai envie de",
+    "origin": "Type de cuisine",
+    "origins": {
+      "all": "Tout",
+      "local": "Camerounaise & africaine",
+      "western": "Occidentale"
+    },
+    "time": "Temps disponible",
+    "times": {
+      "any": "Pas pressé",
+      "30": "30 min ou moins",
+      "60": "1 heure ou moins"
+    },
+    "usePantry": "Seulement ce que je peux faire avec ce que j'ai",
+    "pantryCount": "{count, plural, =0 {Dites d'abord à Chop ce que vous avez.} one {# ingrédient à la maison} other {# ingrédients à la maison}}",
+    "pantryEdit": "Modifier ce que j'ai",
+    "pool": "{count, plural, =0 {Aucun plat ne correspond} one {# plat dans le tirage} other {# plats dans le tirage}}",
+    "throw": "Lancer les dés",
+    "tapHint": "Touchez la table pour lancer",
+    "verdictKicker": "Les dés ont parlé.",
+    "rolled": "Vous avez fait {total}.",
+    "verdict": "Aujourd'hui : {dish}",
+    "missing": "Il vous manque seulement : {items}",
+    "ready": "Vous avez tout à la maison.",
+    "minutes": "{n} min"
   },
   "planner": {
     "title": "Planning de la semaine",
@@ -728,5 +756,41 @@
     "fromCommunity": "De la communauté",
     "versions": "Leurs versions de ce plat",
     "madeIt": "Ils l'ont fait"
+  },
+  "pantry": {
+    "title": "Cuisiner avec ce que j'ai",
+    "subtitle": "Dites à Chop ce qu'il y a dans votre cuisine et voyez ce que vous pouvez préparer tout de suite, ou avec une ou deux choses en plus.",
+    "inputLabel": "Qu'avez-vous ?",
+    "placeholder": "ex. poulet, riz, tomates, oignons",
+    "add": "Ajouter",
+    "notFound": "Chop n'a pas reconnu cela. Essayez les boutons ci-dessous.",
+    "mine": "Dans ma cuisine",
+    "clear": "Tout effacer",
+    "remove": "Retirer",
+    "basics": "J'ai l'essentiel : huile, sel, sucre, cubes, épices sèches et eau",
+    "browse": "Choisir dans la liste",
+    "groups": {
+      "starch": "Féculents & pain",
+      "protein": "Viande, poisson, œufs & haricots",
+      "veg": "Légumes & feuilles",
+      "fruit": "Fruits",
+      "dairy": "Produits laitiers",
+      "pantry": "Placard"
+    },
+    "empty": "Ajoutez quelques ingrédients et Chop vous montrera les plats que vous pouvez faire.",
+    "noMatch": "Aucun plat n'utilise encore ces ingrédients. Ajoutez-en quelques-uns.",
+    "summary": "{ready, plural, =0 {Rien de prêt pour l'instant} one {# plat prêt à cuisiner} other {# plats prêts à cuisiner}}, {almost, plural, =0 {aucun presque prêt.} one {# presque prêt.} other {# presque prêts.}}",
+    "roll": "Vous hésitez ? Lancez les dés",
+    "ready": "Prêt à cuisiner",
+    "readyText": "Vous avez tout pour ces plats.",
+    "almost": "Presque",
+    "almostText": "Juste une ou deux choses à acheter.",
+    "more": "Ça vaut un tour au marché",
+    "moreText": "Vous en avez une partie ; le reste va dans votre liste de courses.",
+    "open": "Voir la recette",
+    "addMissing": "Ajouter aux courses",
+    "added": "Ajouté à la liste",
+    "minutes": "{n} min",
+    "count": "{count, plural, one {# plat} other {# plats}}"
   }
 }

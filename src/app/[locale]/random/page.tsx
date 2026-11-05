@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { getAllSummaries } from "@/lib/dishes";
+import { getAllSummaries, getPantryIndex } from "@/lib/dishes";
 import { isSectionId } from "@/data/sections";
 import { DiceRoller } from "@/components/DiceRoller";
 import { Reveal } from "@/components/Reveal";
@@ -8,7 +8,7 @@ import { Dices } from "lucide-react";
 
 type Props = {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ from?: string }>;
+  searchParams: Promise<{ from?: string; pantry?: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function RandomPage({ params, searchParams }: Props) {
   const { locale } = await params;
-  const { from } = await searchParams;
+  const { from, pantry } = await searchParams;
   setRequestLocale(locale);
   const t = await getTranslations("random");
 
@@ -32,7 +32,12 @@ export default async function RandomPage({ params, searchParams }: Props) {
         </h1>
         <p className="mt-2 text-muted">{t("subtitle")}</p>
       </Reveal>
-      <DiceRoller dishes={await getAllSummaries()} initialFrom={from && isSectionId(from) ? from : undefined} />
+      <DiceRoller
+        dishes={await getAllSummaries()}
+        pantryIndex={await getPantryIndex()}
+        initialFrom={from && isSectionId(from) ? from : undefined}
+        initialPantry={pantry === "1"}
+      />
     </div>
   );
 }

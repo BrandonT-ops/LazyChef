@@ -38,6 +38,9 @@ npm run lint
 | Database tables, security rules, storage | `supabase/migrations/` |
 | Supabase setup (accounts, admin, community) | `docs/SUPABASE.md` |
 | Shop search (OpenStreetMap) | `src/lib/places.ts` |
+| Ingredients for "Cook with what I have" (EN/FR words) | `src/data/pantry.ts` |
+| Translated dish names | `src/data/names.ts` |
+| 3D dice | `src/components/Dice3D.tsx`, `src/components/DiceRoller.tsx` |
 | Event menus per occasion | `src/lib/events.ts` |
 | Price estimates (FCFA) | `src/data/prices.ts` |
 | App install + offline | `src/app/manifest.ts`, `public/sw.js` |
